@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xrandr --output LVDS-1 --auto --output VGA-1 --left-of LVDS-1 --auto
+wal -R
+remaps

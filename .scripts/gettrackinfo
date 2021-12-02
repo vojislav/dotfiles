@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# Get track info and lyrics from genius.com
+#
+# gettrackinfo -(s|f) ("songname" "artist") | (path/to/song) -l
+#
+# Options:
+#   $1
+#	-s		"(song name) (year)" "artist" - year optional
+#	-f		song file
+#	-c		current playing song - using mpc current
+#
+#   $3
+#	-l 		get lyrics
+#   -u		get url
+
+export GENIUS_ACCESS_TOKEN="n0wvFZ2EgWuH9YRhrpNIDwYx6q0ePWzFEMJ96WemJWmCSdjIdIj4W9wljX7r5Gqw"
+
+function filter {
+	sed 's/\\n/\n/g' |
+	sed -E 's/([0-9])?([0-9])?EmbedShare URLCopyEmbedCopy//g'
+}
+
+function by_current_song {
+	python3 -m lyricsgenius song "$(mpc current -f "%title%\" \"%artist%")" --save > /dev/null
+}
+
+function by_song_and_artist {
+	song="$1"
+	artist="$2"
+
+	python3 -m lyricsgenius song "$song" "$artist" --save > /dev/null
+}
+
+function by_file {
+	file="$1"
+	artist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
+	[ -z "$artist" ] && artist="$(mediainfo --Inform="General;%Performer%" "$file")"
+	song="$(mediainfo --Inform="General;%Track%" "$file")"
+
+	year=$(mediainfo --Inform="General;%Released_Date%" "$filename")
+	[ -z "$year" ] && year=$(mediainfo --Inform="General;%Recorded_Date%" "$filename")
+
+	python3 -m lyricsgenius song "$song $year" "$artist" --save > /dev/null
+}
+
+function getlyrics {
+	jsonFile="$1"
+
+	jq -r '.lyrics' "$jsonFile" | filter
+}
+
+function geturl {
+	jsonFile="$1"
+
+	jq -r '.url' "$jsonFile"
+}
+
+tmpDir=$(mktemp -d)
+cd "$tmpDir"
+
+case "$1" in
+	-s)		by_song_and_artist "$3" "$4" ;;
+	-f)		by_file "$3" ;;
+	-c)		by_current_song ;;
+	*)		;;
+esac
+
+jsonFile=$(find . -name "*.json")
+[ -z "$jsonFile" ] && echo "$artist - $song NOT FOUND!!!" && return
+
+case "$2" in
+	-l)		getlyrics "$jsonFile" ;;
+	-u)		geturl "$jsonFile" ;;
+	*) ;;
+esac
+
+rm "$jsonFile"
+rmdir "$tmpDir"

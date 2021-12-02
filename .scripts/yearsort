@@ -1,0 +1,9 @@
+#!/bin/bash
+
+find "$1" -mindepth 2 -maxdepth 2 -not -name "([0-9]*" -print0 | while read -r -d $'\0' fullpath
+do
+	albumDir=$(basename "$fullpath")
+	parentDir=$(dirname "$fullpath")
+	year=$(mediainfo --Inform="General;%Recorded_Date%" "$(find "$fullpath" -type f | head -1)")
+	mv -v "$fullpath" "$parentDir/($year) $albumDir"
+done

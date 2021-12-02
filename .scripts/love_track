@@ -1,0 +1,17 @@
+#!/bin/bash
+
+[ -z "$1" ] && echo "No file given. Exiting..." && exit 1
+file="$1"
+
+LASTFM_API_KEY="069b66ee4d6a7f5e860db3af52c19ab0"
+SHARED_SECRET="545ae20727e037d2901511399752598f"
+SESSION_KEY="PvUO4tLYL76NSq25yjsYzoKLEYG1KkOX"
+
+TRACK=$(mediainfo --Inform="General;%Title%" "$file")
+ARTIST=$(mediainfo --Inform="General;%Performer%" "$file")
+
+API_SIG="$(echo -n "api_key${LASTFM_API_KEY}artist${ARTIST}methodtrack.lovesk${SESSION_KEY}track${TRACK}${SHARED_SECRET}" | md5sum | cut -f 1 -d ' ')"
+
+curl -s -i -X POST \
+	-d "method=track.love&track=${TRACK}&artist=${ARTIST}&api_key=${LASTFM_API_KEY}&sk=${SESSION_KEY}&api_sig=${API_SIG}" \
+http://ws.audioscrobbler.com/2.0/

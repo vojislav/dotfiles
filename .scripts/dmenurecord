@@ -1,0 +1,116 @@
+#!/bin/sh
+
+# Usage:
+# `record`: Ask for recording type via dmenu
+# `record screencast`: Record both audio and screen
+# `record video`: Record only screen
+# `record audio`: Record only audio
+# `record kill`: Kill existing recording
+#
+# If there is already a running instance, user will be prompted to end it.
+
+updateicon() { \
+	echo "$1" > ~/.recordingicon
+	pkill -RTMIN+9 i3blocks
+	}
+
+killrecording() {
+	recpid="$(cat ~/.recordingpid)"
+	# kill with SIGTERM, allowing finishing touches.
+	kill -15 "$recpid"
+	rm -f ~/.recordingpid
+	updateicon ""
+	pkill -RTMIN+9 i3blocks
+	# even after SIGTERM, ffmpeg may still run, so SIGKILL it.
+	sleep 3
+	kill -9 "$recpid"
+	exit
+	}
+
+screencastpulse() { \
+	ffmpeg -y \
+	-f x11grab \
+	-framerate 25 \
+	-s "$dimension" \
+	-i "$DISPLAY"+"$offset" \
+	-f alsa -i default \
+	-r 30 \
+ 	-c:v libx264 -crf 23 -preset ultrafast -c:a ac3 \
+	"$HOME/screencast-$(date '+%y%m%d-%H%M-%S').mkv" &
+	echo $! > ~/.recordingpid
+	updateicon "⏺️🎙️"
+       	}
+
+screencastalsa() { \
+	ffmpeg -y \
+	-f x11grab \
+	-s "$dimension" \
+	-i "$DISPLAY"+"$offset" \
+	-thread_queue_size 1024 \
+ 	-f alsa -ar 44100 -i hw:1 \
+ 	-c:v libx264 -r 30 -c:a flac \
+	"$HOME/screencast-$(date '+%y%m%d-%H%M-%S').mkv" &
+	echo $! > ~/.recordingpid
+	updateicon "⏺️"
+	}
+
+video() { ffmpeg \
+	-f x11grab \
+	-s "$dimension" \
+	-i "$DISPLAY"+"$offset" \
+ 	-c:v libx264 -qp 0 -r 30 \
+	"$HOME/video-$(date '+%y%m%d-%H%M-%S').mkv" &
+	echo $! > ~/.recordingpid
+	updateicon "⏺️"
+	}
+
+audiopulse() { \
+	ffmpeg \
+	-f alsa -i default \
+	-c:a flac \
+	"$HOME/audio-$(date '+%y%m%d-%H%M-%S').flac" &
+	echo $! > ~/.recordingpid
+	updateicon "🎙️"
+	}
+
+audioalsa() { \
+	ffmpeg -y \
+	-f alsa -ar 44100 -i hw:1 \
+	"$HOME/audio-$(date '+%y%m%d-%H%M-%S').flac" &
+	echo $! > ~/.recordingpid
+	updateicon "🎙️"
+	}
+
+askrecording() { \
+	if [ "$(xdpyinfo | grep dimensions | awk '{print $2;}')" != "1366x768" ]; then
+		choice=$(printf "VGA\\nMain" | dmenu -i -p "Select screen:")
+		case "$choice" in
+			VGA) dimension="1280x1024" && offset="";;
+			Main) dimension="1366x768" && offset="1280,0";;
+		esac
+	else
+		dimension="1366x768"
+	fi
+
+
+	choice=$(printf "screencast\\nvideo\\naudio" | dmenu -i -p "Select recording style:")
+	case "$choice" in
+		screencast) screencastpulse;;
+		audio) audiopulse;;
+		video) video;;
+	esac
+	}
+
+asktoend() { \
+	response=$(printf "No\\nYes" | dmenu -i -p "Recording still active. End recording?") &&
+	[ "$response" = "Yes" ] &&  killrecording
+	}
+
+
+case "$1" in
+	screencast) screencastpulse;;
+	audio) audiopulse;;
+	video) video;;
+	kill) killrecording;;
+	*) ([ -f ~/.recordingpid ] && asktoend && exit) || askrecording;;
+esac

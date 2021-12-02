@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Adds song to my local and rpi playlists
+
+[ -z "$1" ] && echo "No file given. Exiting..." && exit 1
+
+homePlaylistFile="$HOME/.config/mpd/playlists/liked_songs.m3u"
+piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
+
+homeFile="$(readlink -f "$1")"
+piFile="$(echo "$homeFile" | sed 's/vojislav/pi/g')"
+
+TRACK=$(mediainfo --Inform="General;%Title%" "$homeFile")
+ARTIST=$(mediainfo --Inform="General;%Performer%" "$homeFile")
+
+[ "$(grep -F "$homeFile" "$homePlaylistFile")" ] && notify-send "Song already in loved." && exit
+
+[ -z "$(grep -F "$homeFile" "$homePlaylistFile")" ] && love_track "$homeFile" && \
+sed -i "2s|^|$homeFile\n|" "$homePlaylistFile" && \
+sed -i "2s|^|$piFile\n|" "$piPlaylistFile" && \
+notify-send "Added \"$TRACK - $ARTIST\" to loved."

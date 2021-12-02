@@ -1,0 +1,26 @@
+#!/bin/bash
+
+function filter {
+	sed "s/'/’/g"
+}
+
+baseDir="$HOME/Documents/liked_tracks"
+
+limit=1000
+
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&limit=${limit}&format=json" -O "$baseDir/likedtracks.json"
+jq -r '.[].track[] | [.artist.name, .name] | @tsv' "$baseDir/likedtracks.json" > "$baseDir/likedtracks.csv"
+
+homePlaylistFile="$HOME/.config/mpd/playlists/liked_songs.m3u"
+piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
+
+while read -r line; do
+	artist=$(echo "$line" | cut -f 1 | filter)
+	track=$(echo "$line" | cut -f 2 | filter)
+	file=$(mpc search artist "$artist" title "$track")
+	#[ -z "$file" ] && echo "$artist - $song"
+	[ "$file" ] && [ -z "$(grep -F "$file" "$homePlaylistFile")" ] && echo "$file" && \
+		homeFile="$HOME/Music/$file" && piFile="/home/pi/Music/$file" && \
+	sed -i "2s|^|$homeFile\n|" "$homePlaylistFile" && \
+	sed -i "2s|^|$piFile\n|" "$piPlaylistFile"
+done < "$baseDir/likedtracks.csv"

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Fuzzy-search given directory with ripgrep
+
+d="$1"
+
+[ ! -d "$d" ] && echo "No directory given. Exiting..." && exit 1
+
+cd "$1"
+
+res=$(rg -v --line-number --no-heading --smart-case "^\s*$" . | \
+	  fzf --delimiter ":" \
+	  --preview 'bat --highlight-line {2} --line-range {2}: --style=numbers --color=always {1}')
+file=$(echo "$res" | cut -d: -f1)
+lineNum=$(echo "$res" | cut -d: -f2)
+
+[ "$res" ] && vim +"$lineNum" "$file"

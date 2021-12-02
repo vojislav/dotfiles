@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -z $(/sbin/iwgetid wlp3s0 --raw) ]; then
+	hostname -I | awk '{print $2}'
+else
+	/sbin/iwgetid wlp3s0 --raw
+fi

@@ -1,0 +1,11 @@
+#!/bin/bash
+[ ! -d "$1" ] && echo "Not a directory. Exiting..." && exit 1
+
+echo "Do you want to convert these files to mp3? [yes/no]"
+find "$1" -name "*.flac"
+read -r option
+case "$option" in
+	[Yy][Ee][Ss]) find "$1" -name "*.flac" -exec ffmpeg -i {} -ab 320k -map_metadata 0 -id3v2_version 3 {}.mp3 \; ;;
+	[Nn][Oo]) break ;;
+	*) echo "Write out either yes or no completely. Try again or press ctrl-c to quit." ;;
+esac;

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send -u normal "New mail on ($2) $4"

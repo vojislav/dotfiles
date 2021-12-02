@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Runs Among Us in Wine
+
+wine64 ~/Documents/among_us/Among\ Us.exe

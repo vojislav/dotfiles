@@ -1,0 +1,48 @@
+#!/bin/bash
+
+ping -q -w 1 -c 1 lazic.xyz > /dev/null 2>&1
+
+[ "$?" != 0 ] && exit 0
+
+baseDir="$HOME/.config/lbrss"
+
+feedsDir="$baseDir/feeds"
+
+function filter_html {
+	[ ! -f "$1" ] && return
+	cat "$1" | xmlstarlet unesc | sponge "$1"
+}
+
+while read -r url; do
+	name=$(echo "$url" | cut -f 1)
+	url=$(echo "$url" | cut -f 2)
+
+	orig_file="$feedsDir/${name}.xml"
+	[ ! -f "$orig_file" ] && wget --quiet "$url" -O "$orig_file" && \
+		echo "New feed: $name" && filter_html "$orig_file" && continue
+	new_file="$feedsDir/${name}_new.xml"
+	wget --quiet "$url" -O "$new_file"
+
+	#cat "$new_file" | xmlstarlet unesc | sponge "$new_file"
+	filter_html "$new_file"
+
+	new_films=$(comm -13 <(sort "$orig_file") <(sort "$new_file"))
+
+	[ -z "$new_films" ] || [ "$(echo "$new_films" | wc -l)" == 0 ] && echo "No new movies for $name" && \
+		rm "$new_file" && continue
+
+	new_films=$(echo "$new_films" | xmlstarlet unesc)
+	films=$(grep "<item>.*letterboxd:watchedDate.*</item>" <<< "$new_films")
+
+	echo "$films" | while read -r film; do
+		re=""
+		title=$(echo "$film" | grep -Po "(?<=<letterboxd:filmTitle>).*(?=</letterboxd:filmTitle>)")
+		year=$(echo "$film" | grep -Po "(?<=<letterboxd:filmYear>).*(?=</letterboxd:filmYear>)")
+		#watchedDate=$(echo "$film" | grep -Po "(?<=<letterboxd:watchedDate>).*(?=</letterboxd:watchedDate>)")
+		[ "$(echo "$film" | grep "<letterboxd:rewatch>Yes</letterboxd:rewatch>")" ] && re="re"
+		notify-send "$name ${re}watched $title ($year)" && beep
+	done
+
+	mv "$new_file" "$orig_file"
+
+done < "$baseDir"/urls

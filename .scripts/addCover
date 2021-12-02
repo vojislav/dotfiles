@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Add album art to songs
+# Goes through my album directories, find cover art and add it to all song files
+
+find $HOME/Music -mindepth 2 -maxdepth 2 -type d -print0 | while read -r -d $'\0' dir
+do
+	cover=$(find "$dir" -type f -name "cover*")
+	[ -z "$cover" ] && continue
+	find "$dir" \( -type f -name "*.mp3" -o -name "*.flac" -o -name "*.m4a" \) -print0 | while read -r -d $'\0' file
+	do
+		hasCover=$(mediainfo --Inform="General;%Cover%" "$file")
+		[ -z "$hasCover" ] && eyeD3 --add-image="$cover":FRONT_COVER "$file"
+	done
+done

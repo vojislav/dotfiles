@@ -1,0 +1,38 @@
+#!/bin/bash
+
+export GENIUS_ACCESS_TOKEN="n0wvFZ2EgWuH9YRhrpNIDwYx6q0ePWzFEMJ96WemJWmCSdjIdIj4W9wljX7r5Gqw"
+
+function filter {
+	sed 's/\\n/\n/g' |
+	sed 's/.EmbedShare URLCopyEmbedCopy//g'
+}
+
+function download {
+	artist="$1"
+	song="$2"
+
+	filepath="$HOME/.lyrics/$artist - $song.txt"
+
+	[ -e "$filepath" ] && return
+
+	echo "Downloading $artist - $song..." && \
+	python3 -m lyricsgenius song "$song" "$artist" --save > /dev/null
+
+	jsonFile=$(find . -name "*.json")
+	[ -z "$jsonFile" ] && echo "$artist - $song NOT FOUND!!!" && return
+	jq -r '.lyrics' "$jsonFile" | filter > "$filepath"
+	rm "$jsonFile"
+}
+
+[ -z "$1" ] && find . \( -name "*.mp3" -o -name "*.flac" -o -name "*.m4a" -o -name "*.jpg" -o -name "*.png" \) -print0 | while read -r -d $'\0' file
+do
+	artist=""
+	song=""
+	[ -z "$artist" ] && artist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
+	[ -z "$artist" ] && artist="$(mediainfo --Inform="General;%Performer%" "$file")"
+	[ -z "$song" ] && song="$(mediainfo --Inform="General;%Track%" "$file")"
+
+	download "$artist" "$song"
+done
+
+[ "$1" ] && artist="$1" && song="$2" && download "$artist" "$song"

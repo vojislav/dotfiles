@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run Data Studio with the right theme
+
+env GTK_THEME=Ark /opt/IBM/DS4.1.3/eclipse

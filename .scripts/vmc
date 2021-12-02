@@ -1,0 +1,24 @@
+#!/bin/bash
+
+newvol="pkill -RTMIN+10 i3blocks"
+
+[ -z "$2" ] && num="2" || num="$2"
+
+[ "$(mpc status | wc -l)" -eq 1 ] && player="spotify" || player="mpd"
+
+case "$1" in
+	u*) pulsemixer --change-volume +"$num" ; $newvol ;;
+	d*) pulsemixer --change-volume -"$num" ; $newvol ;;
+	micmute) amixer set Capture toggle ;;
+	m*) pulsemixer --toggle-mute ; $newvol ;;
+	truemute) pulsemixer --mute ; amixer set Capture toggle ; $newvol ;;
+	play) [ "$player" == "mpd" ] && mpc play || spotifycli --play ;;
+	n*) [ "$player" == "mpd" ] && mpc next || spotifycli --next ;;
+	prev) [ "$player" == "mpd" ] && mpc prev || spotifycli --prev ;;
+	t*) [ "$player" == "mpd" ] && mpc toggle || spotifycli --playpause ;;
+	p*) mpc pause ;  spotifycli --pause ; pauseallmpv ;;
+	f*) mpc seek +"$num" ;;
+	b*) mpc seek -"$num" ;;
+	r*) mpc seek 0\% ;;
+	*) ;;
+esac

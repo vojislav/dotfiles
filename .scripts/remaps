@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# This script is called by i3 on startup to remap keys.
+# Increase key speed via a rate change
+xset r rate 300 50
+# Add keyboard layouts and shit them with Alt+Shift
+#setxkbmap -layout us,rs,rs -variant ,latinunicodeyz, -option grp:alt_shift_toggle &
+# Map the caps lock key to super...
+setxkbmap -option caps:super
+xmodmap -e 'keycode 135 = Super_R'
+# But when it is pressed only once, treat it as escape.
+killall xcape 2>/dev/null ; xcape -e 'Super_L=Escape'

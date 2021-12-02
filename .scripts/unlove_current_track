@@ -1,0 +1,11 @@
+#!/bin/bash
+
+lineNumberHome=$(grep -nF "$(mpc current -f '%file%')" "$HOME/.config/mpd/playlists/liked_songs.m3u" | cut -d: -f1)
+lineNumberPi=$(grep -nF "$(mpc current -f '%file%')" "$HOME/Documents/liked_tracks/liked_songs_pi.m3u" | cut -d: -f1)
+
+[ -z "$lineNumberHome" ] && notify-send "Song not in loved tracks." && exit
+
+[ "$lineNumberHome" ] && mpc sendmessage mpdas unlove && \
+sed -i "$lineNumberHome d" "$HOME/.config/mpd/playlists/liked_songs.m3u" && \
+sed -i "$lineNumberPi d" "$HOME/Documents/liked_tracks/liked_songs_pi.m3u" && \
+notify-send "Removed \"$(mpc current)\" from loved."

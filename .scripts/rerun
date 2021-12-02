@@ -1,0 +1,10 @@
+#!/bin/bash
+
+i3-msg '[instance="note"] kill; [instance="dropdowncalc"] kill; [instance="ncmpcpp"] kill; [instance="pi"] kill; [instance="pulse"] kill'
+
+#urxvt -fn 'xft:Input Mono:style=Reguler:size=12' -name note -e vim -R /home/vojislav/Documents/wiki/index.md &
+urxvt -name note -e vim -R /home/vojislav/Documents/wiki/index.md 2> /dev/null &
+urxvt -name dropdowncalc -e python3 -q 2> /dev/null &
+urxvt -name ncmpcpp -e ncmpcpp 2> /dev/null &
+urxvt -name pi -e ssh pi@192.168.0.16 2> /dev/null &
+urxvt -name pulse -e pulsemixer 2> /dev/null &

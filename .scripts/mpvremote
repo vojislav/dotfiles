@@ -1,0 +1,9 @@
+#!/bin/bash
+
+[ "$(pgrep -xU $UID mpv-remote-app)" ] && \
+echo "Killing server..." && \
+pkill mpv-remote-app && exit 0
+
+[ -z "$(pgrep -xU $UID mpv-remote-app)" ] && \
+echo "Starting server at $(localip)" && \
+(mpv-remote-app lozinka &)

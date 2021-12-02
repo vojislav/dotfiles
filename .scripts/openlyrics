@@ -1,0 +1,3 @@
+#!/bin/bash
+
+firefox $(gettrackinfo -s -u "$(mpc current | awk -F ' - ' '{printf "\"%s\" \"%s\"\n", $1, $2}')")

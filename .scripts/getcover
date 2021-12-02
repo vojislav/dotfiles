@@ -1,0 +1,16 @@
+#!/bin/bash
+
+LASTFM_API_KEY="069b66ee4d6a7f5e860db3af52c19ab0"
+
+[ -z "$1" ] && echo "No file given. Exiting." && exit 1
+
+tmpFile=$(mktemp)
+
+filename="$1"
+artist=$(mediainfo --Inform="General;%Performer%" "$filename")
+album="$(mediainfo --Inform="General;%Album%" "$filename")"
+
+echo "Getting track info..." && wget -q "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=$LASTFM_API_KEY&artist=$artist&album=$album&format=json" -O "$tmpFile"
+echo "Downloading cover art for $artist - $album..." && wget -q "$(jq -r '.[].image[-1]."#text"' "$tmpFile")" -O "cover.jpg"
+
+rm "$tmpFile"

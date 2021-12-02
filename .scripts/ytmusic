@@ -1,0 +1,64 @@
+#!/bin/bash
+LASTFM_API_KEY=069b66ee4d6a7f5e860db3af52c19ab0
+homePlaylistFile="$HOME/.config/mpd/playlists/liked_songs.m3u"
+piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
+
+[ -z "$1" ] && echo "Give a youtube link." && exit
+
+tmp=$(mktemp -d)
+cd "$tmp"
+
+filename=$(yt-dlp --no-playlist --add-metadata -icx -f bestaudio/best --audio-format mp3 --get-filename "$1" | sed 's/\..*/.mp3/g')
+[ ! -f "$filename" ] && yt-dlp --no-playlist --add-metadata -icx -f bestaudio/best --audio-format mp3 "$1" && notify-send "Done."
+
+track=$(mediainfo --Inform="General;%Title%" "$filename")
+artist=$(mediainfo --Inform="General;%Performer%" "$filename")
+album="$(mediainfo --Inform="General;%Album%" "$filename")"
+
+#year=$(mediainfo --Inform="General;%comment%" "$filename" | grep -Eo "^[0-9]{4}" | head -1)
+#year=$(mediainfo --Inform="General;%comment%" "$filename" | grep -Eo "(?<=Released on: )[0-9]{4}" | head -1)
+#[ -z "$year" ] && year=$(mediainfo --Inform="General;%Released_Date%" "$filename")
+#[ -z "$year" ] && year=$(mediainfo --Inform="General;%Recorded_Date%" "$filename")
+year=$(yt-dlp --no-playlist --get-filename -o "%(release_year)s" "$1")
+
+echo -e "
+Artist: $artist
+Album Artist: $artist
+Album: $album
+Year: $year\n"
+
+read -p "Are these tags ok? [y/n] " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Nn]$ ]]
+then
+	tagedit "$filename" "$artist" "$artist" "$album" "$year"
+else
+	echo "Adding tags..." && eyeD3 -Q -a "$artist" -b "$artist" --release-date="$year" --recording-date="$year" "$filename"
+fi
+
+# since tags might have been changed, we need to grab them again
+artist=$(mediainfo --Inform="General;%Performer%" "$filename")
+track=$(mediainfo --Inform="General;%Title%" "$filename")
+year=$(mediainfo --Inform="General;%Released_Date%" "$filename")
+[ -z "$year" ] && year=$(mediainfo --Inform="General;%Recorded_Date%" "$filename")
+
+echo "Getting track info from LastFM..." && wget -q "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=$LASTFM_API_KEY&artist=$artist&album=$album&format=json" -O tmp.json
+echo "Downloaging cover art..." && wget -q "$(jq -r '.[].image[-1]."#text"' tmp.json)" -O "$artist - $track.jpg"
+echo "Adding cover art..." && eyeD3 -Q --add-image="$artist - $track.jpg":FRONT_COVER "$filename"
+
+#track=$(mediainfo --Inform="General;%Title%" "$filename")
+#artist=$(mediainfo --Inform="General;%Performer%" "$filename")
+#album="$(mediainfo --Inform="General;%Album%" "$filename")"
+#year=$(mediainfo --Inform="General;%comment%" "$filename" | grep -Eo "^[0-9]{4}" | head -1)
+#year=$(mediainfo --Inform="General;%comment%" "$filename" | grep -Eo "(?<=Released on: )[0-9]{4}" | head -1)
+
+[ "$2" == "-n" ] && musort "$filename" -n
+[ -z "$2" ] && musort "$filename"
+
+echo "Updating mpd..." && mpc -q --wait update
+
+file=$(mpc search artist "$artist" title "$track" date "$year")
+addtoplaylists "Music/$file"
+
+rm tmp.json
+rm -r "$tmp"

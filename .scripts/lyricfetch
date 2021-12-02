@@ -1,0 +1,11 @@
+#!/bin/bash
+musicDir="$HOME/Music" # path of music directory, use full path, use $HOME instead of ~
+find "$musicDir" \( -name "*.mp3" -o -name "*.flac" -o -name "*.m4a" \) -print0 | while read -r -d $'\0' file
+do
+	artist=$(mediainfo --Inform="General;%Album/Performer%" "$file")
+	[ -z "$artist" ] && artist=$(mediainfo --Inform="General;%Performer%" "$file")
+	title=$(mediainfo --Inform="General;%Title%" "$file")
+	echo "Fetching lyrics for $artist - $title..."
+	curl -s --get "https://makeitpersonal.co/lyrics" --data-urlencode "artist=$artist" --data-urlencode "title=$title" > "$artist - $title.txt"
+	[ -z "$(cat "$artist - $title.txt")" ] && echo "Couldn't find lyrics for $artist - $title."
+done

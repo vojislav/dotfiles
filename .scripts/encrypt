@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ -z $(ls ~/links) ]; then
+	encfs --extpass="zenity --password" ~/.links ~/links
+	if [ -z $(ls ~/links) ]; then
+		notify-send -u critical "Wrong password!"
+	else
+		notify-send "Mounted"
+		echo "Mounted on $(date)" >> ~/links/log
+	fi
+else
+	encfs -u ~/links
+	notify-send "Unmounted"
+fi

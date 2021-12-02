@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:letterboxd="https://letterboxd.com">
+	<channel>
+		<title>Letterboxd - djuma</title>
+		<link>https://letterboxd.com/djuma/</link>
+		<description>Letterboxd - djuma</description>
+		<atom:link rel="self" href="https://letterboxd.com/djuma/rss/" type="application/rss+xml"/>
+		
+		
+
+		
+		
+
+	</channel>
+</rss>

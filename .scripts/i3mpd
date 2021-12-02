@@ -1,0 +1,13 @@
+#!/bin/sh
+
+track=$(mpc current | sed 's/&/&amp;/')
+
+if [ "$(mpc status | grep paused)" ]; then
+	color="grey"
+else
+	color="white"
+fi
+
+time="$(mpc status | sed -n '2p' | awk '{print $3}')"
+
+echo "<span color='$color'>$track $time</span>"

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+musicDir="$HOME/Music"
+
+song="$musicDir/$(mpc current -f "%file%")"
+songDir="$(dirname "$song")"
+cover=$(find "$songDir" -type f -name "*.jpg" -o -name "*.jpeg" -o -name "*.png")
+
+if [ -z "$cover" ]; then
+	cover="$songDir/cover.jpg"
+	ffmpeg -i "$song" "$cover"
+ fi
+
+feh -^ coverart -g 300x300 --scale-down "$cover" &

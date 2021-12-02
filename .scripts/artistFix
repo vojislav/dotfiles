@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Some of my songs didn't have the "Album Artist" tag set,
+# so this script just sets that to be the same as the "Artist" tag
+
+find "$HOME/Music" \( -name "*.mp3" -o -name "*.flac" -o -name "*.m4a" \) -print0 | while read -r -d $'\0' file
+do
+	albumArtist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
+	artist="$(mediainfo --Inform="General;%Performer%" "$file")"
+	[ -z "$albumArtist" ] && eyeD3 -b "$artist" "$file"
+done

@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo ping -q -w 1 -c 1 192.168.0.16 > /dev/null
+ret=$?
+
+if [ $ret -eq 0 ] ; then
+	rsync -auvP --delete $1 ~/Music/ pi@192.168.0.16:~/Music/
+else
+	rsync -auvP --delete $1 -e 'ssh -p 10908' ~/Music/ pi@2.tcp.ngrok.io:~/Music/
+fi

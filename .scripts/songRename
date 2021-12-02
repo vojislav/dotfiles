@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Rename song to format
+
+musicDir="$HOME/Music" # path of music directory, use full path, use $HOME instead of ~
+
+[ -z "$1" ] && echo "No directory given. Exiting." && exit 1
+
+find "$1" -maxdepth 2 -mindepth 2 -type d  -print0 | while read -r -d $'\0' albumFolder
+do
+	artist=""
+	find "$1" \( -name "*.mp3" -o -name "*.flac" -o -name "*.m4a" \) -print0 | while read -r -d $'\0' file
+	do
+		#[ -z "$artist" ] && artist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
+		artist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
+		song="$(mediainfo --Inform="General;%Track%" "$file")"
+		ext="${file##*.}"
+		trackNum="$(mediainfo --Inform="General;%Track/Position%" "$file")"
+		[ ${#trackNum} == 1 ] && trackNum="0$trackNum" && echo "$trackNum"
+		newFilename="$albumFolder/$trackNum. $artist - $song.$ext"
+		[ "$file" != "$newFilename" ] && mv -iv "$file" "$newFilename"
+	done
+done
