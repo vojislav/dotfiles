@@ -1919,3 +1919,136 @@ man git
 alias dots
 alias dots >> ~/.bashrc 
 bashrc
+r
+cd .config/mpd/
+tail log 
+head log 
+wc -l log 
+ls
+r
+du -hs log 
+v mpd.conf
+rm log 
+ls
+r
+v sticker.sql 
+..
+r
+pass github
+r
+dots status
+dots add .vimrc
+dots add .basrc
+dots add .bashrc 
+dots add .bash_history 
+dots status
+dots add .config/i3
+dots add .config/lbrss/
+dots status
+dots add .config/mpd/
+dots status
+dots add .config/mpd/
+dots status
+dots add .config/mpv/
+dots add .config/ncmpcpp/
+dots add .config/ranger/
+dots add .config/wall.png
+dots add .scripts/
+dots add .scripts/
+dots status
+dots commit -m "initial commit"
+dots pus
+dots push
+dots remote add origin https://github.com/vojislav/dotfiles.git
+dots push
+git push --set-upstream origin master
+beepo
+beep
+beep
+beep
+beep
+beep
+beep
+lbrss
+cfr
+g++ test
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+lbrss
+cppz
+dirRg .
+r
+lbrss 
+cd
+v test.cpp
+D
+t
+r
+lbrss 
+lbrss 
+cd .config/lbrss/
+v feeds/voja.xml 
+lbrss 
+v feeds/voja.xml 
+lbrss 
+notify-send "voja watched The Matrix (1999) and rated 4.5 / 5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+cd .config/lbrss/
+r
+r
+lbrss 
+r
+notify-send "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+lbrss 
+man notify-send
+watched, reviewed and rated
+watched and rated
+watched and reviewed
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+cd .config/lbrss/feeds/
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v
+v voja.xml 
+v
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+sf
+cd .config/lbrss/
+r
+r
