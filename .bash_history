@@ -1919,3 +1919,221 @@ man git
 alias dots
 alias dots >> ~/.bashrc 
 bashrc
+r
+cd .config/mpd/
+tail log 
+head log 
+wc -l log 
+ls
+r
+du -hs log 
+v mpd.conf
+rm log 
+ls
+r
+v sticker.sql 
+..
+r
+pass github
+r
+dots status
+dots add .vimrc
+dots add .basrc
+dots add .bashrc 
+dots add .bash_history 
+dots status
+dots add .config/i3
+dots add .config/lbrss/
+dots status
+dots add .config/mpd/
+dots status
+dots add .config/mpd/
+dots status
+dots add .config/mpv/
+dots add .config/ncmpcpp/
+dots add .config/ranger/
+dots add .config/wall.png
+dots add .scripts/
+dots add .scripts/
+dots status
+dots commit -m "initial commit"
+dots pus
+dots push
+dots remote add origin https://github.com/vojislav/dotfiles.git
+dots push
+git push --set-upstream origin master
+beepo
+beep
+beep
+beep
+beep
+beep
+beep
+lbrss
+cfr
+g++ test
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+lbrss
+cppz
+dirRg .
+r
+lbrss 
+cd
+v test.cpp
+D
+t
+r
+lbrss 
+lbrss 
+cd .config/lbrss/
+v feeds/voja.xml 
+lbrss 
+v feeds/voja.xml 
+lbrss 
+notify-send "voja watched The Matrix (1999) and rated 4.5 / 5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+cd .config/lbrss/
+r
+r
+lbrss 
+r
+notify-send "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+lbrss 
+man notify-send
+watched, reviewed and rated
+watched and rated
+watched and reviewed
+notify-send "voja watched and rated The Matrix (1999) 4.5/5"
+cd .config/lbrss/feeds/
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v
+v voja.xml 
+v
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+v voja.xml 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+lbrss 
+sf
+cd .config/lbrss/
+r
+r
+dots checkout -- .config/lbrss/feeds/fedja.xml
+dots checkout -- .config/lbrss/feeds/filip.xml
+dots checkout -- .config/lbrss/feeds/janja.xml
+dots checkout -- .config/lbrss/feeds/kaca spasic.xml
+dots checkout -- .config/lbrss/feeds/kaca\ spasic.xml
+dots checkout -- .config/lbrss/feeds/kaca.xml
+dots checkout -- .config/lbrss/feeds/lenka.xml
+dots checkout -- .config/lbrss/feeds/megi.xml
+dots checkout -- .config/lbrss/feeds/mina.xml
+dots checkout -- .config/lbrss/feeds/sara.xml
+dots checkout -- .config/lbrss/feeds/voja.xml
+dots checkout -- .config/lbrss/feeds/zaklina.xml
+pass
+pass github
+cd links/
+cat github_token 
+dots status
+dots add *
+dots status
+git add *
+cd Documents/
+r
+git add *
+dots status
+dots add *
+dots status
+dots add -A
+dots add .
+dots add -u
+dots status
+man git
+dots status
+dots remove .config/lbrss/feeds/
+dots untrack .config/lbrss/feeds/
+sf
+v .config/lbrss/feeds/voja.xml 
+lbrss 
+lbrss 
+dots status
+dots rm .config/lbrss/feeds/
+dots rm -r .config/lbrss/feeds/
+git reset -u
+dots reset -i
+dots reset -u
+dots reset *
+dots status
+dots reset HEAD *
+dots reset HEAD -u
+dots reset HEAD -A
+dots reset --mixed
+dots statu
+dots status
+dots rm -r .config/lbrss/feeds/
+dots rm -rf .config/lbrss/feeds/
+dots status
+dots reset
+dots status
+dots checkout --
+dots status
+dots checkout -- *
+git reflog
+git reset HEAD@{index}
+dots reset HEAD@{2}
+dots status
+dots checkout -- .config/lbrss/feeds/darja.xml
+dots status
+dots checkout -- 
+dots status
+dots status
+git commit -m "added rated and reviewed info to lbrss"
+git add -u
+dots status
+dots status -u
+dots status
+dots status
+dots commit -m "added rated and reviewed info to lbrss"
+dots config --global --edit
+dots commit -m "added rated and reviewed info to lbrss"
+dots status
+dots push
+cat links/github_token | xcp
+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
+pass edit github
+pass github
+lbrss 

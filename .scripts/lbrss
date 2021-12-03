@@ -35,12 +35,28 @@ while read -r url; do
 	films=$(grep "<item>.*letterboxd:watchedDate.*</item>" <<< "$new_films")
 
 	echo "$films" | while read -r film; do
-		re=""
 		title=$(echo "$film" | grep -Po "(?<=<letterboxd:filmTitle>).*(?=</letterboxd:filmTitle>)")
 		year=$(echo "$film" | grep -Po "(?<=<letterboxd:filmYear>).*(?=</letterboxd:filmYear>)")
 		#watchedDate=$(echo "$film" | grep -Po "(?<=<letterboxd:watchedDate>).*(?=</letterboxd:watchedDate>)")
+
+		re=""
 		[ "$(echo "$film" | grep "<letterboxd:rewatch>Yes</letterboxd:rewatch>")" ] && re="re"
-		notify-send "$name ${re}watched $title ($year)" && beep
+
+		reviewText=""
+		[ "$(echo "$film" | grep "letterboxd-review")" ] && reviewText="reviewed"
+
+		ratingText=""
+		rating=$(echo "$film" | grep -Po "(?<=<letterboxd:memberRating>).*(?=</letterboxd:memberRating>)")
+		[ "$rating" ] && ratingText="and rated"
+
+
+		if [ "$reviewText" ] && [ "$ratingText" ]; then
+			reviewText=", $reviewText"
+		elif [ "$reviewText" ]; then
+			reviewText=" and $reviewText"
+		fi
+
+		notify-send "$name ${re}watched$reviewText $ratingText $title ($year) $rating stars" && beep
 	done
 
 	mv "$new_file" "$orig_file"
