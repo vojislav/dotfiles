@@ -2052,6 +2052,7 @@ sf
 cd .config/lbrss/
 r
 r
+<<<<<<< HEAD
 dots checkout -- .config/lbrss/feeds/fedja.xml
 dots checkout -- .config/lbrss/feeds/filip.xml
 dots checkout -- .config/lbrss/feeds/janja.xml
@@ -2137,3 +2138,5 @@ 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
 pass edit github
 pass github
 lbrss 
+=======
+>>>>>>> d78f3429417da82e90785bfa063739e613dc728e
