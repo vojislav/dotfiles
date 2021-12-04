@@ -63,6 +63,7 @@ source ~/.shortcuts
 
 sf () { fd -t f . $HOME/.scripts | fzf | xargs -o -r $EDITOR ;}
 sl () { dirRg ~/.lyrics ;}
+copylast () { fc -ln -1 | sed 's/^\s*//g' | xclip -selection clipboard ;}
 
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

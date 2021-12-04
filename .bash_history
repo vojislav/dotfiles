@@ -2140,3 +2140,113 @@ pass github
 lbrss 
 =======
 >>>>>>> d78f3429417da82e90785bfa063739e613dc728e
+dots status
+dots add -u
+dots status
+dots commit --amend --no-edit
+dots status
+dots push
+dots pull
+dots pull
+dots status
+dots checkout -- .bash_history 
+dots pull
+dots status
+dots merge --abort
+dots status
+dots pull
+dots status
+git
+dots add .bash_history
+dots status
+dots commit -m "merge"
+dots push
+dots status
+pass github
+cd .config/lbrss/
+v urls 
+lbrss 
+lbrss 
+ss
+r
+xinput list
+xinput float 9; sleep 5; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+    ↳ AT Translated Set 2 keyboard            id=9[slave  keyboard (3)]
+    ↳ ThinkPad Extra Buttons                  id=12[slave  keyboard (3)]
+[vojislav@mislisha ~]$ xinput float 9; sleep 5; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+vimrc
+v
+cfi
+r
+cd .vim
+r
+vimrc
+cfi
+vimrc
+cfi
+cppz
+cd 10_cas/
+v sveKombinacije.cpp 
+r
+vimrc
+vimrc
+sc
+man dmenu
+echo "nesto" | dmenu
+echo "60" | dmenu
+echo "60" | dmenu
+echo "60" | dmenu -p "Choose disable duration in seconds (default 60)"
+echo "60" | dmenu -p "Input disable duration in seconds (default 60)"
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)"
+echo $!
+echo !
+!
+!!
+!!
+!!
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)"
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)"
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+6
+echo fc
+man fc
+fc -ln 1
+fc -ln -1
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+fc -ln -1
+fc --help
+bashrc
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+copylast
+tail -1 ~/.bash_history 
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+tail -1 ~/.bash_history 
+man fc
+fc -ln-1
+fc -ln -1
+fc --help
+fc --help
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+fc -ln last
+fc -ln -1
+fc -ln -1 | sed 's/^\t//g'
+fc -ln -1 | sed 's/^\t //g'
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+fc -ln -1 | sed 's/^\t //g'
+fc -ln -1 | sed 's/^\s*//g'
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+fc -ln -1 | sed 's/^\s*//g'
+bashrc
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+copylast
+alias xcp
+man sed
+man sed
+v .config/lbrss/feeds/
+lbrss
+.config/lbrss/
+feeds/
+darj
+v darja.xml 
