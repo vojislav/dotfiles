@@ -2250,3 +2250,845 @@ lbrss
 feeds/
 darj
 v darja.xml 
+pass github
+sf
+:wq
+dots status
+dots add -u
+dots status
+dots commit -t "fixed spaces in lbrss"
+dots commit -m "fixed spaces in lbrss"
+dots push
+beep -f 300.7 -r 2 -d 100 -l 400
+beep -f 1000 -n -f 2000 -n -f 1500
+beep -f 1000 -n -f 2000 -n -f 1500
+beep -f 1000 -n -f 2000 -n -f 1500
+prompt
+man dmenu
+echo -e "yes\nno" | dmenu -i -p "Choose one"
+echo -e "yes\nno" | dmenu -i -p "Choose one"
+echo -e "yes\nno" | dmenu -p "Choose one"
+dmenu -p "Choose one"
+dmenu_run
+dmenu
+rofi
+rofi_drun
+rofi drun
+rofi -show run
+man xinput
+man xinput
+man xinput
+echo "nesto" | dmenu -p "Choose"
+xinput --query-state 3
+xinput --query-state 10
+xev
+man xev
+xev
+xev
+sf
+ss
+r
+sc
+v floatkeyboard
+ls
+findsort
+r
+echo "60" | dmenu -p "Enter floating duration in seconds (default 60)" | xcp
+copylast
+xinput list
+xinput list | grep "AT Translated Set 2 keyboard"
+xinput list | grep "AT Translated Set 2 keyboard" | cut -f 1
+xinput list | grep "AT Translated Set 2 keyboard" | cut -f 2
+man xinput
+xinput list "AT Translated Set 2 keyboard" --id-only
+xinput list "AT Translated Set 2 keyboard" short
+xinput --list --short "AT Translated Set 2 keyboard" short
+xinput --list --id-only "AT Translated Set 2 keyboard"
+xinput --list --id-only "AT Translated Set 2 keyboard"
+copylast
+xinput --list --short "AT Translated Set 2 keyboard"
+xinput
+xinput --list --short "AT Translated Set 2 keyboard"
+xinput
+xinput --list --short "AT Translated Set 2 keyboard" | sed -P 's/'
+xinput --list --short "AT Translated Set 2 keyboard"
+xinput --list --short "AT Translated Set 2 keyboard"
+xinput --list --id-only "AT Translated Set 2 keyboard"
+xinput --list --short "AT Translated Set 2 keyboard"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?=slav).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slav).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave keyboard \().*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave keyboard ).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave keyboard).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave ke).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave\ ).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave\ keyboard).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave\ ).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave\ k).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave ).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave k).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave  k).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave\s+k).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave  k).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave  keyboard).*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave  keyboard \().*"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -P "(?<=slave  keyboard \()[0-9]"
+xinput --list --short "AT Translated Set 2 keyboard" | grep -Po "(?<=slave  keyboard \()[0-9]"
+xinput list
+dots status
+echo -e "xinput reattach 9 3\n" | xcp
+xinput reattach 9 3
+xinput reattach 9 3
+homeplaylistedit 
+piplaylistedit 
+sf
+r
+soul
+r
+musort . -n
+musort . -n
+r
+musort .
+r
+musort .
+r
+rsyncmusic -n
+rsyncmusic
+rsyncplaylist 
+cd .config/mpd
+r
+$date
+date
+date >> /home/vojislav/log
+cat log 
+rm log
+touch log
+sv /etc/udev/rules.d/80.power.rules 
+udevadm control --reload-rules && udevadm trigger
+sudo udevadm control --reload-rules && udevadm trigger
+sudo udevadm control --reload-rules && sudo udevadm trigger
+ls
+cat log 
+r
+udevmontor
+sudo udevadm monitor
+sudo udevadm info --path=/sys/class/power_supply/ac
+sudo udevadm info --path=/sys/class/power_supply/battery
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/AC
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > charging.txt
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > not_charging.txt
+diff charging.txt not_charging.txt 
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > charging.txt
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > not_charging.txt
+diff charging.txt not_charging.txt 
+sv /etc/udev/rules.d/80.power.rules
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > not_charging.txt
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > charging.txt
+sudo udevadm info --path=/sys/class/power_supply/BAT0/ > not_charging.txt
+diff charging.txt not_charging.txt 
+cat charging.txt 
+cat not_charging.txt 
+diff charging.txt not_charging.txt 
+sudo udevadm monitor
+xset -b
+log_charging.sh
+v log_charging.sh
+chmod +x log_charging.sh 
+./log_charging.sh 
+cat log
+rm log
+v log_charging.sh
+./log_charging.sh 
+cat log
+rm log
+sv /etc/udev/rules.d/
+sv /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules
+sv /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules
+ls
+sv /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules
+ls
+ls
+./log_charging.sh 
+ls
+cat log
+sudo udevadm control --reload-rules
+cat log
+ls
+ls
+sudo udevadm info --path=/sys/class/power_supply/BAT0/
+sudo udevadm info --path=/sys/class/power_supply/AC
+sudo udevadm info --path=/sys/class/power_supply/AC/ > charging.txt 
+sudo udevadm info --path=/sys/class/power_supply/AC/ > not_charging.txt 
+diff not_charging.txt charging.txt 
+cd
+ls
+cat log
+sudo less /var/log/messages
+sudo less /var/log/messages
+udevadm test power_supply/AC
+udevadm test power_supply/AC | grep 80.
+udevadm test power_supply/AC | grep "80.power.rules:
+udevadm test power_supply/AC | grep "80.power.rules:
+udevadm test power_supply/AC | grep "80.power.rules"
+sudo udevadm control --reload-rules && sudo udevadm trigger
+ls
+cat log
+tail /var/log/messages
+sudo tail /var/log/messages
+sudo less /var/log/messages
+xset -b
+v .xinitrc 
+v
+v
+cd /etc/udev/rules.d/
+ls
+chown vojislav: 80.power.rules 
+sudo chown vojislav: 80.power.rules 
+ls
+sudo udevadm control --reload-rules && sudo udevadm trigger
+xset -b
+v 80.power.rules 
+r
+cat log
+v log
+v log_charging.sh 
+ls
+sudo udevadm control --reload-rules && sudo udevadm trigger
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+ls
+catlog
+cat log
+v log_charging.sh 
+vimrc
+echo $DISPLAY 
+sf
+lbrss
+sf
+crontab -e
+cat log
+v log_charging.sh 
+vimrc
+v log
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+./log_charging.sh in
+./log_charging.sh out
+./log_charging.sh out
+v /etc/udev/rules.d/80.power.rules 
+v log
+v log_charging.sh 
+./log_charging.sh in
+./log_charging.sh out
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+rm log
+v log_charging.sh 
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+gettrackinfo -c -l
+gettrackinfo -c -u
+firefox $(gettrackinfo -c -u)
+cat log
+rm log
+ls
+cat log
+cat log
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v log
+gettrackinfo -c -l
+gettrackinfo -s "times to die 2012" "car seat headrest" -l
+sf
+gettrackinfo -s -l "times to die 2012" "car seat headrest"
+udevadm control --log-priority=debug
+sudo udevadm control --log-priority=debugs
+sudo su
+sudo udevadm control --log-priority=debugs
+sudo su
+cat log
+v log_charging.sh 
+rm log
+cat log
+cat log
+v log_charging.sh 
+gettrackinfo -s -l "times to die 2012" "car seat headrest"
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo su
+cd /var/lib/lightdm/
+ls
+sudo cd /var/lib/lightdm/
+sudo ld /var/lib/lightdm/
+sudo ls /var/lib/lightdm/
+sudo ls a /var/lib/lightdm/
+sudo ls -a /var/lib/lightdm/
+sudo cat /var/lib/lightdm/.Xauthority
+sf
+sf
+sudo su
+r
+ls
+rm log
+touch log
+ls
+v log_charging.sh 
+./log_charging.sh 1
+./log_charging.sh 0
+./log_charging.sh 0
+./log_charging.sh 1
+./log_charging.sh 1
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+cat log
+r
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+/home/vojislav/log_charging.sh 1
+/home/vojislav/log_charging.sh 0
+v log_charging.sh 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+which notify-send
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo su
+v log_charging.sh 
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo su
+sudo su
+sudo su
+REMAPS
+V
+PKILL
+which notify-send
+/usr/bin/notify-send 'nesto
+/usr/bin/notify-send 'nesto;
+/usr/bin/notify-send 'nesto'
+/usr/bin/notify-send 'nesto drugo'
+v log_charging.sh 
+f
+cd Documents/f
+r
+sudo chmod -R 755 Documents/
+r
+f
+r
+sf
+bashrc
+sudo su
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sc
+bat ytmusic
+bat ytmusic
+v .xinitrc 
+xset-b
+xset -b
+bat ytmusic
+sc
+bat ytmusic
+beep
+beep
+beep
+sf
+rerun 
+pkill dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+dunst
+notify-send "test
+notify-send "test"
+notify-send "test"
+notify-send "test"
+notify-send "test"
+lbrss
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send "ovo je neki malo duzi tekst"
+notify-send -i lb.png "ovo je neki malo duzi tekst"
+notify-send -i lb.png "ovo je neki malo duzi tekst"
+ls lb.png
+man notify-send
+notify-send --icon="~/lb.png" "ovo je neki malo duzi tekst"
+notify-send --icon="$HOME/lb.png" "ovo je neki malo duzi tekst"
+notify-send --icon="$HOME/lb.png" "ovo je neki malo duzi tekst"
+notify-send --icon="$HOME/lb.png" "ovo je neki malo duzi tekst"
+man notify-send
+man notify-send
+notify-send --icon="$HOME/lb.png" "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+notify-send --icon="$HOME/lb.png" "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+v .config/dunst/dunstrc
+dunst &
+pgrep dunst
+dunst &; disown
+disown dunst
+dunst & && disown
+dunst & disown
+pgrep dunst
+pgrep dunst
+pgrep dunst
+r
+feh lb.png 
+r
+r
+cd
+sf
+notify-send --icon="$HOME/lb.png" "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+baseDir="$HOME/.config/lbrss"
+notify-send --icon="$baseDir/lb.png" "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+firefox $(gettrackinfo -c -u)
+v .config/lbrss/feeds/voja.xml 
+lbrss
+update_liked_songs 
+sf
+update_liked_songs 
+sf
+update_liked_songs 
+sf
+update_liked_songs 
+sf
+update
+update_liked_songs 
+sf
+cd .time/
+r
+ls /run/user/1000/bus 
+v charging.sh 
+v charging.sh 
+./charging.sh in
+v charging.sh 
+./charging.sh in
+./charging.sh in
+./charging.sh in
+v charging.sh 
+sudo chmod +x ./charging.sh
+ls
+./charging.sh in
+v charging.sh 
+./charging.sh in
+./charging.sh out
+./charging.sh ou
+sudo su
+v charging.sh
+chmod +x charging.sh 
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo -u vojislav notify-send "nesst"
+su -u vojislav notify-send "nesst"
+/usr/bin/su -u vojislav notify-send "nesst"
+man sudo
+echo $USER
+echo $UID
+echo $DBUS_SESSION_BUS_ADDRESS 
+/usr/bin/su -u vojislav notify-send "nesst"
+/usr/bin/su vojislav notify-send "nesst"
+/usr/bin/sudo vojislav notify-send "nesst"
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+"/usr/bin/sudo -E $USER -c /home/vojislav/charging.sh in
+/usr/bin/sudo -E $USER -c /home/vojislav/charging.sh in
+/usr/bin/sudo -E  -c /home/vojislav/charging.sh in
+/usr/bin/sudo -E -u $USER -c /home/vojislav/charging.sh in
+/usr/bin/sudo -u vojislav -E -c /home/vojislav/charging.sh in
+sudo -u vojislav
+sudo -u vojislav -E 
+man sudo
+/usr/bin/sudo -u vojislav
+/usr/bin/sudo -u vojislav notify-send "nesto"
+/usr/bin/sudo -u vojislav -E notify-send "nesto"
+/usr/bin/sudo -u vojislav -E /home/vojislav/charging.sh in
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+/usr/bin/sudo -u vojislav -E /home/vojislav/charging.sh in
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+/usr/bin/su vojislav -c notify-send "nesto"
+which su
+/usr/bin/su $USER -c notify-send "nesto"
+/usr/bin/su $USER -c notify-send nesto
+/usr/bin/su $USER -c notify-send nesto
+echo $DBUS_SESSION_BUS_ADDRESS
+v /etc/udev/rules.d/80.power.rules 
+sudo udevadm control --reload-rules && sudo udevadm trigger && xset -b
+v /etc/udev/rules.d/80.power.rules 
+r
+cd .config/
+cd
+cd .SoulseekQt/
+ls
+r
+firefox $(gettrackinfo -c -u)
+r
+homeplaylistedit 
+piplaylistedit 
+rsyncplaylist 
+rsyncmusic -n
+du -hs Music/
+redshift -x
+pgrep redshift
+pkill redshift
+pgrep redshift
+pkill redshift
+pgrep redshift
+rerun 
+cd .config/wal/colorschemes/dark/
+ls
+v darker.json 
+wal -R
+cfi
+wal 
+cfi
+wal -f ~/.config/wal/colorschemes/dark/darker.json >/dev/null
+redshift
+alas ytdl 
+alias ytdl 
+ytdl 
+alias ytdl 
+uptime -p
+museekd
+museeq 
+museeq 
+apt purge museeq
+apt purge museekcontrol
+cd Downloads/museek+-0.2/
+apt install libxml++2.6-dev libevent-dev pyexpat cmake
+mkdir workdir
+cd workdir/
+cmake
+cmake ..
+r
+r
+r
+apt install python3
+python --version
+apt install libpython3.7-dev
+sudo cmake ..
+sudo cmake ..
+sudo cmake -DEVEYTHING=1 ..
+cmake -DEVEYTHING=1 .a.
+..
+sudo cmake -DEVEYTHING=1 .a
+sudo cmake -DEVEYTHING=1 ..
+apt install libevent-dev
+sudo cmake -DEVEYTHING=1 ..
+v CMakeFiles/CMakeOutput.log
+v CMakeFiles/CMakeError.log 
+CheckIncludeFiles/HAVE_INTTYPES_H.c
+v CheckIncludeFiles/HAVE_INTTYPES_H.c
+v CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+sudo cmake -DEVEYTHING=1 ..
+cd
+r
+r
+apt install museekd
+apt install museekd
+apt install museek
+D
+r
+rerun 
+cd
+D
+sudo rm -rf museek+-0.2/
+r
+which lib-event
+apt install lib-event
+apt install libevent-dev
+v test.cpp
+g++ test
+g++ test.cpp 
+./test/
+cd
+./a.out 
+D
+cd museek+-0.2/workdir/
+ls
+sudo cmake -DEVEYTHING=1 -DPREFIX=/usr ..
+cd Downloads/libevent-2.1.12-stable/
+ls
+./configure 
+apt install openssl
+apt install libssl-deb
+apt install libssl-dev
+./configure 
+./configure 
+make
+make verify
+sudo make install
+firefox $(gettrackinfo -c -u)
+cd Downloads/zlib-1.2.11/
+./configure 
+make
+sudo make install
+D
+r
+v README 
+r
+ln -sv /usr/lib/python3.7/config-3.7m-x86_64-linux-gnu/libpython3.7.so /usr/local/lib/libpython3.7.so
+sudo ln -sv /usr/lib/python3.7/config-3.7m-x86_64-linux-gnu/libpython3.7.so /usr/local/lib/libpython3.7.so
+cd Downloads/museek+-0.2/
+ls
+r
+..
+mkdir workdir
+cd workdir/
+cmake -DEVERYTHING=1 -DPREFIX=/usr ..
+cmake -DEVERYTHING=1 -DPREFIX=/usr ..
+r
+sudo make
+make
+sudo make
+sudo make ..
+make
+make ..
+make install
+ cmake -DPREFIX=/usr ..
+apt install libev-libevent-dev
+cmake -DPREFIX=/usr ..
+apt install libevent
+apt install libevent-dev
+sudo cmake -DPREFIX=/usr ..
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+r
+./INSTALL 
+r
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 -NO_MUSCAN -NO_SETUP -NO_PYMUCIPHER -NO_MUSEEQ ..
+sudo cmake -DPREFIX=/usr -NO_MUSCAN -NO_SETUP -NO_PYMUCIPHER -NO_MUSEEQ ..
+sudo cmake -DPREFIX=/usr NO_MUSCAN NO_SETUP NO_PYMUCIPHER NO_MUSEEQ ..
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+cd workdir/
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+sudo cmake -DPREFIX=/usr -NO_MUSCAN -NO_SETUP -NO_PYMUCIPHER -NO_MUSEEQ ..
+r
+dirRg .
+r
+r
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+apt install swig
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+apt install xlib
+apt install zlib
+apt install lib64z1
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+zlib1g-dev
+apt install lib1g-dev
+apt install zlib1g-dev
+apt install zlib1g
+apt install libz
+r
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+cd workdir/
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+apt install zlib1g
+file /usr/lib/libz.so
+locate libz.so
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+apt install libpython-dev
+apt install libpython3.7-dev
+apt install libpython3.7-dev
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+r
+r
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+r
+r
+locate libpython
+locate libpython3.7.so
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 ..
+r
+rr
+r
+make
+sudo make
+pwd|xcp
+make
+v /home/vojislav/Downloads/museek+-0.2/NewNet/nnsocket.h
+sudo make
+make
+sudo make
+v /home/vojislav/Downloads/museek+-0.2/NewNet/nnsocket.h
+sudo make
+sudo make
+sudo cmake -DPREFIX=/usr -DEVERYTHING=1 -fPIC ..
+make
+sudo make
+/home/vojislav/Downloads/museek+-0.2/workdir
+..
+r
+v INSTALL 
+date -d"2021-12-04" +"%A %b %d, %Y"
+date -d"2021-12-04" +"%A, %b %d, %Y"
+date -d"2021-12-04" +"%A %b %d, %Y"
+man date
+date -d'27 JUN 2011' +%Y%m%d
+date -d'last-monday' +%Y%m%d
+man date
+/home/vojislav/.config/lbrss/feeds
+.
+..
+sf
+./get_recents 
+./get_recents 
+./get_recents 
+./get_recents 
+./get_recents 
+./get_recents 
+v feeds/voja.xml 
+r
+./get_recents 
+./get_recents 
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+./get_recents 10
+tput bold
+tput bold asdasd
+cd .config/lbrss/feeds/
+man grep
+xset -b
+xset -b
+cd .config/lbrss/feeds/
+mak grep
+man grep
+beep
+r
+man grep
+pwd | xcp
+grep "<item>.*letterboxd:watchedDate.*</item>" voja.xml 
+grep -m 5 "<item>.*letterboxd:watchedDate.*</item>" voja.xml 
+grep -m 5 "<item>.*letterboxd:watchedDate.*</item>" voja.xml 
+..
+v get_recents
+v get_recents
+grep -m 5 -c "<item>.*letterboxd:watchedDate.*</item>" voja.xml 
+grep -m 5 -c "<item>.*letterboxd:watchedDate.*</item>" feeds/voja.xml 
+grep -c "<item>.*letterboxd:watchedDate.*</item>" feeds/voja.xml 
+v get_recents
+chmod +x get_recents 
+./get_recents 
+r
+v get_recents 
+./get_recents 
+v get_recents 
+ls
+mv get_recents 
+mv get_recents ~/.scripts/
+cd .config/lbrss/feeds/
+/usr/bin/ls -l
+find .
+fd . .
+fd . . | nl
+..
+cat urls 
+nl urls
+sc
+which dirRg
+mv dirRg rgdir
+rgdir
+rgdir .
+cf
+cd lbrss/
+sed '5!d' feeds/voja.xml 
+
+sed '5!d' urls 
+lineNum=1
+sed '$lineNum!d' urls 
+sed "$lineNumdate -d'last-monday' +%Y%m%d" urls 
+sed "${lineNum}! -d'last-monday' +%Y%m%d" urls 
+sed "$lineNumdate -d'last-monday' +%Y%m%d" urls 
+man sed
+sed ${lineNum}p urls 
+sed "${lineNum}"p urls 
+cat urls 
+sed -n "${lineNum}"p urls 
+line=$(sed -n "${lineNum}"p urls)
+echo $line
+cut -f 1 <<< "$line"
+get_recents 
+get_recents 
+get_recents 
+get_recents 
+get_recents 
+get_recents 
+get_recents 
+get_recents 
+sc
+get_recents 
+cd
+sf
+gettrackinfo -c -l
+sf
+man echo
+gettrackinfo -h
+gettrackinfo -h
+gettrackinfo -h
+gettrackinfo -h
+gettrackinfo -h
+gettrackinfo -h
+man export
+export -h
+export --help
+gettrackinfo -c -l
+gettrackinfo -c -l
+gettrackinfo -c -u
+
+gettrackinfo -h
+gettrackinfo -c -u
+gettrackinfo -f -l "cute thing" "car seat headrest"
+gettrackinfo -s -l "cute thing" "car seat headrest"
+gettrackinfo -s -l "cute thing 2018" "car seat headrest"
+gettrackinfo -s -u "cute thing 2018" "car seat headrest"
+gettrackinfo -c -l
+gettrackinfo -c -l
+gettrackinfo -c -l
+gettrackinfo -c -ls
+v ~/.lyrics/Elliott Smith - Between The Bars.txt
+v "~/.lyrics/Elliott Smith - Between The Bars.txt"
+v "/home/vojislav/.lyrics/Elliott Smith - Between The Bars.txt" 
+gettrackinfo -c -l
+gettrackinfo -c -ls
+ls ~/.lyrics/Elliott\ Smith\ -\ Between\ The\ Bars.txt 
+echo $BROWSER 

@@ -67,8 +67,8 @@ copylast () { fc -ln -1 | sed 's/^\s*//g' | xclip -selection clipboard ;}
 
 # FZF
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-export FZF_PREVIEW="--preview '(highlight -O ansi -l {} 2> /dev/null || batcat {} || tree -C {}) 2> /dev/null | head -200'"
-#export FZF_PREVIEW="--preview 'bat --style=numbers --color=always {} | head -500'"
+#export FZF_PREVIEW="--preview '(highlight -O ansi -l {} 2> /dev/null || batcat {} || tree -C {}) 2> /dev/null | head -200'"
+export FZF_PREVIEW="--preview 'bat --style=numbers --color=always {} | head -500'"
 export FZF_DEFAULT_COMMAND="fd . ./ ~/.config -E Music"
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --border $FZF_PREVIEW"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

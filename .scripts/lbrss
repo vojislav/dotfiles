@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DISPLAY=:0
+
 ping -q -w 1 -c 1 lazic.xyz > /dev/null 2>&1
 [ "$?" != 0 ] && exit 0
 
@@ -46,7 +48,7 @@ while read -r url; do
 
 		ratingText=""
 		rating=$(echo "$film" | grep -Po "(?<=<letterboxd:memberRating>).*(?=</letterboxd:memberRating>)")
-		[ "$rating" ] && ratingText=" and rated"
+		[ "$rating" ] && ratingText=" and rated" && rating+=" stars"
 
 
 		if [ "$reviewText" ] && [ "$ratingText" ]; then
@@ -55,7 +57,7 @@ while read -r url; do
 			reviewText=" and $reviewText"
 		fi
 
-		notify-send "$name ${re}watched${reviewText}${ratingText} $title ($year) $rating stars" && beep
+		notify-send --icon "$baseDir/lb.png" "$name ${re}watched${reviewText}${ratingText} $title ($year) $rating" && beep
 	done
 
 	mv "$new_file" "$orig_file"

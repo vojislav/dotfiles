@@ -1,18 +1,22 @@
 #!/bin/bash
 
-# Get track info and lyrics from genius.com
-#
-# gettrackinfo -(s|f) ("songname" "artist") | (path/to/song) -l
-#
-# Options:
-#   $1
-#	-s		"(song name) (year)" "artist" - year optional
-#	-f		song file
-#	-c		current playing song - using mpc current
-#
-#   $3
-#	-l 		get lyrics
-#   -u		get url
+function print_help {
+echo "Get track info and lyrics from genius.com
+gettrackinfo -(s|f) (\"songname\" \"artist\") | (path/to/song) -l
+
+ Options:
+   1:
+	-s		\"(song name) (year)\" \"artist\" - year optional
+	-f		song file
+	-c		current playing song - using mpc current
+
+   2:
+	-l 		get lyrics
+	-ls		get lyrics and save to ~/.lyrics
+	-u		get url and open in browser"
+
+exit 0
+}
 
 export GENIUS_ACCESS_TOKEN="n0wvFZ2EgWuH9YRhrpNIDwYx6q0ePWzFEMJ96WemJWmCSdjIdIj4W9wljX7r5Gqw"
 
@@ -22,7 +26,10 @@ function filter {
 }
 
 function by_current_song {
-	python3 -m lyricsgenius song "$(mpc current -f "%title%\" \"%artist%")" --save > /dev/null
+	song=$(mpc current -f "%title%")
+	artist=$(mpc current -f "%artist%")
+	python3 -m lyricsgenius song "$song" "$artist" --save > /dev/null
+
 }
 
 function by_song_and_artist {
@@ -38,8 +45,8 @@ function by_file {
 	[ -z "$artist" ] && artist="$(mediainfo --Inform="General;%Performer%" "$file")"
 	song="$(mediainfo --Inform="General;%Track%" "$file")"
 
-	year=$(mediainfo --Inform="General;%Released_Date%" "$filename")
-	[ -z "$year" ] && year=$(mediainfo --Inform="General;%Recorded_Date%" "$filename")
+	year=$(mediainfo --Inform="General;%Released_Date%" "$file")
+	[ -z "$year" ] && year=$(mediainfo --Inform="General;%Recorded_Date%" "$file")
 
 	python3 -m lyricsgenius song "$song $year" "$artist" --save > /dev/null
 }
@@ -50,10 +57,19 @@ function getlyrics {
 	jq -r '.lyrics' "$jsonFile" | filter
 }
 
+function getlyricsandsave {
+	jsonFile="$1"
+	artist="$2"
+	song="$3"
+
+	echo "Saving lyrics to ~/.lyrics/$artist - $song.txt..." && \
+	jq -r '.lyrics' "$jsonFile" | filter > "$HOME/.lyrics/$artist - $song.txt"
+}
+
 function geturl {
 	jsonFile="$1"
 
-	jq -r '.url' "$jsonFile"
+	$BROWSER "$(jq -r '.url' "$jsonFile")"
 }
 
 tmpDir=$(mktemp -d)
@@ -63,6 +79,7 @@ case "$1" in
 	-s)		by_song_and_artist "$3" "$4" ;;
 	-f)		by_file "$3" ;;
 	-c)		by_current_song ;;
+	-h)		print_help ;;
 	*)		;;
 esac
 
@@ -71,6 +88,7 @@ jsonFile=$(find . -name "*.json")
 
 case "$2" in
 	-l)		getlyrics "$jsonFile" ;;
+	-ls)   	getlyricsandsave "$jsonFile" "$artist" "$song" ;;
 	-u)		geturl "$jsonFile" ;;
 	*) ;;
 esac

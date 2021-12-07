@@ -6,12 +6,10 @@ function sort {
 	file="$1"
 	opt="$2"
 
-	title="$(mediainfo --Inform="General;%Title%" "$file")"
 	trackNum="$(mediainfo --Inform="General;%Track/Position%" "$file")"
 	[ ${#trackNum} == 1 ] && trackNum="0$trackNum"
 
-	disc=$(mediainfo --Inform="General;%Part/Position%" "$file")
-	[ "$disc" ] && disc+="_"
+	title="$(mediainfo --Inform="General;%Title%" "$file")"
 
 	albumArtist="$(mediainfo --Inform="General;%Album/Performer%" "$file")"
 	artist="$(mediainfo --Inform="General;%Performer%" "$file")"
@@ -30,7 +28,6 @@ function sort {
 	ext="${filename##*.}"
 
 	newFilename=""
-	[ "$disc" ] && newFilename+="$disc"
 	[ "$trackNum" ] && newFilename+="$trackNum. "
 	newFilename+="$albumArtist - $title.$ext"
 

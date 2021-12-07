@@ -16,7 +16,6 @@ call plug#begin('~/.vim/bundle')
 	Plug '907th/vim-auto-save'
 	Plug 'chrisbra/csv.vim'
 	Plug 'ianding1/leetcode.vim'
-	Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 let g:completor_clang_binary = '/usr/bin/clang'
@@ -24,9 +23,6 @@ let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let delimitMate_jump_expansion = 1
 let g:leetcode_browser='firefox'
-
-let g:dracula_colorterm = 0
-colorscheme dracula
 
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
