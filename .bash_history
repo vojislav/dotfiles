@@ -3092,3 +3092,285 @@ gettrackinfo -c -l
 gettrackinfo -c -ls
 ls ~/.lyrics/Elliott\ Smith\ -\ Between\ The\ Bars.txt 
 echo $BROWSER 
+lbrss
+sf
+gettrackinfo -c -u
+sf
+pass github
+pass github | xcp
+pass github | xcp
+dots status
+dots add -u
+dots commit
+dots status
+git add -u
+dots add -u
+dots status
+dots commit --amend --no-edit
+dots status
+dots push
+dots push
+sf
+D
+sudo rm -r museek+-0.2/
+r
+sf
+r
+convert IMG_4397.CR2 image.png
+apt install ufraw
+apt install ufraw-batch
+ufraw-batch --out-type png *.CR2
+r
+sf
+r
+mpc current
+cd Music/Beach\ House/\(2010\)\ Teen\ Dream/
+rm Beach\ House\ -\ Silver\ Soul.mp3 
+homeplaylistedit 
+piplaylistedit 
+r
+ufraw-batch --out-type png *.CR2
+r
+ls *.CR2
+rm *.CR2
+r
+r
+ls *.JPG
+ls *.jpg
+ls *.jpeg
+rm *.JPG
+r
+man date
+ls pages
+wc -l pages
+wc -l pages.json 
+wc -l pages.json 
+cat pages
+cat pages.json 
+wc -c pages.json 
+wc -c pages.json 
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&from=1609455600&page=${i}&format=json" -O "pages/$i"
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&from=1609455600&page=142&format=json" -O page
+v page
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&from=1609455600&page=152&format=json" -O page
+v page
+man touch
+wc -c pages.json 
+wc -c pages.json 
+wc -c pages.json 
+wc -c pages.json 
+jq -r '.' pages.json 
+jq -r '.' pages.json > pages_formatted.json
+v pages_formatted.json 
+r
+yt-dlp "https://www.povaddict.com/filev.php?id=4576&file_id=8582&server=13&hash=dc5fffb6d40a5ab33956&expire=1638898863&file=/mp4/4576_720p.mp4"
+rr
+r
+mpv "https://www.povaddict.com/filev.php?id=4576&file_id=8582&server=13&hash=dc5fffb6d40a5ab33956&expire=1638898863&file=/mp4/4576_720p.mp4"
+sf
+echo $LASTFM_API_KEY 
+date -d'01 Jan 2021' +%Y%m%d
+date -d'@1609459200'
+date -d'@1609455600'
+v fetch_pages
+cd lastfm_minutes/
+v get_local_songs
+v get_local_songs_length
+chmod +x fetch_pages 
+./fetch_pages 
+echo $LASTFM_API_KEY 
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&format=json" > page
+v pag
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&format=json"
+wget "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&format=json"
+r
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&format=json" -O page
+v page
+r
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&page=2&format=json" -O page
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&page=2&format=json" -O page2
+wget --quiet "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=069b66ee4d6a7f5e860db3af52c19ab0&from=1609455600&format=json" -O page
+ls
+cat page page2
+./fetch_pages 
+r
+mkdir pages
+r
+./fetch_pages 
+pkill mpdas
+mpdas -d
+touch pages.json 
+v page
+v pages.json 
+rm pages.json 
+./fetch_pages 
+r
+jq -r '.track[0]' pages.json 
+jq -r 'track[0]' pages.json 
+jq -r '.track[]' pages.json 
+jq -r '.track[0].name' pages.json 
+jq -r '.[].track[0]' pages.json 
+jq -r '.[0]' pages.json 
+jq -r '.[]' pages.json 
+jq -r '.[].track' pages.json 
+jq -r '.[].track[0]' pages.json 
+jq -r '.[].track[0].name' pages.json 
+v pages_formatted.json 
+grep -c "@attr" pages.json 
+grep -c "@attr" pages_formatted.json.json 
+grep -c "@" pages_formatted.json
+jq -r '.[].track[].name' pages.json 
+jq -r '.[].track[].name' pages.json | wc -l
+jq -r '.[].track[] | [.name, .artist]' pages.json | wc -l
+jq -r '.[].track[] | [.name, .artist]' pages.json 
+jq -r '.[].track[] | [.name, .artist.name]' pages.json 
+jq -r '.[].track[] | [.name, .artist#text]' pages.json 
+jq -r '.[].track[] | [.name, .artist.#text]' pages.json 
+jq -r '.[].track[] | [.name, .artist.text]' pages.json 
+jq -r '.[].track[] | [.name, .artist]' pages.json 
+jq -r '.[].track[] | [.name, .artist."#text"]' pages.json 
+jq -r '.[].track[] | [.name, .album."#text", .artist."#text"]' pages.json 
+jq -r '.[].track[] | [.name, .album."#text", .artist."#text"] | @tsv' pages.json 
+jq -r '.[].track[] | [.name, .album."#text", .artist."#text"] | @tsv' pages.json > all_songs_table.txt
+cut -f 1 all_songs_table.txt 
+cut -f 2 all_songs_table.txt 
+cut -f 3 all_songs_table.txt 
+cut -f 3 all_songs_table.txt | wc =;
+cut -f 3 all_songs_table.txt | wc -l
+ls
+ls
+ls
+chmod +x get_local_songs 
+./get_local_songs 
+./get_local_songs 
+./get_local_songs 
+./get_local_songs 
+mpc search artist "NUMBER GIRL"
+man search
+man mpc
+./get_local_songs 
+./get_local_songs > local_songs.txt
+./get_local_songs > local_songs.txt && beep
+wc -l local_songs.txt 
+wc -l all_songs_table.txt 
+v local_songs.txt 
+v local_songs.txt 
+file $HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3
+file "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+mp3info "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+ffmpeg -i "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+mp3ingo
+mp3info
+MP3INFO "$home/mUSIC/mgm(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+
+id3tool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep Duration
+man exiftool
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep Duration
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep Duration | cut -f 2
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep Duration | cut -f 1
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep Duration | cut -d: -f 2
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -E (?<=Duration).*
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -E "(?<=Duration).*"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration).*"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration\s*)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration\s:*)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration\t:*)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration\t:)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration\s:)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=Duration :)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:).*"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:).*(approx)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:).*(?=approx)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:).*(?=(approx)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -P "(?<=:).*(?=\(approx)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -Po "(?<=:).*(?=\(approx)"
+exiftool "$HOME/Music/MGMT/(2010) Congratulations/04. MGMT - Flash Delirium.mp3" | grep -Po "(?<=: ).*(?= \(approx)"
+./get_local_songs 
+./get_local_songs_l
+chmod +x get_local_songs_length 
+./get_local_songs_length 
+./get_local_songs_length 
+expr
+
+four=4
+expr $five+$four
+expr "$five+$four"
+expr `$five+$four`
+./get_local_songs_length 
+./get_local_songs_length 
+man bc
+./get_local_songs_length 
+./get_local_songs_length > song_lengths.txt && beep
+wc -l song_lengths.txt 
+head song_lengths.txt
+cut -f1 song_lengths.txt 
+cut -f1 song_lengths.txt | paste -sd+ - | bc
+cut -f1 song_lengths.txt | paste -sd+ -
+cut -f1 song_lengths.txt
+cut -f1 song_lengths.txt | grep s
+cut -f1 song_lengths.txt | grep -l s 
+cut -f1 song_lengths.txt | grep -n s 
+v all_songs_table.txt 
+v local_songs.txt 
+v song_lengths.txt 
+exiftool ~/Music/The\ Olivia\ Tremor\ Control/\(1996\)\ Music\ from\ the\ Unrealized\ Film\ Script\,\ Dusk\ at\ Cubist\ Castle/12.\ The\ Olivia\ Tremor\ Control\ -\ Green\ Typewriters.mp3 
+exiftool ~/Music/The\ Olivia\ Tremor\ Control/\(1996\)\ Music\ from\ the\ Unrealized\ Film\ Script\,\ Dusk\ at\ Cubist\ Castle/13.\ The\ Olivia\ Tremor\ Control\ -\ Green\ Typewriters.mp3 
+mediainfo ~/Music/The\ Olivia\ Tremor\ Control/\(1996\)\ Music\ from\ the\ Unrealized\ Film\ Script\,\ Dusk\ at\ Cubist\ Castle/13.\ The\ Olivia\ Tremor\ Control\ -\ Green\ Typewriters.mp3 
+ffprobe -i <file> -show_entries format=duration -v quiet -of csv="p=0"
+ffprobe -i ~/Music/The\ Olivia\ Tremor\ Control/\(1996\)\ Music\ from\ the\ Unrealized\ Film\ Script\,\ Dusk\ at\ Cubist\ Castle/13.\ The\ Olivia\ Tremor\ Control\ -\ Green\ Typewriters.mp3 -show_entries format=duration -v quiet -of csv="p=0"
+ffprobe -i ~/Music/The\ Olivia\ Tremor\ Control/\(1996\)\ Music\ from\ the\ Unrealized\ Film\ Script\,\ Dusk\ at\ Cubist\ Castle/12.\ The\ Olivia\ Tremor\ Control\ -\ Green\ Typewriters.mp3 -show_entries format=duration -v quiet -of csv="p=0"
+./get_local_songs_length 
+./get_local_songs_length 
+./get_local_songs_length 
+./get_local_songs_length > song_lengths.txt && beep
+wc -l song_lengths.txt 
+cat song_lengths.txt 
+cat song_lengths.txt | paste -sd+ - | bc
+cd .time/
+cat *
+man cat
+which cat
+for i in $(ls); do echo "$i $(cat "$i")"; done
+for i in $(ls); do echo "$i $(cat $i)"; done
+for i in $(ls); do echo "$i"; done
+for i in $(du); do echo "$i"; done
+du
+du -s
+du -h
+du -h .
+du -h *
+fd . .
+for i in $(fd . .); do echo "$i"; done
+for i in $(fd . .); do echo "$i $(cat $i)"; done
+for i in $(fd . .); do echo -e "$i\t$(cat $i)"; done
+for i in $(fd . .); do echo -e "$i\t$($(cat $i)/60)"; done
+cat 21-12-02 
+$(( (cat 21-12-02)/60 ))
+$(( $(cat 21-12-02)/60 ))
+min=$(cat 21-12-03)
+$(( min/60 ))
+echo $(( min/60 ))
+pgrep dunst
+notify-send "test"
+notify-send "Title" "<a href='www.google.com'>Link</a>"
+man notify-send
+notify-send "Title" "<a href='www.google.com'>Link</a>"
+notify-send "Test" "<a href=\"https://forums.bunsenlabs.org/\">BL</a>"
+notify-send "<a href=\"https://forums.bunsenlabs.org/\">BL</a>"
+cd
+v .config/dunst/dunstrc
+pkill dunst
+dunst &; disown
+dunst & disown
+pgrep dunst
+w
+firefox index.html 
+v vojo.css 
+r
+sf
+lbrss 
+lbrss 
+notify-send "<a href=\"https://forums.bunsenlabs.org/\">BL</a>"

@@ -5,6 +5,6 @@
 file="$1"
 ext="${file##*.}"
 
-[ "$ext" ==  "jpg" ] || [ "$ext" == "jpeg" ] && file="$(mktemp).png" && convert "$1" "$file"
+[ "$ext" !=  "png" ] && file="$(mktemp).png" && convert "$1" "$file"
 
 xclip -selection clipboard -t image/png -i "$file" && notify-send "Copied image to clipboard." && exit 0

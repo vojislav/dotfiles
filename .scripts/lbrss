@@ -14,9 +14,9 @@ function filter_html {
 	cat "$1" | xmlstarlet unesc | sponge "$1"
 }
 
-while read -r url; do
-	name=$(echo "$url" | cut -f 1)
-	url=$(echo "$url" | cut -f 2)
+cat "$baseDir"/urls | while read -r url; do
+	name=$(cut -f 1 <<< "$url")
+	url=$(cut -f 2 <<< "$url")
 
 	orig_file="$feedsDir/${name}.xml"
 	[ ! -f "$orig_file" ] && wget --quiet "$url" -O "$orig_file" && \
@@ -32,22 +32,22 @@ while read -r url; do
 	[ -z "$new_films" ] || [ "$(echo "$new_films" | wc -l)" == 0 ] && echo "No new movies for $name" && \
 		rm "$new_file" && continue
 
-	new_films=$(echo "$new_films" | xmlstarlet unesc)
+	new_films=$(xmlstarlet unesc <<< "$new_films")
 	films=$(grep "<item>.*letterboxd:watchedDate.*</item>" <<< "$new_films")
 
 	echo "$films" | while read -r film; do
-		title=$(echo "$film" | grep -Po "(?<=<letterboxd:filmTitle>).*(?=</letterboxd:filmTitle>)")
-		year=$(echo "$film" | grep -Po "(?<=<letterboxd:filmYear>).*(?=</letterboxd:filmYear>)")
+		title=$(grep -Po "(?<=<letterboxd:filmTitle>).*(?=</letterboxd:filmTitle>)" <<< "$film")
+		year=$(grep -Po "(?<=<letterboxd:filmYear>).*(?=</letterboxd:filmYear>)" <<< "$film")
 		#watchedDate=$(echo "$film" | grep -Po "(?<=<letterboxd:watchedDate>).*(?=</letterboxd:watchedDate>)")
 
 		re=""
-		[ "$(echo "$film" | grep "<letterboxd:rewatch>Yes</letterboxd:rewatch>")" ] && re="re"
+		[ "$(grep "<letterboxd:rewatch>Yes</letterboxd:rewatch>" <<< "$film")" ] && re="re"
 
 		reviewText=""
-		[ "$(echo "$film" | grep "letterboxd-review")" ] && reviewText="reviewed"
+		[ "$(grep "letterboxd-review" <<< "$film")" ] && reviewText="reviewed"
 
 		ratingText=""
-		rating=$(echo "$film" | grep -Po "(?<=<letterboxd:memberRating>).*(?=</letterboxd:memberRating>)")
+		rating=$(grep -Po "(?<=<letterboxd:memberRating>).*(?=</letterboxd:memberRating>)" <<< "$film")
 		[ "$rating" ] && ratingText=" and rated" && rating+=" stars"
 
 
@@ -57,9 +57,12 @@ while read -r url; do
 			reviewText=" and $reviewText"
 		fi
 
-		notify-send --icon "$baseDir/lb.png" "$name ${re}watched${reviewText}${ratingText} $title ($year) $rating" && beep
+		link=$(grep -Po "(?<=<link>).*(?=</link>)" <<< "$film")
+
+		notify-send --icon "$baseDir/lb.png" "<a href=\"$link\">$name ${re}watched${reviewText}${ratingText} $title ($year) $rating</a>" && beep
+		# <a href=\"https://forums.bunsenlabs.org/\">BL</a>
 	done
 
 	mv "$new_file" "$orig_file"
 
-done < "$baseDir"/urls
+done
