@@ -1,3 +1,3 @@
 #!/bin/bash
-
-[ -z "$(pgrep -xU $UID mpdas)" ] && mpdas -d
+[ -z "$(pgrep -xU $UID mpdas)" ] && mpdas -d && exit 0
+[ "$(pgrep -xU $UID mpdas)" ] && [ -f "$HOME/.mpdascache" ] && pkill -x mpdas && mpdas -d

@@ -1,3 +1,4 @@
+# vim: filetype=i3config
 # #---Basic Definitions---# #
 # Needed for i3-gaps
 for_window [class="^.*"] border pixel 1
@@ -6,6 +7,7 @@ gaps outer 3
 
 set $term --no-startup-id $TERMINAL
 set $mod Mod4
+floating_modifier Mod1
 set $stoprec --no-startup-id dmenurecord kill
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
@@ -48,7 +50,7 @@ for_window [instance="ncmpcpp"] scratchpad show
 for_window [instance="ncmpcpp"] resize set 800 600
 for_window [instance="ncmpcpp"] move position center
 for_window [instance="ncmpcpp"] scratchpad show
-for_window [instance="ncmpcpp"] border pixel 2
+for_window [instance="ncmpcpp"] border pixel 3
 #for_window [instance="^ncmpcpp$"] i3-persist lock
 bindsym $mod+m [instance="ncmpcpp"] scratchpad show
 
@@ -73,6 +75,8 @@ for_window [instance="pulse"] resize set 800 600
 for_window [instance="pulse"] move position center
 for_window [instance="pulse"] scratchpad show
 bindsym $mod+Shift+a [instance="pulse"] scratchpad show
+
+assign [class="Thunderbird"] $ws8
 
 # #---Starting External Scripts---# #
 # Setting the background and colorscheme:
@@ -108,6 +112,7 @@ bar {
 	font pango: Terminus 13px
 	position top
 	height 20
+	tray_output primary
 }
 
 # Set Xresources colors:
@@ -231,7 +236,7 @@ bindsym $mod+c			exec --no-startup-id camtoggle
 bindsym $mod+Shift+c    exec --no-startup-id urltoimg
 
 bindsym $mod+v			exec $term -e ncmpcpp -s visualizer
-bindsym $mod+Shift+v		exec --no-startup-id projectM-pulseaudio
+bindsym $mod+Shift+v		exec --no-startup-id $term -e ytdl-xcp
 
 bindsym $mod+b			bar mode toggle
 bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft

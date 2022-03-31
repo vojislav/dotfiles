@@ -71,7 +71,7 @@ visualizer_in_stereo = yes
 ## that sane values start with >=10.
 ##
 #
-#visualizer_sync_interval = 10
+#visualizer_sync_interval = 1
 #
 ##
 ## Note: To enable spectrum frequency visualization you need to compile ncmpcpp
@@ -306,7 +306,7 @@ browser_display_mode = columns
 #
 #incremental_seeking = yes
 #
-#seek_time = 1
+seek_time = 10
 #
 #volume_change_step = 2
 #
@@ -338,7 +338,7 @@ media_library_albums_split_by_date = yes
 #
 ## Available values: wrapped, normal.
 ##
-#default_find_mode = wrapped
+default_find_mode = wrapped
 #
 #default_tag_editor_pattern = %n - %t
 #
@@ -354,7 +354,7 @@ media_library_albums_split_by_date = yes
 #
 #lines_scrolled = 2
 #
-#lyrics_fetchers = lyricwiki, azlyrics, genius, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
+#lyrics_fetchers = genius, azlyrics, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
 #
 #follow_now_playing_lyrics = no
 #

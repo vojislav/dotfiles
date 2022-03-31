@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# Run gpick and copy color hex to clipboard
-
-gpick -ops | xclip -selection clipboard && notify-send "Copied color to clipboard."

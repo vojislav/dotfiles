@@ -1,10 +1,11 @@
 #!/bin/bash
 
 newvol="pkill -RTMIN+10 i3blocks"
+toggle="pkill -RTMIN+12 i3blocks"
 
 [ -z "$2" ] && num="2" || num="$2"
 
-[ "$(mpc status | wc -l)" -eq 1 ] && player="spotify" || player="mpd"
+[ "$(pgrep spotify)" ] && player="spotify" || player="mpd"
 
 case "$1" in
 	u*) pulsemixer --change-volume +"$num" ; $newvol ;;
@@ -15,7 +16,7 @@ case "$1" in
 	play) [ "$player" == "mpd" ] && mpc play || spotifycli --play ;;
 	n*) [ "$player" == "mpd" ] && mpc next || spotifycli --next ;;
 	prev) [ "$player" == "mpd" ] && mpc prev || spotifycli --prev ;;
-	t*) [ "$player" == "mpd" ] && mpc toggle || spotifycli --playpause ;;
+	t*) [ "$player" == "mpd" ] && mpc toggle || spotifycli --playpause ; $toggle ;;
 	p*) mpc pause ;  spotifycli --pause ; pauseallmpv ;;
 	f*) mpc seek +"$num" ;;
 	b*) mpc seek -"$num" ;;

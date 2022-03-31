@@ -1,12 +1,11 @@
 #!/bin/sh
 
+[ "$(mpc status | grep Updating)" ] && echo "updating..." && exit 0
+
 track=$(mpc current | sed 's/&/&amp;/')
 
-if [ "$(mpc status | grep paused)" ]; then
-	color="grey"
-else
-	color="white"
-fi
+color="white"
+[ "$(mpc status | grep paused)" ] && color="grey"
 
 time="$(mpc status | sed -n '2p' | awk '{print $3}')"
 

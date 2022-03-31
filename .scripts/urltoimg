@@ -1,4 +1,4 @@
 #!/bin/bash
 
-url=$(xclip -selection clipboard -o | sed 's|x-o|o|g;s|.html||g')
+url=$(xclip -selection clipboard -o | sed 's|x-r|r|g;s|.html||g;s|x-o|o|g')
 firefox --private-window "$url"

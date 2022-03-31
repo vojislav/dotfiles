@@ -18,6 +18,8 @@ call plug#begin('~/.vim/bundle')
 	Plug 'ianding1/leetcode.vim'
 call plug#end()
 
+au BufWinEnter ~/.config/i3/config set filetype=i3config
+
 let g:completor_clang_binary = '/usr/bin/clang'
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
@@ -149,8 +151,6 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 	vnoremap `` <Esc>/<++><Enter>"_c4l
 	map `` <Esc>/<++><Enter>"_c4l
 
-
-autocmd VimEnter ~/.config/i3/config set syntax=i3
 
  "____        _                  _
 "/ ___| _ __ (_)_ __  _ __   ___| |_ ___
