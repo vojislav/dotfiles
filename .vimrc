@@ -70,6 +70,7 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 	let mapleader=' '
 	nnoremap <leader>sc :let @+=expand("%:p:h")<CR>
 	nnoremap <leader>te :vnew<CR>:term<CR><C-w>k<C-w>q
+	nnoremap <silent> <leader>hr :noh<CR>
 
 " Open the selected text in a split (i.e. should be a file).
 	map <leader>o "oyaW:sp <C-R>o<CR>

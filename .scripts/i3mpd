@@ -7,6 +7,6 @@ track=$(mpc current | sed 's/&/&amp;/')
 color="white"
 [ "$(mpc status | grep paused)" ] && color="grey"
 
-time="$(mpc status | sed -n '2p' | awk '{print $3}')"
+[ "$track" ] && time="$(mpc status '%currenttime%/%totaltime%')"
 
 echo "<span color='$color'>$track $time</span>"

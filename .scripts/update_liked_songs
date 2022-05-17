@@ -15,11 +15,11 @@ homePlaylistFile="$HOME/.config/mpd/playlists/liked_songs.m3u"
 piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
 
 while read -r line; do
-	artist=$(echo "$line" | cut -f 1)
-	track=$(echo "$line" | cut -f 2)
-	file=$(mpc search artist "$artist" title "$track")
-	#[ -z "$file" ] && echo "$artist - $track"
-	[ "$file" ] && [ -z "$(grep -F "$file" "$homePlaylistFile")" ] && echo "Found $file" && \
+	artist=$(cut -f1 <<< "$line")
+	track=$(cut -f2 <<< "$line")
+	file=$(mpc search artist "$artist" title "$track" | head -1)
+	#[ -z "$file" ] && echo "NOT FOUND!: $artist - $track"
+	[ "$file" ] && [ -z "$(grep -F "$file" "$homePlaylistFile")" ] && echo "FOUND: $file" && \
 		homeFile="$HOME/Music/$file" && piFile="/home/pi/Music/$file" && \
 	sed -i "2s|^|$homeFile\n|" "$homePlaylistFile" && \
 	sed -i "2s|^|$piFile\n|" "$piPlaylistFile"

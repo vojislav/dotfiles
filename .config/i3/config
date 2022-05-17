@@ -76,7 +76,8 @@ for_window [instance="pulse"] move position center
 for_window [instance="pulse"] scratchpad show
 bindsym $mod+Shift+a [instance="pulse"] scratchpad show
 
-assign [class="Thunderbird"] $ws8
+assign [class="thunderbird"] $ws8
+assign [class="discord"] $ws10
 
 # #---Starting External Scripts---# #
 # Setting the background and colorscheme:
@@ -102,6 +103,7 @@ exec_always --no-startup-id xinput --set-prop 11 'libinput Accel Speed' -0.5
 exec --no-startup-id redshift -l 44.80401:20.46513
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0
 exec --no-startup-id ~/.scripts/rerun
+exec --no-startup-id birdtray
 
 bindsym mod1+F1 exec --no-startup-id setxkbmap -layout us && xmodmap -e 'keycode 135 = Super_R'
 bindsym mod1+F2 exec --no-startup-id setxkbmap -layout rs -variant latin && xmodmap -e 'keycode 135 = Super_R'

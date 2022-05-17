@@ -58,6 +58,7 @@ echo "Adding cover art..." && eyeD3 -Q --add-image="$artist - $track.jpg":FRONT_
 echo "Updating mpd..." && mpc -q --wait update
 
 file=$(mpc search artist "$artist" title "$track" date "$year")
+echo "$file"
 addtoplaylists "Music/$file"
 
 rm tmp.json

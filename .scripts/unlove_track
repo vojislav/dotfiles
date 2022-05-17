@@ -5,13 +5,33 @@ file="$1"
 
 LASTFM_API_KEY="069b66ee4d6a7f5e860db3af52c19ab0"
 SHARED_SECRET="545ae20727e037d2901511399752598f"
-SESSION_KEY="PvUO4tLYL76NSq25yjsYzoKLEYG1KkOX"
+
+if [ ! -f "$HOME/.lastfm-session-key"  ] || [ -z "$(cat $HOME/.lastfm-session-key)" ]; then
+	echo "Session key file not found. Generating new token..."
+	TOKEN_SIG=$(echo -n "api_key${LASTFM_API_KEY}methodauth.getToken${SHARED_SECRET}" | md5sum | cut -f1 -d' ')
+	TOKEN=$(wget -q "https://ws.audioscrobbler.com/2.0/?method=auth.getToken&api_key=${LASTFM_API_KEY}&api_sig=${TOKEN_SIG}&format=json" -O - | jq -r '.token') && \
+		echo "Token generated!"
+
+	SESSION_API_SIG=$(echo -n "api_key${LASTFM_API_KEY}methodauth.getSessiontoken${TOKEN}${SHARED_SECRET}" | md5sum | cut -f1 -d' ')
+	SESSION_KEY=""
+
+	echo "Generating session token. Allow access in browser..." && \
+	$BROWSER "http://www.last.fm/api/auth/?api_key=${LASTFM_API_KEY}&token=${TOKEN}"
+	while [ -z "$SESSION_KEY" ]; do
+		SESSION_KEY=$(wget -q "https://ws.audioscrobbler.com/2.0/?method=auth.getSession&api_key=${LASTFM_API_KEY}&api_sig=${SESSION_API_SIG}&token=${TOKEN}&format=json" -O - | jq -r '.session.key')
+		sleep 2
+	done
+
+	echo "Generated session token!"
+	echo $SESSION_KEY > "$HOME/.lastfm-session-key"
+fi
+
+SESSION_KEY=$(cat ~/.lastfm-session-key)
 
 TRACK=$(mediainfo --Inform="General;%Title%" "$file")
 ARTIST=$(mediainfo --Inform="General;%Performer%" "$file")
 
-API_SIG="$(echo -n "api_key${LASTFM_API_KEY}artist${ARTIST}methodtrack.unlovesk${SESSION_KEY}track${TRACK}${SHARED_SECRET}" | md5sum | cut -f 1 -d ' ')"
+UNLOVE_API_SIG="$(echo -n "api_key${LASTFM_API_KEY}artist${ARTIST}methodtrack.unlovesk${SESSION_KEY}track${TRACK}${SHARED_SECRET}" | md5sum | cut -f 1 -d ' ')"
 
-curl -s -i -X POST \
-	-d "method=track.unlove&track=${TRACK}&artist=${ARTIST}&api_key=${LASTFM_API_KEY}&sk=${SESSION_KEY}&api_sig=${API_SIG}" \
-http://ws.audioscrobbler.com/2.0/
+curl -s -i -d "method=track.unlove&track=${TRACK}&artist=${ARTIST}&api_key=${LASTFM_API_KEY}&sk=${SESSION_KEY}&api_sig=${UNLOVE_API_SIG}" -X POST http://ws.audioscrobbler.com/2.0/ \
+	| grep -q "<lfm status=\"ok\"" && echo "Removed $(mpc current) from loved tracks."

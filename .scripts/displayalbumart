@@ -11,5 +11,5 @@ if [ -z "$cover" ]; then
 	ffmpeg -i "$song" "$cover"
  fi
 
-echo "$cover"
-feh -^ coverart -g 300x300 --scale-down "$cover" &
+echo "$cover" | head -1
+#feh -^ coverart -g 300x300 --scale-down "$cover" &

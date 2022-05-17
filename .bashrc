@@ -40,8 +40,10 @@ alias nf="neofetch"
 alias space="df -h | grep -e "Filesystem" -e "sda6" -e "sdb1""
 alias redshift="redshift -l 44.80401:20.46513 -t 6500:3000"
 alias apt="sudo apt"
+alias mount="sudo mount"
+alias umount="sudo umount"
 alias python="python3"
-alias notify-send="dunst; notify-send"
+alias notify-send="notify-send"
 alias rsyncweb="rsync -auvP ~/Documents/website/ root@lazic.xyz:/var/www/lazic --exclude='.git/'"
 alias xcp='xclip -selection clipboard'
 #alias gpick='gpick -ops | xcp; notify-send "Copied color to clipboard."'
@@ -63,7 +65,7 @@ alias genius='trackinfo -c -u'
 
 source ~/.shortcuts
 
-sf () { fd -t f -t l . $HOME/.scripts | fzf | xargs -o -r $EDITOR ;}
+sf () { fd -t f -t l -d 1 . $HOME/.scripts | fzf | xargs -o -r $EDITOR ;}
 sl () { rgdir ~/.lyrics ;}
 copylast () { fc -ln -1 | sed 's/^\s*//g' | xclip -selection clipboard ;}
 
@@ -98,3 +100,5 @@ if [ -f /home/db2inst1/sqllib/db2profile ]; then
     . /home/db2inst1/sqllib/db2profile
 fi
 alias dots='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
+alias xr='xrdb ~/.Xresources'
+alias rsyncall='~/.scripts/update_liked_songs; ~/.scripts/rsyncmusic; ~/.scripts/rsyncplaylist; ~/.scripts/rsynclyrics; ~/.scripts/update_subsonic'
