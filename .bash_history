@@ -19324,3 +19324,17 @@ v .config/ncmpcpp/config
 v .config/ncmpcpp/config 
 v .config/ncmpcpp/config 
 v ispiti.txt
+pass github
+dots add -u
+dots status
+dots commit -m "long overdue push)
+dots commit -m "long overdue push"
+dots push
+dots -u
+dots -a
+dots add -u
+dots status
+eval "$(ssh-agent -s)"
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub | xcp
+pass github
