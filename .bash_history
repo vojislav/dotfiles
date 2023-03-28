@@ -34482,3 +34482,23 @@ reboot
 sudo reboot
 yt-dlp -U
 sudo yt-dlp -U
+cd .config/
+git status
+..
+git status
+git add *
+git status
+git add .
+git status
+git-add --help
+man git-add
+
+git add -u
+git status
+git commit -m 'mart 2023'
+git push
+D
+lsblk
+sudo dd if=debian-11.6.0-amd64-netinst.iso of=/dev/sdc status=progress
+history | less
+rxvt-unicode --version
