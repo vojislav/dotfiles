@@ -22,19 +22,13 @@ album="$(mediainfo --Inform="General;%Album%" "$filename")"
 year=$(yt-dlp --no-playlist --get-filename -o "%(release_year)s" "$1")
 
 echo -e "
+Title: $track
 Artist: $artist
 Album Artist: $artist
 Album: $album
 Year: $year\n"
 
-read -p "Are these tags ok? [y/n] " -n 1 -r
-echo
-if [[ $REPLY =~ ^[Nn]$ ]]
-then
-	tagedit "$filename" "$artist" "$artist" "$album" "$year"
-else
-	echo "Adding tags..." && eyeD3 -Q -a "$artist" -b "$artist" --release-date="$year" --recording-date="$year" "$filename"
-fi
+tagedit "$filename" "$track" "$artist" "$artist" "$album" "$year"
 
 # since tags might have been changed, we need to grab them again
 artist=$(mediainfo --Inform="General;%Performer%" "$filename")
@@ -58,8 +52,7 @@ echo "Adding cover art..." && eyeD3 -Q --add-image="$artist - $track.jpg":FRONT_
 echo "Updating mpd..." && mpc -q --wait update
 
 file=$(mpc search artist "$artist" title "$track" date "$year")
-echo "$file"
-addtoplaylists "Music/$file"
+addtoplaylists "$HOME/Music/$file"
 
 rm tmp.json
 rm -r "$tmp"

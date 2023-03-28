@@ -10,7 +10,7 @@ twoscreen() { # If multi-monitor is selected and there are two screens.
 	secondary=$(echo "$screens" | grep -v "$primary")
 	direction=$(printf "left\\nright" | dmenu -i -p "What side of $primary should $secondary be on?")
 	xrandr --output "$primary" --auto --output "$secondary" --"$direction"-of "$primary" --auto
-	[ "$primary" = "HDMI-1" ] || [ "$secondary" = "HDMI-1" ] && pactl set-card-profile 0 output:hdmi-stereo
+	[ "$primary" = "HDMI-1" ] && pactl set-card-profile 0 output:hdmi-stereo
 	}
 
 morescreen() { # If multi-monitor is selected and there are more than two screens.
@@ -49,7 +49,7 @@ case "$chosen" in
 	"manual selection") arandr ; exit ;;
 	"multi-monitor") multimon ;;
 	"mirror display") mirror ;;
-	*) xrandr --output "$chosen" --auto $(echo "$screens" | grep -v "$chosen" | awk '{print "--output", $1, "--off"}' | tr '\n' ' ') ;;
+	*) xrandr --output "$chosen" --primary --auto $(echo "$screens" | grep -v "$chosen" | awk '{print "--output", $1, "--off"}' | tr '\n' ' ') ;;
 esac
 
 [ "$chosen" = "HDMI-1" ] && pactl set-card-profile 0 output:hdmi-stereo

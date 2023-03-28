@@ -84,7 +84,7 @@ assign [class="discord"] $ws10
 exec_always --no-startup-id xrdb ~/.Xresources
 exec_always --no-startup-id wal -f ~/.config/wal/colorschemes/dark/darker.json >/dev/null
 # Starts dunst for notifications:
-exec --no-startup-id dunst
+#exec --no-startup-id dunst
 # Composite manager:
 exec --no-startup-id compton
 # Runs the key remapping scripts
@@ -99,9 +99,11 @@ exec_always --no-startup-id nm-applet
 # mpd startup
 #exec --no-startup-id mpd
 #exec_always --no-starup-id mpdas >> ~/.mpdaslog
-exec_always --no-startup-id xinput --set-prop 11 'libinput Accel Speed' -0.5
+exec_always --no-startup-id xinput set-prop "TPPS/2 IBM TrackPoint" 'libinput Accel Speed' -0.5
 exec --no-startup-id redshift -l 44.80401:20.46513
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "Device Enabled" 0
+exec --no-startup-id xbindkeys
+
 exec --no-startup-id ~/.scripts/rerun
 exec --no-startup-id birdtray
 
@@ -182,7 +184,7 @@ bindsym $mod+Shift+r		exec $term -e sudo ranger /
 bindsym $mod+t			split toggle
 bindsym $mod+Shift+t		gaps inner current set 2; gaps outer current set 2
 
-bindsym $mod+y			exec $term -e calcurse
+bindsym $mod+y			exec --no-startup-id mpvgui
 bindsym $mod+Shift+y		exec --no-startup-id "sh ~/.scripts/i3resize left"
 
 bindsym $mod+u			exec --no-startup-id ddspawn tmuxdd
@@ -238,12 +240,12 @@ bindsym $mod+c			exec --no-startup-id camtoggle
 bindsym $mod+Shift+c    exec --no-startup-id urltoimg
 
 bindsym $mod+v			exec $term -e ncmpcpp -s visualizer
-bindsym $mod+Shift+v		exec --no-startup-id $term -e ytdl-xcp
+bindsym $mod+Shift+v		exec --no-startup-id mpvgui
 
 bindsym $mod+b			bar mode toggle
 bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id bottomleft
 
-bindsym $mod+n			exec $term -e newspod
+bindsym $mod+n			exec $term -e newsboat
 bindsym $mod+Shift+n		exec --no-startup-id toggletouchpad
 
 #bindsym $mod+m 			exec --no-startup-id $term -e ncmpcpp
@@ -314,6 +316,7 @@ for_window [window_role="GtkFileChooserDialog"] resize shrink height 20 px
 for_window [title="Default - Wine desktop"] floating enable
 
 # Bindings to make the webcam float and stick.
+for_window [instance="mpvfloat"] floating enable
 for_window [title="mpvfloat"] floating enable
 for_window [title="mpvfloat"] sticky enable
 for_window [title="mpvfloat"] border pixel 0

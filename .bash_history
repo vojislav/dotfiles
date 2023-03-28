@@ -196,8 +196,6 @@ jmtpfs phone/
 ls phone/
 rsync -auvP victoria_june.mp4 phone/Card/video.mp4
 fusermount -u phone/
-yt-dlp "https://psv150-1.crazycloud.ru/videos/-201904425/456243142/720?extra=Q1tabsXm1J9rTYM5ZwAqWA&extra_info=2ICJsHL0YhfnzDdZWx_2Qrzr"
-yt-dlp "https://psv150-1.crazycloud.ru/videos/-201904425/456243142/480?extra=SMzQOVlNEAqniClShDV3sw&extra_info=2PkxuzZEX1nyk5-VWxRnnkd7"
 jmtpfs
 jmtpfs phone/
 man time
@@ -1529,7 +1527,6 @@ ping lazic.xyz
 ping -q -w 1 -c 1 lazic.xyz > /dev/null
 echo $?
 sf
-yt-dlp "https://psv116-1.daxab.com/videos/-34655362/456268336/480?extra=WFeOkGneozv6wT8aSBwlAw&extra_info=2bIIrTZDinT_5G20cjSsTo"
 r
 lbrss
 r
@@ -4032,10 +4029,7 @@ r
 t
 r
 yt-dlp https://pornez.net/m4u8/E46tVUaU05T_480.m3u8
-yt-dlp "https://psv114-1.daxab.com/videos/-51902579/171412133/720?extra=BmdYYbUlYVc1aciF8or0ig&extra_info=vgJToaYNN22IWMdrK435zg"
 r
-yt-dlp https://psv111-4.daxab.com/videos/-148989495/456261241/720?extra=mnSp3m2RD0408Utr5wwdjA&extra_info=17yPtRvnwrEA_xHZrRI3Rr-
-yt-dlp "https://psv111-4.daxab.com/videos/-148989495/456261241/720?extra=mnSp3m2RD0408Utr5wwdjA&extra_info=17yPtRvnwrEA_xHZrRI3Rr-"
 jmtpfs
 jmtpfs phone/
 ls phone/
@@ -4139,9 +4133,6 @@ rerun
 pgrep redshift
 pkill redshift
 redshift
-mpv "https://biqle.ru/watch/-148989495_456261241:
-mpv "https://biqle.ru/watch/-148989495_456261241"
-yt-dlp "https://biqle.ru/watch/-148989495_456261241"
 yt-dlp --version
 r
 v README.md
@@ -4156,9 +4147,7 @@ which yt-dlp
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
 sudo chmod a+rx /usr/local/bin/yt-dlp
 yt-dlp --version
-yt-dlp "https://biqle.ru/watch/-148989495_456261241"
 yt-dlp -U
-yt-dlp "https://psv111-5.daxab.com/videos/-148989495/456261241/720?extra=qY_xii0HGMVxLfJgQtwYbQ&extra_info=UTm-WYCm2W27OptrHQMqzw"
 which ytdl
 sc
 v ytdl-xcp
@@ -4509,7 +4498,6 @@ cp -r fonts/ ~/Documents/repos/kinoteka_kalendar/
 v vojo.css
 v vojo.css
 mpv "https://www.povaddict.com/filev.php?id=4576&file_id=8582&server=13&hash=dc5fffb6d40a5ab33956&expire=1638898863&file=/mp4/4576_720p.mp4"
-mpv "https://psv114-1.daxab.com/videos/-51902579/171412133/720?extra=BmdYYbUlYVc1aciF8or0ig&extra_info=vgJToaYNN22IWMdrK435zg"
 r
 M
 
@@ -4614,7 +4602,6 @@ r
 trackinfo -c -u
 man ftruncate
 v
-yt-dlp "https://psv118-1.daxab.com/videos/-175650299/456239048/480?extra=ZCRkY_3vLyQ7m7iMrr--GA&extra_info=1pGe6ig3OoY79HxZrNkfvbG"
 jmtpfs
 jmtpfs
 jmtpfs
@@ -4649,14 +4636,7 @@ cat test | tr ',' '\n' | xcp
 v
 notify-send "nessto
 notify-send "nessto"
-yt-dlp "https://psv114-1.daxab.com/videos/-184224941/456243031/480?extra=adMfP7X87lh5w5RJ6XuUKw&extra_info=UPLydD3uA5SdWJdrVcyhf-"
-yt-dlp "https://psv136-1.crazycloud.ru/videos/-191931125/456240073/480?extra=1eQ2PI81eAwajle2JAit6w&extra_info=1UIHLPNdx8Fgh-EZrKTFPMz"
-yt-dlp "https://psv136-1.crazycloud.ru/videos/-191931125/456240073/480?extra=tcNA03kYrcF6BdVd0_N4bQ&extra_info=1NPOQ0eZt1qVgLbdrGlJ9lf"
-yt-dlp "https://psv116-1.daxab.com/videos/-97808515/456248284/480?extra=OjHe21L_m8zwD8esM0daTw&extra_info=TgH1umZ2LhHVz1JrTTWi59"
 r
-yt-dlp "https://psv153-1.crazycloud.ru/videos/-148989495/456261547/480?extra=reUtNFUohTM5xqiPCPYvRA&extra_info=1rmAAhTkU44ER33ZrVVql_b"
-yt-dlp "https://psv153-1.crazycloud.ru/videos/-148989495/456261547/360?extra=-4qeoXF-zJGds7Tsi1nbEA&extra_info=2C-p_2T674qgVbLJrGz2U4Y"
-yt-dlp "https://psv136-1.crazycloud.ru/videos/-191931125/456240073/360?extra=McxLW_OHNmTebugHfuiy7Q&extra_info=1tpKZXcaKIguBNgJrKXsbcZ"
 jmtpfs
 r
 cd phon
@@ -10836,28 +10816,24 @@ jupyter notebook --notebook-dir /home/vojislav/Documents/fax/III_godina/6_Semest
 mpvxcp
 yt-dlp -U
 sudo yt-dlp -U
-yt-dlp "https://biqle.ru/watch/-172454327_456264408"
 mpvxcp
 sudo yt-dlp -U
 git clone https://github.com/yt-dlp/yt-dlp
 cd yt-dlp/
 ls
 ./yt-dlp.sh
-./yt-dlp.sh https://biqle.ru/watch/-172454327_456264408
 ./yt-dlp
 cd yt-dlp
 ls
 ls
 r
 ./yt-dlp.sh --version
-./yt-dlp.sh "https://biqle.ru/watch/-172454327_456264408"
 ./yt-dlp.sh -U
 firefox --headless
 firefox --headless
 nesto
 v
 v
-mpv "https://psv111-4.daxab.com/videos/-148989495/456261241/720?extra=AJqB9RNmc5nqfJDDpDBU0A&extra_info=20HbOaOXOply5mZ__WPg5i"
 mpvxcp
 which yt-dlp
 yt-dlp --version
@@ -15496,7 +15472,6 @@ webtorrent --mpv download "magnet:?xt=urn:btih:332d41fc5ca8ecc08a74e383ad89f7175
 yt-dlp -U
 sudo yt-dlp -U
 yt-dlp --version
-yt-dlp "https://biqle.ru/watch/-107103815_456239448"
 D
 unzip linux.zip
 ls
@@ -15773,15 +15748,10 @@ v
 apt update
 apt upgrade
 ytdl-xcp
-yt "https://biqle.ru/video/ava%20addams"
-yt "https://biqle.ru/watch/-174291037_456239307"
-y://github.com/ytdl-patched/ytdl-patched/releases/latest/download/youtube-dl -o /usr/local/bin/yt-dlp "https://biqle.ru/watch/-174291037_456239307l
-y://github.com/ytdl-patched/ytdl-patched/releases/latest/download/youtube-dl -o /usr/local/bin/yt-dlpt "https://biqle.ru/watch/-174291037_456239307"
 sudo curl -L https://github.com/ytdl-patched/ytdl-patched/releases/latest/download/youtube-dl -o /usr/local/bin/yt-dlp
 ls
 sudo chmod a+rx /usr/local/bin/yt-dlp
 yt-dlp --version
-yt "https://biqle.ru/watch/-208191433_456239222"
 yt-dlp -U
 spotifycli
 sl
@@ -15832,7 +15802,6 @@ mpvxcp
 mpvxcp
 mpvxcp
 mpvxcp
-mpv "https://psv150-1.crazycloud.ru/videos/-187217911/456242910/240.mp4/index.m3u8?extra=hpE0JnIaKdP591rniSckhQ&extra_info=5ypi10GdI0RD3_K03QQqNg"
 mpvxcp
 mpvxcp
 mpvxcp
@@ -15856,7 +15825,6 @@ sf
 mpv "$(xclip -selection clipboard -o)"
 mpvxcp
 r
-mpv "https://psv150-1.crazycloud.ru/videos/-187217911/456242910/240.mp4/index.m3u8?extra=hpE0JnIaKdP591rniSckhQ&extra_info=5ypi10GdI0RD3_K03QQqNg"
 v .config/mpv/mpv.conf
 mpv --list-options
 mpv --list-options | grep demux
@@ -17871,7 +17839,7 @@ v IndexerVolumeGuid
 umount /mnt
 lsblk
 v .bash_history
-v .bash_history 
+v .bash_history
 mpc list albums
 mpc listall -f "%mdate%/%artist% - %album%" | sort -t '/' -k3,3 | uniq |cut -d'/' -f 4 | tail
 mpc listall -f "%mdate%/%artist% - %album%" | sort -t '/' -k3,3 | uniq |cut -d'/' -f 4 | tail
@@ -17892,7 +17860,7 @@ ls *.wav
 r
 rm *.wav
 ls
-mediainfo TheStoneRoses_TheStoneRoses_G0100028641189_01_01_IWannaBeAdored.mp3 
+mediainfo TheStoneRoses_TheStoneRoses_G0100028641189_01_01_IWannaBeAdored.mp3
 r
 r
 cd Music/The\ Stone\ Roses/
@@ -17905,8 +17873,8 @@ f
 r
 man truncate
 sf
-sf 
-node lyrics.js 
+sf
+node lyrics.js
 ls
 r
 mkd lyrics_js
@@ -17917,31 +17885,31 @@ nstall --save genius-lyrics-api
 npm install --save genius-lyrics-api
 ls
 node lyrics.js
-v package.json 
+v package.json
 node lyrics.js
 r
 node lyrics.js
 r
-node lyrics.js 
+node lyrics.js
 npm install --save genius-lyrics-api
-node lyrics.js 
-v package.json 
-node lyrics.js 
-v package.json 
-node lyrics.js 
-v package.json 
-v package.json 
-node lyrics.js 
-v package.json 
-node lyrics.js 
-node lyrics.js 
-v package.json 
-node lyrics.js 
-v package.json 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
+node lyrics.js
+v package.json
+node lyrics.js
+v package.json
+node lyrics.js
+v package.json
+v package.json
+node lyrics.js
+v package.json
+node lyrics.js
+node lyrics.js
+v package.json
+node lyrics.js
+v package.json
+node lyrics.js
+node lyrics.js
+node lyrics.js
+node lyrics.js
 node lyrics.js "car seat head" "har part"
 node lyrics.js "car seat head" "har part"
 mpc current -f '\"%title%\" - \"%artist%\"'
@@ -17950,12 +17918,12 @@ mpc current -f '"%title%" "%artist%"'
 node lyrics.js $(mpc current -f '"%title%" "%artist%"')
 cd .lyrics
 ls
-v Car\ Seat\ Headrest\ -\ KS.txt 
-ls Car\ Seat\ Headrest\ -\ KS.txt 
-ls Car\ Seat\ Headrest\ -\ Please\ Mr\ Pilot.txt 
-ls Car\ Seat\ Headrest\ -\ 224.txt 
-ls Car\ Seat\ Headrest\ -\ 2\:24.txt 
-ls Car\ Seat\ Headrest\ -\ 224.txt 
+v Car\ Seat\ Headrest\ -\ KS.txt
+ls Car\ Seat\ Headrest\ -\ KS.txt
+ls Car\ Seat\ Headrest\ -\ Please\ Mr\ Pilot.txt
+ls Car\ Seat\ Headrest\ -\ 224.txt
+ls Car\ Seat\ Headrest\ -\ 2\:24.txt
+ls Car\ Seat\ Headrest\ -\ 224.txt
 mpc current -f '%file%'
 man mpv
 man mpc
@@ -17965,10 +17933,10 @@ mpc current -f '%file%' | basename -
 basename `mpc current -f '%file%'`
 basename "$(mpc current -f '%file%')"
 basename "$(mpc current -f '%file%')"
-ls Car\ Seat\ Headrest\ -\ Unfinished\ Pain\ Star\ \(If\ heaven\ is\ full\ of\ people...\).txt 
-ls Car\ Seat\ Headrest\ -\ Unfinished\ Pain\ Star\ \(If\ heaven\ is\ full\ of\ people...\).txt 
+ls Car\ Seat\ Headrest\ -\ Unfinished\ Pain\ Star\ \(If\ heaven\ is\ full\ of\ people...\).txt
+ls Car\ Seat\ Headrest\ -\ Unfinished\ Pain\ Star\ \(If\ heaven\ is\ full\ of\ people...\).txt
 basename "$(mpc current -f '%file%')"
-ls Car\ Seat\ Headrest\ -\ Memories\ \(Leonard\ Cohen\ cover\).txt 
+ls Car\ Seat\ Headrest\ -\ Memories\ \(Leonard\ Cohen\ cover\).txt
 findsort
 rm ./Car Seat Headrest | filter - Unfinished: Pain Star (If heaven is full of people...) | filter.txt
 rm "./Car Seat Headrest | filter - Unfinished: Pain Star (If heaven is full of people...) | filter.txt"
@@ -17988,10 +17956,10 @@ node lyrics.js $(mpc current -f '"%title%" "%artist%"')
 lyrics=$(node "$HOME/.scripts/lyrics_js/lyrics.js" "$title" "$artist")
 title="$(mpc current -f '%title%')"
 artist="$(mpc current -f '%artist%')"
-echo $title 
-echo $artist 
+echo $title
+echo $artist
 lyrics=$(node "$HOME/.scripts/lyrics_js/lyrics.js" "$title" "$artist")
-echo $lyrics 
+echo $lyrics
 node lyrics.js $(mpc current -f '"%title%" "%artist%"')
 node lyrics.js "$(mpc current -f '%title%')" "$mpc current -f '%artist%'"
 node lyrics.js "$(mpc current -f '%title%')" "$mpc current -f '%artist%'"
@@ -18003,7 +17971,7 @@ node lyrics.js "Napoleon (March Into Russia)" "car"
 node lyrics.js "Napoleon (March Into Russia)" "car seat"
 node lyrics.js "Napoleon (March Into Russia)" "car seat headrest"
 node lyrics.js "Napoleon" "car seat headrest"
-node lyrics.js "Napoleon" "car seat headrest" > ~/.lyrics/Car\ Seat\ Headrest\ -\ Napoleon\ \(March\ Into\ Russia\).txt 
+node lyrics.js "Napoleon" "car seat headrest" > ~/.lyrics/Car\ Seat\ Headrest\ -\ Napoleon\ \(March\ Into\ Russia\).txt
 sf
 lyrics
 which lyrics
@@ -18013,9 +17981,9 @@ sudo rm /usr/local/bin/lyrics
 sc
 v lyrics
 trackinfo -c -l
-trackinfo -c -l 
-trackinfo -c -l 
-trackinfo -c -l 
+trackinfo -c -l
+trackinfo -c -l
+trackinfo -c -l
 trackinfo -c -l | sed '$ s/.$//'
 trackinfo -c -l | sed '$ s/.$//'
 cd /tmp/
@@ -18024,7 +17992,7 @@ trackinfo -c -l | grep "$(mpc current -f '%title%')"
 trackinfo -c -l | grep "^ $(mpc current -f '%title%')"
 trackinfo -c -l | grep "$(mpc current -f '%title%')"
 trackinfo -c -l | grep "1 $(mpc current -f '%title%')"
-trackinfo -c -l | 
+trackinfo -c -l |
 trackinfo -c -l | sed "1 s/$(mpc current -f '%title%')//g"
 trackinfo -c -l | sed "1 s/`$(mpc current -f '%title%')`//g"
 trackinfo -c -l | sed '1 s/"$(mpc current -f '%title%')"//g"
@@ -18037,7 +18005,7 @@ man node
 cd
 v test.ks
 v test.js
-node test.js 
+node test.js
 npm install --save genius-lyrics-api
 v lyrics.js
 cd lyrics_js/
@@ -18060,18 +18028,18 @@ process.argv.forEach(function (val, index, array) {
 });
 node lyrics.js $(mpc current -f '"%title% %artist%"')
 cd
-node lyrics.js 
+node lyrics.js
 r
-node .scripts/lyrics_js/lyrics.js 
+node .scripts/lyrics_js/lyrics.js
 cd .scripts/lyrics_js/
 pwd
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
-node lyrics.js 
+node lyrics.js
+node lyrics.js
+node lyrics.js
+node lyrics.js
+node lyrics.js
+node lyrics.js
+node lyrics.js
 node lyrics.js "" ""
 node lyrics.js "" ""
 node lyrics.js "" ""
@@ -18154,24 +18122,24 @@ v ~/.lyrics/Car Seat Headrest - Napoleon (March Into Russia).txt
 v "~/.lyrics/Car Seat Headrest - Napoleon (March Into Russia).txt
 lyrics
 cd .scripts/lyrics_js/
-v lyrics.js 
+v lyrics.js
 lyrics
 sf
 sc
 cd lyrics_js/
 node lyrics.js "memories" "car seat headrest"
-v lyrics.js 
+v lyrics.js
 node lyrics.js "memories" "car seat headrest"
-node lyrics.js "memories" "car seat headrest" > ~/.lyrics/Car\ Seat\ Headrest\ -\ Memories\ \(Leonard\ Cohen\ cover\).txt 
+node lyrics.js "memories" "car seat headrest" > ~/.lyrics/Car\ Seat\ Headrest\ -\ Memories\ \(Leonard\ Cohen\ cover\).txt
 pgrep mpv
 kill -9 32482
-mpvxcp 
+mpvxcp
 mpv "https://youtu.be/IRhKjI56_9o?list=PLzvFpAaTiy4Lwo8ojRgmpkDuApzh6vBca"
 mpv "https://youtu.be/IRhKjI56_9o"
 mpv "https://youtu.be/IRhKjI56_9o"
-mpvxcp 
+mpvxcp
 console.log(process.argv[2], process.argv[3])
-mpvxcp 
+mpvxcp
 f
 cd a1/snimc
 cd a1/
@@ -18180,11 +18148,11 @@ yt "https://youtu.be/IRhKjI56_9o"
 r
 cd lb-watchlist/
 r
-v main.py 
-./main.py 
-v main.py 
-v main.py 
-./main.py 
+v main.py
+./main.py
+v main.py
+v main.py
+./main.py
 cat vojoslav.csv djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn
 cat vojoslav.csv djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^3"
 cat vojoslav.csv djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2"
@@ -18196,8 +18164,8 @@ cat vojoslav.csv djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn | sed 's
 cat vojoslav.csv djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^1" | grep -i "picture"
 cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^3" |
 cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^3"
-cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2" 
-cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2" | wc -l 
+cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2"
+cat vojoslav.csv djurdjevic.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2" | wc -l
 cat vojoslav.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2" |
 cat vojoslav.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2"
 cat vojoslav.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /g; s/^\s*//g' | grep "^2" | nl
@@ -18205,8 +18173,8 @@ cat djurdjevic.csv megidza.csv | sort | uniq -c | sort -rn | sed 's/ [0-9]\+,/ /
 r
 pgrep redshift
 pkill redshift
-mpvremote 
-mpvremote 
+mpvremote
+mpvremote
 yt "https://nln1vss.webex.com/hls-vod/recordingDir/QUhTSwAAAAX0El_3dx0_7o4nnZean7UHCjlasWs61t6Nn14Q_6FS4OrVOSHXfYVP5zZV_q0RBmSHHhRwIuS6uCTg8hs5wWSBnhDJ_PVVWKVNQIyyYJb5-IBQ_cbWAZgPcuFJNUwOAHtoOdegOmz29pKvy5ao2FctZxOC8yDaaKso1RzHtuK0tqPyMdLlKuR05TpkIppWrP3dlFk-qQ2uhm4rn2kG5gFt0/timestamp/1652187558844/token/QUhTSwAAAAV6JGYIRiNC3FwxGWQXZdCFG5U0UJfba--dUARRmUKA9fumI-LS9zK6ONIF7fSbYm_x-fDAxrbHgyly44Gsb2eFSYQNM6jjUyRnrU4rokc6C_uOlK5jfQggNU7Lp7aDreZiUmK84KjKFKZzj_9ygyxi3wySfbB02hCuXZE84l1o9ulZOjWahuiTR9foSB8ycwFhSFDJhWEWVdVR4zJHrXNkUmT2nBAnuxyGLuOeM0TXOEXWIiv_4UfFh7juqPkcom2TtuYNhxoC8m2-fGOdk4UTgXKXKXs-0XdcuEqgZugQ7V0R17PFPNEVdicGZNpsoQImMQiSXI03gEar5-1FdADWdbNEVNpq2iIU7LRgz-KPGXGZc7cHyb6-YwxW7HyK6KI1/fileName/merge_0_8223280.mp4.m3u8"
 r
 curl -s https://raw.githubusercontent.com/dresdner353/mpd2chromecast/master/install.sh | sudo bash
@@ -18214,15 +18182,15 @@ apt search mkchromecast
 apt install mkchromecast
 parec
 man parec
-mkchromecast 
+mkchromecast
 pkill mkchromecast
-mkchromecast 
+mkchromecast
 man mkchromecast
 mkchromecast --help
 mkchromecast --help
 ls
 cd movies/12\ Angry\ Men\ \(1957\)/
-mkchromecast --video 12\ Angry\ Men\ \(1957\).mp4 
+mkchromecast --video 12\ Angry\ Men\ \(1957\).mp4
 mkchromecast --video |12\ Angry\ Men\ \(1957\).mp4"
 mkchromecast --video "12\ Angry\ Men\ \(1957\).mp4"
 mkchromecast --video -i "12\ Angry\ Men\ \(1957\).mp4"
@@ -18248,7 +18216,7 @@ ls
 cd
 cd Music/Car\ Seat\ Headrest/
 zip -r disjectamembra.zip \(2013\)\ Disjecta\ Membra/
-du -hs disjectamembra.zip 
+du -hs disjectamembra.zip
 scp disjectamembra.zip root@lazic.xyz:/var/www/lazic/
 man zip
 ssh root@lazic.xyz
@@ -18279,15 +18247,15 @@ cd nesto/
 \ls | sort -V | nsxiv
 \ls | sort -V | nsxiv -
 sf
-download 
+download
 cd /tmp/tmp.YCZ3y4fqPv
 cat /tmp/tmp.YCZ3y4fqPv
-download 
-download 
-download 
+download
+download
+download
 mkd nesto2
 cd nesto2/
-download 
+download
 nsxiv .
 \ls | sort -V | nsxiv -
 sf
@@ -18299,13 +18267,13 @@ man sxiv
 sxiv --help
 sxiv -h
 r
-v .config/ranger/rifle.conf 
-v .config/ranger/rifle.conf 
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
+v .config/ranger/rifle.conf
+v .config/ranger/rifle.conf
 cd nesto
-sxiv 01.jpg 
-nsxiv 01.jpg 
-sxiv 01.jpg 
+sxiv 01.jpg
+nsxiv 01.jpg
+sxiv 01.jpg
 r
 mpv "https://audio-ak-spotify-com.akamaized.net/audio/49286730ef84e6320385fa9f364141737e6c7683?__token__=exp=1652311107~hmac=daec70f740160dd752fbaad6026c450a2270334d744fefce4c1b0f209ae422e5"
 yt "https://audio-ak-spotify-com.akamaized.net/audio/49286730ef84e6320385fa9f364141737e6c7683?__token__=exp=1652311107~hmac=daec70f740160dd752fbaad6026c450a2270334d744fefce4c1b0f209ae422e5"
@@ -18330,7 +18298,7 @@ ls
 c config.h
 v config.h
 v config.h
-v config.def.h 
+v config.def.h
 v config.h
 make
 r
@@ -18339,26 +18307,26 @@ make
 v config.h
 sudo make install
 D
-unzip nsxiv-29.zip 
+unzip nsxiv-29.zip
 r
 r
 r
 which nsxiv
 sudo mv /usr/local/bin/nsxiv /usr/local/bin/sxiv
 sudo mv /usr/local/bin/sxiv /usr/local/bin/nsxiv
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
 nsxiv Pictures/
-v .config/ranger/rifle.conf 
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
+v .config/ranger/rifle.conf
 sudo mv /usr/local/bin/nsxiv /usr/local/bin/sxiv
 sxiv
 which sxiv
 cd Downloads/nsxiv-29/
 sudo make install
 r
-nsxiv 003.jpg 
+nsxiv 003.jpg
 r
-sxiv 
+sxiv
 sxiv
 apt install sxiv
 sxiv
@@ -18373,7 +18341,7 @@ which sxiv
 r
 which nsxiv
 which nsxiv
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
 which sxiv
 /usr/local/bin/sxiv
 sudo rm /usr/local/bin/sxiv
@@ -18425,7 +18393,7 @@ bashrc
 r
 yt "https://audio-ak-spotify-com.akamaized.net/audio/0c643ba2c3c37eff162624953a486c612043cf29?__token__=exp=1652313132~hmac=49221945769a4c45bfe39ed0dd0987bfb5a92ec4342888e248e9a9217ae4ee5f" --output nesto.mp3
 r
-file nesto.mp3 
+file nesto.mp3
 r
 nsxiv
 sxiv
@@ -18433,28 +18401,28 @@ D
 cd nsxiv-29/
 sudo make install
 bashrc
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
 which nsxiv
 sudo cp /usr/local/bin/nsxiv /usr/local/bin/sxiv
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
 cd .config/ranger/
 rgdir .
-v .config/ranger/rifle.conf 
+v .config/ranger/rifle.conf
 man nsxiv
 cd Pictures/
-identify -format '%wx%h' 003.jpg 
-nsxiv -g $(identify -format '%wx%h' 003.jpg) 003.jpg 
+identify -format '%wx%h' 003.jpg
+nsxiv -g $(identify -format '%wx%h' 003.jpg) 003.jpg
 r
-nsxiv -g $(identify -format '%wx%h' profile.jpg) profile.jpg 
+nsxiv -g $(identify -format '%wx%h' profile.jpg) profile.jpg
 sxiv -g $(identify -format '%wx%h' profile.jpg) profile.jpg
-sxiv -g $(identify -format '%wx%h' -) - < Pictures/meme.jpg 
-sxiv - < Pictures/meme.jpg 
-nsxiv - < Pictures/meme.jpg 
+sxiv -g $(identify -format '%wx%h' -) - < Pictures/meme.jpg
+sxiv - < Pictures/meme.jpg
+nsxiv - < Pictures/meme.jpg
 cat Pictures/meme.jpg | nsxiv -
 ls Pictures/ | nsxiv -
 \ls Pictures/ | nsxiv -
 \ls Pictures | nsxiv -
-\ls Pictures | nsxiv 
+\ls Pictures | nsxiv
 \ls Pictures | nsxiv 0
 \ls Pictures | nsxiv -
 \ls Pictures/* | nsxiv -
@@ -18464,11 +18432,11 @@ pp
 r
 ls
 r
-sxiv -g $(identify -format '%wx%h' Pictures/meme.jpg) Pictures/meme.jpg 
+sxiv -g $(identify -format '%wx%h' Pictures/meme.jpg) Pictures/meme.jpg
 cd Pictures/4chan_banners/
-sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) Pictures/meme.jpg 38_xp4aJ9Q.png 
-sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) Pictures/meme.jpg 38_xp4aJ9Q.png 
-sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) 38_xp4aJ9Q.png 
+sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) Pictures/meme.jpg 38_xp4aJ9Q.png
+sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) Pictures/meme.jpg 38_xp4aJ9Q.png
+sxiv -g $(identify -format '%wx%h' 38_xp4aJ9Q.png) 38_xp4aJ9Q.png
 sxiv
 nmcli con add type wifi ifname wlan0 con-name Hostspot autoconnect yes ssid Hostspot
 nmcli con modify Hostspot 802-11-wireless.mode ap 802-11-wireless.band bg ipv4.method shared
@@ -18495,9 +18463,9 @@ nmcli device connect wlp3s0
 sv /etc/NetworkManager/dispatcher.d/70-wifi-wired-exclusive.sh
 sv /etc/NetworkManager/dispatcher.d/70-wifi-wired-exclusive.sh
 man nmcli
-sv /etc/NetworkManager/system-connections/wifi-hotspot.nmconnection 
+sv /etc/NetworkManager/system-connections/wifi-hotspot.nmconnection
 sv /etc/NetworkManager/system-connections/wifi-hotspot
-sv /etc/NetworkManager/system-connections/wifi-hotspot.nmconnection 
+sv /etc/NetworkManager/system-connections/wifi-hotspot.nmconnection
 nmcli dev
 nmcli show
 nmcli device show
@@ -18545,7 +18513,7 @@ grep "UPLOAD" log | cut -f3 -d' '
 grep "UPLOAD" log | cut -f4 -d' '
 grep "UPLOAD" log | cut -f4,5 -d' '
 grep "UPLOAD" log | cut -f4,5,6 -d' '
-grep "UPLOAD" log 
+grep "UPLOAD" log
 grep "UPLOAD" log | cut -f4,5,6 -d'['
 grep "UPLOAD" log | cut -f4 -d'['
 grep "UPLOAD" log | cut -d'['
@@ -18560,32 +18528,32 @@ grep "UPLOAD" log | cut -d']' -f 3
 grep "UPLOAD" log | cut -d']' -f 3 | cut -f1 -d'/'
 ytmusic "https://music.youtube.com/watch?v=ZlJbGGleIlQ&feature=share"
 cd .config/mpd/playlists/
-v liked_songs.m3u 
-update_liked_songs 
+v liked_songs.m3u
+update_liked_songs
 cd Music/Car\ Seat\ Headrest/
 r
 sf
-v .config/mpd/playlists/liked_songs.m3u 
+v .config/mpd/playlists/liked_songs.m3u
 echo $ARTIST
-v .config/mpd/playlists/liked_songs.m3u 
+v .config/mpd/playlists/liked_songs.m3u
 sf
-update_liked_songs 
-update_liked_songs 
-update_liked_songs 
-update_liked_songs 
+update_liked_songs
+update_liked_songs
+update_liked_songs
+update_liked_songs
 sf
 sf
-v Documents/liked_tracks/liked_songs_pi.m3u 
-v Documents/liked_tracks/liked_songs_pi.m3u 
-v .config/mpd/playlists/liked_songs.m3u 
-v .config/mpd/playlists/liked_songs.m3u 
-v .config/mpd/playlists/liked_songs.m3u 
+v Documents/liked_tracks/liked_songs_pi.m3u
+v Documents/liked_tracks/liked_songs_pi.m3u
+v .config/mpd/playlists/liked_songs.m3u
+v .config/mpd/playlists/liked_songs.m3u
+v .config/mpd/playlists/liked_songs.m3u
 sf
-mpvxcp 
+mpvxcp
 sf
-addtoplaylists Music/Xiu\ Xiu/\(2016\)\ Forget/Xiu\ Xiu\ -\ Wondering.mp3 
+addtoplaylists Music/Xiu\ Xiu/\(2016\)\ Forget/Xiu\ Xiu\ -\ Wondering.mp3
 sf
-addtoplaylists Music/Xiu\ Xiu/\(2016\)\ Forget/Xiu\ Xiu\ -\ Wondering.mp3 
+addtoplaylists Music/Xiu\ Xiu/\(2016\)\ Forget/Xiu\ Xiu\ -\ Wondering.mp3
 sf
 ytmusic "https://music.youtube.com/watch?v=r9ucm1Di0X4&feature=share"
 ytmusic "https://music.youtube.com/watch?v=r9ucm1Di0X4&feature=share"
@@ -18595,7 +18563,7 @@ addtoplaylists "Music/Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3"
 addtoplaylists "Music/Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3"
 addtoplaylists "Music/Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3"
 grep -q "echo "$TRACK $ARTIST"
-grep -q "Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3" $homeplaylistfile 
+grep -q "Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3" $homeplaylistfile
 grep -q "Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3" $homeplaylistfile && echo "nasao"
 grep -q "/Xiu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3" $homeplaylistfile && echo "nasao"
 grep -q "iu Xiu/(2016) Forget/Xiu Xiu - Get Up.mp3" $homeplaylistfile && echo "nasao"
@@ -18626,16 +18594,16 @@ ls
 ls
 r
 man uniq
-chmod +x log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
+chmod +x log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
 grep "UPLOAD" log
 line="[13:12:33 INF] [UPLOAD] [Rick blaine/(2021) L.W.\01. King Gizzard And The Lizard Wizard - If Not Now, Then When?.mp3] InProgress => Completed, Succeeded (9281536/9281536 = 100%) @ 2.0 MB/s
 line="[13:12:33 INF] [UPLOAD] [Rick blaine/(2021) L.W.\01. King Gizzard And The Lizard Wizard - If Not Now, Then When?.mp3] InProgress => Completed, Succeeded (9281536/9281536 = 100%) @ 2.0 MB/s"
@@ -18643,28 +18611,28 @@ echo $line
 echo $line
 grep -Eo "[0-9]{2}:[0-9]{2}:[0-9]{2}" <<< "$line
 echo $line
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
+./log.sh
 less log
 less log
-./log.sh 
-./log.sh 
+./log.sh
+./log.sh
 
-./log.sh 
+./log.sh
 ./log.sh | uniq
 ./log.sh | uniq
 ./log.sh
@@ -18683,12 +18651,12 @@ man basename
 man dirname
 man basename
 basename "$file"
-./log.sh 
-./log.sh 
-./log.sh 
-./log.sh 
+./log.sh
+./log.sh
+./log.sh
+./log.sh
 ./log.sh > test
-v test 
+v test
 ./log.sh
 cd log.sh
 v log.sh
@@ -18698,42 +18666,42 @@ cd complete/
 r
 musort .
 r
-getcover 01.\ John\ Maus\ -\ North\ Star\ \(2008\).mp3 
+getcover 01.\ John\ Maus\ -\ North\ Star\ \(2008\).mp3
 r
 easytag  .
 cd
 homeplaylist
 homeplaylist
-homeplaylistedit 
+homeplaylistedit
 vimrc
-update_liked_songs 
-update_liked_songs 
-update_liked_songs 
+update_liked_songs
+update_liked_songs
+update_liked_songs
 file "Music/Car Seat Headrest/(2013) Disjecta Membra/16. Car Seat Headrest - KS.mp3"
 file "$HOME/Music/Car Seat Headrest/(2013) Disjecta Membra/16. Car Seat Headrest - KS.mp3"
 file "$HOME/Music/Car Seat Headrest/(2013) Disjecta Membra/16. Car Seat Headrest - KS.mp3"
-update_liked_songs 
-update_liked_songs 
-update_liked_songs 
+update_liked_songs
+update_liked_songs
+update_liked_songs
 piplaylist
 cd Documents/liked_tracks/
 v likedtracks.
-v likedtracks.csv 
+v likedtracks.csv
 homeplaylist
-homeplaylistedit 
+homeplaylistedit
 homeplaylist
 alias homeplaylist
-wc -l ~/.config/mpd/playlists/liked_songs.m3u 
-wc -l $homeplaylistfile 
-wc -l $piplaylistfile 
+wc -l ~/.config/mpd/playlists/liked_songs.m3u
+wc -l $homeplaylistfile
+wc -l $piplaylistfile
 update
-update_liked_songs 
-update_liked_songs 
-v likedtracks.csv 
-v likedtracks.json 
-v likedtracks.csv 
-update_liked_songs 
-update_liked_songs 
+update_liked_songs
+update_liked_songs
+v likedtracks.csv
+v likedtracks.json
+v likedtracks.csv
+update_liked_songs
+update_liked_songs
 mpc search artist "Car Seat Headrest" title "KS"
 man mpc
 man mpc
@@ -18741,15 +18709,15 @@ mpc mount
 head -1
 homeplaylist | head -1
 sf
-update_liked_songs 
+update_liked_songs
 sf
-update_liked_songs 
+update_liked_songs
 homeplaylist
 crontab -e
 bashrc
-rsyncall 
-rsyncall 
-rsyncall 
+rsyncall
+rsyncall
+rsyncall
 bashrc
 rsyncall
 man head
@@ -18759,8 +18727,8 @@ cat /dev/null
 echo /dev/null
 cat /dev/random | head -c 6
 cat /dev/random | head -c 6
-echo $RANDOM 
-echo $RANDOM 
+echo $RANDOM
+echo $RANDOM
 echo $RANDOM | md5sum | head -c 6
 echo $RANDOM | md5sum | head -c 6
 echo $RANDOM | md5sum | head -c 6
@@ -18774,7 +18742,7 @@ echo "pineapple122$s" | md5sum
 echo "pineapple122$s" | md5sum | cut -f1
 echo "pineapple122$s" | md5sum | cut -f1 -d' '
 token=$(echo "pineapple122$s" | md5sum | cut -f1 -d' ')
-echo $token 
+echo $token
 echo "https://music.lazic.xyz/rest/ping.view?u=voja&t=${token}&s=${s}&v=1.16.1&c=myapp"
 echo "https://music.lazic.xyz/rest/ping.view?u=voja&t=${token}&s=${s}&v=1.16.1&c=myapp" | xcp
 salt=$(echo $RANDOM | md5sum | head -6)
@@ -18794,8 +18762,8 @@ echo $salt
 echo $salt $token
 echo "https://music.lazic.xyz/rest/ping.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=myapp" | xcp
 mpd_discord_richpresence --help
-curl "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint 
-curl --quiet "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint 
+curl "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint
+curl --quiet "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint
 curl --quiet "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint -
 man xmllint
 man xmllint
@@ -18815,18 +18783,18 @@ man xmllint
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint --xpath '/subsonic-response/scanStatus/@scanning' -
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic"
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" > test.xml
-xmllint test.xml 
-xmllint --xpath '/subsonic-response' test.xml 
-xmllint --xpath '//subsonic-response' test.xml 
-xmllint --xpath '/subsonic-response/' test.xml 
-xmllint --xpath '/subsonic-response/scanStatus' test.xml 
-xmllint --xpath '/subsonic-response/scanStatus/@scanning' test.xml 
-xmllint --xpath './subsonic-response/scanStatus/@scanning' test.xml 
-xmllint --xpath '.' test.xml 
-xmllint --xpath './subsonic-response' test.xml 
-xmllint --xpath './subsonic-response/@status' test.xml 
-xmllint --xpath '//subsonic-response' test.xml 
-xmllint --xpath '//subsonic-response[@status='ok']' test.xml 
+xmllint test.xml
+xmllint --xpath '/subsonic-response' test.xml
+xmllint --xpath '//subsonic-response' test.xml
+xmllint --xpath '/subsonic-response/' test.xml
+xmllint --xpath '/subsonic-response/scanStatus' test.xml
+xmllint --xpath '/subsonic-response/scanStatus/@scanning' test.xml
+xmllint --xpath './subsonic-response/scanStatus/@scanning' test.xml
+xmllint --xpath '.' test.xml
+xmllint --xpath './subsonic-response' test.xml
+xmllint --xpath './subsonic-response/@status' test.xml
+xmllint --xpath '//subsonic-response' test.xml
+xmllint --xpath '//subsonic-response[@status='ok']' test.xml
 cat test.xml | xcp
 cat test.xml | xcp
 curl "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic"
@@ -18834,26 +18802,26 @@ curl "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15
 pgrep mpd
 cfi
 .pro
-v .profile 
+v .profile
 pkill mpd_disc
-xmllint --xpath '//*' test.xml 
-xmllint --xpath '//subsonic-response' test.xml 
-xmllint --xpath '/scanStatus' test.xml 
+xmllint --xpath '//*' test.xml
+xmllint --xpath '//subsonic-response' test.xml
+xmllint --xpath '/scanStatus' test.xml
 curl -s https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic | xcp
 curl -s https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic | xcp
 sc
 rgdir .
-xmlstarlet el test.xml 
-xmlstarlet el -a test.xml 
+xmlstarlet el test.xml
+xmlstarlet el -a test.xml
 man xmlstarlet
-xmlstarlet el -a test.xml 
+xmlstarlet el -a test.xml
 man xmlstarlet
 v test2.xml
 v test.xml
 man jq
 cat test.xml
 cat test.xml | xcp
-v test2.xml 
+v test2.xml
 v test.xml
 man xmllint
 man xmllint
@@ -18865,8 +18833,8 @@ apt install xmlstarlet
 xml
 sudo xml
 xmlstarlet el test
-xmlstarlet el test.xml 
-xmlstarlet el -a test.xml 
+xmlstarlet el test.xml
+xmlstarlet el -a test.xml
 man xmlstarlet
 man xml
 xmlstarlet -sel -t -v "" test.xml
@@ -18879,41 +18847,41 @@ xmlstarlet sel -t -v "count(/subsonic-response)" test.xml
 xmlstarlet sel -t -v "count(/s" test.xml
 xmlstarlet sel -t -v "count(/)" test.xml
 xmlstarlet sel -t -v "count(*)" test.xml
-xmlstarlet sel -t -v "//subsonic-response" test.xml 
-xmlstarlet sel -t -v "/subsonic-response" test.xml 
-xmlstarlet sel -t -v "/DATA" test2.xml 
-xmlstarlet sel -t -v "/DATA" test2.xml 
+xmlstarlet sel -t -v "//subsonic-response" test.xml
+xmlstarlet sel -t -v "/subsonic-response" test.xml
+xmlstarlet sel -t -v "/DATA" test2.xml
+xmlstarlet sel -t -v "/DATA" test2.xml
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic&f=json" > test.json
-jq -r '.' -f test.json 
-jq -r '.' -i test.json 
-jq -r '.' test.json 
-jq -r 'subsonic-response' test.json 
-jq -r '.subsonic-response' test.json 
-jq -r '.subsonic-response' test.json 
-jq -r ".'subsonic-response'" test.json 
-jq -r "." test.json 
-jq -r ".[]" test.json 
-jq -r "subsonic-response" test.json 
-jq -r ".subsonic-response" test.json 
-jq -r "."subsonic-response"" test.json 
-jq -r "."@subsonic-response"" test.json 
-jq -r ".[subsonic-response]" test.json 
-jq -r ".["subsonic-response"]" test.json 
-jq -r ".["subsonic:response"]" test.json 
-jq -r '"subsonic:response"' test.json 
-jq -r '"subsonic-response"' test.json 
-jq -r '."subsonic-response"' test.json 
-jq -r '."subsonic-response".scanStatus' test.json 
-jq -r '."subsonic-response".scanStatus.scanning' test.json 
-jq -r '."subsonic-response".scanStatus.count' test.json 
+jq -r '.' -f test.json
+jq -r '.' -i test.json
+jq -r '.' test.json
+jq -r 'subsonic-response' test.json
+jq -r '.subsonic-response' test.json
+jq -r '.subsonic-response' test.json
+jq -r ".'subsonic-response'" test.json
+jq -r "." test.json
+jq -r ".[]" test.json
+jq -r "subsonic-response" test.json
+jq -r ".subsonic-response" test.json
+jq -r "."subsonic-response"" test.json
+jq -r "."@subsonic-response"" test.json
+jq -r ".[subsonic-response]" test.json
+jq -r ".["subsonic-response"]" test.json
+jq -r ".["subsonic:response"]" test.json
+jq -r '"subsonic:response"' test.json
+jq -r '"subsonic-response"' test.json
+jq -r '."subsonic-response"' test.json
+jq -r '."subsonic-response".scanStatus' test.json
+jq -r '."subsonic-response".scanStatus.scanning' test.json
+jq -r '."subsonic-response".scanStatus.count' test.json
 xpath
 xmllint --xpath '//*' test.xml
 xmllint --xpath '//scanStatus' test.xml
 xmllint test.xml
 xmllint test2.xml
-v test2.xml 
-xmllint test2.xml 
-xmllint --xpath "bookstore" test2.xml 
+v test2.xml
+xmllint test2.xml
+xmllint --xpath "bookstore" test2.xml
 xmllint --noout test.xml
 echo $?
 xmllint --valid test.xml
@@ -18938,8 +18906,8 @@ xmlstarlet sel -N x="http://subsonic.org/restapi" -t -m "//scanStatus" -v . test
 xmlstarlet sel -N x="http://subsonic.org/restapi" -t -m "//scanStatus" -v . test.xml
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint --xpath "//scanStatus/@scanning" -
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=1568c8a3de45e5d15eafdba73807d7f9&s=0be3c6&v=1.16.1&c=subsonic" | xmllint --xpath "//scanStatus" -
-v .config/mpdasrc 
-rm .config/mpdasrc 
+v .config/mpdasrc
+rm .config/mpdasrc
 pgrep mpdas
 pgrep mpd
 ssh pi@192.168.0.16
@@ -18950,12 +18918,12 @@ lyrics -s
 sc
 cd
 v update_subsonic
-chmod +x update_subsonic 
-./update_subsonic 
-./update_subsonic 
-./update_subsonic 
-./update_subsonic 
-./update_subsonic 
+chmod +x update_subsonic
+./update_subsonic
+./update_subsonic
+./update_subsonic
+./update_subsonic
+./update_subsonic
 ./update_subsonic | jq -r '.[].[].scanning'
 ./update_subsonic | jq -r '.[].scanStatus.scanning'
 ./update_subsonic | jq -r '."subsonic-response".scanStatus.scanning'
@@ -18973,30 +18941,30 @@ echo "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=${token}&s=${salt
 echo "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=subsonic&f=json" | xc
 echo "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=subsonic&f=json" | xcp
 curl -s "https://music.lazic.xyz/rest/getScanStatus.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=subsonic&f=json" > test.json
-cat test.json 
+cat test.json
 cat test.json | jq -r '."subsonic-response".scanStatus | [.scanning, /.count'
 cat test.json | jq -r '."subsonic-response".scanStatus | [.scanning, .count]'
 cat test.json | jq -r '."subsonic-response".scanStatus | [.scanning, .count] | @tsv'
 cat test.json | jq -r '."subsonic-response".scanStatus | [.scanning, .count] | @tsv'
-./update_subsonic 
+./update_subsonic
 curl -s "https://music.lazic.xyz/rest/ping.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=subsonic&f=json"
 curl -s "https://music.lazic.xyz/rest/ping.view?u=voja&t=${token}&s=${salt}&v=1.16.1&c=subsonic&f=json" | jq -r '.[].status'
-./update_subsonic 
-./update_subsonic 
-./update_subsonic 
-./update_subsonic 
+./update_subsonic
+./update_subsonic
+./update_subsonic
+./update_subsonic
 lyrics
 lyrics -s
-chmod +x update_subsonic 
+chmod +x update_subsonic
 ls
 mv update_subsonic ~/.scripts/
 sc
 cd
 crontab -e
 bashrc
-rsyncall 
-alias rsyncall 
-rsyncall 
+rsyncall
+alias rsyncall
+rsyncall
 nf
 D
 r
@@ -19006,9 +18974,9 @@ sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 sudo apt-get update;   sudo apt-get install -y apt-transport-https &&   sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-6.0
 r
-dotnet DiscordChatExporter.Cli.exe 
-dotnet DiscordChatExporter.Cli.dll 
-dotnet DiscordChatExporter.Cli.dll 
+dotnet DiscordChatExporter.Cli.exe
+dotnet DiscordChatExporter.Cli.dll
+dotnet DiscordChatExporter.Cli.dll
 dotnet DiscordChatExporter.Cli.dll dm
 dotnet DiscordChatExporter.Cli.dll --help
 dotnet DiscordChatExporter.Cli.dll guide
@@ -19016,7 +18984,7 @@ dotnet DiscordChatExporter.Cli.dll
 dotnet DiscordChatExporter.Cli.dll dm
 v discord_token
 DISCORD_TOKEN=$(cat discord_token)
-echo $DISCORD_TOKEN 
+echo $DISCORD_TOKEN
 r
 cd Downloads/
 r
@@ -19024,16 +18992,16 @@ dotnet DiscordChatExporter.Cli.dll dm
 DISCORD_TOKEN=$(cat ~.discord_token)
 DISCORD_TOKEN=$(cat ~/discord_token)
 dotnet DiscordChatExporter.Cli.dll dm
-echo $DISCORD_TOKEN 
+echo $DISCORD_TOKEN
 dotnet DiscordChatExporter.Cli.dll -t "OTc0NjkyMDg0NTY3MTI2MTU2.GjPavU.tBdHoFjuknHfHD8WjwCEPxZsa3h4U3XA4n-gzU" dm
 dotnet DiscordChatExporter.Cli.dll -t "OTc0NjkyMDg0NTY3MTI2MTU2.GjPavU.tBdHoFjuknHfHD8WjwCEPxZsa3h4U3XA4n-gzU"
 dotnet DiscordChatExporter.Cli.dll dm -t "OTc0NjkyMDg0NTY3MTI2MTU2.GjPavU.tBdHoFjuknHfHD8WjwCEPxZsa3h4U3XA4n-gzU"
 dotnet DiscordChatExporter.Cli.dll dm -t "MzE1NTIyNjc1ODEwMjM4NDc1.GZZU4o.EXBrVcvm-uwUmEal_38Rb-Ym3--UwL-6WviFbg"
 DISCORD_TOKEN="MzE1NTIyNjc1ODEwMjM4NDc1.GZZU4o.EXBrVcvm-uwUmEal_38Rb-Ym3--UwL-6WviFbg"
-echo $DISCORD_TOKEN 
+echo $DISCORD_TOKEN
 dotnet DiscordChatExporter.Cli.dll dm
 export DISCORD_TOKEN="MzE1NTIyNjc1ODEwMjM4NDc1.GZZU4o.EXBrVcvm-uwUmEal_38Rb-Ym3--UwL-6WviFbg"
-echo $DISCORD_TOKEN 
+echo $DISCORD_TOKEN
 dotnet DiscordChatExporter.Cli.dll dm
 dotnet DiscordChatExporter.Cli.dll dm
 dotnet DiscordChatExporter.Cli.dll
@@ -19044,13 +19012,13 @@ pass
 pass vultr
 pass vultr | xcp
 pgrep mpd
-source .profile 
+source .profile
 v scrlock
-chmod +x scrlock 
+chmod +x scrlock
 mv scrlock .scripts/
 sf
 sf
-mkdir 
+mkdir
 mkdir .local/share/screentime_apps
 sf
 sf
@@ -19095,9 +19063,9 @@ D
 r
 .config/mpv/scripts/
 ls
-v mpv_chapters.js 
+v mpv_chapters.js
 ls
-v clipshot.lua 
+v clipshot.lua
 a
 cd Neon\ Genesis\ Evangelion/
 ls
@@ -19107,9 +19075,9 @@ ls
 r
 cd .config/mpv/scripts/
 ls
-v mpv_chapters.js 
-v clipshot.lua 
-v .config/mpv/input.conf 
+v mpv_chapters.js
+v clipshot.lua
+v .config/mpv/input.conf
 v .config/mpv/scripts/
 v .config/mpv/scripts/
 sf
@@ -19123,55 +19091,55 @@ v rodjendani.csv
 rm core
 date -dyesterday +%Y%m%d
 ls
-v Downloads/rodjendani_fojcdsh3jis9v1ht42d457h1p8\@group.calendar.google.com.ics 
+v Downloads/rodjendani_fojcdsh3jis9v1ht42d457h1p8\@group.calendar.google.com.ics
 v rodjendani.sh
 v rodjendani.sh
-chmod +x rodjendani.sh 
+chmod +x rodjendani.sh
 ./rodjendani.sh
 ./rodjendani.sh
 ./rodjendani.sh
 ./rodjendani.sh
 man date
-date -d'26.01.2022' 
+date -d'26.01.2022'
 date -d'26.01.2022' +%Y%m%d
 date -d'26/01/2022' +%Y%m%d
 date -d'01.26.2022' +%Y%m%d
 date -d'01/26/.2022' +%Y%m%d
 date -d'01/26/2022' +%Y%m%d
 man date
-busybox 
-man busybox 
+busybox
+man busybox
 busybox date -D %d-%m-%Y -d "$date" +%F
 busybox date -D %d-%m-%Y -d "26.01.2022" +%F
 busybox date -D %d.%m.%Y -d "26.01.2022" +%F
 busybox date -D %d.%m.%Y -d "26.01.2022" +%YY%m%d
 busybox date -D %d.%m.%Y -d "26.01.2022" +%Y%m%d
-./rodjendani.sh 
-./rodjendani.sh 
+./rodjendani.sh
+./rodjendani.sh
 man echo
-./rodjendani.sh 
-./rodjendani.sh 
-./rodjendani.sh 
-./rodjendani.sh 
-./rodjendani.sh > 
+./rodjendani.sh
+./rodjendani.sh
+./rodjendani.sh
+./rodjendani.sh
+./rodjendani.sh >
 ./rodjendani.sh > rodjendani.ical
-v rodjendani.ical 
+v rodjendani.ical
 mv rodjendani.ical rodjendani.ics
 v rodjendani.ics
-v rodjendani.csv 
-sort rodjendani.csv 
+v rodjendani.csv
+sort rodjendani.csv
 sort rodjendani.csv | sponge rodjendani.csv
-cat rodjendani.csv 
+cat rodjendani.csv
 man sponge
-v rodjendani.csv 
-v rodjendani.csv 
+v rodjendani.csv
+v rodjendani.csv
 sort rodjendani.csv | sponge rodjendani.csv
 v rodjendani.
-v rodjendani.csv 
-./rodjendani.sh 
-./rodjendani.sh > rodjendani.ics 
-v rodjendani.ics 
-wc -l rodjendani.csv 
+v rodjendani.csv
+./rodjendani.sh
+./rodjendani.sh > rodjendani.ics
+v rodjendani.ics
+wc -l rodjendani.csv
 f
 re
 r
@@ -19193,7 +19161,7 @@ sudo yt-dlp -U
 yt-dlp -U
 yt-dlp -v
 yt-dlp --version
-echo $LASTFM_API_KEY 
+echo $LASTFM_API_KEY
 echo $LASTFM_API_KEY | xcp
 echo $LASTFM_API_KEY | xcp
 069b66ee4d6a7f5e860db3af52c19ab0
@@ -19205,50 +19173,50 @@ cd charts/
 ls
 curl "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json"
 curl "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json" > albumcharts.json
-v albumcharts.json 
-jq -r '.' albumcharts.json 
-jq -r '[0]' albumcharts.json 
-jq -r '[1]' albumcharts.json 
-jq -r '[]' albumcharts.json 
-jq -r '.[0]' albumcharts.json 
-jq -r '.' albumcharts.json 
+v albumcharts.json
+jq -r '.' albumcharts.json
+jq -r '[0]' albumcharts.json
+jq -r '[1]' albumcharts.json
+jq -r '[]' albumcharts.json
+jq -r '.[0]' albumcharts.json
+jq -r '.' albumcharts.json
 echo "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json" | xcp
-jq -r '.album' albumcharts.json 
-jq -r '.[]album' albumcharts.json 
-jq -r '.[].album' albumcharts.json 
-jq -r '.[].album[0]' albumcharts.json 
-jq -r '.weeklyalbumchart.album[0]' albumcharts.json 
-jq -r '.[].album[0]' albumcharts.json 
-jq -r '.[].album[0:5]' albumcharts.json 
-jq -r '.[].album[0:5].artist' albumcharts.json 
-jq -r '.[].album[0:5] | .artist' albumcharts.json 
-jq -r '.[].album[0:5] | [.artist]' albumcharts.json 
-jq -r '.[].album[0:5] | [.artist."#text"]' albumcharts.json 
-jq -r '.[].album[0].artist' albumcharts.json 
-jq -r '.[].album[0].artist."#text"' albumcharts.json 
-jq -r '.[].album[0:5] | [.artist."#text"]' albumcharts.json 
-jq -r '.[].album[0:5] | .artist."#text"' albumcharts.json 
-jq -r '.[].album[0:5] | [.mbid] ' albumcharts.json 
-jq -r '.[].album[] | [.mbid] ' albumcharts.json 
-jq -r '.[].album[0:5] | [.mbid] ' albumcharts.json 
-jq -r '.[].album[0:5] | .mbid ' albumcharts.json 
-jq -r '.[].album[0:5].mbid ' albumcharts.json 
-jq -r '.[].[0:5].mbid ' albumcharts.json 
-jq -r '.[].[0:5]. ' albumcharts.json 
-jq -r '.[].[0:5]' albumcharts.json 
-jq -r '.[].[]' albumcharts.json 
-jq -r '.[].[].mbid' albumcharts.json 
-jq -r '.[].album.mbid' albumcharts.json 
-jq -r '.[].album' albumcharts.json 
-jq -r '.[].album.mbid' albumcharts.json 
-jq -r '.[].album[].mbid' albumcharts.json 
-jq -r '.[].album[0:5].mbid' albumcharts.json 
-jq -r '.[].album[:5].mbid' albumcharts.json 
-jq -r '.[].album[].mbid' albumcharts.json 
-jq -r '.[].album[].artist' albumcharts.json 
-jq -r '.[].album[].artist."#text"' albumcharts.json 
-jq -r '.[].album[2].artist."#text"' albumcharts.json 
-jq -r '.[].album[0:2].artist."#text"' albumcharts.json 
+jq -r '.album' albumcharts.json
+jq -r '.[]album' albumcharts.json
+jq -r '.[].album' albumcharts.json
+jq -r '.[].album[0]' albumcharts.json
+jq -r '.weeklyalbumchart.album[0]' albumcharts.json
+jq -r '.[].album[0]' albumcharts.json
+jq -r '.[].album[0:5]' albumcharts.json
+jq -r '.[].album[0:5].artist' albumcharts.json
+jq -r '.[].album[0:5] | .artist' albumcharts.json
+jq -r '.[].album[0:5] | [.artist]' albumcharts.json
+jq -r '.[].album[0:5] | [.artist."#text"]' albumcharts.json
+jq -r '.[].album[0].artist' albumcharts.json
+jq -r '.[].album[0].artist."#text"' albumcharts.json
+jq -r '.[].album[0:5] | [.artist."#text"]' albumcharts.json
+jq -r '.[].album[0:5] | .artist."#text"' albumcharts.json
+jq -r '.[].album[0:5] | [.mbid] ' albumcharts.json
+jq -r '.[].album[] | [.mbid] ' albumcharts.json
+jq -r '.[].album[0:5] | [.mbid] ' albumcharts.json
+jq -r '.[].album[0:5] | .mbid ' albumcharts.json
+jq -r '.[].album[0:5].mbid ' albumcharts.json
+jq -r '.[].[0:5].mbid ' albumcharts.json
+jq -r '.[].[0:5]. ' albumcharts.json
+jq -r '.[].[0:5]' albumcharts.json
+jq -r '.[].[]' albumcharts.json
+jq -r '.[].[].mbid' albumcharts.json
+jq -r '.[].album.mbid' albumcharts.json
+jq -r '.[].album' albumcharts.json
+jq -r '.[].album.mbid' albumcharts.json
+jq -r '.[].album[].mbid' albumcharts.json
+jq -r '.[].album[0:5].mbid' albumcharts.json
+jq -r '.[].album[:5].mbid' albumcharts.json
+jq -r '.[].album[].mbid' albumcharts.json
+jq -r '.[].album[].artist' albumcharts.json
+jq -r '.[].album[].artist."#text"' albumcharts.json
+jq -r '.[].album[2].artist."#text"' albumcharts.json
+jq -r '.[].album[0:2].artist."#text"' albumcharts.json
 jq -r '.[].album[].artist."#text"' albumcharts.json | head -9
 jq -r '.[].album[]' albumcharts.json | head -9
 jq -r '.[].album[]' albumcharts.json
@@ -19261,41 +19229,41 @@ jq --version
 echo "3x3" | bq
 echo "3x3" | bc
 
-jq -r '.[].album[]' albumcharts.json 
+jq -r '.[].album[]' albumcharts.json
 jq -r '.[].album[] | numbres' albumcharts
-jq -r '.[].album[] | numbers' albumcharts.json 
-jq -r '.[].album[] | string' albumcharts.json 
-jq -r '.[].album[] | strings' albumcharts.json 
-jq -r '.[].album | strings' albumcharts.json 
-jq -r '.[].album[:5]' albumcharts.json 
-jq -r '.[].album[:5] | .artist' albumcharts.json 
-jq -r '.[].album[:5] | .mbid' albumcharts.json 
-jq -r '.[].album[:5]' albumcharts.json 
-jq -r '.[].album[]' albumcharts.json 
-jq -r '.[].album[:5]' albumcharts.json 
-jq -r '.[].album[:5].[]' albumcharts.json 
-jq -r '.[].album[:5].' albumcharts.json 
-jq -r '.[].album[:5] | .[]' albumcharts.json 
-jq -r '.[].album[:5] | .[].artist' albumcharts.json 
-jq -r '.[].album[:9] | .[].' albumcharts.json 
-jq -r '.[].album[:9] | .[].name' albumcharts.json 
-jq -r '.[].album[:9] | .[] | [.name, .mbid]' albumcharts.json 
-jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid]' albumcharts.json 
-jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | .[]' albumcharts.json 
-jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid]' albumcharts.json 
-jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | @tsv' albumcharts.json 
+jq -r '.[].album[] | numbers' albumcharts.json
+jq -r '.[].album[] | string' albumcharts.json
+jq -r '.[].album[] | strings' albumcharts.json
+jq -r '.[].album | strings' albumcharts.json
+jq -r '.[].album[:5]' albumcharts.json
+jq -r '.[].album[:5] | .artist' albumcharts.json
+jq -r '.[].album[:5] | .mbid' albumcharts.json
+jq -r '.[].album[:5]' albumcharts.json
+jq -r '.[].album[]' albumcharts.json
+jq -r '.[].album[:5]' albumcharts.json
+jq -r '.[].album[:5].[]' albumcharts.json
+jq -r '.[].album[:5].' albumcharts.json
+jq -r '.[].album[:5] | .[]' albumcharts.json
+jq -r '.[].album[:5] | .[].artist' albumcharts.json
+jq -r '.[].album[:9] | .[].' albumcharts.json
+jq -r '.[].album[:9] | .[].name' albumcharts.json
+jq -r '.[].album[:9] | .[] | [.name, .mbid]' albumcharts.json
+jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid]' albumcharts.json
+jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | .[]' albumcharts.json
+jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid]' albumcharts.json
+jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | @tsv' albumcharts.json
 jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | @tsv' albumcharts.json albums.csv
 jq -r '.[].album[:9] | .[] | [.artist."#text", .name, .mbid] | @tsv' albumcharts.json > albums.csv
 v main.sh
 cd charts/
-v main.sh 
+v main.sh
 v index.html
 cd charts/
-jq -r 'album.image' ws.audioscrobbler.com.json 
-jq -r '.album.image' ws.audioscrobbler.com.json 
-jq -r '.album.image[2]' ws.audioscrobbler.com.json 
+jq -r 'album.image' ws.audioscrobbler.com.json
+jq -r '.album.image' ws.audioscrobbler.com.json
+jq -r '.album.image[2]' ws.audioscrobbler.com.json
 update_
-update_liked_songs 
+update_liked_songs
 sf
 sf
 sf
@@ -19304,10 +19272,10 @@ cd Documents/website/
 ls
 cd lastfm-now-playing/
 ls
-v main.js 
+v main.js
 cd
 v links.txt
-wget -i links.txt 
+wget -i links.txt
 r
 vim
 cd charts/test/
@@ -19318,11 +19286,11 @@ v index.html
 wget "https://www.tapmusic.net/collage.php"
 r
 vim https://www.tapmusic.net/collage.php
-ncmpcpp 
-v .config/ncmpcpp/art.sh 
-v .config/ncmpcpp/config 
-v .config/ncmpcpp/config 
-v .config/ncmpcpp/config 
+ncmpcpp
+v .config/ncmpcpp/art.sh
+v .config/ncmpcpp/config
+v .config/ncmpcpp/config
+v .config/ncmpcpp/config
 v ispiti.txt
 pass github
 dots add -u
@@ -19338,3 +19306,15179 @@ eval "$(ssh-agent -s)"
 cat ~/.ssh/id_rsa.pub
 cat ~/.ssh/id_rsa.pub | xcp
 pass github
+ssh -T git@github.com
+dots ssh-key list
+gh
+git
+git ssh-key
+ssh -T git@github.com
+ssh -T git@github.com
+dots add -u
+dots status
+dots commit -m "ssh key test"
+dots push
+git remote -v
+dots remote -v
+dots remote set-url git@github.com:vojislav/dotfiles.git
+alias dots
+git remote -v
+git remote set-url git@github.com:vojislav/dotfiles.git
+git remote set-url origin git@github.com:vojislav/dotfiles.git
+dots remote set-url origin git@github.com:vojislav/dotfiles.git
+dots remote -v
+git remote -v
+dots status
+dots push
+man git
+dots status
+cal
+dunst & disown
+pgrep dunst
+pkill dunst
+pgrep dunst
+dunst & disown
+pgrep dunst
+v .config/ranger/rifle.conf
+v .config/ranger/scope.sh
+v .config/ranger/rc.conf
+alias xcp
+cd shows/anime/Neon\ Genesis\ Evangelion/
+ffmpeg -i E09.\ A\ Heart\ Once\ More\ in\ an\ Instant.mkv -ss 00:09:59 -to 00:10:04 -c:v copy -c:a copy out.gif
+ffmpeg -i E09.\ A\ Heart\ Once\ More\ in\ an\ Instant.mkv -ss 00:09:59 -to 00:10:04 -c:v copy -c:a copy out.webm
+ffmpeg -i E09.\ A\ Heart\ Once\ More\ in\ an\ Instant.mkv -ss 00:09:59 -to 00:10:04 -c:v copy -c:a copy out.mp4
+r
+r
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 -c:v copy -c:a copy out.mp4
+r
+ffmpeg out.mp4 -c copy out.gif
+ffmpeg out.mp4 out.gif
+mpv out.mp4
+ffmpeg -i out.mp4 out.gif
+r
+ffmpeg -i E10.\ Magma\ Diver.mkv -vf scale=320:-1 -r 10 -f image2pipe -vcodec ppm - | convert -delay 10 -loop 0 - out.gif
+ffmpeg -i E10.\ Magma\ Diver.mkv -vf scale=320:-1 -r 10 -f image2pipe -vcodec ppm - -ss 00:09:59 -to 00:10:03| convert -delay 10 -loop 0 - out.gif
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 -vf scale=320:-1 -r 10 -f image2pipe -vcodec ppm - | convert -delay 10 -loop 0 - out.gif
+ffmpeg -ss 00:09:59 -to 00:10:03 -i E10.\ Magma\ Diver.mkv -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" out.gif
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" out.mp4
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 -filter_complex "[0:v] split [a][b];[a] palettegen [p];[b][p] paletteuse" out.gif
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 out.gif
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 out.gif
+r
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 out.mp4
+r
+ffmpeg -i E10.\ Magma\ Diver.mkv -ss 00:09:59 -to 00:10:04 -c copy out.mp4
+r
+ffmpeg -i out.mp4 -filter_complex "[0:v] fps=12,scale=w=480:h=-1,split [a][b];[a] palettegen=stats_mode=single [p];[b][p] paletteuse=new=1" out.gif
+r
+v .config/ranger/rc.conf
+cd shows/anime/Neon\ Genesis\ Evangelion/
+r
+cd shows/anime/Neon\ Genesis\ Evangelion/
+r
+pgrep redshift
+pkill redshift
+lsblk
+rsyncall
+rsyncall
+wget -m -np "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2020_2021/Analiza%201%20(I%20smer)/resenja%20ispita_2020_2021/"
+r
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2020_2021/Analiza%201%20(I%20smer)/resenja%20ispita_2020_2021/"
+r
+yt "https://www.youtube.com/playlist?list=PLzvFpAaTiy4Lwo8ojRgmpkDuApzh6vBca"
+ls
+r
+dragon
+apt install dragon
+xdg-open .
+D
+r
+r
+make
+apt install gtk+3.0
+make
+cd Downloads/dragon-1.2.0/
+make
+apt search gtk
+apt search gtk+3.0
+libgtk-3-0
+apt install libgtk-3-0
+apt install libgtk-3-0-dev
+apt install libgtk-3-dev
+make
+ls
+make install
+sudo make install
+cd
+r
+v .config/ranger/rc.conf
+v .config/ranger/rc.conf
+cd Music/Death\ Grips/\(2012\)\ NO\ LOVE\ DEEP\ WEB/
+ls
+sf
+sf
+sf
+man ffmpeg/
+man ffmpeg
+sf
+man ffmpeg
+sf
+cd -
+cd Music/Death\ Grips/\(2012\)\ NO\ LOVE\ DEEP\ WEB/
+cd
+cd -
+ls
+rm cover.jpg
+rm cover.jpg
+rm cover.jpg
+rm cover.jpg
+rm cover.jpg
+ls
+rm cover.jpg
+currentsong
+currentsong
+currentsong > /dev/null
+currentsong > /dev/null
+currentsong > /dev/null
+currentsong
+currentsong
+currentsong
+currentsong
+v .config/ncmpcpp/config
+echo "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1"
+echo "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1" | xcp
+cd Documents/website/lastfm-now-playing/
+ls
+r
+sl
+sf
+cal
+update_liked_songs
+homeplaylist
+pkill dunst; dunst & disown
+notify-send nesto
+cd charts/test/
+exiftool grid.png
+ls
+cd charts/
+ls
+cd test/
+ls
+sxiv .
+montage 0[1-9].jpg -tile 3x3 -geometry +0+0 grid.png
+r
+npm install --save merge-images
+npm install --save merge-images
+sc
+cd lyrics_js/
+ls
+v lyrics.js
+v lyrics.js
+v package.json
+r
+node main.js
+firefox index.html
+v main.js
+ls
+:q
+npm install --save merge-images
+node serve
+node
+node serve
+node serve index.html
+node main.js
+node main.js
+node main.js
+node serve
+:q
+curl "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json" > albumcharts.json
+v albumcharts.json
+cat albumcharts.json | jq -r '.'
+cat albumcharts.json | jq -r '.[0]'
+cat albumcharts.json | jq -r '.[].[0]'
+cat albumcharts.json | jq -r '.[].[]'
+cat albumcharts.json | jq -r '.[].[]'
+cat albumcharts.json | jq -r '.[].'
+cat albumcharts.json | jq -r '.[]'
+cat albumcharts.json | jq -r '.[][0]'
+cat albumcharts.json | jq -r '.[].[0]'
+cat albumcharts.json | jq -r '.[].[]'
+cat albumcharts.json | jq -r '.[].artist'
+cat albumcharts.json | jq -r '.'
+cat albumcharts.json | jq -r '.' | less
+cat albumcharts.json | jq -r '.[]' | less
+cat albumcharts.json | jq -r '.[].album' | less
+vim https://unpkg.com/merge-images@2.0.0/dist/index.umd.js
+cd charts/test/
+v 01.txt
+r
+v 05.txt
+r
+homeplaylist
+sf
+homeplaylistedit
+piplaylistedit
+cd Music/Misfits/\(1996\)\ Static\ Age/
+ls
+cd
+cd Music/
+rm -r Misfits/
+ls
+rm -r Misfits/
+sd
+sf
+Music/
+rm -r Misfits/
+cd
+homeplaylistedit
+sf
+cd Music/
+rm -r Misfits/
+r
+ytmusic "
+ytmusic "
+ytmusic "https://music.youtube.com/watch?v=wpuHOkPeGJ8&feature=share"
+ytmusic "https://music.youtube.com/watch?v=wpuHOkPeGJ8"
+addtoplaylists "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3"
+readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3"
+ytmusic "https://music.youtube.com/watch?v=wpuHOkPeGJ8"
+readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3"
+grep -F "$homeFile" "$homePlaylistFile"
+grep -F "$(readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3)" "$homePlaylistFile"
+grep -F "$(readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3)") "$homePlaylistFile"
+grep -F "$(readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3)")" "$homePlaylistFile"
+grep -F "$(readlink -f "" "$homePlaylistFile"
+readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3"
+homeFile=$(readlink -f "Music/Misfits/(1996) Static Age/Misfits - Hybrid Moments.mp3")
+grep -F "$homeFile" "$homePlaylistFile"
+grep -F "$homeFile" $homeplaylistfile
+grep -q "$homeFile" $homeplaylistfile
+grep -q "$homeFile" $homeplaylistfile && echo "nasao"
+grep -q "$homeFile" $homeplaylistfile || echo "nasao"
+grep -q "$homeFile" $homeplaylistfile && echo "nasao"
+grep -q "$homeFile" $homeplaylistfile && echo "nasao" || echo "nije nasao"
+:w
+piplaylistedit
+ytmusic "https://music.youtube.com/watch?v=wpuHOkPeGJ8"
+ytmusic "https://music.youtube.com/watch?v=wpuHOkPeGJ8"
+nmap 24.135.99.52 -p 8000
+nmap 24.135.99.52 -p 80
+cd charts/
+ls
+r
+scp -r . pi@24.135.99.52:~
+..
+scp -r charts/ pi@24.135.99.52:~
+ssh pi@24.135.99.52
+pass
+pass unlock
+pass unlock
+pass vultr | xcp
+wget "http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=${LASTFM_API_KEY}&artist=kendrick lamar&album=mr morale and the big steppers&format=json" -O tmp.json
+v tmp.json
+jq -r '.' tmp.json
+curl "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json" > albumcharts.json
+v albumcharts.json
+jq -r '.' albumcharts.json
+jq -r '.[].album' albumcharts.json
+jq -r '.[].album[0]' albumcharts.json
+wget "http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=${LASTFM_API_KEY}&mbid=5e658ccb-cdfe-4e3c-91f7-79299ee45027&format=json" -O tmp.json
+wget "http://ws.audioscrobbler.com/2.0/?method=artist.getInfo&api_key=${LASTFM_API_KEY}&mbid=381086ea-f511-4aba-bdf9-71c753dc5077&format=json" -O tmp.json
+v tmp.json
+jq -r '.[].album[0]' albumcharts.json
+wget "http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=${LASTFM_API_KEY}&mbid=5e658ccb-cdfe-4e3c-91f7-79299ee45027&format=json" -O tmp.json
+echo "http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=${LASTFM_API_KEY}&mbid=5e658ccb-cdfe-4e3c-91f7-79299ee45027&format=json" -O tmp.json
+echo "http://ws.audioscrobbler.com/2.0/?method=album.getInfo&api_key=${LASTFM_API_KEY}&mbid=5e658ccb-cdfe-4e3c-91f7-79299ee45027&format=json" | xcp
+ssh pi@24.135.99.52
+ssh pi@24.135.99.52
+pass namecheap
+nmap lazic.xyz -p 80
+nmap lazic.xyz -p 8000
+scp
+scp -r charts/ root@lazic.xyz:~
+du -hs charts/
+ssh root@lazic.xyz
+pkill redshift
+s
+S
+a
+cd
+ls
+a
+cd Neon\ Genesis\ Evangelion/
+ls
+r
+htop
+uptime -p
+up time
+uptime
+startx
+v .local/share/xorg/Xorg.0.log
+sudo reboot
+cal
+r
+r
+t
+r
+ls *.parts
+ls .*.parts
+rm .*.parts
+ls
+ls -a
+r
+r
+fd *.flac .
+fd . *.flac
+fd "*.flac" .
+fd ".flac" .
+fd ".flac$" .
+fd ".flac$" . -x rm {}
+r
+easytag .
+r
+v names.txt
+r
+easytag .
+easytag . & disown
+cat names.txt
+r
+tomp3 .
+cd
+sf
+man eyed3
+t
+cd Zdravko\ Čolić\ \[FLAC\]/Live/Zdravko\ Čolić\ -\ 38\ Hitova\ \(2008\)\ \[FLAC\]\ \{CD\ 710362\}/CD\ 2/
+ls
+easytag .
+easytag . & disown
+r
+cfi
+t
+r
+musort .
+ls
+r
+yams -a
+lyrics
+lyrics -s
+rerun
+du -hs Zdravko\ Čolić\ -\ The\ Platinum\ Collection\ \(2007\)\ \[FLAC\]\ \{2CD\ 5752554\}/
+r
+tomp3 .
+ls
+r
+fd .flac .
+fd ".flac$" .
+fd ".flac$" . -x rm {}
+r
+easytag .
+ls
+r
+musort .
+ls
+r
+yams -a
+currentsong
+cd Music/Zdravko\ Čolić/\(2007\)\ Marakana\ 2007/
+ls
+getcover 01.\ Zdravko\ Čolić\ -\
+r
+getcover 01.\ Zdravko\ Čolić\ -\ Loše\ Vino.mp3
+r
+wget "https://lastfm.freetls.fastly.net/i/u/770x0/ea8f144843286ab6286e336c9c8083d3.jpg#ea8f144843286ab6286e336c9c8083d3" -O cover.jpg
+r
+easytag .
+r
+easytag .
+r
+rsyncall
+du -hs Music/
+curl -s "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1" | jq -r '.'
+w
+v index.html
+v vojo.css
+firefox index.html
+cd lastfm-now-playing/
+r
+/home/vojislav/.mozilla/firefox/h2iyrdrf.default-release
+ls
+v chrome/userChrome.css
+/home/vojislav/.mozilla/firefox/h2iyrdrf.default-release
+cd chrome/
+v userChrome.css
+man aunpac
+man aunpack
+ /home/vojislav/.mozilla/firefox/h2iyrdrf.default-release
+ls
+cd chrome/
+v userChrome.css
+..
+cp -r chrome/ ../nciskea6.default-esr-3/
+ /home/vojislav/.mozilla/firefox/nciskea6.default-esr-3
+ls
+r
+cd .config/nsxiv/exec/
+ls
+ls
+cd Documents/nsxiv-29/
+ls
+cd examples/
+v image-info
+mv image-info ~/.config/nsxiv/exec/
+ss
+r
+r
+ /home/vojislav/.mozilla/firefox/nciskea6.default-esr-3
+cd chrome/
+v userChrome.css
+r
+cd .mozilla/firefox/
+r
+D
+unzip firefox-100.0.2.tar.bz2
+aunpack firefox-100.0.2.tar.bz2
+cd firefox/
+r
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+./firefox
+r
+ /home/vojislav/.mozilla/firefox/nciskea6.default-esr-3
+cd chrome/
+mv test userChrome.css
+mv test userChrome.css
+r
+pkill ranger
+pgrep ranger
+htop
+a
+cd Neon\ Genesis\ Evangelion/
+mpv E21.\ The\ Birth\ of\ Nerv.mkv
+mpv E21.\ The\ Birth\ of\ Nerv.mkv
+mpv E20.\ Form\ of\ the\ Mind\,\ Form\ of\ the\ Man.mkv
+htop
+cd Documents/repos/kinoteka_kalendar/
+ls
+r
+export FLASK_ENV=development
+flask run
+rsynckino
+ssh pi@24.135.99.52
+ssh pi@192.168.0.16
+cd Music/
+fd . .
+fd . . -t f
+fd . . -t f | wc -l
+fd . . -t f | wc -l
+apt install fzf
+fzf
+apt remove fzf
+v .fzf/shell/key-bindings.
+v .fzf/shell/key-bindings.s
+v .fzf/shell/key-bindings.bash
+:q
+v .fzf/
+v .fzf.bash
+cd .fzf/
+ls
+./install
+which fd
+apt install bat
+fzf
+fzf
+which fzf
+file /home/vojislav/.fzf/bin/fzf
+fzf --version
+fzf
+fzf --version
+bashrc
+cd .fzf
+ls
+cd
+cd ~/.fzf && git pull && ./install
+v shell/completion.
+v shell/completion.bash
+cp shell/completion.bash ~
+git pull
+git status
+git checkout *
+git status
+git pull
+./install
+fzf
+fzf --version
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+htop
+htop
+D
+r
+htop
+pgrep mpd
+hto
+htop
+prep mpd
+pgrep mpd
+a
+r
+r
+cd Doe
+D
+ls
+sed 's/ð/đ/g; s/æ/ć/g; s/è/č/g; s/É/Č/g' -i zx.eva.renewal.25
+sed 's/ð/đ/g; s/æ/ć/g; s/è/č/g; s/É/Č/g' -i zx.eva.renewal.25.divx52\(Arial-18\).srt
+sed 's/ð/đ/g; s/æ/ć/g; s/è/č/g; s/É/Č/g' -i zx.eva.renewal.25.divx52\(Arial-18\).srt
+sed 's/ð/đ/g; s/æ/ć/g; s/è/č/g; s/É/Č/g' -i zx.eva.renewal.25.divx52\(Arial-18\).srt
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+mount -t auto /dev/sdc1 /mnt
+ls /mnt
+woeusb
+man woeusb
+lsblk
+lsblk
+mkd mnt
+mount -t auto /dev/sdd1 mnt/
+ls mnt/
+lsblk
+umount mnt/
+lsblk
+lsblk
+lsblk
+t
+cd Microsoft\ Windows\ 10\ PRO\ FULL\(x64-x86\)\ Sep\ 2015\ \[TechTools.NET\]/
+ls
+sudowoeusb --device Microsoft\ Windows\ 10\ PRO\ FULL\(x64-x86\)\ Sep\ 2015\ \[TechTools.NET\].iso /dev/sdc
+sudo woeusb --device Microsoft\ Windows\ 10\ PRO\ FULL\(x64-x86\)\ Sep\ 2015\ \[TechTools.NET\].iso /dev/sdc
+nesto
+nesto
+man xclipt
+man xclip
+echo "nesto" | xclip -selection primary clipboard
+echo "nesto" | xclip -selection primary -selection clipboard
+nesto
+echo "nesto" | xclip -selection clipboard
+nest
+echo "nesto" | xclip -selection primary
+
+nestonesto
+echo -n "" | xclip -selection primary -selection clipboard
+nesto
+nesto
+nesto
+echo -n "" | xclip -selection clipboard -selection primary
+echo "" | xclip -selection primary; echo "" | xclip -selection clipboard
+echo -n "" | xclip -selection primary; echo -n "" | xclip -selection clipboard
+alias xclipclear='echo -n "" | xclip -selection primary; echo -n "" | xclip -selection clipboard'
+alias xclipcl
+alias xclipclear
+alias xclipclear | xcp
+bashrc
+xclipclear
+xclipclear
+man notify-send
+man dunst
+r
+cd Music/Black\ Country\,\ New\ Road/
+r
+notify-send --icon cover.jpg "nesto"
+notify-send --icon "cover.jpg" "nesto"
+r
+notify-send --icon folder.jpg "nesto"
+notify-send --icon "folder.jpg" "nesto"
+man notify-send
+r
+notify-send --icon cover.jpg "nesto"
+notify-send --icon "cover.jpg" "nesto"
+displayalbumart
+displayalbumart
+notify-send --icon "$(displayalbumart)" "$(mpc current)"
+notify-send --icon "$(displayalbumart)" "$(mpc current)"
+r
+notify-send --icon "$(readlink -f cover.jpg)" "$(mpc current)"
+cd
+r
+notify-send --icon "$(readlink -f cover.jpg)" "$(mpc current)"
+notify-send --icon "$(readlink -f cover.jpg)" "$(mpc current)"
+readlink -f cover.jpg)
+readlink -f cover.jpg
+r
+getcover 01.\ Black\ Country\,\ New\ Road\ -\ Instrumental.mp3
+r
+currentsong
+notify-send --icon "$(readlink -f cover.jpg)"
+notify-send --icon "$(readlink -f cover.jpg)" nesto
+r
+notify-send --icon "$(readlink -f cover.jpg)" nesto
+notify-send --icon "$(readlink -f )" nesto
+ls
+ffmpeg -i 01.\ black\ midi\ -\ 953.mp3 cover.jpg
+r
+notify-send --icon "$(readlink -f cover.jpg)" nesto
+r
+identify cover.jpg
+echo $1
+echo $?
+identify cover.jpg
+echo $?
+pkill dunst; dunst & disown
+currentsong
+displayalbumart
+sxiv /home/vojislav/Music/Black Country, New Road/(2021) For the First Time/cover.jpg
+sxiv $(displayalbumart)
+sxiv "$(displayalbumart)"
+currentsong
+sf
+$(displayalbumart)"
+$(displayalbumart)
+notify-send --icon $(displayalbumart) "ada"
+notify-send --icon "$(displayalbumart)" "ada"
+currentsong
+currentsong
+currentsong
+currentsong
+currentsong
+currentsong
+currentsong
+tesseract zvezda.jpg - --oem 1
+pass fb
+pass fb | xcp
+APP_ID="1036043147048184"
+APP_SECRET="b9dc771a2be44458d7c99f6cf718d642"
+mpvxcp
+yt-dlp -U
+sudo yt-dlp -U
+sudo yt-dlp -U
+xclipclear
+APP_ID="1036043147048184"
+APP_SECRET="b9dc771a2be44458d7c99f6cf718d642"
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id={your-app-id}
+  &client_secret={your-app-secret}
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=${APP_ID}}
+  &client_secret=${APP_SECRET}}
+  &grant_type=client_credentials"
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=${APP_ID}}
+  &client_secret=${APP_SECRET}}
+  &grant_type=client_credentials"
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=${APP_ID}}
+  &client_secret=${APP_SECRET}
+  &grant_type=client_credentials"
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=${APP_ID}
+  &client_secret=${APP_SECRET}
+  &grant_type=client_credentials"
+curl -X GET "https://graph.facebook.com/oauth/access_token
+  ?client_id=${APP_ID}
+  &client_secret=${APP_SECRET}
+  &grant_type=client_credentials"
+curlhttps://graph.facebook.com/oauth/access_token
+  ?client_id={your-app-id}
+  &client_secret={your-app-secret}
+vim
+curl "https://graph.facebook.com/oauth/access_token \
+  ?client_id=${APP_ID} \
+  &client_secret=${APP_SECRET} \
+  &grant_type=client_credentials"
+curl https://graph.facebook.com/oauth/access_token   ?client_id=${APP_ID}   &client_secret=${APP_SECRET}   &grant_type=client_credentials"
+echo "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials"
+echo "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | xcp
+curl "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials"
+curl "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | jq -r '.access_token'
+curl -s "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | jq -r '.access_token'
+ACCESS_TOKEN=$(curl -s "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | jq -r '.access_token')
+echo $ACCESS_TOKEN
+v
+curl -i -X GET "https://graph.facebook.com/novibioskopzvezda?
+  fields=access_token&
+  access_token=${ACCESS_TOKEN}"
+curl "https://graph.facebook.com/novibioskopzvezda?fields=access_token&access_token=${ACCESS_TOKEN}"
+echo "https://graph.facebook.com/novibioskopzvezda?fields=access_token&access_token=${ACCESS_TOKEN}" | xcp
+curl -s "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | jq -r '.access_token'
+ACCESS_TOKEN="1036043147048184|2ZGJ7SLN1zika-T4wvdN9CcOh40"
+curl "https://graph.facebook.com/novibioskopzvezda?fields=access_token&access_token=${ACCESS_TOKEN}"
+curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
+  client_id=APP-ID&
+  client_secret=APP-SECRET&
+  fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN"
+curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
+  client_id=${APP_ID}&
+  client_secret=${APP_SECRET}&
+  fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN"
+vim
+echo "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
+  client_id=${APP_ID{}&
+  client_secret=${APP_SECRET}&
+  fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN"
+echo "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token& \
+  client_id=${APP_ID{}& \
+  client_secret=${APP_SECRET}& \
+  fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN"
+"https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
+  client_id=APP-ID&
+  client_secret=APP-SECRET&
+vim
+"https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=${APP_ID}&client_secret=${APP_SECRET}&fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN"
+echo "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&client_id=${APP_ID}&client_secret=${APP_SECRET}&fb_exchange_token=SHORT-LIVED-USER-ACCESS-TOKEN" | xcp
+v
+cd videos/
+ffmpeg -i nepostoji.mp4 nepostoji.webm
+r
+a
+cd De
+cd Devilman\ Crybaby/
+r
+cd
+d
+cf
+f
+cd a1/zimonjic/snimci_yt/
+ls
+yt "https://youtu.be/wLyknJn5bps" -O "12. nedelja.mkv"
+yt "https://youtu.be/wLyknJn5bps" -p "12. nedelja.mkv"
+yt "https://youtu.be/wLyknJn5bps" -o "12. nedelja.mkv"
+yt "https://youtu.be/wLyknJn5bps" -o "12. nedelja.mkv"
+yt "https://youtu.be/wLyknJn5bps" -o "12. nedelja.mkv"
+r
+r
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+homeplaylistedit
+piplaylistedit
+wc -l $homeplaylistfile
+wc -l $piplaylistfile
+htop
+APP_ID="1036043147048184"
+APP_SECRET="b9dc771a2be44458d7c99f6cf718d642"
+ACCESS_TOKEN=$(curl -s "https://graph.facebook.com/oauth/access_token?client_id=${APP_ID}&client_secret=${APP_SECRET}&grant_type=client_credentials" | jq -r '.access_token')
+echo $ACCESS_TOKEN
+curl -i -X GET "https://graph.facebook.com/novibioskopzvezda?access_token=${ACCESS_TOKEN}"
+echo "https://graph.facebook.com/novibioskopzvezda?access_token=${ACCESS_TOKEN}" | xcp
+pip install facebook-scraper
+pip3 install facebook-scraper
+python -m pip install --upgrade pip
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py > out.txt
+v out.txt
+v out.txt
+python3 test.py > out.txt
+sed 's/,/\n/g' out.txt
+sed -i 's/,/\n/g' out.txt
+r
+v out.txt
+r
+v test.py
+cd test
+mkd test
+cd test/
+rsync http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/ .
+rsync "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/" .
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/"
+r
+wget -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/"
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/"
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/" --show-progress
+wget -Q -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/" --show-progress
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/" -Q --show-progress
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/" -q --show-progress
+r
+man wget
+yams -a
+yams -a
+yams -a
+soul
+cd complete/2007\ weighing\ souls\ with\ sand/
+r
+musort .
+ls
+r
+rsyncall
+lyrics
+mpv https://e.snmc.io/i/600/w/841a92d4c82b0815670ccb23895c0aeb/9947356
+wget "https://e.snmc.io/i/600/w/841a92d4c82b0815670ccb23895c0aeb/9947356"
+r
+sxiv 9947356.gif
+feh 9947356.gif
+mpv 9947356.gif
+curl "https://e.snmc.io/i/fullres/w/a8dcb27fd5424097e5dae41666110721/9947356"
+wget "https://e.snmc.io/i/fullres/w/a8dcb27fd5424097e5dae41666110721/9947356"
+r
+mpvxcp
+r
+mpvxcp
+mpvxcp
+xinput float 9; sleep 90; xinput reattach 9 3
+xinput float 9; sleep 90; xinput reattach 9 3
+xinput float 9; sleep 90; xinput reattach 9 3
+curl "https://www.primaverasound.com/en/barcelona/2-weekends-programme-202x2"
+curl "https://www.primaverasound.com/en/barcelona/2-weekends-programme-202x2" -O out.html
+curl "https://www.primaverasound.com/en/barcelona/2-weekends-programme-202x2" -o out.html
+v out.html
+wget "https://www.primaverasound.com/en/barcelona/2-weekends-programme-202x2"
+r
+ls
+chmod +x search.sh
+./search.sh
+./search.sh
+./search.sh
+./search.sh
+man grep
+./search.sh
+./search.sh
+./search.sh | xcp
+v artists.txt
+mpc listall
+mpc listall artists
+mpc listall artist
+mpv list album
+mpv list album group artist
+mpc list album
+mpc list artist
+mpc list artist
+grep -q "100 gecs" mpc list artist && echo $?
+mpc list artist | grep -q "100 gecs" && echo $?
+mpc list artist | grep "100 gecs"
+mpc list artist | grep -q "100 gecs"  && echo "nasao"
+mpc list artist | grep -q "100gecs"  && echo "nasao"
+mpc list artist | grep -q "100 gecs"  && echo "nasao"
+man mpc
+v search.sh
+lyrics
+lyrics -s
+D
+jq '.' lastfmstats-vojoh.jso
+jq '.' lastfmstats-vojoh.json
+v .config/ranger/rifle.conf
+kiaa
+r
+kiaa
+kaa
+r
+mkd 1_prefiskna_stabla
+cd 1_prefiskna_stabla/
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/2_cas.pdf
+r
+r
+:q
+g++ main.cpp
+g++ main.cpp
+g++ main.cpp
+g++ main.cpp
+g++ main.cpp prefiksna_stabla.h
+g++ main.cpp prefiksna_stabla.cpp
+g++ main.cpp prefiksna_stabla.cpp
+./a.out
+:w
+:q
+pass
+pass rym | xcp
+ytmusic "https://music.youtube.com/watch?v=gc12lP5FNG0"
+rm -r Music/Kaneko\ Ayano/
+homeplaylistedit
+piplaa
+piplaylist
+piplaylistedit
+sf
+beep
+sv /etc/modules
+sv /etc/modprobe.d/nobeep.conf
+sudo rm /etc/modprobe.d/nobeep.conf
+sudo modprobe pcspkr
+beep
+notify-send "nesto"
+beep
+lbrss
+sf
+ytmusic "https://music.youtube.com/watch?v=gc12lP5FNG0&feature=share"
+sf
+homeplaylist
+piplaylist
+currentsong
+sxiv $(displayalbumart)
+sxiv "$(displayalbumart)"
+sf
+sf
+cd Music/Jandek/
+cd \(1978\)\ Ready\ For\ The\ House/
+ls
+r
+easytag .
+find . -type f -name "*.jpg"
+find . -type f -name "*.jpg" | grep -i "cover"
+a
+cd Serial\ Experiments\ Lain/
+r
+a
+cd Serial\ Experiments\ Lain/
+ffmpeg -i Serial\ Experiments\ Lain\ -\ E03.mkv -ss 00:16:57 -to 00:17:10 -c copy out.mp4
+r
+ffmpeg -i Serial\ Experiments\ Lain\ -\ E03.mkv -ss 00:16:57 -to 00:17:10 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+w
+firefox index.html
+lbrss
+crontab -e
+file ~/.scripts/lbrss
+chmod +x ~/.scripts/lbrss
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/1_prefiskna_stabla
+g++ 2_najduzi_prefiks.cpp prefiksna_stabla.cpp
+g++ 2_najduzi_prefiks.cpp prefiksna_stabla.cpp
+g++ 2_najduzi_prefiks.cpp prefiksna_stabla.cpp
+./a.out
+./a.out
+:q
+f
+cd kiaa/
+r
+v prefiksna_stabla.h
+v main.cpp
+v 1_dodaj_nadji.cpp
+mv main.cpp 1_dodaj_nadji.cpp
+v 2_najduzi_prefiks.cpp
+v 2_najduzi_prefiks.cpp
+cd .config/lbrss/feeds/
+v voja.xml
+lbrss
+v lbrss
+v voja.xml
+lbrss
+v voja.xml
+v voja.xml
+crontab -e
+echo $DISPLAY
+v voja.xml
+sf
+pgrep dunst
+killall dunst
+pgrep dunst
+dunst & disown
+v Documents/fixes.txt
+v Documents/fixes.txt
+pgrep dunst
+pkill dunst
+pgrep dunst
+cd .config/lbrss/
+cd feeds/
+v voja.xml
+v voja.xml
+v voja.xml
+pgrep dunst
+notify-send "nesto
+notify-send "nesto"
+crontab -e
+which notify-send
+crontab -e
+notify-send "nesto"
+pgrep dunst
+lyrics
+lyrics -s
+pgrep dunst
+pkill dunst
+pgrep dunst
+crontab -e
+pgrep dunst
+pgrep dunst
+pkill dunst
+dunst & disown
+echo $DISPLAY
+pgrep dunst
+pgrep dunst
+pgrep dunst
+pkill dunst
+dunst & disown
+pgrep dunst
+pgrep dunst
+pgrep dunst
+pgrep dunst
+pkill dunst
+dunst & disown
+sf
+pgrep dunst
+notify-send "nesto
+notify-send "nesto"
+echo $DBUS_SESSION_BUS_ADDRESS
+crontab -e
+pkill dunst
+dunst & disown
+pkill dunst
+dunst & disown
+notify-send "nestO"
+crontab -e
+sudo journalctl -xb -u cron
+sudo journalctl -xb -u cron
+sudo journalctl -xb -u cron
+env
+journalctl -xb -u crond
+journalctl -xb -u cron
+journalctl -xb -u cronie
+journalctl -xb -u cron
+sudo journalctl -xb -u cron
+sudo journalctl -xb -u crond
+sudo journalctl -xb -u cron
+pgrep dunst
+pkill dunst
+dunst
+pgrep dunst
+dunst & disown
+SS status crond
+SS status cron
+SS restart cron
+SS status cron
+SS status cron
+SS status cron
+SS status cron
+mpc list album
+mpc list artist album
+mpc list album
+man mpc
+mpv list group artist
+mpc list group artist
+mpc list artist album
+mpc list album group artist
+mpc statis
+mpc stats
+man mpc
+pgrep dunst
+SS status dunst
+cfi
+v .profile
+bashrc
+crontab -e
+lyrics
+lyrics -s
+crontab e
+crontab -e
+sf
+cd .time/
+ls
+cat *
+pgrep dunst
+notify-send
+notify-send nesto
+crontab -e
+whereis
+whereis notify-send
+export DISPLAY=:0 && /usr/bin/notify-send "cron" && beep
+sudo journalctl -xb -u cron
+crontab -e
+man journalxtl
+man journalctl
+sudo journalctl -xb -ur cron
+sudo journalctl -xb -ur cron
+sudo journalctl -xb -ur crond
+sudo journalctl -xbr -u crond
+sudo journalctl -xb -r -u crond
+sudo journalctl -xb -r -u cron
+sudo journalctl -xb -r -u cron
+sudo journalctl -xb -r -u cron
+watch -n1 sudo journalctl -xb -r -u cron
+date
+watch -n1 date
+crontab -e
+watch -n1 sudo journalctl -xb -r -u cron
+crontab -e
+v .bash_history
+ls lo
+ls log
+cat log
+cat log
+cat log
+cat log
+cat log
+pgrep dunst
+pkill dunst
+pgrep dunst
+cat log
+crontab -e
+pgrep dunst
+crontab -l
+sudo journalctl -xb -r -u cron
+crontab -e
+v run-as-cron
+chmod +x run-as-cron
+ls
+ls
+crontab -l
+..
+ls
+cd
+crontab -e
+dbus-launch
+dbus-launch
+crontab -e
+ls
+cat cron-env
+file /run/user/1000/bus
+file /run/user/1000/bus
+crontab -e
+cat cron-env
+crontab -e
+ls
+v cron-env
+crontab -e
+pgrep dunst
+pkill dunst
+dunst & disown
+pgrep dunst
+crontab -e
+crontab -e
+rm log
+ls
+pgrep dunst
+which notify-send
+sudo cat /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+SS status dunst
+SS status dunst
+which dunst
+pgrep dunst
+rgdir .
+echo $XDG_RUNTIME_DIR/
+echo $XDG_RUNTIME_DIR
+XDG_RUNTIME_DIR=/run/user/$(id -u)
+echo $XDG_RUNTIME_DIR
+id -u
+ls .Xauthority
+v .Xauthority
+cat cron-env
+SS status org.freedesktop.Notifications
+SS status Notifications
+export DISPLAY=:0.0
+notify-send nesto
+echo $DISPLAY
+export DISPLAY=:1
+notify-send nesto
+echo $DISPLAY
+echo $DISPLAY
+sudo grep "notify-send" /var/log/syslog
+pkill dunst
+pgrep dunst
+pkill dunst
+sudo grep "notify-send" /var/log/syslog
+pgrep lbrss
+pgrep notify-send
+pgrep notify
+pgrep
+pgrep *
+pgrep .
+pgrep notify
+pgrep notify
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+pgrep notify
+pgrep notify
+pgrep dunst
+dunst
+dunst
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog | less
+sudo grep "notify-send" /var/log/syslog | less
+sudo grep "notify-send" /var/log/syslog
+pgrep notify
+notify-send "nesto"
+pgrep notify
+sudo grep "notify-send" /var/log/syslog
+pgrep notify
+pkill notify
+pgrep notify
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+crontab -e
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+sudo grep "notify-send" /var/log/syslog
+pgrep dunst
+which dunst
+sf
+ls log
+cat log
+v cron-env
+notify-send "nesto"
+notify-send -v "nesto"
+notify-send -v
+crontab -e
+crontab -l
+crontab -l
+egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME gnome-session)/environ
+egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME gnome-session)/environ
+echo $LOGNAME
+egrep -z DBUS_SESSION_BUS_ADDRESS /proc/$(pgrep -u $LOGNAME gnome-session)/environ
+egrep
+egrep -z DBUS_SE
+egrep -z DBUS_SESSION_BUS_ADDRESS /proc/"$(pgrep -u $LOGNAME gnome-session)"/environ
+pgrep -u $LOGNAME gnome-session
+\pgrep -u $LOGNAME gnome-session
+\pgrep dunst
+\pgrep -u $LOGNAME gnome-session
+v log
+v log
+rm log
+crontab -e
+pgrep dunst
+cfi
+sudo grep "notify-send" /var/log/syslog
+notify-send "test
+notify-send "test"
+sudo grep "notify-send" /var/log/syslog
+v .xinitrc
+sudo grep "notify-send" /var/log/syslog
+sudo grep "nesto2" /var/log/syslog
+crontab -e
+cd .config/lbrss/feeds/
+v voja.xml
+pgrep dunst
+notify-send "duasd"
+pgrep dunst
+pkill dunst
+dunst & disown
+v .config/lbrss/feeds/
+pgrep discord
+pkill discord
+pgrep discord
+killall discorfd
+killall discord
+pgrep discord
+apt install libappindicator-gtk3
+v .xinitrc
+libappindicator-dev
+apt install libappindicator-dev
+apt install libappindicator3-dev
+pgrep discord
+apt remove discord
+sudo dpkg -i Downloads/discord-0.0.17.deb
+apt remove discord
+discoo
+disco
+man disco
+sudo dpkg -i Downloads/discord-0.0.17.deb
+apt remove discord
+apt install discord
+dconf read /org/cinnamon/enabled-applets
+apt install libappindicator
+apt install libappindicator3-1
+apt install libappindicator3-dev
+apt install libappindicator-dev
+pgrep discord
+pgrep discord
+cfi
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2021_2022/Analiza1(I%20smer)/1i3a/" -q --show-progress
+t
+r
+screen
+pgrep screenshot
+pkill screenshot
+pgrep screenshot
+pkill xclip
+pgrep screenshot
+pgrep gnome
+pgrep xclip
+pgrep screenshot
+pgrep screenshot
+pgrep screenshot
+sxiv /home/vojislav/Pictures/screenshots/2022-05-29-170247.png
+kill -9 30503
+sxiv /home/vojislav/Pictures/screenshots/2022-05-29-170247.png
+pgrep screenshot
+pgrep xclip
+pgrep xclip
+pgrep screen
+pgrep screen
+pgrep screen
+pgrep screen
+pgrep screen
+kill -9 32538
+pgrep screen
+ss
+r
+zathura --version
+man zathura
+zathura --version
+D
+unzip zathura-0.4.9.zip
+r
+v .config/zathura/zathurarc
+cd Documents/nsxiv-29/
+ls
+v config.
+v config.h
+make
+v config.h
+rgdir .
+v config.h
+make
+sudo make install
+which sxiv
+which nsxiv
+sudo /usr/local/bin/nsxiv /usr/local/bin/sxiv
+sudo mv /usr/local/bin/nsxiv /usr/local/bin/sxiv
+v Documents/nsxiv-29/
+cd Documents/nsxiv-29/
+ls
+v config.h
+rgdir .
+cd Documents/nsxiv-29/
+v Makefile
+D
+d
+cd nsxiv-29/
+make
+sudo make install
+sudo cp $(which nsxiv) $(which sxiv)
+screenshot -a
+pgrep screen
+kill -9 17506
+sf
+apt install gnome-screenshot
+gnome-screenshot -a
+gnome-screenshot
+gnome-screenshot -i
+htop
+import shot.png
+sxiv sho
+sxiv shot.png
+sxiv shot.png
+apt remove gnome-screenshot
+apt install gnome-screenshot
+htop
+htop
+pgrep gnome
+htop
+gnome-screenshot -a
+gnome-screenshot -a
+man gnome-screenshot
+import first.png
+import second.png
+import bladee.png
+import bladee.png
+sxiv bladee.png
+import camilla.png
+import camilla.png
+import grips.png
+import peggy.png
+D
+cd cmake-3.23.2/
+./bootstrap
+make
+sudo make install
+import shot.png
+sxiv sho
+sxiv shot.png
+gnome-screenshot --version
+D
+unzip gnome-screenshot-41.0.zip
+cd gnome-screenshot-41.0/
+ls
+less README.md
+meson build
+apt install cmake
+D
+aunpack cmake-3.23.2.tar.gz
+cd cmake-3.23.2/
+ls
+less README.rst
+D
+unzip gnome-screenshot-41.0
+D
+ls
+cmake --version
+D
+cd gnome-screenshot-41.0/
+ls
+meson build
+apt install libhandy-1-dev
+D
+unzip libhandy-1.4.1.zip
+cd libhandy-1.4.1/
+meson . _build
+apt install libgirepository1.0-dev
+meson . _build
+apt install vapigen
+apt install valc
+apt install valac
+meson . _build
+ninja -C _build/
+ninja -C _build/ install
+sudo ninja -C _build/ install
+cd ..
+cd gnome-screenshot-41.0/
+ls
+meson build
+meson .
+meson . build
+meson
+rm -r build
+mkd build
+cd build
+meson --prefix=/usr --buildtype=release .. &&
+meson --prefix=/usr --buildtype=release .. && ninja
+sudo ninja install
+ls
+..
+ls
+v data/meson.build
+..
+cd gnome-screenshot-41.0/
+sed -i '/merge_file/{n;d}' data/meson.build
+v data/meson.build
+cd build
+meson --prefix=/usr --buildtype=release ..
+ninja
+ls
+cd
+r
+ls
+meson . _build
+ninja -C _build
+ninja -C _build
+cd ..
+rm -r libhandy-1.6.2
+ls
+unzip libhandy-1.6.2.zip
+cd libhandy-1.6.2/
+meson . _build
+ninja -C _build
+ls
+r
+aunpack gtk+-3.24.34.tar.xz
+cd gtk+-3.24.34/
+ls
+./configure
+make
+make install
+make
+./configure
+..
+ls
+aunpack at-spi2-atk-2.38.0.tar.xz
+cd at-spi2-atk-2.38.0/
+mkd build; cd build
+meson --prefix=/usr --buildtype=release .. && ninja
+apt install libglib2.0-0
+apt install libglib2.0-0-dev
+apt install libglib2.0-dev
+apt install libglib2.0-dev
+apt install libglib2.0-cil-dev
+meson --prefix=/usr --buildtype=release .. && ninja
+apt install libglib2.0-bin
+crontab -e
+D
+aunpack glib-2.72.1.zip
+cd glib-2.72.1/
+ls
+meson setup _build
+meson compile -C _build
+meson install -C _build
+sudo meson install -C _build
+cd
+cd Downloads/gtk+-3.24.34/
+./configureasdiiiiasiiasdiiii
+cd ../at-spi2-atk-2.38.0/
+cd build/asdaii
+meson --prefix=/usr --buildtype=release .. && ninjai
+ninja install
+D
+D
+cd at-spi2-atk-2.38.0/
+ls
+sudo ninja install
+cd build/
+sudo ninja install
+..
+..
+cd gtk+-3.24.34/
+./configure --prefix=/usr                          --sysconfdir=/etc                      --enable-broadway-backend              --enable-x11-backend                   --enable-wayland-backend   && make
+./config
+./configure
+ldd --version
+cd /lib
+ls
+ls
+r
+D
+cd gtk+-3.24.34/
+./configure
+sudo ldconfig
+ldd --version
+dpkg -l
+ldconfig
+sudo ldconfig
+sudo ldconfig -v
+sudo ldconfig -v | grep -i glib
+apt install glib
+apt list
+apt list | grep -i glib
+sudo ldconfig -v | grep -i glibi
+cd ../glib-2.72.1/
+meson _build/
+ninja -C _build
+ninja -C _build install
+oiiiadasiiiiiiiadsdiiiisdfsfd.
+cd
+cd
+sdfsdf
+cd Downloads/glib-2.72.1/
+ls
+sudo ninja -C _build install
+cd Downloads/glib-2.72.1/
+ls
+meson install -C _build
+sudo meson install -C _build
+r
+htop
+cd Downloads/gtk+-3.24.34/
+./configure --help
+./configure
+make
+./configure --prefix=/usr                          --sysconfdir=/etc                      --enable-broadway-backend              --enable-x11-backend
+make -j4
+sudo make install
+D
+cd gnome-screenshot-41.0/
+..
+aunpack libcanberra-0.30.tar.xz
+cd libcanberra-0.30/
+./configure --prefix=/usr --disable-oss && make
+sudo make install
+..
+cd gnome-screenshot-41.0/
+sed -i '/merge_file/{n;d}' data/meson.build
+cd build
+meson --prefix=/usr --buildtype=release .. && ninja
+meson --prefix=/usr --buildtype=release ..
+ninja
+sudo ninja install
+r
+unzip gnome-screenshot-41.0.zip
+cd gnome-screenshot-41.0/
+sed -i '/merge_file/{n;d}' data/meson.build
+mkd build; cd build
+meson --prefix=/usr --buildtype=release .. && ninja
+meson --prefix=/usr --buildtype=release .. && ninja
+meson ..
+meson --reconfigure ..
+ls
+ninja
+ninja
+apt install appstream
+ninja
+sudo ninja install
+cd
+htop
+gnome-screenshot --version
+gnome-screenshot -a
+apt install flameshot
+flameshot
+flameshot --help
+flameshot area
+man flameshot
+flameshot
+flameshot --help
+flameshot screen
+flameshot full
+flameshot -c
+flameshot full -c
+flameshot screen -c
+flameshot full -p full.png
+flameshot full -p .
+r
+flameshot full -p .
+flameshot full
+flameshot full -r
+flameshot full -p /home/vojislav/shot.png
+flameshot full -p /home/vojislav/
+ls
+flameshot scren -p /home/vojislav/
+flameshot screen -p /home/vojislav/
+ls
+flameshot screen
+flameshot screen --path .
+ls
+r
+gnome-screenshot
+apt install mate-screenshot
+apt install mate-utils-common
+mate-screenshot
+sudo mate-screenshot
+apt install mate-utils-common
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~milos_zimonjic/2020_2021/Analiza%201%20(I%20smer)/resenja%20ispita_2020_2021/"
+r
+sudo reboot
+screenshot
+screenshot -a
+screenshot -a
+apt update
+apt upgrade
+gnome-screenshot
+pass discord
+pass disc
+pass unlock
+pass
+apt install notify-osd
+libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libappindicator1, libc++1 | tr ',' ' '
+echo "libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libappindicator1, libc++1" | tr ',' ' '
+apt install !
+!
+!
+$!
+$!
+echo nesto
+
+echo nesto
+$!
+echo nesto
+!
+echo nesto
+echo nesto
+zrun
+~~
+~~
+echo nesto
+echo nesto
+echo "libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libappindicator1, libc++1" | tr ',' ' '
+apt install echo "libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libappindicator1, libc++1" | tr ',' ' '
+echo "libc6, libasound2, libatomic1, libgconf-2-4, libnotify4, libnspr4, libnss3, libstdc++6, libxss1, libxtst6, libappindicator1, libc++1" | tr ',' ' ' | xcp
+apt install libc6  libasound2  libatomic1  libgconf-2-4  libnotify4  libnspr4  libnss3  libstdc++6  libxss1  libxtst6  libappindicator1  libc++1
+D
+apt remove discord
+discord
+D
+sudo dpkg -i discord-ptb-0.0.30.deb
+apt remove discord
+apt remove discord-ptb
+D
+sudo dpkg -i discord-canary-0.0.135.deb
+apt remove discord-canary
+D
+ls
+sudo dpkg -i discord-0.0.17.deb
+apt install pasystray
+pkill pasystray
+pgrep dunst
+pkill dunst
+dunst & disown
+v .config/dunst/dunstrc
+cd .config/dunst
+mv dunstrc dunstrc_orig
+v dunstrc
+wget https://raw.githubusercontent.com/dunst-project/dunst/master/dunstrc
+r
+pkill dunst
+dunst & disown
+pgrep dunst
+cd .config/dunst/
+mv dunstrc_orig dunstrc
+pkill dunst
+dunst & disown
+xwd
+man xwd
+man xwd
+xwd | convert xwd
+xwd | convert xwd: - out.png
+r
+man xwd
+man scrot
+man xwd
+xwd -out out.png
+sxiv out.png
+xwd -out out
+xwd -out out -silent
+sxiv out
+file out
+htop
+w -oush
+cd
+\w -oush
+\w -oush
+\w -oush
+xrandr
+apt install maim
+maim
+maim -s -f png
+maim -s -f png out
+sxiv out
+sxiv out.png
+rm out*
+sxiv out.png
+maim -x 0 -f png $(date +"%Y-%m-%d-%H%M%S")
+maim -x :0 -f png $(date +"%Y-%m-%d-%H%M%S")
+sxiv 2022-05-30-120151
+sxiv 2022-05-30-120151
+maim -x :0 -f png out
+ls
+r
+maim -x :0 -f png "$(date +"%Y-%m-%d-%H%M%S").png"
+ls
+sxiv 2022-05-30-120313.png
+man maim
+man maim
+man maim
+ps -ax | tee processes.txt | more
+ps -ax | tee processes.txt | more
+ls
+r
+ps -ax | tee processes.txt | more
+maim -s | xclip -selection clipboard -t image/png
+maim -s
+maim -s | tee out.png | xclip -selection clipboard -t image/png
+ls
+sxiv out.png
+./screenshot -s
+./screenshot -a
+ss
+r
+xrandr | grep -o '[0-9]*x[0-9]*[+-][0-9]*[+-][0-9]*'
+wget blob:https://web.telegram.org/f954b80d-2ed5-4348-9ff0-05a6898f3aac
+pass
+pass reddit
+xdpyinfo | grep dimensions
+pgrep redshift
+pkill redshift
+pgrep redshift
+redshift -x
+pgrep redshift
+xrandr --listmonitors
+update_liked_songs
+sf
+v screenshot
+chmod +x screenshot
+./screenshot
+./screenshot
+v screenshot
+./screenshot -a
+v screenshot
+w
+cd lastfm-now-playing/
+r
+sf
+sf
+sf
+sf
+xdpyinfo | grep dimensions
+xrandr | grep -o '[0-9]*x[0-9]*[+-][0-9]*[+-][0-9]*'
+xrandr
+xrandr
+xdotool getmouselocation
+xdotool getmouselocation
+sleep 3; xdotool getmouselocation
+sleep 3; xdotool getmouselocation
+xrandr
+xrandr --current
+man xrandr
+xdpyinfo | grep dimensions
+xdpyinfo | grep dimensions | cut -d: -f2
+xdpyinfo | grep dimensions
+man xdpy
+xdpyinfo
+xrandr
+xdpyinfo | grep dimensions | awk '{print $2}'
+xdpyinfo | grep dimensions | awk '{print $2;}'
+xdpyinfo | grep dimensions | awk '{print $2}'
+xdpyinfo | grep dimensions | awk '{print $2l}'
+xdpyinfo | grep dimensions | awk '{print $2}'
+ss
+r
+./screenshot
+sleep 2; ./screenshot
+mv screenshot ~/.scripts/screenshot
+which screenshot
+ss
+r
+xdotool getmouselocation
+xdotool getmouselocation | cut -d: -f1
+xdotool getmouselocation | cut -d: -f2
+xdotool getmouselocation | awk -F "[: ]" '{print $2}'
+man awk
+man awk
+xdotool getmouselocation | awk -F "[: ]" '{print $2}'
+xdotool getmouselocation | awk -F "[: ]" '{print $4}'
+v screenshot
+xdotool
+xdotool get_desktop
+xdotool get_num_desktops
+xdotool get_num_desktops
+xdotool click
+wget https://gist.githubusercontent.com/naelstrof/f9b74b5221cdc324c0911c89a47b8d97/raw/3981dbebda5b815935392f56e97f54e75a8e9caf/monitorshot2.sh
+chmod +X monitorshot2.sh
+v monitorshot2.sh
+chmod +X monitorshot2.sh
+v monitorshot2.sh
+xdottool getwindowfocus
+xdotool getwindowfocus
+xdotool getwindwopid 20971530
+xdotool getwindowpid 20971530
+focused=$(xdotool getwindowfocus)
+pid=$(xdotool getwindowpid $focused 2>/dev/null)
+[ "$pid" ] &&     pname="$(cat /proc/$pid/comm)" ||     pname="idling"
+￼
+Message @djafere
+focused=$(xdotool getwindowfocus)
+pid=$(xdotool getwindowpid $focused 2>/dev/null)
+[ "$pid" ] &&     pname="$(cat /proc/$pid/comm)" ||     pname="idling"
+Message @djafere
+focused=$(xdotool getwindowfocus)
+pid=$(xdotool getwindowpid $focused 2>/dev/null)
+[ "$pid" ] &&     pname="$(cat /proc/$pid/comm)" ||     pname="idling"
+cat /proc/20431/comm
+focused=$(xdotool getwindowfocus)
+focused=$(xdotool getwindowfocus)
+pid=$(xdotool getwindowpid $focused 2>/dev/null)
+[ "$pid" ] &&     pname="$(cat /proc/$pid/comm)" ||     pname="idling"
+echo "$pname"
+echo "$pname"
+rsyncall
+screen
+flameshot --help
+flameshot config
+flameshot gui
+flameshot
+gnome-screenshot -a
+man xclip
+v test.png
+xclip -i
+xclip -o
+xclip -selection clipboard -o
+xclip -out
+xclip -out
+xclip -out -t image/png
+xclip -out -t image/png > test.png
+sxiv test.png
+xclip -out -t image/png > test.txt
+su -hs test.txt
+du -hs test.txt
+wc -c test.txt
+v test.txt
+sf
+dunstify
+dunst -version
+D
+unzip dunst-1.8.1.zip
+cd dunst-1.8.1/
+r
+ls
+make
+apt install libnotify
+apt install libnotify-bin
+apt install libnotify-dev
+make
+ls
+sudo make install
+pgrep dunst
+pkill dunst
+dunst -version
+dunst -version
+dunst & disown
+notify-send nesto
+dunst
+dunst
+dunst
+dunst
+dunst
+pkill dunst
+pgrep
+pgrep dunst
+dunst
+dunst -help
+man dunst
+man dunst
+dunst & disown
+dunst & disown
+pgrep dunst
+pgrep dunst
+cd .config/dunst/
+ls
+v dunstrc
+dunst --help
+dunst -all_key playing
+dunst -all_key playing
+dunst -all_key "Now playing:
+dunst -all_key "Now playing"
+dunstctl
+dunstctl -hlep
+dunstctl -help
+dunstctl help
+dunstctl action
+dunstctl context
+dunstctl history
+pgrep dunst
+pkill dunst
+dunst & disown
+pkill dunst
+dunst & disown
+pgrep dunst
+pkill dunst
+pgrep dunst
+dunst
+dunst
+dunst
+dunst
+dunst & disown
+pgrep dunst
+cd .config/dunst/
+v dunstrc
+dunstctl context
+dunstctl context
+dunstctl close-all
+dunstify nesto
+dunstctl debug
+dunstctl history
+dunstctl history
+sf
+alias notify-send='dunstify'
+alias notify-send
+alias notify-send | xcp
+bashrc
+sf
+currentsong
+sf
+currentsong
+currentsong
+bashrc
+currentsong
+currentsong
+currentsong
+sf
+pgrep dunst
+dunstctl
+dunstctl history
+dunstctl history
+dunstctl help
+dunstctl is-paused
+dunst context
+pgrep dunst
+man dunstctl
+dunstctl close
+dunstctl close
+dunstctl close-all
+man dunstctl
+man dunstctl
+man dunstify
+dunstify --help
+xclipclear
+man sed
+grep 'seg-[0-9]+' playlist.m3u8
+grep 'seg' playlist.m3u8
+grep -E 'seg-[0-9]+' playlist.m3u8
+grep -E 'seg-[0-9]+-' playlist.m3u8
+grep -E 'seg-[0-9]+-v1-a1.ts' playlist.m3u8
+mpv playlist.m3u8
+wget "$(xclip -o)"
+r
+wget "$(xclip -o)"
+r
+r
+mpvxcp
+r
+mv playlist.msu8 playlist.m3u8
+mpv playlist.m3u8
+v playlist.m3u8
+cat playlist.m
+e
+r
+cat playlist.m3u8
+cat playlist.m3u8
+ACTION=$(dunstify --action="default,Reply" --action="forwardAction,Forward" "Message Received")
+echo $ACTION
+echo $ACTION
+ACTION=$(dunstify --action="default,Reply" --action="forwardAction,Forward" "Message Received")
+echo $ACTION
+ACTION=$(dunstify --action="default,Reply" --action="forwardAction,Forward" "Message Received")
+echo $ACTION
+dunst & disown
+sf
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href='google.com'>test</a>"
+/usr/bin/firefox -new-tab
+/usr/bin/firefox -new-tab google.com
+notify-send "Time" "\n<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send "Time" "\n<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send "Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send "Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send "Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+dmenu
+dmenu_run
+notify-send -a"Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send -a "Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+notify-send -A "Time" "<a href=\"https://time.is/no/Oslo\">blah</a>"
+man notify-send
+notify-send -a
+notify-send -a asda
+notify-send -a asda dasd
+notify-send -a asda dasd
+notify-send --help
+notify-send "<a href="google.com">test</a>"
+notify-send "naslov" "<a href="google.com">test</a>"
+notify-send "naslov" "<a href="google.com">test</a>"
+notify-send "naslov" "<a href="google.com">test</a>"
+notify-send "naslov" "<a href="google.com">test</a>"
+dunstify "naslov" "<a href="google.com">test</a>"
+dunstify "naslov" "<a href="google.com">test</a>"
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+notify-send "naslov" '<a href="google.com">test</a>'
+notify-send "naslov" '<a href="google.com">test</a>'
+notify-send -A 'default' "naslov" '<a href="google.com">test</a>'
+notify-send -A 'default' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'default' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'default,default' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'default,Link' "naslov" '<a href="google.com">test</a>'
+dunstify -A "default,Link" "naslov" '<a href="google.com">test</a>'
+dunstify -A="default,Link" "naslov" '<a href="google.com">test</a>'
+dunstify --action "default,Link" "naslov" '<a href="google.com">test</a>'
+dunstify --action="default,Link" "naslov" '<a href="google.com">test</a>'
+dunstify --action="default,Reply" "naslov" '<a href="google.com">test</a>'
+dunstify --action="default,Reply" "naslov" "<a href='google.com'>test</a>"
+dunstify -A 'default,default' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'default,text' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'browser,text' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'fireofx,text' "naslov" '<a href="google.com">test</a>'
+dunstify -A 'firefox,text' "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+xclipclear
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+xclipclear
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+mouse_middle_click = do_action
+dunstify "naslov" '<a href="google.com">test</a>'
+dunstify "naslov" '<a href="google.com">test</a>'
+notify-send --help
+apt install dunst
+apt reinstall
+apt reinstall dunst
+notify-send "<a href="google.com">test</a>"
+dunstify "<a href="google.com">test</a>"
+man dunstify
+man dunstify
+dunstify --help
+cd .config/dunst/
+v dunstrc
+dunstify "test" "test"
+dunstify "test" "<a href='google.com'>test</a>"
+dunstify "test" "<a href='google.com'>test</a>"
+dunstify "test" "<a href='google.com'>test</a>"
+dunstify "test" "<a href="google.com">test</a>"
+dunstify "<a href="google.com">test</a>"
+dunstify "<a href="google.com">test</a>"
+man notify-send
+notify-send "test" "<a href="google.com">test</a>"
+notify-send "test" "<a href="google.com">test</a>"
+notify-send "test" "<a href="google.com">test</a>"
+notify-send -a default
+notify-send -a default "test" "<a href="google.com">test</a>"
+v dunstrc
+v dunstrc
+pkill dunst
+dunst
+dunstify "test" "<a href="google.com">test</a>"
+dunstify "test" "<a href="google.com">test</a>"
+v dunstrc
+pkill dunst
+dunst & disown
+ls
+dunstify "test" "<a href="google.com">test</a>"
+red=$(dunstify "test" "<a href="google.com">test</a>")
+echo $red
+echo $red
+red=$(dunstify "test" "<a href="google.com">test</a>")
+echo $red
+red=$(dunstify -a default "test" "<a href="google.com">test</a>")
+echo $red
+red=$(dunstify -a 'default,Activate' "test" "<a href="google.com">test</a>")
+echo $red
+dunstify --action='default,Activate' "test" "<a href="google.com">test</a>")
+ACTION=$(dunstify --action='default,Activate' "test" "<a href="google.com">test</a>")
+echo $ACTION
+man dunstrc
+man dunstify
+dunstify --help
+ACTION=$(dunstify -A 'default,Activate' "test" "<a href="google.com">test</a>")
+ACTION=$(dunstify -A 'default,Activate' "test" "<a href="google.com">test</a>") && echo $ACTION
+ACTION=$(dunstify -A 'default,Activate' "test" "<a href="google.com">test</a>") && echo $ACTION
+ACTION=$(dunstify -A 'default,Activate' "test" "<a href="google.com">test</a>") && echo $ACTION
+ACTION=$(dunstify -A 'default,Activate' "test" "<a href="google.com">test</a>") && echo $ACTION
+dunstify -c
+v dunstrc
+v dunstrc
+pkill dunst
+dunst
+v dunstrc
+dunst
+v dunstrc
+dunst
+notify-send
+notify-send --help
+dunst
+dunst
+v dunstrc
+v dunstrc
+dunst
+dunst
+dunst
+dunst --version
+apt remove dunst
+dunst
+dunst -version
+which dunst
+sudo rm /usr/local/bin/dunst
+apt install dunst
+dunst
+cd .config/dunst/
+v dunstrc
+dunst
+v dunstrc
+v dunstrc
+dunst
+dunst -version
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href='google.com'>test</a>"
+notify-send "<a href="google.com">test</a>"
+notify-send "<a href="google.com">test</a>"
+notify-send "<a href="google.com">test</a>"
+dunstify
+dunstify nesto
+notify-send "<a href="google.com">test</a>"
+notify-send --icon "$(displayalbumart)" "ada"
+notify-send --icon ~/.config/lbrss/lb.png "voja watched, reviewed and rated The Matrix (1999) 4.5 stars"
+dunst
+apt remove dunst
+D
+cd dunst-1.8.1/
+make
+sudo make install
+notify-send nesto
+ dunstify "TIME" "<a href=\"https://time.is\"></a>\nOPEN BROWSER"
+dunstify "TIME" "<a href=\"https://time.is\"></a>\nOPEN BROWSER"
+dunstify "" "<a href='google.com'>TEXT</a>"
+dunstify "" "<a href='google.com'>TEXT</a>"
+dunstify "asd" "<a href='google.com'>TEXT</a>"
+dunstify "asd" "<a href="google.com">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+echo res=$(dunstify "asd" "<a href=\"google.com\">TEXT</a>")
+res=$(dunstify "asd" "<a href=\"google.com\">TEXT</a>")
+echo $res
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "asd" "<a href=\"google.com\">TEXT</a>"
+dunstify "<a href=\"google.com\">TEXT</a>"
+notify-send --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+dunstify --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "lb" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "lb" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "lb" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+notify-send --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+sf
+cd .config/lbrss/feeds/
+v mina.xml
+lbrss
+dunst -version
+cd .config/dunst/
+v dunstrc
+dunst
+v dunstrc
+dunst
+dunst
+dunst
+dunst & disown
+beep
+beep
+beep
+beep
+mpv "https://upornia.ahcdn.com/key=06qPlwLne8qfQB+KA--bBQ,end=1653985981,limit=3/media=hls/referer=none,.upornia.com,.gstatic.com/c5/videos/4054000/4054919/4054919.mp4.m3u8"
+v
+mkd downloader
+r
+v links.txt
+cat links.txt
+ffmpeg -i playlist_new.m3u8 out.mp4
+ffmpeg -protocol_whitelist file,http,https,tcp,tls -i playlist_new.m3u8 out.mp4
+r
+cat playlist.m3u8
+mpv playlist_new.m3u8
+cd downloader/
+grep -E "^.*m3u8" links.txt
+firstPart=$(grep -E "^.*m3u8" links.txt)
+mpv playlist_new.m3u8
+v playlist_new.m3u8
+mpv playlist_new.m3u8
+v playlist_new.m3u8
+v playlist_new.m3u8
+mpv playlist_new.m3u8
+man mpv
+which notify-send
+which notify-send
+mpv --demuxer-lavf-o=headers="extra=Ug8VwIP5Zwp-q8uwGzehtw\nextra_info=6PqmGw7DK6BKIA5_-_Oyc2" playlist_new.m3u8
+mpv --demuxer-lavf-o=headers="extra=Ug8VwIP5Zwp-q8uwGzehtw\nextra_info=6PqmGw7DK6BKIA5_-_Oyc2" playlist_new.m3u8
+mpv --demuxer-lavf-o=headers="extra=Ug8VwIP5Zwp-q8uwGzehtw\nextra_info=6PqmGw7DK6BKIA5_-_Oyc2" playlist_new.m3u8
+mpv "https://upornia.ahcdn.com/key=06qPlwLne8qfQB+KA--bBQ,end=1653985981,limit=3/media=hls/referer=none,.upornia.com,.gstatic.com/c5/videos/4054000/4054919/4054919.mp4.m3u8"
+wget "https://upornia.ahcdn.com/key=06qPlwLne8qfQB+KA--bBQ,end=1653985981,limit=3/media=hls/referer=none,.upornia.com,.gstatic.com/c5/videos/4054000/4054919/4054919.mp4.m3u8"
+r
+cd downloader/
+v links.txt
+v links.txt
+pgrep dunst
+v .config/dunst/dunstrc
+pkill dunst
+dunst
+dunst
+dunst
+dunst & disown
+cd downloader/
+v main.sg
+v main.sh
+v header_file
+v header_file
+cd downloader/
+v main.sh
+chmod +x main.sh
+v main.sh
+./main.sh
+v main.sh
+./main.sh
+v main.sh
+v main.sh
+./main.sh
+v main.sh
+./main.sh
+v main.sh
+v main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+mpv $(./main.sh)
+./main.sh
+v main.sh
+./main.sh
+v main.sh
+./main.sh
+v main.sh
+v main.sh
+./main.sh
+./main.sh
+mpv $(./main.sh)
+v main.sh
+mpv $(./main.sh)
+v main.sh
+cd downloader/
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+printf "GET /\r\nHost: google.com\r\n\r\n" | netcat google.com 80
+sf
+sc
+rgdir .
+cd downloader/
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+echo $?
+echo $?
+./main.sh
+./main.sh
+./main.sh
+r
+cd downloader/
+v index.html
+v index.html
+v links.txt
+v links.txt
+v main.sh
+ls
+v main.sh
+cd downloader/
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+curl --silent "curl --write-out '%{http_code}\n' --silent -output /dev/null "$url"
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+r
+r
+r
+./main.sh
+./main.sh
+./main.sh
+xclip -sel clipboard -o
+xclip -sel primary -o
+./main.sh
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+./main.sh
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+mpv $(./main.sh)
+cd downloader/
+v main.sh
+v main.sh
+v .bash_history
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/1_prefiskna_stabla
+v prefiksna_stabla.cpp
+f
+cd kiaa/
+r
+v 3_ispis_rastuce.cpp
+v 2_najduzi_prefiks.cpp
+v 3_ispis_rastuce.cpp
+cp 3_ispis_rastuce.cpp 4_ispis_opadajuce.cpp
+v 4_ispis_opadajuce.cpp
+cp 4_ispis_opadajuce.cpp 5_max_pojav.cpp
+v 5_max_pojav.cpp
+dunst
+dunst
+dunstify --icon ~/.config/lbrss/lb.png "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+dunstify --icon ~/.config/lbrss/lb.png "lbrss" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+dunstify --icon ~/.config/lbrss/lb.png "lbrss" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+pkill dunst
+v .config/dunst/dunstrc
+dunst
+dunstify --icon ~/.config/lbrss/lb.png "lbrss" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+v .config/dunst/dunstrc
+dunstify --icon ~/.config/lbrss/lb.png "lbrss" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+dunst & disown
+pgrep dunst
+pkill dunst
+dunstify --icon ~/.config/lbrss/lb.png "lbrss" "<a href=\"https://letterboxd.com/vojoslav/film/rushmore/\">voja watched, reviewed and rated The Matrix (1999) 4.5 stars</a>"
+v .config/dunst/dunstrc
+dunst
+dunst & disown
+ls
+mv test.c test.cpp
+v test.cpp
+:q
+g++ test.cpp segmentna_stabla.cpp
+./a.out
+g++ test.cpp segmentna_stabla.cpp
+g++ test.cpp segmentna_stabla.cpp
+./a.out
+g++ test.cpp segmentna_stabla.cpp
+./a.out
+g++ test.cpp segmentna_stabla.cpp
+./a.out
+./a.out
+./a.out
+g++ test.cpp segmentna_stabla.cpp
+./a.out
+:q
+pkill dunst
+v .config/dunst/dunstrc
+dunst & disown
+D
+unzip 03_segmentna_stabla.zip
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/2_segmentna_stabla
+v segmentna_stabla.cpp
+g++ 1_slozeni.cpp segmentna_stabla.cpp
+./a.out
+g++ 1_slozeni.cpp segmentna_stabla.cpp
+./a.out
+./a.out
+g++ 1_slozeni.cpp segmentna_stabla.cpp
+./a.out
+:wq
+:q
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/1_prefiskna_stabla
+g++ 3_ispis_rastuce.cpp prefiksna_stabla.cpp
+g++ 3_ispis_rastuce.cpp prefiksna_stabla.cpp
+g++ 3_ispis_rastuce.cpp prefiksna_stabla.cpp
+g++ 3_ispis_rastuce.cpp prefiksna_stabla.cpp
+g++ 3_ispis_rastuce.cpp prefiksna_stabla.cpp
+./a.out
+g++ 4_ispis_opadajuce.cpp prefiksna_stabla.cpp
+g++ 4_ispis_opadajuce.cpp prefiksna_stabla.cpp
+./a.out
+./a.out
+g++ 4_ispis_opadajuce.cpp prefiksna_stabla.cpp
+./a.out
+r
+v segmentna_stabla.h
+ls
+v 1_slozeni.cpp
+f
+cd kiaa/
+r
+g++ 3_inverzije.cpp segmentno_stablo.cpp
+./a.out
+v 3_inverzije.cpp
+r
+g++ resenje.cpp segmentno_stablo.cpp
+./a.out
+r
+newsboat
+tsp
+urlscan -dc
+v .config/newsboat/
+newsboat
+v .config/newsboat/urls
+v .config/newsboat/urls
+cfi
+w
+v rxx
+v rss.xml
+rsyncweb
+v .config/newsboat/
+v .config/newsboat/urls
+curl --silent "https://www.youtube.com/user/theneedledrop" > channel.html
+cat channel.html | pup 'link rel'
+cat channel.html | pup 'link'
+cat channel.html | pup 'link[rel=alternative]'
+cat channel.html | pup 'link[rel=alternate]'
+cat channel.html | pup 'link[type=application/rss+xml]'
+cat channel.html | pup 'link[type=application/rss+xml] [href]'
+cat channel.html | pup 'link[type=application/rss+xml] attr{href}'
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}'
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] att'
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+v .config/newsboat/urls
+v .config/newsboat/urls
+w
+v rss.xml
+rsyncweb
+v .config/newsboat/urls
+v .config/newsboat/urls
+cd downloader/
+mpv $(./main.sh)
+cd downloader/
+./main.sh | mpv-
+./main.sh | mpv -
+mpv - < ./main.sh
+./main.sh
+./main.sh
+v am
+v main.sh
+./main.sh
+./main.sh | mpv -
+mpv - < ./main.sh
+./main.sh
+./main.sh
+./main.sh
+
+mpv $(./main.sh)
+xclipclear
+ffmpeg -i screencast-220531-2143-00.mkv -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -f mp4 out.mp4
+r
+v tmp.txt
+tac tmp.txt
+tac tmp.txt | xcp
+ss
+r
+/home/vojislav/Documents/repos/kinoteka_kalendar
+v static/ind
+v templates/index.html
+w
+d
+cd repos/kinoteka_kalendar/
+v functions
+v main.py
+export FLASK_ENV=development
+flask run
+r
+v main.py
+flask run
+rsynckino
+r
+ytmusic "https://music.youtube.com/watch?v=naOzftxOKig&feature=share"
+sf
+sf
+sf
+addtoplaylists Music/The\ Cars/\(2015\)\ The\ Cars/The\ Cars\ -\ Just\ What\ I\ Needed.mp3
+v index.html
+firefox index.html
+ss
+r
+ss
+r
+cfi
+ss
+r
+v .config/dunst/dunstrc
+maim -s
+maim -s
+maim -s
+maim -s
+echo $?
+[ ! $(maim -s) ] | tee out.png || echo "fail"
+ls
+pic=$(maim -s)
+echo $pic
+sxiv "$pic"
+echo "$pic" | sxiv -
+echo "$pic" | nsxiv -
+ls
+ss="$(maim -s)"
+echo "$ss" > out.png
+sxiv out.png
+sf
+cd
+d
+cd repos/kinoteka_kalendar/
+r
+cd Documents/repos/kinoteka_kalendar/
+export FLASK_ENV=development
+flask run
+rsynckino
+python
+/home/vojislav/Documents/repos/kinoteka_kalendar
+python
+python
+/home/vojislav/Documents/repos/kinoteka_kalendar/templates
+v index.html
+v .config/mpd/playlists/liked_songs.m3u
+v .config/mpd/playlists/li
+v .config/mpd/playlists/liked_songs.m3u
+sl
+pkill dunst
+dunst
+dunst
+dunst
+dunst
+dunst & disown
+currentsong
+currentsong
+currentsong
+currentsong
+currentsong
+currentsong
+v .config/dunst/dunstrc
+notify-send nes
+newsboat --help
+newsboat -x reload
+newsboat -x reload-all
+maim -s > tmp.png
+sxiv tmp.
+sxiv tmp.png
+screen
+area
+ss
+r
+ls
+du -hs 2022-06-01-183516.png
+[ -s 2022-06-01-183516.png ] && echo "dobar" || echo "los"
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+v .config/newsboat/urls
+screenshot -a
+screenshot -a
+screenshot -a
+mktemp
+screenshot -a
+screenshot -a
+screenshot -a
+screenshot -a
+screenshot -a
+ls /tmp/tmp.X0EsmSHHxW
+sxiv /tmp/tmp.X0EsmSHHxW
+man tee
+sf
+sf
+sf
+cd /tmp/
+ls
+r
+sf
+/tmp
+ls
+sxiv locked.png
+sxiv base.png
+tmp.1Cy58qLMk5
+ls
+r
+cd /tmp/
+cd tmp.1Cy58qLMk5/
+r
+..
+rm -r tmp.1Cy58qLMk5/
+homeplaylistedit
+piplaylistedit
+r
+cd
+ytmusic "https://music.youtube.com/watch?v=naOzftxOKig&feature=share"
+cd /tmp/
+r
+cd
+pgrep dunst
+easytag .
+htop
+easytag
+sudo journalctl -xb -u
+sudo journalctl -xb
+sudo journalctl -xb
+sudo journalctl -xb
+sudo journalctl -xb
+sudo journalctl -xb
+sudo journalctl -xbr
+sudo journalctl -xb -r
+sudo journalctl -xb
+sudo journalctl -xb -r
+sudo journalctl -xb
+sudo journalctl -xb
+sudo journalctl -xb -r
+soul
+cd complete/
+cd sleater-kinney\ \(1997\)\ dig\ me\ out/
+easytag .
+v .xinitrc
+soul
+cd complete/sleater-kinney\ \(1997\)\ dig\ me\ out/
+musort .
+easytag .
+easytag .
+apt remove easytag
+apt update
+apt upgrade
+apt autoremove
+apt install easytag
+easytag .
+r
+easytag .
+r
+musort .
+pgrep dunst
+dunst
+SS status dunst
+sudo journalctl -xb -r
+cfi
+soul
+easytag .
+SS status xdg-desktop-portal.service
+SS status xdg-desktop-portal
+SS status dunst
+journalctl
+sudo journalctl
+sudo journalctl -r
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+easytag .
+easytag
+gnome-screenshot -
+dunst
+notify-send "nesto
+notify-send "nesto"
+pgrep dunst
+cfi
+v .xinitrc
+v .xinitrc
+v .xinitrc
+easytag
+gnome-screenshot -a
+who am i
+who mom likes
+who nesto nesto
+who nesto
+apt-get install --reinstall x11-xkb-utils
+apt install --reinstall x11-xkb-utils
+gnome-screenshot -a
+v .profile
+v .config/newsboat/urls
+v .config/newsboat/config
+beep
+v .newsup
+v .config/newsboat/config
+v .config/newsboat/config
+man newsboat
+pass unlock
+easytag
+cd Music/
+easytag .
+cd
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+t dnsmasq.service
+sudo systemctl restart dnsmasq.service
+pgrep dnsmasq
+sv /etc/hosts
+hostanem
+hostname
+ping instagram.com
+SS status network-manager
+SS restart network-manager
+ping instagram.com
+ping google.com
+ping google.com
+ping instagram.com
+ping instagram.com
+ping www.instagram.com
+ping instagram.com
+sv /etc/hosts
+SS status network-manager
+SS restart network-manager
+ping instagram.com
+sv /etc/hosts
+SS restart network-manager
+sv /etc/hosts
+sv /etc/hosts
+SS status network-manager
+sv /etc/
+sv /etc/host
+sudo rm /etc/host
+sv /etc/hosts
+SS restart network-manager
+cat /etc/hosts
+ping www.instagram.com/ultravajlens
+sv /etc/hosts
+cd Documents/prunusgirl/
+r
+S
+r
+wget -m -np -R "*.html*" "http://enastava.matf.bg.ac.rs/~danilo_tosovic/Analiza%201%20-%201i2b%20-%202019-20/Resenja%20rokova/"
+r
+ls
+\ls | sort -n
+\ls
+\ls | sort -n
+gm convert $(\ls | sort -n) rok.pdf
+convert $(\ls | sort -n) rok.pdf
+r
+convert $(\ls | sort -n) rok.pdf
+r
+convert rotate -90 3.jpg 3.jpg
+convert rotate -90 3.jpg
+convert 3.jpg rotate -90 3.jpg
+convert 3.jpg rotate -90
+convert 3.jpg -rotate -90
+convert 3.jpg -rotate -90 3.jpg
+r
+convert $(\ls | sort -n) rok.pdf
+r
+convert 3.jpg -rotate 180 3.jpg
+convert $(\ls | sort -n) rok.pdf
+zathura rok.pdf
+r
+man newsboat
+newsboat -x print-unread
+newsboat -x reaload
+newsboat -x reload
+newsboat
+apt install urlscan
+urlscan -dc
+man urlscan
+man setsid
+https://www.youtube.com/watch?v=RTRT794IQBg
+sf
+man urlscan
+v .config/newsboat/config
+newsboat
+urlscan --version
+urlscan -v
+man urlscan
+v .config/newsboat/config
+which linkhandler
+v /home/vojislav/.scripts/linkhandler
+sf
+sf
+man mpv
+mpv -quiet
+mpv -quie
+man nohup
+man setsid
+man setsid
+pass
+pass firefox
+D
+unzip urlscan-0.9.9.zip
+cd
+sudo pip3 install urlscan
+/usr/local/bin/python3.8 -m pip install --upgrade pip
+pip3 install urlscan
+urlscan -dc
+cd .config/newsboat/
+wget https://raw.githubusercontent.com/LukeSmithxyz/voidrice/master/.config/newsboat/config
+r
+sf
+homeplaylistedit
+piplaylistedit
+crontab -e
+crontab -e
+which newsboat
+lyrics
+lyrics -s
+pgrep mpd
+cd Music/
+r
+musort .
+r
+r
+pwd
+r
+r
+convert $(\ls | sort -n) rok.pdf
+ls
+r
+\ls | sort -n
+r
+for i in *; echo "$i"; done
+for i in *; do echo "$i"; done
+for i in $(\ls | sort -n); do convert "; done
+for i in $(\ls | sort -n); do convert "$i" -rotate 90 "$i"; done
+convert $(\ls | sort -n) rok.pdf
+zathura rok.pdf
+r
+convert $(\ls | sort -n) rok.pdf
+r
+convert $(\ls | sort -n) resenje.pdf
+zathura resenje.pdf
+r
+convert $(\ls | sort -n) resenje.pdf
+zathura resenje.pdf
+r
+urlscan --version
+urlscan -h
+man urlscan
+xclipclear
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+pgrep redshift
+pkill redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+redshift
+redshift -x
+date
+shows/anime
+ls
+cd
+r
+Documents/fax/III_godina/6_Semestar/anime/Serial\ Experiments\ Lain
+r
+ssh pi@192.168.0.16
+v .config/newsboat/config
+ls
+r
+ssh pi@192.168.0.16
+mpc list albums
+mpc list album
+mpc list artist group album
+mpc list album
+mpc list album -f "%title%"
+mpc listall
+mpc listall -f "%title%"
+mpc listall -f "%artist\talbum%"
+mpc listall -f "%artist album%"
+mpc listall -f "%artist%\t%album%"
+mpc listall -f "%artist%\t%album%" | uniq
+mpc listall -f "%artist%\t%album%" | sort
+mpc listall -f "%artist%\t%album%" | sort | uniq
+mpc listall -f "%artist%\t%album%" | sort | uniq > albums.txt
+v test.sh
+r
+cat albums.txt
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json"
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json" | xcp
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&user=vojoh&format=json" | xcp
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json"
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json"
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json" | xcp
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json"
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=${LASTFM_API_KEY}&format=json"
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=069b66ee4d6a7f5e860db3af52c19ab0&format=json
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=069b66ee4d6a7f5e860db3af52c19ab0&format=json"
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach House&album=Bloom&api_key=069b66ee4d6a7f5e860db3af52c19ab0&format=json"
+curl "http://ws.audioscrobbler.com/2.0/?method=user.getweeklyalbumchart&user=vojoh&api_key=${LASTFM_API_KEY}&format=json"
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=tricot&album=THE&api_key=069b66ee4d6a7f5e860db3af52c19ab0&format=json"
+man shuf
+shuf albums.txt
+shuf albums.txt | head -1
+shuf albums.txt | head -1
+shuf albums.txt | head -1
+line=$(shuf albums.txt | head -1)
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line")
+echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line")
+echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line")
+echo $ARTIST $ALBUM
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+echo $LASTFM_API_KEY
+wget "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+v albums.txt
+sf
+sf
+mpc listall -f "%artist%\t%album%" | sort | uniq > albums.txt
+v albums.txt
+mpc listall -f ""
+mpc listall -f "%artist%"
+mpc listall -f "%artist%" | uniq
+mpc listall -f "%artist%" | uniq | grep -i anna
+rsyncall
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line")
+echo $ARTIST $ALBUM
+echo $ARTIST $ALBUM
+echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line"); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line"); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line"); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line"); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 <<< "$line"); ALBUM=$(cut -f2 <<< "$line"); echo $ARTIST $ALBUM
+"https://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=Beach%20House&album=Bloom&api_key=069b66ee4d6a7f5e860db3af52c19ab0&format=json"
+ARTIST=$(tr ' ' '%20' <<< "$ARTIST")
+echo $ARTIST
+man tr
+line=$(shuf albums.txt | head -1); ARTIST=$(cut -f1 | sed 's/ /%20/g' <<< "$line"); ALBUM=$(cut -f2 | sed 's/ /%20/g' <<< "$line"); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(echo "$line" | cut -f1 | sed 's/ /%20/g'); ALBUM=$(echo "$line" | cut -f2 | sed 's/ /%20/g'); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(echo "$line" | cut -f1 | sed 's/ /%20/g'); ALBUM=$(echo "$line" | cut -f2 | sed 's/ /%20/g'); echo $ARTIST $ALBUM
+line=$(shuf albums.txt | head -1); ARTIST=$(echo "$line" | cut -f1 | sed 's/ /%20/g'); ALBUM=$(echo "$line" | cut -f2 | sed 's/ /%20/g'); echo $ARTIST $ALBUM
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json"
+curl "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.'
+curl --silent"http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[:5]'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[]'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].[]'
+echo "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | xcp
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].tag'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].tag[0]'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].tag[:5]'
+line=$(shuf albums.txt | head -1); ARTIST=$(echo "$line" | cut -f1 | sed 's/ /%20/g'); ALBUM=$(echo "$line" | cut -f2 | sed 's/ /%20/g'); echo $ARTIST $ALBUM
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].tag[:5]'
+curl --silent "http://ws.audioscrobbler.com/2.0/?method=album.gettoptags&artist=${ARTIST}&album=${ALBUM}&api_key=${LASTFM_API_KEY}&format=json" | jq -r '.[].tag[:10]'
+ssh pi@192.168.0.16
+v .config/nsxiv/exec/
+homeplaylistedit
+piplaylistedit
+lyrics -s
+lyrics
+lyrics
+sf
+xclipclear
+}
+}
+}
+node ~/.scripts/lyrics_js/lyrics.js
+node ~/.scripts/lyrics_js/lyrics.js
+node ~/.scripts/lyrics_js/lyrics.js > ~/.lyrics/The\ Microphones\ -\ \(Something\).txt
+sc
+cd .lyrics
+cd lyrics_js/
+ls
+r
+sf
+curl --silent $(xclip -o) | pup 'link[type=application/rss+xml] attr{href}' | xcp
+https://www.youtube.com/feeds/videos.xml?channel_id=UCaN8DZdc8EHo5y1LsQWMiig
+v .config/newsboat/urls
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/3_pretraga_grafa
+r
+ls
+v 01_broj_komponenti.cpp
+g++ 01_broj_komponenti.cpp
+./a.out
+v 01_broj_komponenti.cpp
+g++ 01_broj_komponenti.cpp
+./a.out
+g++ 01_broj_komponenti.cpp
+v 01_broj_komponenti.cpp
+./a.out
+v 01_broj_komponenti.cpp
+./a.out
+v 01_broj_komponenti.cpp
+r
+r
+cd 4_topolosko_artikulacione/
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/06_topolosko_artikulacione.zip
+r
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+nohup
+man nohup
+man nohup
+ssh pi@192.168.0.16
+soapsuds
+man soapsuds
+watch -n 60 curl "http://www.matf.bg.ac.rs/p/milos-zimonjic/pocetna/"
+ntptime
+beep
+watch date
+watch -b -n 1 date
+watch -b -n 1 -d  date
+man watch
+newsboat -x reload
+crontab -e
+sf
+cd geometrija/predavanja/
+yt -w "https://www.youtube.com/playlist?list=PLqubMCivYlSfuUhqHPmsPyDx_DEMljeBT"
+man yt-dlp
+man yt-dlp
+alias yt
+bashrc
+alias yt
+mkd geometrija
+cd geometrija/
+mkd vezbe predavanja
+cd vezbe/
+yt -w "https://www.youtube.com/playlist?list=PLqubMCivYlSewwRPHJVOL-44AzuXZ9VYI"
+r
+xclipboard
+sl
+sl
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/8_geometrijski
+ls
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+./a.out
+0 0
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+g++ geometrijski.cpp
+./a.out
+w
+cd
+ssh root@lazic.xyz
+man wget
+alias rsyncweb
+ssh pi@192.168.0.16
+/home/vojislav/Documents/website
+v vojo.css
+w
+firefox index.html
+v index.html
+rsyncweb
+v index.html
+firefox index.html
+rsyncweb
+v index.html
+v vojo.css
+rsyncweb
+w
+firefox index.html
+w
+kiaa
+f
+cd kiaa/
+ls
+r
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/5_cas.pdf
+ls
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/05_grafovi_pretraga.zip
+r
+v dfs.cpp
+r
+cp dfs.cpp bfs.cpp
+v bfs.cpp
+v dfs.cpp
+v bfs.cpp
+g++ dfs.cpp
+v bfs.cpp
+v dfs_put.cpp
+v dfs_put.cpp
+cp dfs.cpp dfs_put.cpp
+v ddf
+v dfs_put.cpp
+rm dfs_put.cpp
+ls
+cp dfs.cpp broj_komponenti.cpp
+v broj_komponenti.cpp
+cp broj_komponenti.cpp velicina_komponente.cpp
+v velicina_komponente.cpp
+cp dfs.cpp bipartitan.cpp
+v bipartitan.cpp
+v udaljenosti.cpp
+cp bfs.cpp udaljenostic.pp
+mv udaljenostic.pp udaljenosti.cpp
+v udaljenosti.cpp
+ls
+r
+v topolosko_kan.cpp
+v usmeravanje.cpp
+r
+v topolosko_kan.cpp artikulacione.cpp
+r
+v artikulacione.cpp
+r
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/07_najkraci_putevi.zip
+r
+v dajksta.cpp
+v dajkstra.cpp
+r
+cp artikulacione.cpp mostovi.cpp
+v mostovi.cpp
+v artikulacione.cpp
+v mostovi.cpp
+v artikulacione.cpp
+v mostovi.cpp
+r
+v ojler_neusmeren.cpp
+cp ojler_neusmeren.cpp ojler_usmeren.cpp
+v ojler_usmeren.cpp
+s
+ls
+r
+mkd 7_tekstualni_algoritmi
+cd 7_tekstualni_algoritmi/
+v z.cpp
+mv z.cpp kmp.cpp
+r
+v z.cpp
+v manacher.cpp
+r
+v geometrijski.cpp
+r
+r
+v segmentna_stabla.cpp
+v segmentna_stabla.cpp
+v segmentna_stabla.cpp
+r
+v dfs.cpp
+v main.cpp
+r
+v test.cpp
+v test.cpp
+v test.cpp
+r
+v test.cpp
+r
+v test.cpp
+v test.cpp
+v test.cpp
+w
+v rss.xml
+v rss.xml
+firefox rss.xml
+rsyncweb
+curl https://lukesmith.xyz/rss
+curl https://lukesmith.xyz/rss > lukerss.xml
+v lukerss.xml
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/5_najkraci_put_graf
+r
+rsyncall
+r
+redshift
+sl
+sf
+v Documents/liked_tracks/liked_songs_pi.m3u
+cp Documents/liked_tracks/liked_songs_pi.m3u ~/.config/mpd/playlists/liked_songs.m3u
+cd .config/mpd/playlists/
+cat liked_songs.m3u
+sed 's|/home/pi|/home/vojislav|g' liked_songs.m3u
+sed 's|^/home/pi|/home/vojislav|g' liked_songs.m3u
+sed -i 's|^/home/pi|/home/vojislav|g' liked_songs.m3u
+homeplaylist
+homeplaylistfile
+homeplaylist
+homeplaylisted
+homeplaylistedit
+homeplaylistedit
+homeplaylistedit
+homeplaylistedit
+homeplaylistedit
+cd Music/
+r
+ssh pi@192.168.0.16
+v verify_playlist_files
+chmod +x verify_playlist_files
+./verify_playlist_files
+v verify_playlist_files
+./verify_playlist_files
+v verify_playlist_files
+./verify_playlist_files
+v verify_playlist_files
+./verify_playlist_files
+v verify_playlist_files
+./verify_playlist_files
+v verify_playlist_files
+./verify_playlist_files
+./verify_playlist_files
+./verify_playlist_files
+./verify_playlist_files
+sed 's|^/home/vojislav|/home/pi|g' "$homeplaylistfile"
+sed 's|^/home/vojislav|/home/pi|g' "$homeplaylistfile" > ~/Documents/liked_tracks/liked_songs_pi.m3u
+rsyncplaylist
+update_subsonic
+update_liked_songs
+homeplaylist
+piplaylist
+homeplaylistedit
+w
+firefox index.html
+v vojo.css
+rsyncweb
+w
+v vojo.css
+rsyncweb
+v vojo
+v vojo.css
+v vojo.css
+rsyncweb
+v vojo.css
+rsyncweb
+v vojo.css
+rsyncweb
+v index.html
+v vojo.css
+w
+firefox index.html
+firefox index.html
+v vojo.css
+rsyncweb
+v vojo.css
+rsyncweb
+v vojo
+v vojo.css
+nf
+D
+convert refresh-svgrepo-com.svg -channel RBG -negate output.png
+r
+convert refresh-svgrepo-com.svg -negate output.png
+r
+convert refresh-svgrepo-com.svg -negate output.svg
+r
+r
+rsyncweb
+w
+v index.html
+v vojo.css
+firefox index.html
+v vojo.css
+rsyncweb
+redshift -x
+w
+kino
+w
+v vojo.css
+w
+r
+/home/vojislav/Documents/repos/kinoteka_kalendar/templates
+cd ../static/
+ls
+v style.css
+xinput float 9; sleep 120; xinput reattach 9 3
+xinput float 9; sleep 30; xinput reattach 9 3
+cd Documents/repos/kinoteka_kalendar/
+ls
+export FLASK_ENV=development
+flask run
+ls
+v app.pyc
+v main.py
+flask --help
+man flask
+v main.py
+flask run
+flask run
+v wsgi.py
+flask main.py
+flask run
+flask run
+v main.py
+flask run
+flask --help
+export FLASK_APP=main.py
+flask run
+flask run -h localhost -p 5500
+flask run -h 192.168.0.29 -p 5500
+pip install tinydb
+g++ test.cpp
+g++ test.cpp
+./a.out
+./a.out
+g++ test.cpp
+g++ test.cpp
+./a.out
+./a.out
+./a.out
+v test.cpp
+rm test.cpp a.out
+ls
+rm nohup.out
+mv verify_playlist_files .scripts/
+vimrc
+lyric
+lyrics
+sf
+sf
+sc
+cd lyrics_js/
+ls
+v lyrics.js
+cd
+lyrics
+jq '.' testdb.json
+v "~/.vim//%home%vojislav%Documents%repos%kinoteka_kalendar%main.py.swp"
+rm "~/.vim//%home%vojislav%Documents%repos%kinoteka_kalendar%main.py.swp"
+rm "/home/vojislav/.vim//%home%vojislav%Documents%repos%kinoteka_kalendar%main.py.swp"
+/home/vojislav/Documents/repos/kinoteka_kalendar
+python3 te
+python3 test.py
+pip3 install tinydb
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+ls
+v testdb.json
+cat testdb.json | xcp
+v testdb.json
+jq '.' testdb.json
+v te
+v testdb.json
+v testdb.json
+python3 test.py
+v testdb.json
+jq '.' testdb.json
+python
+rm testdb.json
+python test.py
+ls
+export FLASK_ENV=development
+flask run
+flask run
+flask run
+pip install bs4
+pip2 install bs4
+pip3 install bs4
+pip install tinydb
+pip3 install tinydb
+sudo pip3 install tinydb
+/usr/local/bin/python3.8 -m pip install --upgrade pip
+pip3 install tinydb
+flask
+flask
+flask
+flask
+cd Documents/repos/kinoteka_kalendar/
+ls
+flask run
+sudo pip install tinydb
+flask run
+cd Documents/repos/kinoteka_kalendar/
+flask run
+python3 -m pip install tinydb
+pip
+pip --version
+pip3 --version
+pip install tinydb
+pip3 install tinydb
+pip freeze
+man pip
+export FLASK_ENV=development
+flask run
+which flask
+pip3 install flask
+apt inatall python3-tinydb
+apt install python3-tinydb
+apt install python-tinydb
+apt install python-bs4
+pip freeze | grep -i bs4
+which python-bs4
+sudo pip3 install tinydb
+sudo pip3 install tinydb
+sudo /usr/local/bin/python3.8 -m pip install --upgrade pip
+sudo pip3 install tinydb
+flask run
+cd Documents/repos/kinoteka_kalendar/
+flask run
+python -v
+python -v
+python -v
+python -v
+pip3 show bs4
+pip show bs4
+pip show flask
+pip show tinydb
+/home/vojislav/.local/lib/python3.8/site-packages
+ls
+r
+d
+cd repos/kinoteka_kalendar/
+flask run
+flask run
+python
+cd /usr/lib/python3/dist-packages/
+ls
+r
+ls
+pwd
+r
+cd Documents/repos/kinoteka_kalendar/
+flask run
+dpkg -L python-bs4
+dpkg -L python-flask
+dpkg -L python3-flask
+pip show tinydb
+pip remove bs4
+pip uninstall bs4
+pip3 uninstall bs4
+sudo pip3 uninstall bs4
+sudo pip uninstall bs4
+flask run
+pip show bs4
+
+dpkg -L python3-flask
+pip show tinydb
+/home/vojislav/.local/lib/python3.8/site-packages
+ls
+sudo mv tinydb* /usr/lib/python3/dist-packages/
+cd Documents/repos/kinoteka_kalendar/
+flask run
+flask run
+r
+r
+export FLASK_ENV=development
+flask run
+r
+jq -r '.' jun2022.json
+jq '.' jun2022.json
+/home/vojislav/Documents/repos/kinoteka_kalendar
+v main.py
+v functions
+v functions.py
+r
+cd Documents/repos/kinoteka_kalendar/
+ls
+v main.py
+r
+rsynckino
+r
+v test.py
+r
+pgrep flask
+redshift
+pgrep redshift
+pkill redshift
+redshift
+cd Documents/repos/kinoteka_kalendar/
+export FLASK_ENV=development
+flask run
+flask run
+flask run
+flask run
+flask run
+flask run
+redshift -x
+pgrep redshift
+ffmpeg -i screencast-220609-1335-55.mkv -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -f mp4 kinoteka.mp4
+r
+ssh root@lazic.xyz
+ssh kinoteka@lazic.xyz
+pip show tinydb
+cd Documents/repos/kinoteka_kalendar/
+export FLASK_ENV=development
+flask run
+flask run
+flask run
+flask run
+flask run
+flask run
+rsynckino
+v test.txt
+mpv
+mpv -
+mpv -
+which dmenu_run
+v /usr/local/bin/dmenu_run
+dmenu_path
+which dmenu_path
+v /usr/local/bin/dmenu_path
+mpv --player-operation-mode=pseudo-gui
+fpv --player-operation-mode=pseudo-gui
+sf
+sc
+v mpvgui
+chmod +x mpvgui
+sf
+mpv --x11-name mpvfloat --player-operation-mode=pseudo-gui
+mpv --x11-name=mpvfloat --player-operation-mode=pseudo-gui
+mpv --x11-name=mpvfloat --player-operation-mode=pseudo-gui
+mpv --x11-name=mpvfloat --player-operation-mode=pseudo-gui
+mpv --x11-name=mpvfloat --player-operation-mode=pseudo-gui
+mpv --x11-name=mpvfloat --player-operation-mode=pseudo-gui
+xprop
+xprop | grep -i class
+xprop | grep -i class
+xprop | grep -i name
+cfi
+man mpv
+mpv --force-window
+man mpv
+sf
+/home/vojislav/Documents/repos/kinoteka_kalendar
+ls
+cd db/
+ls
+jq -r '.' jun2022.json
+jq -r '.' jun2022.json
+ls
+python
+ls
+rm jun2022.*
+ls
+ls
+r
+jq '.' jun2022.json
+jq '.' jun2022.json | less
+..
+python test.py
+cd db/
+r
+python test.py
+r
+python test.py
+python test.py
+ls db
+python3 test.py
+r
+v testdb.json
+ls db
+ls
+ls db
+cd db
+ls
+r
+jq . testdb.json
+jq . testdb.json | less
+jq . db/jun2022.json | less
+rm db/jun2022.json
+jq . db/jun2022.json | less
+python
+/home/vojislav/Documents/repos/kinoteka_kalendar
+v functions.py
+cd Documents/repos/kinoteka_kalendar/
+v main.py
+/home/vojislav/Documents/repos/kinoteka_kalendar
+flask run
+v te
+v test
+v test.py
+r
+xdotool search -classname mpvfloat
+mpvgui
+mpvgui
+mpvgui
+xdotool search -classname mpvfloat
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+man sleep
+mpvgui
+sleep 0.1
+sleep 0.001
+sleep 1
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+mpvgui
+sf
+man mpv
+sf
+man xdotool
+xdotool
+xdotool | grep -i class
+xdotool | grep -i nesto
+
+xdotool search -classname mpvfloat
+xdotool search -classname mpvfloa
+xdotool search -classname mpvfloat
+xdotool search -classname mpvfloat
+pkill qbit
+pkill qbittorrent
+m
+r
+w
+mv rss.xml rss
+firefox rss
+rsyncweb
+ls
+cp rss rss.xml
+ls
+rm rss
+ln -sv rss rss.xml
+ln -sv rss.xml rss
+ls
+rsyncweb
+w
+rm rss
+ls
+v rss.xml
+rsyncweb
+newsboat -x reload
+crontab -e
+crontab -e
+rm .newsup
+w
+v index.html
+v test.html
+firefox test.html
+firefox test.html
+v test.html
+e
+w
+mv rss.xml rss
+rsyncweb
+ls
+rsyncweb
+v .config/newsboat/urls
+sf
+alias rsyncweb
+rsyncweb --delete
+r
+w
+mv rss rss.xml
+rsyncweb
+rsyncweb --delete
+cat .newsup
+ssh root@lazic.xyz
+curl -sL https://lukesmith.xyz/lukesmith.gpg | gpg --import
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+v .config/newsboat/urls
+cfi
+cfi
+newsboat -x reload
+v
+v nesto.txt
+v nesto.txt
+v nesto.txt
+v nesto.txt
+car nesto.txt
+cat nesto.txt
+v nesto.txt
+v /home/vojislav/.vim//%home%vojislav%nesto.txt.swp
+v nesto.txt
+v nesto.txt
+cat nesto.txt
+v nesto.txt
+rm ~/.vim//%home%vojislav%nesto.txt.swp
+v nesto.txt
+wc -l nesto.txt
+wc -w nesto.txt
+ls links/
+mv nesto.txt links/
+ls
+rm core
+f
+r
+wget http://poincare.matf.bg.ac.rs/~keckic//IAN1pitanja_sajt.pdf
+r
+htop
+sudo journalctl -xb -r -u cron
+cat .newsup
+v urls
+v .config/newsboat/urls
+v .config/ranger/rifle.conf
+v .config/ranger/rc.conf
+v .config/ranger/rc.conf
+cd Documents/repos/kinoteka_kalendar/
+r
+flask run
+..
+flask run
+export FLASK_ENV=development
+flask run
+flask run
+flask run
+./main.py
+./main.py
+v main.py
+./main.py
+r
+flask run
+flask run
+flask run
+flask run
+flask run
+flask run
+flask run
+flask run
+cd Documents/repos/kinoteka_kalendar/
+ls
+v functions.py
+cd db/
+ls
+..
+v functions.py
+v functions.py
+v functions.py
+v functions.py
+r
+..
+v functions
+v functions.py
+rm db/decembar2021.json
+v functions.py
+v functions.py
+v main.py
+r
+cd
+Documents/repos/kinoteka_kalendar/
+v main.py
+r
+flask run
+r
+rsyncweb
+sc
+v newsupdate
+chmod +x newsupdate
+sf
+pgrep newsboat
+pgrep newsboat
+pgrep newsboat
+newsupdate
+newsupdate
+newsupdate
+newsupdate
+newsboat
+newsupdate
+newsupdate
+newsupdate
+crontab -e
+v .config/newsboat/urls
+v .config/newsboat/urls
+newsupdate
+newsboat -x reload
+pgrep newsboat
+pgrep newsboat
+pgrep newsboat
+pgrep newsboat
+pgrep newsboat
+pkill newsboat
+pgrep newsboat
+pgrep newsboat
+pkill newsboat
+pgrep newsboat
+kill -9 12947
+pgrep newsboat
+pgrep newsboat
+newsboat -x reload
+pgrep newsboat
+v .config/newsboat/urls
+notify-send "nesto"
+v .config/newsboat/urls
+pgrep newsboat
+v .config/newsboat/config
+v .config/newsboat/config
+v .config/newsboat/config
+newsboat -x reload
+man newsboat
+man newsboat
+newsboat -x reload
+pgrep newsboat
+newsboat -x reload
+newsboat -x reload
+newsboat -x reload
+sudo journalctl -xb -r -u cron
+newsboat -x reload
+newsboat -x reload
+crontab -e
+v .config/newsboat/urls
+v .config/newsboat/config
+crontab -e
+crontab -e
+v .config/newsboat/config
+v .config/newsboat/config
+v .config/newsboat/url
+v .config/newsboat/urls
+:wq
+v .config/newsboat/config
+v .config/newsboat/config
+v .config/newsboat/urls
+man newsboat
+v .config/newsboat/urls
+cd shows/How\ I\ Met\ Your\ Mother/
+shufflecur
+alias shufflecu
+alias shufflecur
+r
+mpv "$(find . -type f -name "*.m4v" -o -name "*.mkv" | shuf -n1)
+mpv "$(find . -type f -name "*.m4v" -o -name "*.mkv" | shuf -n1)"
+v .config/newsboat/config
+v .config/newsboat/config
+man newsboat
+man newsboat
+v .config/newsboat/config
+v .config/newsboat/config
+v .config/newsboat/urls
+v .config/newsboat
+v .config/newsboat/config
+v .urls/newsboat/config
+v .config/newsboat/urls
+crontab -e
+v .newsup
+v .config/newsboat/
+sf
+v .config/newsboat/config
+v .config/dunst/dunstrc
+sc
+v rssnotify
+chmod +x rssnotify
+v .config/newsboat/config
+mv rss.png .config/newsboat/
+sf
+sf
+v .config/newsboat/config
+beeo
+beep
+sudo bee
+v .config/newsboat/urls
+crontab -e
+crontab -e
+v .config/newsboat/urls
+sf
+sf
+sf
+notify-send "neki naslov" "neki tekst"
+notify-send "neki naslov" "neki tekst"
+v .config/dunst/dunstrc
+v .config/dunst/dunstrc2
+v .config/dunst/dunstrc
+pkill dunst
+dunst & disown
+notify-send "neki naslov" "neki tekst"
+v .config/dunst/dunstrc
+pkill dunst && dunst & disown
+pgrep dunst
+v .config/dunst/dunstrc
+pkill dunst && dunst & disown
+pgrep dunst
+notify-send "neki naslov" "neki tekst"
+pkill dunst
+dunst & disown
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+v .config/dunst/dunstrc
+pkill dunst
+dunst & disown
+notify-send "neki naslov" "neki tekst"
+v .config/dunst/dunstrc
+notify-send "neki naslov" "neki tekst"
+pkill dunst && dunst
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+v .config/dunst/dunstrc
+v .config/dunst/dunstrc
+pkill dunst && dunst & disown
+notify-send "neki naslov" "neki tekst"
+pgrep red
+redshift
+D
+sudo dpkg -i discord-0.0.18.deb
+pgrep disc
+pkill mpd_discord
+pgrep disc
+pgrep redshift
+redshift -x
+w
+v index.html
+cd img/
+wget https://djuma.xyz/icons/djum.ico -O djuma.ico
+..
+v index.html
+firefox index.html
+v vojo.css
+v index.html
+firefox index.html
+rsyncweb
+cfi
+rsyncweb
+rsyncweb
+w
+rsyncweb
+rsyncweb
+sl
+apt install xclip
+gnome-screenshot -h
+gnome-screenshot -c =a
+gnome-screenshot -c -a
+gnome-screenshot -c
+ls
+gnome-screenshot -c -a
+env GDK_BACKEND=x11 gnome-screenshot -i
+env GDK_BACKEND=x11 gnome-screenshot -c
+env GDK_BACKEND=x11 gnome-screenshot -c -a
+env GDK_BACKEND=x11 gnome-screenshot -i
+sf
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+verify_playlist_files
+wc -l $homeplaylistfile
+wc -l $piplaylistfile
+w
+cd img/
+cp waves4.gif ~
+cd
+mkd out
+convert waves4.gif out/out.png
+r
+D
+r
+lyrics -s
+lyrics -s
+w
+cd blog/
+mv index.html template.html
+ln -sv index.html ../index.html
+ln -sv ../index.html index.html
+r
+ln -sv ../vojo.css vojo.css
+r
+./lb n
+./lb
+v lb
+r
+./lb
+./lb p
+r
+w
+v lb
+w
+./lb n
+./lb p
+./lb p
+r
+..
+./lb n
+./lb p
+v rss.xml
+r
+./lb n
+./lb p
+v rss.xml
+v rss.xml
+v index.html
+v blog/another-test-post.html
+v blog/template.html
+v blog/another-test-post.html
+r
+v test.sh
+chmod +x test.sh
+./test.sh
+v test.sh
+./test.sh
+printf "\\n"
+printf ""
+./test.sh
+./test.sh
+v test.sh
+v test.sh
+./test.sh
+man printf
+v test.sh
+./test.sh
+v test.sh
+./test.sh
+v test.sh
+v test.sh
+./test.sh
+v test.sh
+./test.sh
+w
+r
+ln -sv ../vojo.css vojo.css
+r
+rsyncweb
+passmenu
+pass unlock
+w
+r
+git status
+git add *
+git commit
+git push
+ssh pi@192.168.0.16
+rsyncweb
+r
+rsyncweb
+w
+cd lastfm-now-playing/
+git status
+crontab -e
+cd Documents/repos/kinoteka_kalendar/
+ls
+v static/style.css
+cd Documents/repos/kinoteka_kalendar/
+ls
+v static/style.css
+export FLASK_ENV=development
+flask run
+rsynckino
+w
+cd lastfm-now-playing/
+git status
+git add *
+git commit -m "changed reshresh button from unicode to image for better portability"
+git push
+git pull
+git status
+git push
+w
+cd img/
+wget https://e.snmc.io/3.0/img/logo/sonemic-32.png -O rym.png
+wget https://abs.twimg.com/favicons/twitter.2.ico -O twiiter.png
+wget https://letterboxd.com/favicon.ico -O lb.png
+..
+rsyncweb
+rsyncweb
+rscynwe
+rsyncweb
+soul
+r
+musort .
+r
+sf
+currentsong
+displayalbumart
+sxiv /home/vojislav/Music/Thinking Fellers Union Local 282/(1994) Strangers From The Universe/cover.jpg
+sxiv "/home/vojislav/Music/Thinking Fellers Union Local 282/(1994) Strangers From The Universe/cover.jpg"
+feh "/home/vojislav/Music/Thinking Fellers Union Local 282/(1994) Strangers From The Universe/cover.jpg"
+cd Music/Thinking\ Fellers\ Union\ Local\ 282/\(1994\)\ Strangers\ From\ The\ Universe/
+ls
+currentsong
+easytag .
+sxiv "$(displayalbumart)"
+ffmpeg -i 01.\ Thinking\ Fellers\ Union\ Local\ 282\ -\ My\ Pal\ The\ Tortoise.mp3 cover.jpg
+getcover 01.\ Thinking\ Fellers\ Union\ Local\ 282\ -\ My\ Pal\ The\ Tortoise.mp3
+r
+easytag .
+currentsong
+ls
+rsyncweb
+w
+r
+wget https://im5.ezgif.com/tmp/ezgif-5-678836bdcc.gif -O waves4_small.gif
+r
+firefox index
+firefox index.html
+v vojo.css
+rsyncweb
+w
+sf
+newsboat
+apt search libxft
+apt install libxft-dev
+redshift
+w
+./lb n
+./lb n
+v lb
+ls
+rm core
+cd blog/.drafts/
+ls
+firefox can-truly-good-software-exist.html
+v can-truly-good-software-exist.html
+redshift
+redshift -x
+sf
+sf
+t
+t
+r
+r
+easytag .
+r
+mediainfo 01_01.\ Swans\ -\ Red\ Velvet\ Corridor.mp3
+mediainfo 02_01.\ Swans\ -\ Red\ Velvet\ Wound.mp3
+D
+cd 2006\ -\ The\ Platinum\ Collection/
+r
+musort .
+pgrep easytag
+kill -9 6131
+r
+easytag .
+easytag .
+r
+musort .
+ls
+r
+cd Music/Magazin/\(2006\)\ The\ Platinum\ Collection/
+ls
+cd
+rsyncall
+ls
+r
+ffmpeg -i screencast-220616-1920-18.mkv -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -f mp4 kinoteka.mp4
+r
+rsyncall
+man wget
+lynx --dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/
+lynx -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/
+lynx http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/
+lynx -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/
+man lynx
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/ | grep "http.*pdf"
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/ | grep -o "http.*pdf"
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/ | grep -o "http.*pdf" | wget -
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/ | grep -o "http.*pdf" | wget
+lynx -listonly -dump http://poincare.matf.bg.ac.rs/~roslavcev/21-22/A1/ | grep -o "http.*pdf" | wget -i -
+r
+r
+yams -h
+t
+r
+musort 03\ -\ Magazin\ -\ Dani\ Su\ Bez\ Broja.flac -c
+yams -a
+yams -a
+pgrep yams
+pkill yams
+yams -d
+pgrep yams
+pkill yams
+pgrep yams
+kill -9 9064
+yams -d
+yams -a
+cfi
+bashrc
+v .profile
+sf
+piplaylist
+piplaylistedit
+piplaylistedit
+t
+rm *.parts
+rm .*.parts
+ls
+ls -a
+r
+r
+musort .
+r
+alias rsyncall
+lyrics
+lyrics
+nf
+nf
+redshift
+apt install gdb-multiarch
+gdb --version
+apt install --reinstall gdb
+apt autoremove
+apt search gdb-multiarch
+w
+rm core
+v lb
+w
+./lb
+./lb e
+./lb e
+./lb e
+./lb e
+redshift -x
+crontab -e
+sudo journalctl -xb -r -u cron
+alias rsyncall
+rsyncmusic -n
+crontab -e
+crontab -l
+crontab -e
+sf
+crontab -e
+sudo journalctl -xb -r -u cron
+crontab -e
+rsyncall | xcp
+alias rsyncall | xcp
+rsyncall
+update_subsonic
+alias rsyncall | xcp
+alias rsyncall | xcp
+crontab -e
+cd Music/Candy\ Claws/
+r
+getcover 01
+getcover 01.\ Candy\ Claws\ -\ Two\ Airships.mp3
+r
+easytag .
+cd
+alias rsyncall |xcp
+pgrep rsync
+pgrep rsync
+pgrep rsync
+sudo journalctl -xb -r -u cron
+sudo journalctl -xb -r -u cron
+sf
+sc
+v sync_music
+chmod +x sync_music
+./sync_music
+cd
+crontab -e
+ls .scripts/sync_music .scripts/datelog
+crontab -e
+sf
+sf
+lsblk
+lsblk
+D
+sudo dd if=debian-10.12.0-amd64-netinst.iso of=/dev/sdc status="progress"
+cd Documents/zips/
+ls
+r
+lsblk
+sudo dd if=gparted-live-1.1.0-8-amd64.iso of=/dev/sdc status="progress"
+lsblk
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ip a
+D
+lsblk
+sudo dd if=debian-10.12.0-amd64-netinst.iso of=/dev/sdc status="progress"
+lsblk
+sudo dd if=debian-10.12.0-amd64-netinst.iso of=/dev/sdc status="progress"
+cd
+scp -r Documents/website/ root@192.168.1.106:
+scp -r Documents/website/ root@192.168.1.106:~
+scp -r Documents/website/ root@192.168.1.106:~
+v test
+v
+ssh root@192.168.1.106
+cd w
+w
+du -hs .
+du -hs img/
+r
+du -hs beograd/
+du -hs crno-belo/
+ls
+..
+v vojo.css
+alias rsyncweb
+rsync -auvP ~/Documents/website/ root@192.168.1.106 --exclude='\''.git/'\''
+rsync -auvP ~/Documents/website/ root@192.168.1.106 --exclude='\''.git/'\'
+rsync -auvP ~/Documents/website/ root@192.168.1.106 --exclude='\''.git/'\''
+rsync -auvP ~/Documents/website/ root@192.168.1.106 --exclude='\''.git/'\'''
+rsync -auvP ~/Documents/website/ root@192.168.1.106 --exclude='\''.git/'\''' --delete
+rsync -auvP ~/Documents/website/ root@192.168.1.106:~ --exclude='\''.git/'\'''
+w
+rm -r .git/
+cd
+rsync -auvP ~/Documents/website/ root@192.168.1.106:~ --exclude='\''.git/'\'''
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@djuma.xyz
+ssh root@djuma.xyz
+scp -r root@djuma.xyz:/var/www/djuma ~
+r
+scp -r djuma/ 192.168.1.106:/var/www/
+scp -r djuma/ root@192.168.1.106:/var/www/
+v test
+crontab -e
+man ln
+ssh root@lazic.xyz
+ssh root@192.168.1.106
+ssh root@192.168.1.106
+ssh root@192.168.1.106
+v .config/newsboat/urls
+cd Documents/repos/kinoteka_kalendar/
+ls
+cd static/
+ls
+w
+cd img/
+ls
+r
+w
+firefox index.html
+v vojo.css
+d
+kinpo
+kino
+r
+kino
+export FLASK_ENV=development
+flask run
+rsynckino
+w
+v vojo.css
+rsyncweb
+ssh root@192.168.0.31
+ssh root@192.168.0.30
+ssh root@24.135.99.52
+ssh-keygen -f "/home/vojislav/.ssh/known_hosts" -R "24.135.99.52"
+ssh root@24.135.99.52
+ssh root@24.135.99.52
+ssh root@lazic.xyz
+ping lazic.xyz
+ping vojasmusic.ddns.net
+ping 24.135.99.52
+ssh root@24.135.99.52
+ssh root@24.135.99.52
+ssh root@24.135.99.52
+ping lazic.xyz
+ssh root@lazic.xyz
+ssh-keygen -f "/home/vojislav/.ssh/known_hosts" -R "lazic.xyz"
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@207.148.27.140
+ssh kinoteka@207.148.27.140
+ssh kinoteka@207.148.27.140
+ssh root@24.135.99.52
+cd Documents/repos/kinoteka_kalendar/
+ls
+..
+scp -r kinoteka_kalendar/ root@lazic.xyz:~
+alias rsynckino
+sf
+rsync -avh --exclude=".git/*" ~/Documents/repos/kinoteka_kalendar/ root@lazic.xyz:~
+rsync -avh --exclude=".git/*" ~/Documents/repos/kinoteka_kalendar root@lazic.xyz:~
+ssh kinoteka@207.148.27.140
+lyrics
+ssh root@207.148.27.140
+ssh root@207.148.27.140
+v /etc/sudoers
+v /etc/sudoers
+sv /etc/sudoers
+cat /etc/sudoers
+sudo cat /etc/sudoers
+ ssh-copy-id -i $HOME/.ssh/id_rsa.pub voja@lazic.xyz
+ ssh-copy-id -i $HOME/.ssh/id_rsa.pub voja@lazic.xyz
+ssh pi@192.168.0.16
+ssh root@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh root@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+cd .ssh/
+ls
+v known_hosts
+cd
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh-copy-id root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh voja@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh voja@lazic.xyz
+ssh root@lazic.xyz
+ssh kinoteka@lazic.xyz
+ssh root@lazic.xyz
+ssh kinoteka@207.148.27.140
+ssh voja@lazic.xyz
+ssh kinoteka@207.148.27.140
+ssh kinoteka@207.148.27.140
+ssh voja@lazic.xyz
+ssh voja@lazic.xyz
+ssh voja@lazic.xyz
+ssh -p 11510 pi@2.tcp.ngrok.io
+ssh-keygen -f "/home/vojislav/.ssh/known_hosts" -R "[2.tcp.ngrok.io]:11510"
+ssh -p 11510 pi@2.tcp.ngrok.io
+ssh pi@192.168.0.16
+rsync subsonic.zip voja@lazic.xyz:~
+rsync --info=progress2 subsonic.zip voja@lazic.xyz:~
+ls
+rsync pi_fstab subsonic subsonic_renew_cert.txt voja@lazic.xyz:~
+man rsync
+scp pi_fstab subsonic subsonic_renew_cert.txt voja@lazic.xyz:~
+cd subsonic
+;s
+ls
+scp subsonic voja@lazic.xyz:~/subsonic_service
+alias pgrep
+ssh pi@192.168.0.16
+i3temp
+i3temp
+sf
+echo -n "foo@bar.com" | md5sum
+scp ~/.scripts/i3temp voja@lazic.xyz:~
+alias tmp
+alias temp
+temp
+/opt/vc/bin/vcgencmd measure_temp
+ssh pi@192.168.0.16
+grop
+htop
+update_subsonic
+sf
+ls
+ls
+ls
+ls
+ls
+ssh voja@lazic.xyz
+ssh voja@lazic.xyz
+ssh root@207.148.27.140
+ssh voja@lazic.xyz
+ls
+v pi_fstab
+caat pi_fstab
+cat pi_fstab
+ssh voja@lazic.xyz
+ssh voja@lazic.xyz
+v .ssh/authorized_keys
+ssh voja@lazic.xyz
+ssh root@djuma.xyz
+ssh root@djuma.xyz
+ssh root@lazic.xyz
+ssh root@djuma.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh djuma@lazic.xyz
+ssh root@lazic.xyz
+ssh voja@lazic.xyz
+sf
+cat .ssh/id_rsa.pub
+ssh root@lazic.xyz
+bashrc
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+which bat
+file /usr/bin/bat
+scp /usr/bin/bat root@lazic.xyz:
+cat ~/.bashrc
+bat --version
+bashrc
+ssh root@lazic.xyz
+ssh voj@lazic.xyz
+ssh voja@lazic.xyz
+ssh root@lazic.xyz
+bat
+bat --version
+ssh voja@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+pass
+pass unlock
+pass lastfm
+pass gmail
+cd .config/lbrss/
+ls
+v feeds/lenka.xml
+ping 192.168.0.20
+ping 192.168.0.39
+ping 192.168.0.30
+ping 192.168.0.30
+ping lazic.xyz
+du -hs Music/
+sf
+rsyncmusic
+bashrc
+ssh voja@lazic.xyz
+sf
+sf
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+homeplaylist
+ssh root@lazic.xyz
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh root@lazic.xyz
+D
+r
+sf
+sf
+sf
+sf
+ssh vojislav@lazic.xyz
+r
+musort .
+r
+htop
+sync_music
+sync_music
+sf
+sync_music
+sf
+sf
+sl
+ssh vojislav@lazic.xyz
+rsyncplaylist
+sf
+rsyncplaylist
+rsyncplaylist
+rsyncplaylist
+pgrep qbiut
+pgrep qbit
+pkill qbitt
+pgrep qbit
+kill -9 17696
+pgrep qbit
+qbittorrent
+qbittorrent
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+qbittorrent
+v .bash_history
+sxiv $(xclip -o)
+xclip -o
+sxiv "$(xclip -o)"
+sxiv "$(xclip -o)"
+curl 
+curl https://wimg.rule34.xxx//images/4685/b38e0d6ad9a33ee82cd4f3e64a2be2d8.png
+curl $(xclip -o) | sxiv -
+curl $(xclip -o) | sxiv
+curl $(xclip -o) | nsxiv
+curl $(xclip -o) | nsxiv -
+v .bash_history 
+v .bash_history 
+man imgtoppm 
+sf
+sf
+nsxiv-url https://wimg.rule34.xxx//images/4685/b38e0d6ad9a33ee82cd4f3e64a2be2d8.png
+sxiv "https://wimg.rule34.xxx//images/4685/b38e0d6ad9a33ee82cd4f3e64a2be2d8.png"
+man sxiv
+sxiv --version
+sxiv -version
+nsxiv "https://wimg.rule34.xxx//images/4685/b38e0d6ad9a33ee82cd4f3e64a2be2d8.png"
+nsxiv --help
+nsxiv -help
+man nsxiv
+sxiv "https://lazic.xyz/img/banner.gif"
+curl $(xclip -o) | nsxiv-pipe 
+which sxiv 
+sf
+sc
+v sxiv
+df
+sf
+urlview -help
+urlview --h
+urlview -h
+man urlview
+man exit
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$
+./sxiv "$(xclip -o)"
+nsxiv-url 
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+xclipclear 
+xclipboard 
+cd /tmp/
+r
+cd Pictures/
+which sxiv
+sxiv /
+sxiv .
+nsxiv .
+r
+mv .scripts/sxiv .
+chmod +x sxiv 
+ls
+grep -E "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+echo $(xclip -o) | grep -E "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+echo $(xclip -o) | grep -E "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+echo $(xclip -o) | grep -oE "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+echo $(xclip -o) | [ $(grep -oE "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)") == $(xclip -o) ] && echo "match" || echo "no match!"
+echo $(xclip -o) | [ $(grep -oE "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)") == $(xclip -o) ] && echo "match" || echo "no match!"
+echo $(xclip -o) | [ $(grep -oE "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)") == $(xclip -o) ] && echo "match" || echo "no match!"
+echo $(xclip -o) | grep -oE "[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
+echo $(xclip -o) | grep -oE ""
+echo $(xclip -o) | grep -oE "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -oE "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -E "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -E "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o)
+echo $(xclip -o) | grep -E "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -P "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -Po "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+echo $(xclip -o) | grep -Po "(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)"
+ncmpcpp 
+ncmpcpp 
+v .ncmpcpp/patterns.list 
+v .config/ncmpcpp/config 
+v .config/ncmpcpp/config 
+cd Pictures/
+ls
+nsxiv < banner.jpeg 
+cat banner.jpeg | nsxiv
+cat banner.jpeg | nsxiv -
+cat banner.jpeg | nsxiv
+cat banner.jpeg | nsxiv-pipe
+man ncmpcpp
+v sxiv 
+v sxiv 
+man ln
+./sxiv $(xcp -o)
+./sxiv $(xcp -o)
+./sxiv $(xcp -o)
+v Documents/nsxiv-29/
+make
+cd Documents/n
+cd Documents/nsxiv-29/
+v config.h
+make
+sudo make install
+which nsxiv
+rm /usr/local/bin/nsxiv
+sudp rm /usr/local/bin/nsxiv
+sudo rm /usr/local/bin/nsxiv
+sudo make install
+which sxivc
+which sxiv
+file sxiv
+file $(which sxiv)
+which sxiv
+cd /usr/local/bin
+ls
+sudo rm sxiv 
+ln -sv nsxiv sxiv
+sudo ln -sv nsxiv sxiv
+sxiv 
+file $(which sxiv)
+man nsxiv
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+echo "nesto" | ./sxiv 
+echo "nesto" | ./sxiv 
+echo "nesto" | ./sxiv -
+echo "nesto" | ./sxiv -
+echo "nesto" | ./sxiv
+echo "nesto" | ./sxiv
+echo "nesto" | ./sxiv
+echo "nesto" | ./sxiv
+echo "nesto" | ./sxiv
+echo "nesto" | ./sxiv
+./sxiv 
+./sxiv 
+echo "nesto" | ./sxiv -
+echo "input from pipe" | ./sxiv -
+./sxiv 
+./sxiv 
+./sxiv 
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+./sxiv "$(xclip -o)"
+xclip -o | ./sxiv
+xclip -o | ./sxiv -
+xclip -o
+xclip -o | nsxiv-pipe
+which nsxiv-pipe
+sf
+ls
+echo "nesto" | ./sxiv 
+echo "nesto" | ./sxiv 
+echo "nesto" | ./sxiv -
+echo Pictures/avi.jpg | ./sxiv 
+echo Pictures/avi.jpg | ./sxiv -
+
+cat Pictures/avi.jpg | ./sxiv -
+echo Pictures/avi.jpg | ./sxiv -
+ls Pictures/ | ./sxiv -
+\ls Pictures/ | ./sxiv -
+cd Pictures/
+cd
+ls Pictures/ | nsxiv-pipe
+\ls Pictures/ | nsxiv-pipe
+\ls Pictures/* | nsxiv-pipe
+ls Pictures/
+cd Pictures/
+\ls .
+ls .
+\ls . | nsxiv-pipe 
+\ls . | nsxiv-pipe -
+\ls . | ../sxiv -
+\ls . | nsxiv-pipe -
+sxiv .
+cd
+./sxiv $(xclip -o)
+./sxiv $(xclip -o)
+file (which sxiv 
+./sxiv $(xclip -o)
+./sxiv $(xclip -o)
+sxiv Pictures/
+./sxiv Pictures/
+./sxiv $(xclip -o)
+v sxiv 
+./sxiv Pictures/
+./sxiv ,
+./sxiv .
+./sxiv Pictures/fil
+./sxiv Pictures/filename000
+./sxiv Pictures/filename000.
+./sxiv Pictures/filename00004.png 
+./sxiv $(xclip -o)
+./sxiv $(xclip -o)
+python levels.py 
+python levels.py 
+python levels.py 
+python levels.py 
+python levels.py | xcp
+v levels.py
+./sxiv $(xcp -o)
+./sxiv $(xcp -o)
+cd Documents/nsxiv-29/
+v config.h
+make
+sudo make install
+v config.h
+make && sudo make install
+cd
+./sxiv $(xcp -o)
+./sxiv $(xcp -o)
+./sxiv $(xclip -o)
+./sxiv $(xclip -o)
+v sxiv 
+./sxiv (xclip -o)
+./sxiv $(xclip -o)
+./sxiv Pictures/
+./sxiv Pictures/avi.jpg 
+man nsxiv 
+sxiv -r Pictures/avi.jpg 
+sxiv -r Pictures/
+\ls Pictures/ | ./sxiv 
+\ls Pictures/ | ./sxiv -
+\ls Pictures/ | nsxiv-pipe 
+\ls -d Pictures/ | nsxiv-pipe
+\ls -d Pictures/ | nsxiv-pipe -
+\ls -d Pictures/ | ./sxiv -
+mv sxiv .scripts/
+which sxiv 
+which sxiv
+file $(which sxiv)
+sudo rm $(which sxiv)
+which sxiv 
+sxiv Pictures/
+sxiv Pictures/
+sf
+cd Pictures/
+\ls | sxiv -
+\ls | nsxiv-pipe 
+\ls | nsxiv-pipe -
+sf
+cd Pictures/
+\ls | sxiv -
+sf
+\ls | sxiv -
+sf
+sxiv $(xcp -o)
+man nsxiv
+sf
+r
+cd /tmp/nsxiv/
+;s
+ls
+rm *
+cd
+sxiv $(xcp -o)
+man curl
+sf
+sxiv $(xcp -o)
+cd /tmp/nsxiv/
+r
+cd
+sxiv $(xcp -o)
+sf
+curl -sSLO https://rule34.xxx//samples/3894/sample_c92c817e6793913286972c392501a7ad.jpg?4409355 -o tmp.png
+ls
+curl -sSLO https://rule34.xxx//samples/3894/sample_c92c817e6793913286972c392501a7ad.jpg?4409355 -O tmp.png
+ls
+man curl
+sf
+man curl
+man curl
+pgrep sxiv
+sxiv $(xcp -o)
+sf
+curl -sSL https://rule34.xxx//samples/3894/sample_c92c817e6793913286972c392501a7ad.jpg?4409355 -o tmp.png
+r
+r
+curl -sSL https://rule34.xxx//samples/3894/sample_c92c817e6793913286972c392501a7ad.jpg?4409355 -o tmp.png
+sxiv tmp.png 
+sxiv tmp.png 
+sxiv tmp.png 
+sxiv tmp.png 
+rm tmp.png 
+sxiv
+curl -s https://rule34.xxx//samples/3894/sample_c92c817e6793913286972c392501a7ad.jpg?4409355 -o tmp.png
+sxiv tmp.png 
+sxiv tmp.png 
+sxiv tmp.png 
+pgrep sxiv
+pgrep sxiv
+sxiv tmp.png 
+sf
+sxiv tmp.png 
+sxiv tmp.png 
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+cd /tmp/nsxiv/
+ls
+rm *
+cd
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+xprop
+sf
+git clone https://github.com/muennich/sxiv.git
+cd sxiv/
+r
+R
+D
+unzip sxiv-25.zip 
+r
+man sxiv
+sxiv
+nsxiv --help
+man nsxiv
+cd /tmp/nsxiv/
+sxiv -g $(identify -format "%wx%h" tmp.png) tmp.png 
+nsxiv -g $(identify -format "%wx%h" tmp.png) tmp.png 
+sxiv $(xcp -o)
+nsxiv -g $(identify -format "%wx%h" tmp.png) tmp.png 
+cd
+pp
+r
+nsxiv -g $(identify -format "%wx%h" djejf.jpg) djejf.jpg 
+sf
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+cd ~/Documents/nsxiv-29/
+make
+make
+v Documents/nsxiv-29/
+cd Documents/nsxiv-29/
+r
+make
+v config.h
+make
+v config.h
+make
+man nsxiv
+sf
+cd Documents/nsxiv-29/
+r
+sf
+sxiv $(xcp -o)
+sxiv $(xcp -o)
+sf
+v .config/ranger/rifle.conf 
+sudo ln -sv /usr/local/bin/nsxiv /usr/local/bin/sxiv
+r
+r
+sxiv
+r
+soul
+cd complete/
+r
+musort .
+r
+tomp3 .
+ls
+ls
+easytag .
+r
+musort .
+r
+soul
+r
+sync_music 
+r
+musort .
+r
+easytag .
+cd
+sync_music 
+soul
+cd complete/
+ls
+cd 
+soul
+cd complete/Versions\ of\ Modern\ Performance/
+musort .
+r
+i3status 
+i3status 
+pgrep redshift
+pkill redshift
+redshift
+cfi
+i3mpd
+sf
+v .config/i3/config
+v .i3blocks.conf 
+:q
+v .config/i3status/config 
+v .config/i3status/config 
+:q
+soul
+cd complete/
+cd Laughing\ Stock/
+ls
+musort .
+rmdir .
+rmdir *
+rmdir .
+..
+rmdir Laughing\ Stock/
+ls
+man rmdir
+ls
+redshift -x
+kiaa
+f
+r
+pgrep mpv
+f
+r
+r
+mkd 9_algebarski
+v 9_algebarski/
+cd 9_algebarski/
+v aritmetika.cpp
+rm *
+ls
+f
+cd kiaa/9_algebarski/
+pkill mpv
+pgrep mpv
+pgrep mpv
+pkill mpv
+pgrep mpv
+mpvxcp 
+:q
+g++ operacije.cpp 
+./a.out 
+g++ operacije.cpp 
+./a.out 
+:wq
+:
+:q
+du -hs movies/
+M
+r
+man zip
+ssh vojislav@lazic.xyz
+mpvxcp 
+ssh vojislav@lazic.xyz
+M
+rm .*.parts
+ls -al
+r
+zip -r 12angrymen.zip 12\ Angry\ Men\ \(1957\)/
+ls
+rsync --info=progress2 12angrymen.zip vojislav@lazic.xyz:~
+apt install bashtop
+du -hs shows/
+man du
+du -hs --exclude "anime" shows/
+du -hs shows/anime/
+du -hs movies/
+rm movies/12angrymen.zip 
+du -hs movies/
+man du
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+wc -l ~/.bash_history 
+man diff
+f
+cd kiaa/9_algebarski/
+v operacije.cpp
+v euklid.cpp
+v prosireni_euklid.cpp
+cp euklid.cpp prosireni_euklid.cpp
+v prosireni_euklid.cpp 
+v diofant.cpp
+v prosireni_euklid.cpp 
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/9_algebarski
+g++ euklid.cpp 
+./a.out 
+g++ prosireni_euklid.cpp 
+g++ prosireni_euklid.cpp 
+./a.out 
+pkill mpv
+pgrep mpv
+mpvxcp 
+mpvxcp 
+yt "https://youtu.be/c8BBgsN0Ooo"
+curl -fsSL https://repo.jellyfin.org/ubuntu/jellyfin_team.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/jellyfin.gpg
+dpkg --print-architecture
+echo "deb [arch=$( dpkg --print-architecture )] https://repo.jellyfin.org/$( awk -F'=' '/^ID=/{ print $NF }' /etc/os-release ) $( awk -F'=' '/^VERSION_CODENAME=/{ print $NF }' /etc/os-release ) main" | sudo tee /etc/apt/sources.list.d/jellyfin.list
+apt update
+apt install jellyfin
+apt update
+apt install jellyfin
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ss
+cd
+\ss
+man ss
+ssh vojislav@lazic.xyz
+sf
+sf
+screenshot 
+screenshot 
+ss
+r
+w
+v vojo.css 
+v vojo.css 
+v index
+v index.html 
+v index.html 
+f
+cd kiaa/9_algebarski/
+v alg.cpp
+v euklid.cpp 
+v alg.cpp
+ls
+v alg.cpp
+v prosireni_euklid.cpp 
+v alg.cpp
+ip a
+rsyncweb 
+sf
+alias rsyncweb
+sf
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+M
+ls
+fd -t d .
+fd -t d . | wc -l
+man scp
+M
+cd 12\ Angry\ Men\ \(1957\)/
+mediainfo 12\ Angry\ Men\ \(1957\).mp4 
+..
+scp -r The\ Social\ Network\ \(2010\)/ vojislav:lazic.xyz:~/movies/
+scp -r The\ Social\ Network\ \(2010\)/ vojislav@lazic.xyz:~/movies/
+scp -r American\ Psycho\ \(2000\)/ Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+scp -r ARaw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+scp -r Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+ssh vojislav@lazic.xyz
+df =h
+df -h
+scp shows/Mad\ Men/Season\ 1/Mad\ Men\ \(2007\)\ -\ S01E01\ -\ Smoke\ Gets\ in\ Your\ Eyes\ \(1080p\ BluRay\ x265\ LION\).mkv vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+du -hs movies/ shows/
+du -h movies/ shows/
+du -hs movies/ shows/
+S
+r
+r
+f
+cd kiaa/
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+a
+r
+sync_music 
+sl
+mpvxcp 
+ssh vojislav@lazic.xyz
+cal
+ssh pi@192.168.0.16
+v
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/10_minimalno_povezujuce_stablo
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+ls
+ls
+g++ mst.cpp
+ls
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+g++ mst.cpp
+./a.out 
+./a.out 
+g++ mst.cpp
+./a.out 
+./a.out 
+g++ ojler.cpp 
+./a.out 
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/5_najkraci_put_graf
+v dajkstra.cpp 
+r
+f
+cd kiaa/
+ls
+10_minimalno_povezujuce_stablo
+mkd 10_minimalno_povezujuce_stablo
+cd 1
+cd 10_minimalno_povezujuce_stablo/
+v mst.cpp
+v ojler.cpp
+v ojler.cpp
+cp ojler.cpp ojler_usmereni.cp
+mv ojler_usmereni.cp ojler_usmereni.cpp
+v ojler_usmereni.cpp 
+cp ojler_usmereni.cpp ojler_neusmereni.cpp
+v ojler_neusmereni.cpp 
+r
+v vezba.cpp
+r
+v vezbanje.cpp
+v vezbanje.cpp
+r
+v vezbanje.cpp
+ssh vojislav@lazic.xyz
+alias rsyncmusic 
+alias rsyncweb 
+man rsync
+du -hs movies/10\ Things\ I\ Hate\ About\ You\ \(1999\)/
+du -hs movies/10\ Things\ I\ Hate\ About\ You\ \(1999\)/
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd movies/Full\ Metal\ Jacket\ \(1987\)/
+ls -a
+cd .unwanted/
+ls
+..
+rmdir .unwanted/
+cd ../Spider\ Man\ Trilogy\ \(2002-2007\)/
+ls
+ls -a
+rmdir .unwanted/
+cd Spiderman\ 3\ \(2007\)/
+rmdir .unwanted/
+cd
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+rsync --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+rsync -auv--info=progress2 movies/Rashomon\ \(1950\)/ vojislav@lazic.xyz:~/movies/
+rsync -auvP --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+du -hs movies/Raw\ \(2016\)/
+rsync -auv --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/mov
+rsync -au --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+rsync -auv --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+cd movies/Raw\ \(2016\)/
+ls
+rsync -auv --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+cd
+rsync -auv --info=progress2 movies/Raw\ \(2016\)/ vojislav@lazic.xyz:~/movies/
+rsync -auv --info=progress2 movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP movies/ vojislav@lazic.xyz:~/movies
+du -hs movies/
+du -hs movies/
+ssh vojislav@lazic.xyz
+cd movies/The\ Worst\ Person\ In\ The\ World\ \(2021\)/
+ls
+r
+cd
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies
+alias rsyncweb
+rsync --help
+man rsync
+r
+mpvxcp
+ssh vojislav@lazic.xyz
+cd movies/Lepa\ Sela\ Lepo\ Gore\ \(1996\)/
+ls
+r
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+f
+cd kiaa/
+r
+v vezbanje.cpp
+r
+v vezbanje.cpp
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/10_minimalno_povezujuce_stablo
+l
+r
+sf
+v .config/newsboat/config
+ssh vojislav@lazic.xyz
+f
+cd kiaa/
+r
+xinput float 9; sleep 30; xinput reattach 9 3
+New Tweet notifications for 
+len
+xinput float 9; sleep 120; xinput reattach 9 3
+RS
+crontab - e
+crontab -e
+mailsync 
+vim --help
+vim --version
+vim --version
+qbittorrent 
+pkill qbittorrent
+pgrep qbit
+kill -9 2134
+kill -9 2135
+r
+wal --help
+wal -c ~/.config/wall.png 
+wal -i ~/.config/wall.png 
+wal -i ~/.config/wall.png -b 000000
+wal -T
+wal -R
+r
+wal -i ~/.config/wall2.jpg 
+wal -i ~/.config/wall2.jpg -b 000000
+cfi
+f
+cd kiaa/
+r
+f
+r
+man wal
+wal --help
+wal -n -i ~/.config/wall2.jpg 
+wal -n -i ~/.config/wall2.jpg -b 000000
+wal --help | grep -i export
+wal --help | grep -v export
+wal --help
+wal -n -i ~/.config/wall2.jpg --preview
+soul
+cd complete/
+r
+musort .
+sync_music 
+r
+lbrss
+sf
+lbrss
+lbrss
+cd Documents/repos/kinoteka_kalendar/
+ls
+v static/style.css 
+cd Documents/repos/kinoteka_kalendar/
+ls
+export FLASK_ENV=development
+flask run
+rsynckino 
+sf
+rsynckino 
+ssh kinoteka@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+rsynckino 
+ssh vojislav@lazic.xyz
+sf
+rsynckino 
+ssh vojislav@lazic.xyz
+v Documents/repos/kinoteka_kalendar/kinoteka.ini 
+rsynckino 
+rsynckino 
+homeplaylistedit 
+rsyncplaylist 
+sf
+rsyncplaylist 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Music/
+fd -t d
+man fd 
+fd -t d -d 1
+fd -t d -d 1 | wc -l
+fd -t d -d 2 | wc -l
+cd .config/mpd/playlists/
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+homeplaylistedit 
+sf
+rsyncplaylist 
+ssh vojislav@lazic.xyz
+mpc search artist "have a nice life" album "the unnatural world" song "defenestration song"
+mpc search artist "have a nice life" album "the unnatural world" title "defenestration song"
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+cd Documents/repos/kinoteka_kalendar/
+ls
+r
+apt install beautifulsoup4
+apt install python-bs4
+ssh vojislav@lazic.xyz
+cd Documents/repos/kinoteka_kalendar/
+v functions
+v functions.py 
+v main.py 
+export FLASK_ENV=development
+flask run
+rsynckino 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+unix
+sf
+sf
+rsyncplaylist 
+rsyncplaylist 
+homeplaylist
+homeplaylistedit 
+rsyncplaylist 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul
+cd complete/
+r
+musort .
+r
+musort .
+r
+musort .
+r
+sync_music 
+ssh vojislav@lazic.xyz
+rsyncmusic 
+ssh vojislav@lazic.xyz
+cd Documents/repos/kinoteka_kalendar/
+cd
+kino
+v static/style.css 
+v functions.py 
+cd Documents/repos/kinoteka_kalendar/
+flask run
+export FLASK_ENV=development
+export FLASK_ENV=development; flask run
+r
+export FLASK_ENV=development; flask run
+..
+export FLASK_ENV=development; flask run
+r
+..
+export FLASK_ENV=development; flask run
+r
+export FLASK_ENV=development; flask run
+r
+export FLASK_ENV=development; flask run
+r
+export FLASK_ENV=development; flask run
+export FLASK_ENV=development; flask run
+cd Documents/book
+cd Documents/books
+r
+rsynckino 
+rsynckino 
+man echo
+ssh vojislav@lazic.xyz
+htop
+htop
+man read
+man 2 read
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies -n
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies -n
+man pipe
+r
+man dup3
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies
+cd movies/Rosemary\'s\ Baby\ \(1968\)/
+ls
+rsync -auvP movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP --delete -n movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP --delete -n movies/ vojislav@lazic.xyz:~/movies
+cd
+rsync -auvP --delete -n movies/ vojislav@lazic.xyz:~/movies
+ssh vojislav@lazic.xyz
+cd /home/
+pwd
+cd
+cd /
+cd
+man strstr
+cd movies/
+pwd
+dirname .
+cd
+dirname movies/
+man dirname
+man sscanf
+beep
+man beepo
+man beep
+beep -f 1000 -n -f 2000 -n -f 1500
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh root@lazic.xyz
+ls
+gcc -std=c99 -S zad2.c 
+gcc -std=c99 -S zad3.c 
+ls
+v zad3.s
+f
+r
+man epoll
+man epoll_ctl
+man pip3
+man pipe
+man strstr
+man kill
+kill -l
+man perror
+man signal
+gcc -std=c99 zad3.c 
+man signal
+gcc -std=c99 zad3.c 
+gcc -std=c99 zad3.c 
+gcc -std=c99 zad3.c -o zad3
+rm a.out 
+./zad3 
+./zad3 
+gcc -std=c99 zad3.c -o zad3
+./zad3 
+./zad3 
+gcc -std=c99 zad3.c -o zad3
+./zad3 
+gcc -std=c99 gcc.c 
+./a.out zad3.c
+./a.out zad3.f
+./a.out
+./a.out asdad
+ls
+rm *.s
+ls
+rm zad3
+./a.out zad3.c
+ls
+v tmp.s 
+rm tmp.s 
+./a.out zad3.c
+rm tmp.s 
+gcc -std=c99 gcc.c 
+gcc -std=c99 gcc.c 
+./a.out zad3.c 
+rm tmp.s 
+./a.out zad3.c 
+rm tmp.s 
+gcc -std=c99 gcc.c 
+./a.out zad3.c 
+rm tmp.s 
+gcc -std=c99 gcc.c 
+./a.out zad3.c 
+v tmp.s 
+grep "mov." tmp.s 
+grep "mov." tmp.s | wc -l
+tm tmp.s 
+rm tmr
+rm tmp.s 
+gcc -std=c99 gcc.c 
+./a.out zad3.c 
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+grep "mov." tmp.s | wc -lt
+grep "mov." tmp.s | wc -l
+rm tmp.s 
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+ls
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+ls
+gcc -std=c99 gcc.c 
+./a.out gcc.c 
+ls
+gcc -std=c99 flock.cp 
+gcc -std=c99 flock.c
+gcc -std=c99 flock.c
+gcc -std=c99 flock.c
+gcc -std=c99 flock.c
+./a.out gcc.c 
+gcc -std=c99 flock.c
+./a.out gcc.c 
+gcc -std=c99 flock.c
+gcc -std=c99 flock.c
+./a.out gcc.c 
+gcc -std=c99 flock.c
+./a.out gcc.c 
+v tekst.txt
+man fcntl
+r
+r
+rgdir .
+rgdir .
+rgdir .
+cp flock.c lock.c
+v lock.c 
+gcc -std=c99 lock.c -o lock
+v lock.c 
+gcc -std=c99 lock.c -o lock
+./lock tekst.txt 11 3 10
+./lock tekst.txt 11 3 10
+./lock tekst.txt 11 3 10
+./lock tekst.txt 15 1 10
+
+man fsseek
+man fseek
+man fputc
+man isupper
+./lock tekst.txt 11 3 10
+./lock tekst.txt 11 3 10
+pgrep zad3
+kill -SIGUSR1 16267
+kill -SIGUSR1 16267
+pgrep zad3
+kill -SIGUSR1 17661
+pgrep zad3
+kill -SIGUSR1 17918
+kill -SIGUSR1 17918
+kill -SIGUSR2 17918
+kill -SIGUSR2 17918
+kill -SIGUSR2 17918
+kill -SIGUSR1 17918
+kill -SIGUSR1 17918
+ps -ax | grep zad3
+kill -SIGUSR1 15208 
+kill -SIGUSR1 15208 
+kill -SIGUSR2 15208 
+kill -SIGUSR2 15208 
+man pipe
+man fork
+man pipe
+man write
+man 2 write
+man exec
+man 2 exec
+man 2 execlp
+man execlp
+man fork
+man wait
+man 2 wait
+man fopen
+man fscangf
+man fscanf
+man getline
+man fopen
+man strstr
+man fileno
+man fdopen
+man fcntl
+man fscanf
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+man fcntl
+man fseek
+man fcntl
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+man fscntl
+man fcn
+man fcntl
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+man flock
+man fcntl
+man sleep
+man 2 sleep
+man 3 sleep
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+man 3 sleep
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+man fprintf
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+man fputc
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+gcc -std=c99 flock.c 
+gcc -std=c99 flock.c 
+gcc -std=c99 flock.c 
+gcc -std=c99 flock.c 
+v tekst.txt 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+gcc -std=c99 flock.c 
+./a.out tekst.txt 
+v tekst.txt 
+./a.out tekst.txt 
+v tekst.txt 
+v zad2.c
+v zad3.c
+v gcc.c
+cp zad3.c gcc.c
+v gcc.c 
+cp gcc.c flock.cp
+v flock.cp flock.c
+v flock.cp
+mv flock.cp flock.c
+v flock.c 
+dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
+rsync -auvP --delete -n movies/ vojislav@lazic.xyz:~/movies
+rsync -auvP --delete movies/ vojislav@lazic.xyz:~/movies
+v pow.s
+v pow.s
+v main.c
+gcc main.c pow.s 
+v main.c
+gcc main.c pow.s 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+./a.out 
+r
+pgrep redshift
+pkill redshift
+sync_music 
+ssh vojislav@lazic.xyz
+cd movies/
+ls
+du -hs --exclude "anime" shows/
+du -hs shows/anime/
+du -hs movies/
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+ssh vojislav@lazic.xyz
+sf
+homeplaylist
+mpc search '((artist == "Swirlies") AND (title == "Bell"))'
+artist = "have a nice life"
+artist="have a nice life"
+track="defenestration song"
+mpc search "((artist == $artist) AND (title == $track))"
+mpc search "((artist == "$artist") AND (title == "$track"))"
+mpc search '((artist == "$artist") AND (title == "$track"))'
+artist="Have A Nice Life"
+echo $track
+track="Defenestration Song"
+mpc search '((artist == "$artist") AND (title == "$track"))'
+mpc search "((artist == \"$artist\") AND (title == \"$track\"))"
+artist="swirlies"
+track="bell"
+mpc search "((artist == \"$artist\") AND (title == \"$track\"))"
+homeplaylist
+mpc search artist "Have A Nice Life" title "Defenestration Song"
+mpc search artist "Swirlies"
+mpc search artist "Swirlies" title "Bell"
+mpc search artist "Swirlies" title "Bell$"
+man mpc
+man mpc
+man mpc
+sync_music 
+homeplaylistedit 
+verify_playlist_files 
+homeplaylistedit 
+verify_playlist_files 
+update
+update_liked_songs 
+homeplaylist
+homeplaylistedit 
+update_liked_songs 
+homeplaylistedit 
+update_liked_songs 
+update_liked_songs 
+homeplaylistedit 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+homeplaylistedit 
+homeplaylistedit 
+update_liked_songs 
+homeplaylistedit 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+homeplaylist
+sf
+piplaylist
+sf
+sf
+sf
+homeplaylistedit 
+love_current_track 
+homeplaylist
+homeplaylistedit 
+love_current_track 
+sync_music
+sf
+sf
+sf
+sf
+ssh vojislav@lazic.xyz
+echo $LASTFM_API_KEY 
+echo $LASTFM_API_KEY | xcp
+mpvxcp 
+mpvxcp 
+mpvxcp
+mpvxcp
+xclipclear 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ytmusic "https://music.youtube.com/watch?v=zGZs-hep1tE&feature=share"
+cd Music/
+r
+cd
+cd /tmp/
+r
+cd
+ytmusic "https://music.youtube.com/watch?v=zGZs-hep1tE&feature=share"
+crontab l
+crontab -l
+update_liked_songs 
+sync_music 
+rsync -a --info=progress2 --exclude "anime" shows/ /mnt/shows -n
+rsync -a --exclude "anime" shows/ /mnt/shows -n
+rsync --exclude "anime" shows/ /mnt/shows -n
+rsync -an --exclude "anime" shows/ /mnt/shows
+rsync -n --exclude "anime" shows/ /mnt/shows
+rsync -an --exclude "anime" shows/ /mnt/shows
+rsync -an shows/ /mnt/shows
+
+rsync -a -n shows/ /mnt/shows
+rsync -a -n shows/ /mnt/
+rsync -a -n shows/ /mnt
+rsync -a -n shows /mnt
+rsync -a -n shows 
+rsync -auvP -n ~/shows/ /mnt/shows/
+rsync -auv -n ~/shows/ /mnt/shows/
+rsync -auv -n --exclude "anime" ~/shows/ /mnt/shows/
+rsync -auv -n ~/shows/ /mnt/shows/
+rsync -auv -n --exclude "^anime" ~/shows/ /mnt/shows/
+rsync -auv -n --exclude "anime/" ~/shows/ /mnt/shows/
+rsync -auvh -n --exclude "anime/" ~/shows/ /mnt/shows/
+rsync -auvh --exclude "anime/" ~/shows/ /mnt/shows/
+rsync -auhP --info=progress2 --exclude "anime/" ~/shows/ /mnt/shows/
+rsync -avP --exclude "anime/" shows/ /mnt/shows -n
+rsync -aP --info=progress2 --exclude "anime/" shows/ /mnt/shows
+rsync -a --partial --info=progress2 --exclude "anime/" shows/ /mnt/shows
+cd /mnt
+ls
+cd movies/
+ls
+..
+du -hs movies/
+cd
+ls /mnt
+du -hs /mnt/
+rm -r /mnt/*
+cd /mnt
+ls -al
+rm .*.parts
+ls -al
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+man rsync
+du -hs movies/
+man rsybc
+man rsync
+ls
+cd shows/
+ls -al
+..
+rm -r shows/
+ls
+du -hs movies/
+ls
+cd shows/
+ls
+..
+rm -r shows/
+ls
+du -hs shows/
+du -hs shows/
+ls
+rm -r shows/
+ls
+du -hs movies/
+du -hs movies/
+du -hs movies/
+du -hs movies/
+apt install hddtemp
+sudo hddtemp
+sudo hddtemp /dev/sdc
+sudo hddtemp -h
+sudo hddtemp SATA
+sudo hddtemp
+sudo hddtemp -b
+man hddtemp
+lsblk
+sudo hddtemp /dev/sdc
+sudo hddtemp /dev/sdb
+sudo hddtemp /dev/sda
+du -hs movies/
+du -hs movies/
+du -hs movies/
+du -hs movies/
+du -hs ~/shows/
+du -hs ~/shows/
+ls
+du -hs shows/
+du -hs shows/
+rsync --version
+cd /mnt/
+ls
+du -hs shows/
+du -hs shows/
+du -hs shows/
+du -hs shows/
+du -hs shows/
+du -hs shows/Mr\ Robot/
+rm -r shows/Mr\ Robot/
+sudo rm -r shows/Mr\ Robot/
+r
+sudo rm -rf Mr\ Robot/
+sudo rm -rf Mr\ Robot/Season\ 2/
+sudo rm -rf Mr\ Robot/Season\ 2/*
+sudo rm -rf Mr\ Robot/Season\ 2/
+sudo rmdir --ignore-fail-on-non-empty Mr\ Robot/
+r
+..
+sudo rmdir --ignore-fail-on-non-empty Mr\ Robot/Season\ 2/
+rm Mr\ Robot/
+rm -r Mr\ Robot/
+rm -rf Mr\ Robot/
+sudo rm -rf Mr\ Robot/
+cd
+sudo umount -R /mnt
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+cd /mnt/shows/Mr\ Robot/
+ls
+r
+ls
+dmesg
+sudo dmesg
+cd
+sudo umount -R /mnt
+lsblk
+sudo fsck -p /dev/sdc1
+sudo fsck /dev/sdc
+sudo e2fsck -b 8193 /dev/sdc
+e2fsck -b 32768 /dev/sdc
+sudo e2fsck -b 32768 /dev/sdc
+sudo fsck -a /dev/sdc
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+ls /mnt
+du -hs /mnt/
+cd /mnt/
+ls
+r
+rm -r .
+rm -r *
+du -hs .
+cd
+df -h
+rsync -a --info=progress2 movies/ /mnt/
+rsync -a --info=progress2 movies/ /mnt/movies
+rsync -ah --partial --info=progress2 shows/ /mnt/shows -n
+rsync -ah --partial --info=progress2 shows/ /mnt/shows
+lsblk
+du -hs /mnt 
+du -hs /mnt 
+lsblk
+sudo mount -t auto /dev/sdd1 /mnt
+sudo umount -R /mnt
+sudo umount -R /mnt
+lsblk
+lsblk
+lsblk
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+du -hs /mnt/
+rsync -ah --partial --info=progress2 shows/ /mnt/shows
+rsync --version
+wget https://download.samba.org/pub/rsync/src/rsync-3.2.4.tar.gz
+wget 
+wget 
+wget https://download.samba.org/pub/rsync/src/rsync-3.2.4.tar.gz.asc
+ls
+gpg --verify rsync-3.2.4.tar.gz rsync-3.2.4.tar.gz.asc 
+gpg --verify rsync-3.2.4.tar.gz.asc rsync-3.2.4.tar.gz
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+ls /mnt
+rm -r /mnt/lost+found/
+sudo rm -r /mnt/lost+found/
+ls
+ls -a /mnt
+cd /mnt
+ls
+..
+cd
+/mnt
+mkdir movies
+sudo mkdir movies
+cd movies/
+ls
+ls -a
+..
+rm -r movies/
+sudo rm -r movies/
+ls
+ls -a
+ls
+du -hs movies/
+lsblk
+sudo gparted
+sudo gparted
+sudo smartctl
+apt install smartctl
+apt install smartmontools
+apt install smartmontools
+sudo smartctl -H /dev/sdc
+sudo smartctl -t /dev/sdc
+sudo smartctl -t short /dev/sdc
+date
+date
+date
+date
+sudo smartctl -H /dev/sda
+sudo smartctl -H /dev/sdc
+man rsync
+rsync -ah --partial --info=progress2 movies/ /mnt/movies
+rsync -ah --partial --info=progress2 movies/ /mnt/movies
+rsync -ah --partial --info=progress2 movies/ /mnt/movies
+sudo rsync -ah --partial --info=progress2 movies/ /mnt/movies
+sudo umount -R /mnt
+lsblk
+D
+r
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+cd /mnt
+ls
+du -hs movies/
+cd /mnt
+ls
+du -h .
+du -hs .
+sudo du -hs .
+sudo du -h .
+sudo rsync -ah --partial --info=progress2 shows/ /mnt/shows
+cd /mnt/
+ls
+cd
+cd /mnt/movies/
+ls
+r
+r
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+r
+..
+du -hs .
+sudo rsync -ah --partial --info=progress2 movies/ /mnt/movies
+sudo rsync -ah --partial --info=progress2 movies/ /mnt/movies; sudo rsync -ah --info=progress2 shows/ /mnt/shows
+sudo rsync -ah --partial --info=progress2 movies/ /mnt/movies -n
+sudo rsync -ah movies/ /mnt/movies -n
+sudo rsync -ahv movies/ /mnt/movies -n
+sudo rsync -ahv shows/ /mnt/shows -n
+sudo rsync -ahv shows/ /mnt/shows/ -n
+du -hs /mnt/
+df -h
+cd /mnt/
+ls
+mv shows/anime .
+sudo mv shows/anime .
+ls
+cd shows/
+ls
+cd ani
+cd ../anime/
+ls
+cd
+du -hs /mnt/
+du -s /mnt/
+man du
+man grep
+v nesto.srt
+r
+man du
+r
+grep -E ":[alpha]:" Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+grep -E "[A-Za-z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+grep -vE "[A-Za-z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+grep -vE "[A-Za-z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+v Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+grep -vE "[A-Za-z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+grep -vE "[A-Za-z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt | less
+grep -vE "[A-Z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt | less
+grep -voE "[A-Z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt | less
+grep -vE "[A-Z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt | less
+man grep
+grep -vE "[A-Z]" Ko\ To\ Tamo\ Peva\ \(1980\).srt | less
+v Ko\ To\ Tamo\ Peva\ \(1980\).srt 
+cd /mnt
+ls
+cd
+cd
+cd Downloads/torrents/Remasterovani\ domaci\ filmovi\ RTS\ \(2019\)\ -Ko\ to\ tamo\ peva-1980/
+code .
+r
+code .
+sudo rsync -ah --delete --partial --info=progress2 movies/ /mnt/movies -n
+sudo rsync -avh --delete --partial --info=progress2 movies/ /mnt/movies -n
+sudo rsync -avh --delete --partial --info=progress2 movies/ /mnt/movies
+r
+lsblk
+lsblk
+sudo mount -t auto /dev/sdd1 /mnt
+cd /mnt
+r
+cd
+sudo smartctl -H /dev/sdd
+sudo umount -R /mnt
+lsblk
+ssh vojislav@lazic.xyz
+r
+homeplaylist
+verify_playlist_files 
+file "/home/vojislav/Music/ 溶けない名前/(2012) 制服甘露倶楽部/ 溶けない名前 - ダブル・プラトニツク・スウイサイド.mp3"
+homeplaylistedit 
+homeplaylist
+homeplaylist
+homeplaylistedit 
+m
+lyrics -s
+love_current_track 
+homeplaylist
+homeplaylistedit 
+soul
+cd complete/\(1999\)\ Keep\ It\ Like\ a\ Secret/
+ls
+musort .
+r
+sync_music 
+sync_music 
+lyrics
+lyrics -s
+ssh vojislav@lazic.xyz
+verify_playlist_files 
+homeplaylistedit 
+ytmusic "https://music.youtube.com/playlist?list=OLAK5uy_nJzd9nqjo23HM793vRXjnKIyHBY2JmGF0&feature=share"
+ssh-copy-id -i .ssh/id_rsa.pub lazic.xyz
+ssh-copy-id -i .ssh/id_rsa.pub lazic.xyz
+ssh-copy-id -ig .ssh/id_rsa.pub lazic.xyz
+ssh-copy-id -f -i .ssh/id_rsa.pub lazic.xyz
+ssh-copy-id -f -i .ssh/id_rsa.pub vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+a
+cd Cowboy\ Bebop/
+r
+cd
+sudo rsync -ahv shows/ /mnt/shows/ -n
+sudo rsync -ahv shows/ vojislav@lazic.xyz:~/media/shows/
+ssh-keygen -f "/root/.ssh/known_hosts" -R "lazic.xyz"
+sudo ssh-keygen -f "/root/.ssh/known_hosts" -R "lazic.xyz"
+sudo rsync -ahv shows/ vojislav@lazic.xyz:~/media/shows/
+ssh vojislav@lazic.xyz
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+sudo rsync -avh -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -avh -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -avh shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -avhP shows/anime/ vojislav@lazic.xyz:~/media/anime/
+man rsync
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul; cd complete
+ls
+cd Tallahassee/
+musort .
+cd
+sync_music 
+ssh vojislav@lazic.xyz
+M
+r
+cd Christiane\ F\ -\ Wir\ Kinder\ Vom\ Bahnhof\ Zoo\ \(1981\)/
+r
+man rsync
+rsync -avh -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -avh -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -avuh -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP -n shows/anime/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop
+rsync -auvP -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\Bebop/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/shows/anime/Cowboy\ Bebop/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:"~/media/shows/anime/Cowboy Bebop/"
+rsync -auvP --delete -n "shows/anime/Cowboy\ Bebop/" vojislav@lazic.xyz:"~/media/shows/anime/Cowboy Bebop/"
+rsync -auvP --delete -n "shows/anime/Cowboy Bebop/" vojislav@lazic.xyz:"~/media/shows/anime/Cowboy Bebop/"
+rsync -auvP --delete -n "shows/anime/Cowboy Bebop/" vojislav@lazic.xyz:"~/media/shows/anime/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/shows/anime/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:/home/vojislav/media/shows/anime/
+man rsync
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/shows/anime/
+rsync -auvP shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/shows/anime/
+rsync -auvP shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP --delete -n shows/anime/Cowboy\ Bebop/ vojislav@lazic.xyz:~/media/anime/Cowboy\ Bebop
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+a
+cd Cowboy\ Bebop/
+r
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+r
+cd
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync .config/ranger/ vojislav@lazic.xyz:.config/ranger/ -n
+rsync -a .config/ranger/ vojislav@lazic.xyz:.config/ranger/ -n
+rsync -av .config/ranger/ vojislav@lazic.xyz:.config/ranger/ -n
+rsync -av .config/ranger/ vojislav@lazic.xyz:.config/ranger/
+a; cd Blend\ S
+ls
+..
+cd Bl*
+r
+r
+cd
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+r
+cd
+rsync -auvP --delete -n shows/anime/ vojislav@lazic.xyz:~/media/anime/
+rsync -auvP --delete shows/anime/ vojislav@lazic.xyz:~/media/anime/
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+rsync -auvP --delete shows/anime/ vojislav@lazic.xyz:~/media/anime/ -n
+rsync -auvP --exclude "anime/" --delete shows/ vojislav@lazic.xyz:~/media/shows -n
+rsync -auvP --exclude "anime/" --delete shows/ vojislav@lazic.xyz:~/media/shows
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+t
+du -hs .
+rm .*.parts
+ls
+..
+du -hs .
+r
+df -h
+r
+du -hs Music/
+rsync -ah --delete --partial --info=progress2 movies/ /mnt/movies -n
+rsync -ah --delete --partial --info=progress2 movies/ vojislav@lazic.xyz:~/media/movies -n
+rsync -auvPh --delete --partial --info=progress2 movies/ vojislav@lazic.xyz:~/media/movies -n
+rsync -auvPh --delete --partial --exclude "anime/" --info=progress2 shows/ vojislav@lazic.xyz:~/media/shows -n
+rsync -auvPh --delete --partial --info=progress2 shows/anime/ vojislav@lazic.xyz:~/media/anime -n
+p
+pp
+r
+cd Documents/
+zathura konica_autoreflex_t.pdf 
+pp
+r
+rsyncweb
+rsyncweb
+rsyncweb
+rsyncweb -n
+rsyncweb 
+alias rsyncweb
+rsyncweb 
+stty -ixon
+rsyncweb 
+ssh vojislav@lazic.xyz
+soul; cd com*
+ls
+cd I\ Am\ Not\ Shinzo\ Abe/
+ls
+cd
+soul; cd com*/*
+ls
+musort .
+ls
+rmdir .
+r
+sync_music 
+du -hs Music/
+homeplaylistedit 
+cd Music/The\ Mountain\ Goats/\(2002\)\ Tallahassee/
+r
+homeplaylist
+ytmusic "https://music.youtube.com/watch?v=Uclmv5e8xaM&feature=share"
+rm Music/Unwound
+rm Music/Unwound
+rm Music/Unwound
+rm Music/Unwound/
+ls
+r
+rm a.out 5TRX6B5qc.jpg kb8jl2334ra8e5vhl53f3om6u3ba.gif 
+ls
+ls -a
+ls -l
+cd /tmp/
+r
+r
+cd
+ytmusic "https://music.youtube.com/watch?v=Uclmv5e8xaM&feature=share"
+r
+ytmusic "https://music.youtube.com/watch?v=Uclmv5e8xaM&feature=share"
+r
+sf
+sf
+ytmusic "https://music.youtube.com/watch?v=Uclmv5e8xaM&feature=share"
+sync_music 
+soul
+r
+musort .
+r
+sync_music 
+apt search transmission
+apt install transmission
+apt update
+apt upgrade
+apt update --fix-missing
+apt install transmission
+ssh vojislav@lazic.xyz
+netstat
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+htop
+ssh vojislav@lazic.xyz
+M
+r
+ssh vojislav@lazic.xyz
+mpvxcp 
+ssh vojislav@lazic.xyz
+python ma
+cd letterboxd-logger/
+python main.py 
+python main.py 
+python main.py 
+xvfb-run
+sudo xvfb-run
+cd .mozilla/firefox/
+ls
+pip3 install selenium
+apt install geckodriver
+D
+tar xvf geckodriver-v0.31.0-linux64.tar.gz 
+la
+ls
+sudo mv geckodriver /usr/local/bin/
+cd
+mkd letterboxd-loger
+mv letterboxd-loger/ letterboxd-logger
+cd letterboxd-logger/
+v main.py
+
+v main.py
+python main.py 
+v main.py
+python main.py 
+v main.py
+python main.py 
+v main.py
+python main.py 
+v main.py
+cd letterboxd-logger/
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+ssh vojislav@lazic.xyz
+beep
+beep
+beep
+beep
+beep
+beep -f 1000 -n -f 2000 -n -f 1500
+man beep
+ssh vojislav@lazic.xyz
+D
+r
+soul; cd com*
+ls
+cd shinsekai/
+musort -n
+musort
+musort .
+m
+r
+sync_music 
+cd Documents/letterboxd-rankings/
+ls
+r
+r
+v lbrankings 
+./lbrankings 
+r
+./lbrankings 
+v lbrankings 
+./lbrankings 
+./lbrankings 
+soul
+cd complete/
+;ls
+ls
+r
+musort .
+r
+musort .
+r
+cd l
+cd letterboxd-logger/
+./ma
+./mai
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+python main.py 
+sync_music 
+cd letterboxd-logger/
+v main.py 
+cd Documents/cv
+ls
+v VojislavLazic_CV.
+zathura VojislavLazic_CV.pdf 
+ping google.com
+ping 192.168.0.1
+zathura VojislavLazic_CV.pdf 
+ssh vojislav@lazic.xyz
+v .config/ranger/commands
+v .config/ranger/commands.py 
+v .config/ranger/rifle.conf 
+v rc
+v .config/ranger/rc.conf 
+fzf_locate
+v .config/ranger/rc.conf 
+ssh vojislav@lazic.xyz
+ssh vojislav@192.168.0.30
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Downloads/Zdravko\ Čolić\ -\ Zavičaj\ \(2006\)\ \[FLAC\]\ \{MːTS\}/
+tomp3 .
+ls
+r
+ls *.flac
+rm *.flac
+ls
+musort .
+r
+xclipboard 
+cd Documents/letterboxd-rankings/
+r
+./lbrankings 
+r
+./lbrankings 
+./lbrankings 
+ssh vojislav@lazic.xyz
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
+v .config/ranger/rc.conf 
+fc-cache -l
+fc-cache 
+fc-lst
+fc-list
+fc-list | grep -i awesome
+v .Xresources 
+sudo mv Downloads/complete/ /usr/share/fonts/truetype/inconsolata-complete
+fc-cache -fv
+r
+xr
+xr
+xr
+r
+fc-list 
+fc-list | grep -i inconsola
+v .Xresources 
+alias xr='xrdb ~/.Xresources'
+xr
+v .Xresources 
+v .Xresources 
+xr
+soul
+cd complete/
+ls
+cd
+soul; cd */*
+musort .
+r
+cfi
+.config/ranger/
+ls
+r
+sync_music 
+yams -a
+ping google.com
+ping google.com
+apt remove transmission*
+apt remove transmission*
+apt remove transmission*
+apt autoremove
+blueman-applet 
+sudo rfkill unblock bluetooth
+blueman-applet 
+bluetoothctl 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+pgrep redshift
+pkill redshift
+redshift
+curl 
+apt install debian
+apt install hugo
+hugo --version
+hugo version
+D
+sudo dpkg -i hugo_0.101.0_Linux-64bit.deb 
+hugo version
+redshift -x
+rs
+which redunst
+sf
+hugo version
+hugo
+hugo help new
+hugo new theme
+hugo new theme vugo
+cd themes/
+cd vugo/
+ls
+v theme.toml 
+r
+ls
+r
+cal
+mpc current -f "%file%"
+file "$HOME/Music/$(mpc current -f "%file%")"
+file "$HOME/Music/$(mpc current -f "%file%")"
+r
+sf
+homeplaylist
+homeplaylistedit 
+homeplaylistedit 
+homeplaylistedit 
+homeplaylist
+ssh vojislav@lazic.xyz
+rsyncplaylist -n
+rsyncplaylist
+rsyncplaylist
+update_subsonic 
+echo $homeplaylistfile 
+v /home/vojislav/.config/mpd/playlists/liked_songs.m3u
+rsyncplaylist 
+update_subsonic 
+sync_music 
+homeplaylistedit 
+cd Music/Zdravko\ Čolić/
+ls
+rsyncplaylist 
+cd
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+vimrc
+v
+lyrics
+lyrics
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+w
+v index
+v index.html 
+r
+w
+du -hs img/
+v .config/ranger/rc.conf 
+tree
+mv -fv ~/.config/ranger/plugins/ranger_devicons/*.py ~/.config/ranger/plugins
+cd Documents/website_hugo/
+ls
+r
+hugo
+r
+rgdir .
+r
+hugo server
+r
+hugo
+r
+hugo
+v /home/vojislav/Documents/website_hugo/themes/vojas_theme/layouts/index.html
+r
+r
+r
+fc-list | grep -i inconsola
+fc-list | grep -i 
+fc-list | grep -i "inconsolata nerd font"
+v xr
+xr
+r
+r
+xr
+xr
+r
+r
+fc-list | grep -i "nerd font"
+fc-list | grep -i "nerd font"
+xr
+r
+xr
+r
+xr
+r
+r
+xr
+r
+v .Xresources 
+r
+v .Xresources 
+xr
+cfi
+cd Documents/website_hugo/
+r
+cd Documents/website_hugo/
+ls
+mv vugo/ vojas_theme
+r
+cd Documents/website_hugo/
+ls
+cd Documents/website_hugo/
+ls
+hugo new _index.html
+..
+hugo new site website_hugo
+hugo new site website_hugo_2
+r
+cd website_hugo_1
+cd website_hugo_2
+;s
+ls
+cd themes/
+r
+v con
+v config.toml 
+v config.toml 
+man hugo
+hugo help
+hugo help | grep -i test
+ls
+v config.toml 
+cd themes/
+ls
+v ../config.toml 
+.
+..
+hugo new _index.html
+r
+hugo server
+v .config/ranger/rc.conf 
+wal -i duster.jpg 
+wal -R
+wal --help
+wal -i duster.jpg -s -t
+wal -i duster_cropped.jpg -s -t
+v .config/wal/colorschemes/dark/darker.json 
+cfi
+r
+r
+cd .config/wal/colorschemes/dark/
+ls
+v darker.json 
+nf
+nf
+nf
+wal -i .config/wall.png 
+wal -i .config/wall.png -b 000
+wal -i .config/wall.png -b 000000
+nf
+wal --help
+wal --preview
+wal --help
+wal --help | grep -i export
+wal --help | grep -i colorscheme
+xr
+r
+nf
+nf
+nf
+wal -i .config/wall.png 
+wal -i .config/wall.png -b 000000
+cd .config/
+ls
+fd "json" .
+fd "json" . -d 1
+r
+cd ~/.cache/wal/
+ls
+r
+cd .config/wal/
+ls
+r
+wal -i wall.png 
+wal -i wall.png -b 000000
+wal -i wall.png -b 000000
+man wal
+wal --help
+wal -b
+wal -v
+wal -i wal.
+wal -i wall.png 
+wal -i wall.png -b 000000
+r
+wal -R
+cd
+wal -i .config/wall.png 
+wal -i .config/wall.png -b 00000
+wal -i .config/wall.png -b 000000
+wal --help
+wal -R
+wal -i .config/wall.png -b 000000
+cfi
+r
+r
+grep wal .config/i3/config
+redshift 
+redshift -x
+rm ~/.vim//%home%vojislav%Documents%website_hugo%themes%vojas_theme%layouts%_default%staticpage.html.swp
+cd .vim
+ls
+fd "^%"
+fd "^%" .
+fd "^%" . -x rm {}
+ls
+rm /home/vojislav/.vim//%home%vojislav%Documents%website_hugo%content%index.html.swp
+w
+v index.html 
+v index.html 
+r
+wal -i .config/wall.png -b #1B1C21
+wal -i .config/wall.png -b 1B1C21
+wal -i .config/wall.png -b 1B1C21
+r
+nf
+cfi
+xclipclear 
+cd Music/John\ Maus/
+r
+rm /home/vojislav/.vim//%home%vojislav%Documents%website_hugo%themes%vojas_theme%layouts%_default%blogpost.html.swp
+w
+r
+hugo help
+cd /tmp/hugo_cache/
+ls
+r
+cd .cache/
+s
+ls
+w
+v blog/index.html 
+rm /home/vojislav/.vim//%home%vojislav%Documents%website%blog%index.html.swp
+v blog/index.html 
+rsyncweb 
+w
+v lb 
+date '++%a, %d %b %Y %H:%M'
+date '+%a, %d %b %Y %H:%M'
+soul
+cd complete/
+r
+musort .
+ls
+r
+musort .
+ls
+r
+date '+%a, %d %b %Y %H:%M'
+date
+sync_music 
+r
+r
+w
+v rss.xml 
+pup --help
+cd Documents/website_hugo/
+ls
+r
+r
+chmod 644 *
+r
+w
+cd blog
+pup index.html 
+pup index.html 
+pup '.' index.html 
+man pup
+pup --help
+pup -c index.html 
+pup -c -f index.html 
+pup -c -f index.html 'div.entry'
+pup -c -f index.html 'div.entry h2'
+pup -c -f index.html 'div.entry h2, small'
+pup -c -f index.html 'div.entry | h2, small'
+pup -c -f index.html 'div.entry | h2'
+pup -c -f index.html 'div.entry | h2'
+pup -c -f index.html 'div.entry h2, div.entry small'
+r
+v .config/newsboat/urls 
+cd Documents/website_hugo/
+r
+hugo help
+hugo help | grep -i build
+hugo help | grep -i publish
+hugo -d ~/Documents/website
+rsyncweb -n
+v .config/newsboat/urls 
+w
+r
+hugo deploy
+r
+hugo -d ~/Documents/website
+r
+hugo -d ~/Documents/website
+r
+hugo -d ~/Documents/website
+r
+rsync -auvP movies/ vojislav@lazic.xyz:~/movies -n
+rsync -auvP movies/ vojislav@lazic.xyz:~/media/movies -n
+rsync -auvP movies/ vojislav@lazic.xyz:~/media/movies -n
+rsync -avP movies/ vojislav@lazic.xyz:~/media/movies -n
+rsync -avP movies/ vojislav@lazic.xyz:/home/vojislav/media/movies -n
+rsync -avhP movies/ vojislav@lazic.xyz:/home/vojislav/media/movies -n
+rsync -auvP movies/The\ Room\ \(2003\)/ vojislav@lazic.xyz:~/media/movies/ -n
+rsync -auvP movies/The\ Room\ \(2003\)/ vojislav@lazic.xyz:~/media/movies/
+cd Documents/website_hugo/
+ls
+v content/_index.html 
+cd content/
+mv _index.html index.html
+r
+v index.html 
+r
+hugo new index.html
+hugo new index.html
+..
+..
+hugo new blog/index.html
+r
+hugo new blog/test
+r
+hugo new blog/test.html
+r
+v test.html 
+r
+r
+hugo
+r
+hugo new blog/test2.html
+..
+..
+hugo new blog/test2.html
+v content/blog/test2.html 
+cd content/blog/
+ls
+v test
+v test.html 
+v test2.html 
+v test.html 
+v test2.html 
+v test2.html 
+v test.html 
+v test2.html 
+v test.html
+v test2.html 
+r
+hugo new blog/using-the-lastfm-api.html
+r
+cd ~/Documents/website_hugo/
+hugo new blog/my-music-server.html
+hugo new blog/kinoteka-kalendar.html
+hugo new blog/crnobeograd.html
+hugo new blog/the-site-is-back-up-and-running.html
+hugo new blog/the-site-is-now-live.html
+hugo new big-update-to-website-now-with-an-rss-feed.html
+r
+..
+hugo new blog/arch-install-guide.html
+r
+cat default.md 
+v default.md 
+r
+hugo
+r
+rgdir .
+r
+hugo -d ~/Documents/website
+r
+rsyncweb 
+rsyncweb 
+cd Documents/website_hugo/
+r
+v .config/newsboat/urls 
+v .config/newsboat/urls 
+v .config/newsboat/urls 
+.config/newsboat/
+r
+v .config/newsboat/urls 
+cd .newsboat
+ls
+cd .cache/news
+v .config/newsboat/urls 
+cd Documents/website_hugo/
+ls
+r
+r
+hugo new _index.html
+v /home/vojislav/Documents/website_hugo/themes/vojas_theme/layouts/index.html
+hugo new _index.html
+r
+hugo new _index.html
+r
+hugo serve
+hugo serve
+hugo serve
+hugo serve
+hugo serve
+hugo serve --noHTTPCache
+hugo serve --noHTTPCache
+hugo serve --noHTTPCache
+hugo serve --noHTTPCache
+hugo serve --noHTTPCache
+hugo serve --noHTTPCache --disableFastRender
+man hugo
+hugo helpo
+hugo help
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache --disableFastRender
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+hugo serve --noHTTPCache --ignoreCache
+pass unlock
+pass gmail
+cd Documents/website_
+cd Documents/website_hugo/
+ls
+r
+cd
+hugo help
+hugo -c ~/Documents/website_hugo/ -d ~/Documents/website
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb -n
+rsyncweb
+cal
+ping google.com
+ping google.com
+pass fb
+pass
+pass
+pass twitter
+man rfkill
+cd Documents/website
+r
+ssh vojislav@lazic.xyz
+r
+vimrc
+SS status bluetooth
+sv /lib/systemd/system/bluetooth.service
+rsync -auvP movies/Catch\ Me\ If\ You\ Can\ \(2002\)/ vojislav@lazic.xyz:~/media/movies/ -n
+rsync -auvP movies/Catch\ Me\ If\ You\ Can\ \(2002\)/ vojislav@lazic.xyz:~/media/movies/ -n
+rsync -auvP movies/Catch\ Me\ If\ You\ Can\ \(2002\)/ vojislav@lazic.xyz:~/media/movies/
+rsync -auvP movies/Catch\ Me\ If\ You\ Can\ \(2002\)/ vojislav@lazic.xyz:~/media/movies/ -n
+sudo systemctl status bluetooth
+/lib/systemd/system/bluetooth.service
+sv /lib/systemd/system/bluetooth.service
+cd Documents/website_hugo/
+hugo serve --noHTTPCache --ignoreCache
+sv /lib/systemd/system/bluetooth.service
+v
+w
+cd ../website_orig/
+ls
+cd blog/.drafts/
+ls
+v using-bluetooth-speakers-on-linux.html 
+cd ~/Documents/website_hugo/
+v static/css/vojo.css 
+r
+v .config/newsboat/urls 
+man newsboat
+newsboat -X
+v .config/newsboat/urls 
+newsboat -X
+newsboat 
+v .config/newsboat/urls 
+v .config/newsboat/urls 
+cd Documents/website_hugo/
+hugo new blog/using-bluetooth-speakers-on-linux.html
+v content/blog/using-bluetooth-speakers-on-linux.html 
+r
+hugo
+rsyncweb 
+r
+hugo -d ~/Documents/website
+rsyncweb
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+rsync -auvP Better\ Call\ Saul\ Season\ 1\ \(1080p\ x265\ 10bit\ Joy\)/ vojislav@lazic.xyz:~/media/shows/ -n
+rsync -auvP Better\ Call\ Saul\ Season\ 1\ \(1080p\ x265\ 10bit\ Joy\)/ vojislav@lazic.xyz:~/media/shows/
+a
+r
+rm -rv anime/
+r
+du -hs shows
+du -hs .
+ssh vojislav@lazic.xyz
+pgrep qbi
+kill -9 14534
+cd Documents/repos/kinoteka_kalendar/db/
+ls
+rgdir .
+rgdir .
+v /etc/udev/rules.d/80.power.rules
+sudo pm-powersave
+sudo pm-powersave true
+sudo pm-powersave --help
+sudo pm-powersave true
+sudo pm-powersave help
+mpvxcp
+sudo timedatectl set-timezone
+sudo timedatectl list-timezones | grep Greece
+sudo timedatectl list-timezones | grep Athens
+sudo timedatectl set-timezone Europe/Athens
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Documents/website_orig/
+ls
+cd .dra
+cd blog/.drafts/
+ls
+v navigating-the-lastfm-api.html 
+rm navigating-the-lastfm-api.html 
+cd Documents/website_hugo/
+cd
+hugo serve -d Documents/website_hugo/
+hugo help
+hugo serve -c Documents/website_hugo/
+v .scripts/shortcuts.sh 
+v .scripts/folders 
+r
+v .scripts/folders 
+shortcuts.sh 
+w
+rm core
+hugo server
+mv Documents/website_orig/blog/.drafts/can-truly-good-software-exist.html Documents/website_hugo/content/
+w
+cd ~/Documents/website_hugo/
+r
+..
+..
+cd
+hugo -c ~/Documents/website_hugo/ -d ~/Documents/website
+hugo -c ~/Documents/website_hugo/ -d ~/Documents/website
+hugo -c ~/Documents/website_hugo/ -d ~/Documents/website
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+ssh vojislav@lazic.xyz
+w
+cd content/blog
+v using-bluetooth-speakers-on-linux.html 
+r
+hugo help
+hugo help
+rsyncweb 
+w
+cd content/blog/
+v using-bluetooth-speakers-on-linux.html 
+r
+rsyncweb 
+r
+cd
+r
+cd
+w
+hugo -d ~/Documents/website
+hugo server
+hugo server
+hugo server
+w
+r
+..
+w
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb
+ping google.com
+ping goog.le
+ping google.com
+pgrep qbit
+pkill qbit
+pgrep qbit
+kill -9 27945
+pgrep qbit
+sudo reboot
+xev
+xev
+pkill qbit
+pkill qbit*
+egrep -i 'synap|alps|etps|elan' /proc/bus/input/devices
+nf
+sudo dpkg --get-selections | grep linux  
+sudo dpkg --get-selections | grep linux  
+sudo purge-old-kernels  
+sudo dpkg --get-selections | grep linux  
+sudo dpkg --get-selections
+uname -r
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]'
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]'
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]' | sudo apt purge
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]' | xargs sudo apt-get -y purge
+apt update
+df -h
+apt upgrade
+apt autoremove
+cd /boot
+ls
+du -hs /boot
+sudo du -hs /boot
+df -h
+sudo apt install byobu  
+sudo purge-old-kernels  
+r
+apt search xserver-xorg-input-synaptics
+apt install xserver-xorg-input-libinput xserver-xorg-input-evdev xserver-xorg-input-mouse
+apt update
+apt upgrade
+sudo dpkg --configure -a 
+  sudo dpkg --configure initramfs-tools 
+apt install xserver-xorg-input-libinput xserver-xorg-input-evdev xserver-xorg-input-mouse installed
+apt install xserver-xorg-input-libinput xserver-xorg-input-evdev xserver-xorg-input-mouse
+apt search xserver-xorg-input-synaptics
+sudo reboot
+r
+ranger vojislav@lazic.xyz:~
+ranger ssh://vojislav@lazic.xyz:~
+scp Downloads/Monty.Python.and.the.Holy.Grail.1975.720p.BluRay.x264.\[YTS.MX\]-English.srt vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+scp Downloads/Monty.Python.and.the.Holy.Grail.1975.720p.BluRay.x264.\[YTS.MX\]-English.srt vojislav@lazic.xyz:~
+scp Downloads/Monty.Python.and.the.Holy.Grail.1975.720p.BluRay.x264.\[YTS.MX\].srt vojislav#lazic.xyz:~
+scp Downloads/Monty.Python.and.the.Holy.Grail.1975.720p.BluRay.x264.\[YTS.MX\].srt vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ping google.com
+mpvxcp
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+ssh vojislav@lazic.xyz
+man journalctl
+man journalctl
+cd movies/A Clo
+cd movies/A\ Clockwork\ Orange\ \(1971\)/
+ls
+v *.srt
+..
+fd "srt" .
+fd "srt" . | fzf
+fd "srt" . -x head -1 {}
+fd "srt" . -x head -1 {} | grep 0
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+homeplaylistedit 
+homeplaylistedit 
+sf
+homeplaylistedit 
+sf
+homeplaylistedit 
+homeplaylistedit 
+sync_music 
+ytmusic "https://music.youtube.com/watch?v=P5h_8vYrya0&feature=share"
+ytmusic "https://music.youtube.com/watch?v=ithDuu8A680&feature=share"
+t
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul
+cd complete/
+ls
+cd 1993\ -\ Transient\ Random-Noise\ Bursts\ With\ Announcements/
+musort .
+r
+musort .
+r
+soul; cd com*
+ls
+r
+..
+cd *
+cd complete/
+ls
+cd S_T/
+musort .
+r
+lyrics -s
+lyrics
+sf
+sf
+cd .scripts/lyrics_js/
+ls
+v lyrics.js 
+displayalbumart 
+sxiv displayalbumart 
+sxiv $(displayalbumart) 
+sxiv "$(displayalbumart)"
+feh "$(displayalbumart)"
+r
+sync_music
+sudo pm-powersave true
+pass raifeisen
+pass add raifeisen
+pass add raifeisen
+pass reifesen
+pas
+pass raifeisen
+pkill qbit*
+pkill qbit
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+D
+cd How.I.Met_.Your_.Mother.S01.WTFDetective.Esubs_/
+scp *.srt vojislav@lazic.xyz:~/media/shows
+ssh vojislav@lazic.xyz
+d
+D
+cd
+ls
+convert *.pdf ulaznice.pdf
+r
+gm convert *.pdf ulaznice.pdf
+gm-convert *.pdf ulaznice.pdf
+gm
+r
+pdfunite *.pdf ulaznice.pdf
+r
+apt install sshfs
+sshfs 
+sshfs vojislav@lazic.xyz:~/media/shows /mnt
+sshfs vojislav@lazic.xyz:~/media/shows /mnt/
+sshfs vojislav@lazic.xyz:~/media/shows /mnt/
+sshfs vojislav@lazic.xyz:~/media/shows /mnt/
+SSHFS vojislav@lazic.xyz:~/media/shows 
+mkd server
+SSHFS vojislav@lazic.xyz:~/media/shows server/
+shhfs vojislav@lazic.xyz:~/media/shows server/
+sshfs vojislav@lazic.xyz:~/media/shows server/
+sshfs vojislav@lazic.xyz: server/
+man sshfs
+cd /mnt
+ls
+ls
+r
+rmdir phone
+sudo rmdir phone
+;s
+ls
+cd ~/server/
+ls
+cd server/
+ls
+ls -a
+v .vimrs
+v .vimrc
+cp ~/.vimrc .
+v .vimrc 
+rm .vimrc
+v .vimrc
+r
+cd shows/
+ls
+sudo chown -R www-data: *
+sudo chown -R www-data: *
+r
+ls
+cd How\ I\ Met\ Your\ Mother/
+cd Season\ 1/
+pwd
+ls
+r
+ssh vojislav@lazic.xyz
+r
+r
+r
+r
+htop
+pgrep ranger
+pkill ranger*
+ls
+pgrep ranger
+pkill ranger
+pgrep ranger
+man pgrep
+man pgrep
+pkill "*ranger*"
+pkill "ranger*"
+pgrep ranger
+kill -9 6636
+pgrep ranger
+htop
+pgrep ranger
+htop
+r
+sshfs vojislav@lazic.xyz: server/
+pgrep ranger
+uptime -p
+r
+r
+pgrep ranger
+kill -9 27310
+kill -9 31540
+pgrep ranger
+pgrep ranger
+htop
+pgrep ranger
+pgrep ranger
+kill -9 27310
+kill -9 31540
+pgrep ranger
+pgrep ranger
+kill -9 3284
+pgrep ranger
+pgrep ranger
+pkill /usr/bin/ranger
+pgrep ranger
+pgrep python
+pgrep ranger
+pgrep ranger
+pkill python
+pgrep ranger
+pgrep yams
+yams
+sudo pkill ranger
+pgrep yams
+pgrep ranger
+ssh vojislav@lazic.xyz
+r
+ls
+scp -r how-i-met-your-mother-first-season/ vojislav@lazic.xyz:~
+ls
+ssh vojislav@lazic.xyz
+D
+scp -r Season\ 2/ vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+D
+cd How_I_Met_Your_Mother-season-3.en_/
+ls
+..
+scp -r How_I_Met_Your_Mother-season-3.en_/ vojislav@lazic.xyz:~
+xinput float 9; sleep 120; xinput reattach 9 3
+ssh vojislav@lazic.xyz
+sudo shutdown now
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+pgrep dunst
+pgrep eas
+pgrep easytag
+kill -9 6523
+soul; cd com(
+soul; cd com*
+ls
+r
+musort .
+r
+musort .
+r
+sudo timedatectl set-timezone Europe/Belgrade
+soul
+cd complete/
+ls
+r
+musort .
+r
+musort .
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul
+cd complete/
+ls
+r
+sync_music 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+homeplaylistedit 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+homeplaylistedit 
+homeplaylistedit 
+homeplaylistedit 
+Music/Stereolab/
+r
+sync_music 
+ssh vojislav@lazic.xyz
+r
+wget -p -k /home/vojislav/Music/Stereolab/(1993) Transient Random-Noise Bursts With Announcements/Stereolab - Pack Yr Romantic Mind.mp3
+wget -p -k /home/vojislav/Music/Stereolab/(1993) Transient Random-Noise Bursts With Announcements/Stereolab - Pack Yr Romantic Mind
+wget -p -k https://boards.4channel.org/mu/thread/111878062
+r
+wget -mpEk https://boards.4channel.org/mu/thread/111878062
+r
+wget      --recursive      --no-clobber      --page-requisites      --html-extension      --convert-links      --restrict-file-names=windows      --domains website.org      --no-parent \
+wget      --recursive      --no-clobber      --page-requisites      --html-extension      --convert-links      --restrict-file-names=windows      --domains website.org      --no-parent \
+wget      --recursive      --no-clobber      --page-requisites      --html-extension      --convert-links      --restrict-file-names=windows      --domains website.org      --no-parent \
+vimrc
+bashrc
+wget      --recursive      --no-clobber      --page-requisites      --html-extension      --convert-links      --restrict-file-names=windows      --domains website.org      --no-parent          https://boards.4channel.org/mu/thread/111878062
+r
+r
+wget -E -H -k -K -p
+wget -E -H -k -K -p https://boards.4channel.org/mu/thread/111878062
+r
+lyrics
+lyrics -s
+pgrep redshift
+pkill redshift
+pgrep redshift
+pgrep redshift
+pgrep redshift
+redshift 
+wget -E -H -k -K -p https://boards.4channel.org/mu/thread/111878062
+r
+r
+r
+pgrep ranger
+man zip
+zip -r os_ovagodina.zip os/
+r
+ls
+zip -r os_proslagodina.zip vezbanje/
+r
+xdotool click 3
+sleep 2;xdotool click 3
+xev
+xmodmap -pke
+xmodmap -pke | grep -i menu
+apt install xorg-xmodmap xorg-xev
+apt install -xmodmap xorg-xev
+apt install xmodmap xev
+man xmodmap
+xmodmap -e 'keycode 135 = Super_R'
+xmodmap -e 'keycode 108 = Pointer_Button3'
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+vim ~/.Xmodmap
+xmodmap -pke > ~/.Xmodmap
+v .Xmodmap 
+w
+v layouts/index.html 
+v .profile 
+v .xinitrc 
+bashrc
+v .profile 
+cfi
+v .scripts/remaps 
+xev
+w
+cd static/img/
+ls
+r
+hugo server
+xev
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+xev
+sudo dpkg -i Downloads/input-remapper-1.5.0.deb 
+sudo apt install git python3-setuptools gettext
+apt install Downloads/input-remapper-1.5.0.deb 
+apt install ./Downloads/input-remapper-1.5.0.deb 
+sudo dpkg -i Downloads/input-remapper-1.5.0.deb 
+git clone https://github.com/sezanzeb/input-remapper.git
+cd input-remapper && ./scripts/build.sh
+sudo apt install ./dist/input-remapper-1.5.0.deb
+xbindkeys_show
+xbindkeys
+xbindkeys
+xbindkeys
+xbindkeys
+xbindkeys
+sleep 2; xdotool click 3
+xbindkeys --key
+xbindkeys
+xbindkeys
+xbindkeys --help
+sudo apt install xbindkeys x11-utils xdotool
+apt update
+apt upgrade
+apt remove input-remapper
+apt autoremove
+sudo apt install xbindkeys x11-utils xdotool
+xbindkeys -d > ~/.xbindkeysrc
+v .xbindkeysrc 
+xdotool click 2
+xdotool click 3
+v .xbindkeysrc 
+pgrep xbind
+xbindkeys
+pgrep xbind
+pkill xbing
+pkill xbind
+pkill xbing
+pgrep xbind
+xbindkeys
+xbindkeys --keys
+xbindkeys --key
+v .xbindkeysrc 
+pgrep xbind
+xbindkeys
+pgrep xbind
+pkill xbind
+xbindkeys -p
+pkill xbind
+xbindkeys -p
+pgrep xbind
+pkill xbind
+pgrep xbind
+xbindkeys --key
+xbindkeys --key
+lyrics
+v .xbindkeysrc 
+xbindkeys
+pgrep xbind
+pkill xbind
+xbindkeys
+watch pgrep xdotool
+pgrep xdot
+pgrep xdotool
+pgrep xdo
+pgrep xdo
+watch -n 1 pgrep xdot
+xdotool 
+xdotool 
+xdotool &
+xdotool &
+xdotool click 3 &
+xdotool click 3 &
+xdotool click 3 &
+xdotool click 3 &
+xdotool click 3 &
+xdotool click 3 &
+xdotool click 3 &
+xbindkeys --key
+v .xbindkeysrc 
+pgrep xbin
+pkill xbind
+xbindkeys
+bind
+man bind
+man 2 bind
+man 3 bind
+man 1 bind
+bind
+bind --help
+bind -P
+bind -p
+xbindkeys --key
+xbindkeys --key
+xdotool 
+pkill xbindkeys
+xbindkeys
+xbindkeys
+pkill xbindkeys
+xbindkeys
+pkill xbindkeys
+xbindkeys
+pkill xbindkeys
+xbindkeys
+pkill xbindkeys
+xbindkeys
+pkill xbindkeys
+xbindkeys
+xbindkeys_config
+v .xbindkeysrc 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ls
+ffmpeg -i video-220802-1146-54.mkv -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -f mp4 blink.mp4
+ffmpeg -i video-220802-1210-23.mkv -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" -f mp4 rainbow.mp4
+soul
+cd complete/
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+v .profile 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+man bc
+cd Documents/repos/kinoteka_kalendar/
+ls
+cd db/
+rgdir .
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ip a
+sf
+ls
+cd server/
+ls
+cd
+pwd
+cd /
+ls
+cd
+ls
+ls
+r
+ls
+ip a
+ls
+r
+ssh vojislav@lazic.xyz
+ls
+mkd rahmanjinov
+mv CD* rahmanjinov/
+ls
+r
+musort .
+ls
+cd rahmanjinov/
+wget https://e.snmc.io/i/fullres/w/4726cfade2e6f6209748d847d1d53ba6/4703770
+ip a
+ls
+ssh vojislav@lazic.xyz
+sudo rfkill block bluetooth
+pass reddit
+nf
+htop
+cd Music
+fd "rach"
+fd "Rach"
+fd "Russian"
+fd "Russian" .
+r
+mpc listall -f "%mtime%\t%artist% - %album%" | sort -k 1
+mpc listall -f "%mtime%\t%artist% - %album%" | sort -k 1 -r
+mpc listall -f "%file%"
+mpc listall -f "%file%" | grep -i russian
+mpc listall -f "%file%" | grep -i "()"
+mpc listall -f "%file%" | grep -i "("
+mpc listall -f "%file%" | grep -i "^("
+ls -Art | tail -n 1
+cd Music/
+ls -Art | tail -n 1
+ls -t
+find . -type f -printf "%T@ %p\n"
+find . -type f -printf "%T@ %p\n" | sort -n
+r
+ssh vojislav@lazic.xyz
+cd beethoven/
+ls
+fd ".mp3$" .
+fd ".mp3$" . | wc -l
+fd ".flac$" . | wc -l
+fd ".mp3$" . | wc -l
+fd ".mp3$" . | wc -l
+fd ".flac$" . | wc -l
+fd ".mp3$" . | wc -l
+ls
+mkd beethoven
+r
+easytag .
+cd ../beethoven/
+easytag .
+sf
+sf
+find "$1" -name "*.flac" -exec ffmpeg -i {} -ab 320k -map_metadata 0 -threads 4 -id3v2_version 3 {}.mp3 \;
+find . -name "*.flac" -exec ffmpeg -i {} -ab 320k -map_metadata 0 -threads 4 -id3v2_version 3 {}.mp3 \;
+fd ".flac$" .
+fd ".flac$" . | wc -l
+fd ".mp3$" . | wc -l
+fd ".flac$" . -x rm {}
+du -hs .
+r
+easytag .
+musort . -n
+r
+cd beethoven/
+r
+cd Music/
+fd "^.mp3" .
+fd ".mp3" .
+fd ".mp3$" .
+sf
+sf
+sf
+cd beethoven/
+musort . -n
+easytag .
+musort . -n
+musort . -n
+musort . -n
+musort . -n
+musort . -n
+musort .
+r
+sf
+cd Music/Wilhelm\ Kempff/
+ls
+r
+du -hs .
+r
+ip a
+ssh vojislav@lazic.xyz
+ip a
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ip a
+ssh vojislav@lazic.xyz
+cd Music/beethoven/
+musort . -n
+r
+easytag .
+musort . -n
+r
+musort . -n
+r
+cd rahmanjinov/
+ls
+r
+easytag .
+ls
+rm core
+r
+fd ".mp3$"
+fd ".mp3$" .
+fd ".mp3$" . -x mv {} ..
+r
+fd ".mp3$" . -d 1
+fd ".mp3$" . -d 1 -x mv {} rahmanjinov/
+r
+r
+cd Music/rahmanjinov/
+ls
+r
+ip a
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd rahmanjinov/
+r
+easytag .
+r
+fd ".mp3$" .
+fd ".mp3$" . -x mv {} .
+r
+r
+rm -r Music/rahmanjinov/
+mv rahmanjinov/ Music/
+cd Music/
+r
+cd Wilhelm\ Kempff/
+ls
+..
+du -hs .
+cd
+cd
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+ssh vojislav@lazic.xyz
+sf
+sync_music 
+du -hs Music/
+du -s Music/
+sync_music 
+update_subsonic 
+update_subsonic 
+update_subsonic 
+xinput float 9; sleep 90; xinput reattach 9 3
+update_subsonic 
+ssh vojislav@lazic.xyz
+sf
+rsyncplaylist 
+sed 's:/home/vojislav:/home/vojislav/media:g' ~/.config/mpd/playlists/liked_songs.m3u 
+sed 's:/home/vojislav:/home/vojislav/media:g' ~/.config/mpd/playlists/liked_songs.m3u > vojislav@lazic.xyz:/var/www/subsonic/playlists/liked_songs.m3u
+sed 's:/home/vojislav:/home/vojislav/media:g' ~/.config/mpd/playlists/liked_songs.m3u > /tmp/tmp_playlist.m3u
+man fd
+cd Music/Sergei\ Rachmaninoff/backup/
+\ls
+\ls
+fd "Movement 1"
+fd "Movement 1" -0
+fd "Movement 1" -0 | xcp
+fd "Movement 1" -0 | xcp
+fd "Movement 1" -0
+fd "Movement 1" 
+fd "Movement 1" | tr '\n' '|'
+fd "Movement 1" | tr '\n' '|'
+fd "Movement 1" | tr '\n' '|'
+ffmpeg -i "concat:22_01. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - I. Allegro moderato.mp3|22_02. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - II. Moderato - Measure 73.mp3|22_03. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - III. Tempo I - Measure 117.mp3|22_04. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - IV. Tempo I - Measure 172.mp3|22_05. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - V. A tempo.mp3" -acodec copy mov1.mp3
+r
+cd Music/Sergei\ Rachmaninoff/backup/
+ffmpeg -i "concat:22_01. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - I. Allegro moderato.mp3|22_02. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - II. Moderato - Measure 73.mp3|22_03. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - III. Tempo I - Measure 117.mp3|22_04. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - IV. Tempo I - Measure 172.mp3|22_05. Piano Sonata No.1 in D minor, Op. 28 - Movement 1 - V. A tempo.mp3" -acodec copy mov1.mp3
+cd Music/Sergei\ Rachmaninoff/Rachmaninoff\ Edition\ -\ Complete\ Works/
+ls
+r
+r
+cd Music/Sergei\ Rachmaninoff/backup/
+ls
+fd "Movement 2" | tr '\n' '|'
+ffmpeg -i "concat:" -acodec copy output.mp3
+fd "Movement 2" | tr '\n' '|'
+ffmpeg -i "concat:22_06. Piano Sonata No.1 in D minor, Op. 28 - Movement 2 - I. Lento.mp3|22_07. Piano Sonata No.1 in D minor, Op. 28 - Movement 2 - II. Measure 43.mp3|22_08. Piano Sonata No.1 in D minor, Op. 28 - Movement 2 - III. Measure 102.mp3" -acodec copy mov2.mp3
+ls
+fd "Movement 3" | tr '\n' '|'
+ffmpeg -i "concat:" -acodec copy output.mp3
+fd "Movement 3" | tr '\n' '|'
+ffmpeg -i "concat:22_09. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - I. Allegro molto.mp3|22_10. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - II. Meno mosso - Measure 80.mp3|22_11. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - III. Moderato - Measure 188.mp3|22_12. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - IV. Più vivo - Measure 240.mp3|22_13. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - V. Tempo I - Measure 267.mp3|22_14. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - VI. Meno mosso - Measure 313.mp3|22_15. Piano Sonata No.1 in D minor, Op. 28 - Movement 3 - VII. Moderato - Measure 409.mp3" -acodec copy mov3.mp3
+ls
+fd "Movement I" | tr '\n' '|'
+ffmpeg -i "concat:23_01. Piano Sonata No.2 in B flat minor, Op.36 Movement I. Allegro agitato.mp3|23_02. Piano Sonata No.2 in B flat minor, Op.36 Movement I. Meno mosso. Measure 38.mp3|23_03. Piano Sonata No.2 in B flat minor, Op.36 Movement I. Measure 55.mp3|23_04. Piano Sonata No.2 in B flat minor, Op.36 Movement I. Tempo I. Measure 98.mp3|23_05. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Non allegro - Lento.mp3|23_06. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Poco più mosso. Measure 36.mp3|23_07. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Tempo I. Measure 63 - Attacca.mp3|23_08. Piano Sonata No.2 in B flat minor, Op.36 Movement III. L'istesso tempo - Allegretto molto.mp3|23_09. Piano Sonata No.2 in B flat minor, Op.36 Movement III. A tempo meno mosso. Measure 76.mp3|23_10. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo I. Measure 106.mp3|23_11. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo rubato. Measure 184.mp3" -acodec copy movI.mp3
+r
+fd "Movement II" | tr '\n' '|'
+ffmpeg -i "concat:" -acodec copy output.mp3
+fd "Movement II" | tr '\n' '|'
+ffmpeg -i "concat:23_05. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Non allegro - Lento.mp3|23_06. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Poco più mosso. Measure 36.mp3|23_07. Piano Sonata No.2 in B flat minor, Op.36 Movement II. Tempo I. Measure 63 - Attacca.mp3|23_08. Piano Sonata No.2 in B flat minor, Op.36 Movement III. L'istesso tempo - Allegretto molto.mp3|23_09. Piano Sonata No.2 in B flat minor, Op.36 Movement III. A tempo meno mosso. Measure 76.mp3|23_10. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo I. Measure 106.mp3|23_11. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo rubato. Measure 184.mp3" -acodec copy movII.mp3
+fd "Movement III" | tr '\n' '|'
+ffmpeg -i "concat:23_08. Piano Sonata No.2 in B flat minor, Op.36 Movement III. L'istesso tempo - Allegretto molto.mp3|23_09. Piano Sonata No.2 in B flat minor, Op.36 Movement III. A tempo meno mosso. Measure 76.mp3|23_10. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo I. Measure 106.mp3|23_11. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo rubato. Measure 184.mp3" -acodec copy output.mp3
+ls
+ffmpeg -i "concat:23_08. Piano Sonata No.2 in B flat minor, Op.36 Movement III. L'istesso tempo - Allegretto molto.mp3|23_09. Piano Sonata No.2 in B flat minor, Op.36 Movement III. A tempo meno mosso. Measure 76.mp3|23_10. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo I. Measure 106.mp3|23_11. Piano Sonata No.2 in B flat minor, Op.36 Movement III. Tempo rubato. Measure 184.mp3" -acodec copy movIII.mp3
+r
+fd "Movement I" | tr '\n'
+fd "Movement I"
+fd "Movement I."
+fd "Movement I."
+fd "Movement I\."
+fd "Movement I\."
+fd "Movement II\."
+fd "Movement III\."
+ffmpeg -i "concat:$(fd 'Movement I\.')" -acodec copy movI.mp3
+ffmpeg -i "concat:$(fd 'Movement I\.' | tr '\n' '|')" -acodec copy movI.mp3
+r
+ffmpeg -i "concat:$(fd 'Movement II\.' | tr '\n' '|')" -acodec copy movI.mp3
+ffmpeg -i "concat:$(fd 'Movement III\.' | tr '\n' '|')" -acodec copy movI.mp3
+r
+ffmpeg -i "concat:$(fd 'Movement I\.' | tr '\n' '|')" -acodec copy movI.mp3
+ffmpeg -i "concat:$(fd 'Movement II\.' | tr '\n' '|')" -acodec copy movII.mp3
+ffmpeg -i "concat:$(fd 'Movement III\.' | tr '\n' '|')" -acodec copy movIII.mp3
+r
+r
+easytag .
+r
+cd Music/Sergei\ Rachmaninoff/Rachmaninoff\ Edition\ -\ Complete\ Works/
+ls
+sync_music 
+wal --theme
+wal --theme gruvbox
+https://raw.githubusercontent.com/morhetz/gruvbox-contrib/master/xresources/gruvbox-dark.xresources
+wal --theme | grep -i gruvbox
+wal --theme | less
+wal --theme
+wal --help
+wal --theme gruvbox
+wal --theme base16-gruvbox-hard
+wal --theme base16-gruvbox-hard -b 000000
+r
+v .Xresources 
+r
+cd .config/wal/colorschemes/dark/
+ls
+rm gruvbox.json 
+wal --theme base16-gruvbox-medium -b 000000
+wal --theme base16-gruvbox-medium
+wal --theme base16-gruvbox-hard
+wal --theme base16-gruvbox-soft
+wal --theme gruvbox
+wal --theme github
+wal --theme github -l
+wal --theme solarized
+wal --theme solarized -b 000000
+wal --theme solarized -b 00000
+wal --theme base16-google -b 000000
+wal --theme base16-github -b 000000
+wal --theme base16-github -b 000000
+r
+wal --theme | 
+wal --theme gruvbox
+wal --theme gruvbox -b 000000
+r
+cfi
+wal --theme gruvbox -b 000000
+r
+wal --theme base16-monokai
+wal --theme base16-monokai -b 00000
+wal --theme base16-monokai -b 000000
+cfi
+wal --theme base16-monokai
+wal --theme base16-monokai -b 000000
+wal --theme base16-material -b 000000
+wal --theme base16-nord -b 000000
+wal --theme base16-flat -b 000000
+wal --theme base16-material-palenight -b 000000
+wal --theme base16-materialer -b 000000
+wal --theme base16-ocean -b 000000
+cfi
+wal --theme base16-oceananic -b 000000
+wal --theme base16-oceananicnext -b 000000
+wal --theme base16-oceanicnext -b 000000
+wal --theme base16-ocean -b 000000
+wal --theme base16-oceanicnext -b 000000
+wal --theme base16-phd -b 000000
+cfi
+wal --theme base16-zenburn -b 000000
+wal --theme base16-material -b 000000
+wal --theme base16-monokai -b 000000
+wal --theme sexy-monokai -b 000000
+wal --theme base16-flat -b 000000
+wal --theme gruvbox -b 000000
+cfi
+cfi
+wal --theme gruvbox -b 000000
+cfi
+wal --theme
+wal --theme vscode
+wal --theme vscode -b 000000
+cfi
+wal --theme | less
+cd .config/wal/colorschemes/dark/
+v darker.json 
+v darker.json 
+cd .config/wal/colorschemes/
+cd dark/
+r
+v gruvbox.json
+wget https://raw.githubusercontent.com/morhetz/gruvbox-contrib/master/xresources/gruvbox-dark.xresources
+mv gruvbox-dark.xresources gruvbox.json 
+v gruvbox.json 
+wal --theme | grep -i dracula
+wal --theme base16-dracula
+wal --theme base16-dracula -b 000000
+wal --theme base16-solarized -b 000000
+cfi
+cfi
+r
+cd Pictures/film/2022_07_slankamen_more/
+ls
+sxiv
+sxiv .
+sxiv .
+cd Pictures/film/
+ls
+r
+r
+cd Pictures/film/
+ls
+r
+xev
+cd .config/nsxiv/ke
+cd .config/nsxiv/
+ls
+cd exec/
+v key-handler 
+lyrics
+sync_music 
+v .config/ncmpcpp/config 
+v
+wal -R
+ssh vojislav@lazic.xyz
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Documents/repos/kinoteka_kalendar/
+v functions.py 
+v main.py 
+rsynckino 
+r
+export FLASK_ENV=development; flask run
+r
+v avgust2022.json 
+grep "Kosovska" avgust2022.json 
+grep "Kosovska" avgust2022.json -c
+grep "Kosovska" avgust2022.json -o
+grep "Kosovska" avgust2022.json -o | wc -l
+sed "s/Kosovska/Dom Vojske/g" avgust2022.json 
+sed -i "s/Kosovska/Dom Vojske/g" avgust2022.json 
+rsynckino 
+ssh
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul
+cd complete/
+r
+musort .
+r
+musort .
+r
+sync_music 
+sync_music 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+xinput float 9; sleep 90; xinput reattach 9 3
+mpvxcp 
+mpvxcp 
+mpvxcp 
+mpvxcp 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cal
+man cal
+cal -M
+man cal
+cal -M
+cal -M .
+cal -M 2022
+cal -M1
+cal -M -1
+cal -M -3
+cal 2022
+cal 2022 -M
+cal -M
+cal 8 2022
+cal 8 2022 -M
+ncal
+bashrc
+cal
+cal -M
+bashrc
+man ncal
+bashrc
+cal
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+python3 -m pip install -U gallery-dl
+r
+pass
+pass twitter
+man gallery-dl
+gallery-dl --help
+gallery-dl -g -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/i/web/status/604341487988576256"
+gallery-dl -g -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+r
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+r
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media" --download-archive archive.txt
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media" --download-archive archive.txt
+r
+du -hs cutesexyrobutts/
+r
+gallery-dl -D Pictures/gallery_dl/cutesexyrobutts/ -u "matematicmar" -p "$(pass twitter)" --download-archive Pictures/gallery_dl/archive "https://twitter.com/cutesexyrobutts/media"
+cd Pictures/gallery_dl/cutesexyrobutts/
+r
+pkill gimp
+gallery-dl -D Pictures/gallery_dl/cutesexyrobutts/ -u "matematicmar" -p "$(pass twitter)" --download-archive Pictures/gallery_dl/archive "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -D Pictures/gallery_dl/cutesexyrobutts/ -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+cd Pictures/gallery_dl/
+file archive 
+sqlite3 archive 
+sqlite3 archive 
+sqlite3 archive 
+file archive 
+apt install sqlitebrowser
+sqlitebrowser 
+r
+man gallery-dl
+sudo rfkill block bluetooth
+ssh vojislav@lazic.xyz
+pass
+pass gmail
+r
+cd .thunderbird/
+ls
+mpg123 yougotmail.wav 
+r
+pgrep redshift
+pgrep redsh*
+pkill redshi*
+redshift 
+redshift -x
+pgrep lbrss
+pkill lbrss*
+pgrep lbrss
+kill -9 3882
+pgrep lbrss
+lbrss
+pgrep lbrss
+pkill lbrss
+pgrep lbrss
+pkill lbrss*
+pgrep lbrss
+pgrep *lbrss*
+pgrep lbrss
+pkill *lbrss*
+pkill lbrss
+pgrep lbrss
+kill -9 16225
+pgrep lbrss
+pgrep lbrss
+cd .config/lbrss/
+r
+lbrss
+r
+cd .config/lbrss/
+lbrss
+pass gmail
+cfi
+man gallery-dl
+cd links/
+r
+du -hs _archive 
+du -hs _archive 
+du -s _archive 
+du -s _archive 
+du -s _archive 
+du -s _archive 
+r
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -hs .
+du -h _archive 
+du -hs .
+du -hs .
+du -hs .
+du -h _archive 
+sqlitebrowser 
+r
+sxiv .
+\ls | sxiv
+\ls | nsxiv -
+\ls | nsxiv -
+\ls 993614739304603650_1.jpg | nsxiv - 
+r
+homeplaylistedit 
+homeplaylistedit 
+homeplaylistedit 
+cd Documents/nsxiv-29/
+ls
+r
+make && sudo make install
+make && sudo make install
+t
+r
+du -hs Zdravko\ Čolić\ \[FLAC\]/
+r
+r
+du -hs .
+r
+..
+..
+r
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+sxiv -o
+sxiv -o .
+sxiv 
+sxiv .
+r
+r
+v .config/nsxiv/exec/key-handler 
+file /etc/adjtime 
+cat /etc/adjtime 
+hwclock --systohc
+crontab -l
+uptime -p
+timedatectl set-ntp true
+sudo timedatectl set-ntp true
+file /etc/localtime 
+sudo hwclock --systohc
+r
+w3m *
+v .config/nsxiv/exec/key-handler 
+ping mail.lazic.xyz
+ping movies.lazic.xyz
+ping lazic.xyz
+pgrep thunderbird
+v .thunderbird/
+cd .thunderbird/
+r
+rgdir .
+r
+pgrep bird
+pgrep bird
+pgrep bird
+pkill bird
+pgrep bird
+ping google.com
+ping lazic.xyz
+ping djuma.cyz
+ping djuma.xyz
+curl lazic.xyz
+curl djuma.xyz
+curl movies.lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+xbindkeys
+cd .thunderbird/
+ls
+r
+v .lyrics/The\ Unicorns\ -\ Abominable\ Snowman.txt
+ping lazic.xyz
+ping lazic.xyz
+ping google.com
+ssh vojislav@lazic.xyz
+ping lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ping lazic.xyz
+ping lazic.xyz
+ping 24.135.99.52
+ping vojislav@lazic.xyz
+ping https://lazic.xyz
+ping www.lazic.xyz
+cat /proc/sys/net/ipv4/icmp_echo_ignore_all
+curl -i -X HEAD lazic.xyz
+curl -i --head lazic.xyz
+curl -v -i --head lazic.xyz
+curl -v -i --head https://lazic.xyz/blog/using-the-lastfm-api.html
+curl -v -i --head https://lazic.xyz/blog/
+curl -v -i --head https://lazic.xyz/
+curl -v -i --head lazic.xyz
+curl -v -i --head https://lazic.xyz/
+ping https://lazic.xyz/blog/using-the-lastfm-api.html
+ping lazic.xyz/blog/using-the-lastfm-api.html
+ping lazic.xyz/
+ping lazic.xyz
+telnet lazic.xtz
+telnet lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+dig kinoteka.lazic.xyz +noall +answer
+dig mail.lazic.xyz +noall +answer
+dig -x 24.135.99.52 +noall +answer
+dig -x 24.135.99.52 +noall +answer
+w
+r
+rgdir .
+r
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb 
+w
+r
+hugo server
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+bashrc
+sf
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+id root
+ps -ax
+man git
+man du
+cd soul
+soul
+cd complete/
+r
+musort .
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+rsyncmusic 
+ssh vojislav@lazic.xyz
+sync_music 
+sync_music 
+sync_music 
+sf
+f
+r
+v .xinitrc 
+v .profile 
+sf
+fzf
+sf
+cfi
+wal --theme gruvbox-dark
+wal --theme gruvbox
+wal --theme gruvbox -b 000000
+r
+cfi
+wal --theme
+nf
+nf
+cowthink "kuje ljubomorne"
+cowthink "kuje ljubomorne"
+pp
+ss
+r
+ss
+r
+cowthink "kuje ljubomorne"
+cowthink "kuje ljubomorne"
+cowthink "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+unclutter 
+mpvxcp 
+mpvxcp 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+nf
+pgrep qbit
+pkill qbit
+pgrep qbit
+pkill qbit*
+pgrep qbit
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+pgrep red
+pkill red*
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+v .config/i3status/config 
+sf
+sf
+v .config/i3status/config 
+v .config/i3status/
+v .i3blocks.conf 
+v .i3blocks.conf 
+ssh vojislav@lazic.xyz
+cowsay "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+cowsay "kuje ljubomorne"
+soul; cd com*
+ls
+r
+musort .
+r
+sync_music 
+soul
+cd complete/
+ls
+cd Car\ Seat\ Headrest\ -\ 3\ \[2010\]/
+musort .
+r
+sync_music 
+file /dev/video0 
+mpv /dev/video0 
+pgrep urxvt
+D
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ping lazic.xyz
+cd Documents/cv
+zathura VojislavLazic_CV.pdf 
+ssh vojislav@lazic.xyz
+r
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+man gallery-dl
+man gallery-dl
+r
+ytmusic "https://music.youtube.com/watch?v=plzO3ABistw&feature=share"
+r
+homeplaylistedit 
+lzrics
+lyrics
+xinput float 9; sleep 90; xinput reattach 9 3
+remaps 
+soul
+cd complete/
+cd Les\ Bains\ Douches\ 18\ December\ 1979/
+ls
+musort .,
+musort .
+musort .
+rr
+r
+sf
+apt update && apt upgrade
+easytag --version
+ssh vojislav@lazic.xyz
+curl -X PUT https://slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT https://slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT https://slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT -d username=vojoslav-pi -d password=pineapple122 https://slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT -d username=vojoslav-pi -d password=pineapple122 slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT -d username=vojoslav-pi -d password=pineapple122 http://slskd.lazic.xyz/api/v0/shares
+curl -v -X PUT -d username=vojoslav-pi -d password=pineapple122 https://slskd.lazic.xyz/api/v0/shares
+v
+ls
+curl -X POST -d "username=vojoslav-pi&password=pineapple122" https://slskd.lazic.xyz/api/v0/session
+curl -v -X POST -d "username=vojoslav-pi&password=pineapple122" https://slskd.lazic.xyz/api/v0/session
+curl -v -X POST -d '{"username: "vojoslav", "password": "pineapple122" "}' https://slskd.lazic.xyz/api/v0/session
+echo $LC_TIME 
+man cat
+export LC_TIME=sr_RS
+echo $LC_TIME 
+export LC_TIME=sr_RS
+echo $LC_TIME 
+echo $LC_TIME 
+v .bashrc
+source ~/.bashrc
+echo $LC_TIME 
+echo $LC_TIME 
+pgrep thunder
+pkill thunder*
+pgrep thunder
+pkill thunder*
+pgrep thunder
+date
+echo $LC_TIME 
+cat /etc/locale.gen 
+less /etc/locale.gen 
+apt install exiv2
+v .config/nsxiv/exec/key-handler 
+cd links/
+ls
+r
+man exiftool
+\ls
+\ls | shuf
+\ls | shuf | head -n1
+\ls | shuf | head -n1
+\ls | shuf | head -n1 | exiftool -
+\ls | shuf | head -n1 | exiftool -
+\ls | shuf | head -n1 | exiftool -
+\ls | shuf | head -n1 | exiftool -
+\ls | shuf | head -n1 | mediainfo -
+mediainfo $(\ls | shuf | head -n1)
+man exiftool
+man imagemagick
+imagemagick $(\ls | shuf | head -n1)
+imagemagik $(\ls | shuf | head -n1)
+man identify
+identify $(\ls | shuf | head -n1)
+identify -verbose $(\ls | shuf | head -n1)
+exif
+apt install exid
+apt install exif
+exif $(\ls | shuf | head -n1)
+\ls | shuf | nsxiv -
+\ls | shuf | nsxiv -
+\ls | shuf | nsxiv -
+exiv2 $(\ls | shuf | head -n1)
+\ls | shuf | nsxiv -
+man git
+man git-add
+man git-remote
+git remote -v
+man git-add
+git add -a
+man git-commit
+man ps
+ssh vojislav@lazic.xyz
+v .config/mpd/mpd.conf 
+rsync -auvP --delete ~/Music/ pi@192.168.0.16:~/Music -n
+ipa
+ip a
+sshfs pi@192.168.0.16:~
+ls
+mkd server
+sshfs pi@192.168.0.16:/home/pi/Music server/
+ls server/
+sshfs -r pi@192.168.0.16:/home/pi/Music server/
+sudo sshfs -r pi@192.168.0.16:/home/pi/Music server/
+sshfs -r pi@192.168.0.16:/home/pi/Music server/
+sshfs -r pi@192.168.0.16:/home/pi/Music server/
+man sshfs
+sshfs -r pi@192.168.0.16:/home/pi/Music server/
+sshfs pi@192.168.0.16:/home/pi/Music server/
+sshfs pi@192.168.0.16:/home/pi/Music server/
+sshfs pi@192.168.0.16:/home/pi/Music server/
+sudo sshfs pi@192.168.0.16:/home/pi/Music server/
+sshfs pi@192.168.0.16:/home/pi/Music server/
+sshfs pi@192.168.0.16:/home/pi/Music server/
+ls server/
+ls -d server/
+chmod 777 server/
+ls
+v .bashrc 
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ls
+ls
+rmdir server/
+cd server/
+ls
+ls -al
+..
+fusermount -u server/
+rmdir server/
+mkdir server
+sshfs pi@192.168.0.16:/home/pi/Music server/
+ls server/
+fusermount -u server/
+sshfs pi@192.168.0.16:/home/pi/charts server/
+ls server/
+fusermount -u server/
+cd Music/
+ls
+ls
+r
+fusermount -u Music/
+cd Music/
+pwd
+man fusermount
+cd
+SS status sshd
+sudo watch -n 1 journalctl -r sshd
+sudo watch -n 1 journalctl -ru sshd
+sudo watch -n 1 journalctl -u sshd
+sudo journalctl -xb -r -u sshd
+SS status sshd
+sudo journalctl -xb -r -u ssh
+sudo watch -n 1 journalctl -xb -r -u ssh
+sudo watch -n 1 journalctl -xb -r -u ssh
+sudo watch -n 1 journalctl -xb -r -u ssh
+sf
+netstat -tuplen
+netstat -na | grep mpd
+pgrep mpd
+SS status mpd
+v .config/mpd/mpd.conf 
+sudo dpkg -i Downloads/discord-0.0.19.deb 
+ssh vojislav@lazic.xyz
+ssh-copy-id -f -i .ssh/id_rsa.pub vojislav@lazic.xyz
+ssh-copy-id -f -i .ssh/id_rsa.pub vojislav@lazic.xyz
+du -hs Music/
+ssh vojislav@lazic.xyz
+f
+r
+zip -r rokovi.zip *
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+man sshfs
+sshfs vojislav@lazic.xyz:~/media/shows /mnt
+ssh vojislav@lazic.xyz
+man sshfs
+mkd server
+sshfs vojislav@lazic.xyz:/home/vojislav/media/Music server/
+cd server/
+ls
+ssh vojislav@lazic.xyz
+ssh-copy-id -f -i .ssh/id_rsa.pub vojislav@192.168.0.16
+ssh vojislav@lazic.xyz
+pamixer
+pgrep urxvt
+pulsemixer 
+SS status pulseaudio
+pgrep pulse
+alias pgrep
+ls
+sshfs pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh-copy-id -f -i .ssh/id_rsa.pub vojislav@192.168.0.17
+ssh pi@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh vojislav@192.168.0.16
+cd .config/ncmpcpp/
+ls
+ls
+..
+ls
+..
+sudo chown -R vojislav: *
+scp -r .config/ncmpcpp/ vojislav@192.168.0.16:
+scp -r .config/mpd/ vojislav@192.168.0.16:~/.config/
+ssh pi@192.168.0.16
+
+ssh pi@192.168.0.14
+ssh pi@192.168.0.11
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh vojislav@192.168.0.16
+ssh vojislav@192.168.0.16
+cd Music/La\ Strada/\(1985\)\ Želje\ \(Demo\)/
+ls
+easytag .
+getcover La\ Strada\ -\ Želje.mp3 
+r
+wget https://lastfm.freetls.fastly.net/i/u/770x0/343c60e6eba3e9b9551d1687b6c1ab8c.jpg#343c60e6eba3e9b9551d1687b6c1ab8c -o cover.jpg
+r
+easytag .
+r
+wget https://lastfm.freetls.fastly.net/i/u/770x0/343c60e6eba3e9b9551d1687b6c1ab8c.jpg#343c60e6eba3e9b9551d1687b6c1ab8c -O cover.jpg
+r
+easytag .
+cd
+lyrics
+wget https://archive.ph/P3YAn
+r
+lynx
+w3m
+w3m lazic.xyz
+soul; cd com*
+ls
+r
+musort .
+r
+tomp3 .
+r
+rm *.flac
+r
+musort .
+r
+r
+musort .
+r
+sync_music
+v .config/ncmpcpp/bindings 
+pgrep disc
+cfi
+bashrc
+v .profile 
+yams -a
+xinput float 9; sleep 90; xinput reattach 9 3
+wowwow
+scp Downloads/naked-1993-english-yify-127191.zip vojislav@lazic.xyz:~
+ssh vojislav@192.168.0.16
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+jmtpfs phone/
+jmtpfs phone/
+mkd phone
+jmtpfs phone/
+cd phone/
+ls
+du -hs Interna\ memorija/
+r
+curl -v -X POST -d '{"username: "vojoslav", "password": "pineapple122" "}' https://slskd.lazic.xyz/api/v0/session
+curl -v -X PUT https://slskd.lazic.xyz/api/v0/shares
+curl -v -X POST -d '{"username: vojoslav, "password": pineapple122 "}' https://slskd.lazic.xyz/api/v0/session
+curl -v -X PUT https://slskd.lazic.xyz/api/v0/shares
+curl -v -X POST -d '{username: vojoslav, password: pineapple122}' https://slskd.lazic.xyz/api/v0/session
+curl -v -X POST -d '{username: "vojoslav", password: "pineapple122"}' https://slskd.lazic.xyz/api/v0/session
+curl -v -x POST -d '{username: "vojoslav", password: "pineapple122"}' https://slskd.lazic.xyz/api/v0/session
+curl -v -X POST -d '{username: "vojoslav", password: "pineapple122"}' https://slskd.lazic.xyz/api/v0/session
+curl -v -d '{username: "vojoslav", password: "pineapple122"}' https://slskd.lazic.xyz/api/v0/session
+dh -h
+df -h
+v .i3blocks.conf 
+v slskd_token
+ls
+r
+cd phone
+ld
+s
+ls
+cd Interna\ memorija/
+ls
+rsync -auvP WhatsApp/ ~
+cd phone/Interna\ memorija/
+cd WhatsApp/
+ls
+htop
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+cd Interna\ memorija/
+ls
+cd Pictures/
+ls
+..
+rsync -auv --info=progress2 Pictures/ ~/huawei/Pictures
+rc
+ls huawei/
+du -hs huawei/
+rsync -auv --info=progress2 phone/Interna\ memorija/DCIM/ ~/huawei/DCIM
+cd huawei/
+ls
+cd
+cd phone/
+ls
+cd Interna\ memorija/
+ls
+cd Download/
+ls
+du -hs .
+du -hs .
+r
+cd ..
+ls
+..
+..
+fusermount -u phone/
+fusermount -u phone/
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+xinput float 9; sleep 30; xinput reattach 9 3
+pass firefox
+pass
+pass firefox
+pass add firefox
+pass add firefox
+pgrep redshift
+pkill redshift*
+pgrep redshift
+pgrep redshift
+redshift 
+D
+unzip fx-folder.zip 
+cd /opt/firefox/
+ls
+mv ~/Downloads/config.js .
+ls
+mv ~/Downloads/defaults/ defaults/
+r
+r
+r
+cp config.js /opt/firefox/
+cp defaults/ /opt/firefox/defaults/
+cp -r defaults/ /opt/firefox/defaults/
+cd /opt/firefox/defaults/
+r
+mv defaults/ /opt/firefox/defaults
+mv defaults /opt/firefox/defaults
+mv defaults /opt/firefox/
+mv -f defaults /opt/firefox/
+r
+cd
+ /home/vojislav/.mozilla/firefox/h2iyrdrf.default-release 
+ls
+cd chrome/
+ls
+r
+ /home/vojislav/.mozilla/firefox/h2iyrdrf.default-release 
+cd chrome/
+wget https://raw.githubusercontent.com/xiaoxiaoflood/firefox-scripts/master/chrome/rebuild_userChrome.uc.js
+r
+remaps 
+xinput float 9; sleep 30; xinput reattach 9 3
+redshift -x
+sf
+sf
+sf
+homeplaylistedit 
+sync_music
+lyrics
+lyrics -s
+remaps 
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+xmodmap 
+v .Xmodmap 
+xbindkeys
+v .xbindkeysrc 
+cfi
+cd links/
+ls
+ls
+r
+v blocksite
+cd
+pass blocksite
+pass
+f
+r
+yt "https://watchhowimetyourmother.online/episode-watch/how-i-met-your-mother-6x22/"
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+mpd_discord_richpresence --fork --no-idle
+pgrep mpd
+kill 21794
+pgrep mpd
+mpd_discord_richpresence --fork --no-idle
+kill 22788
+mpd_discord_richpresence --fork --no-idle
+kill 23219
+pgrep mpd
+r
+sudo pm-powersave true
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/5_pretraga_grafovi
+g++ 01_dfs.cpp 
+./a.out 
+./a.out 
+c++ 02_bfs.cpp 
+c++ 02_bfs.cpp 
+./a.out 
+r
+g++ 02_bfs.cpp 
+ls
+./a.out 
+remaps 
+r
+..
+g++ 03_dfs_put.cpp 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+./a.out 
+g++ 01_dfs.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 01_dfs.cpp 
+./a.out 
+v 01_dfs.cpp 
+g++ 03_dfs_put.cpp 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+./a.out 
+g++ 03_dfs_put.cpp 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+for (bool x : posecen)
+./a.out 
+g++ 03_dfs_put.cpp 
+./a.out 
+r
+wget --mirror --convert-links --adjust-extension --page-requisites --no-parent https://lazic.xyz/blog/using-bluetooth-speakers-on-linux/
+r
+r
+D
+unzip TL-WN722N_Linux.zip 
+r
+make
+ls
+v Makefile 
+make .
+mak
+make
+make
+make clean
+make
+apt install gcc
+cat  /proc/version
+make
+ls
+ls /lib/modules/4.19.0-21-amd64/
+sudo make
+sudo make clean
+sudo make
+sudo make clean
+sudo make
+ls
+r
+sudo make clean
+sudo make
+f
+cd kiaa/
+r
+mkd 5_pretraga_grafovi
+r
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/5_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/05_grafovi_pretraga.zip
+unzip 05_grafovi_pretraga.zip 
+r
+unzip 05_grafovi_pretraga.zip -d sa_casa
+r
+v 01_dfs.cpp
+v 01_dfs.cpp
+cp 01_dfs.cpp 02_bfs.cpp
+v 02_bfs.cpp 
+cp 01_dfs.cpp 03_dfs_put.cpp
+v 03_dfs_put.cpp 
+cp 01_dfs.cpp 04_br_komponenti.cpp
+v 03_dfs_put.cpp 
+v 04_br_komponenti.cpp 
+cp 01_dfs.cpp 05_bipartitan.cpp
+v 05_bipartitan.cpp 
+v 05_bipartitan.cpp 
+cp 02_bfs.cpp 06_udaljenosti.cpp
+v 06_udaljenosti.cpp 
+r
+man curl
+man wget
+man wget
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/6_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/06_topolosko_artikulacione.zip
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/6.pdf
+r
+unzip 06_topolosko_artikulacione.zip -d sa_casa
+r
+ls sa_casa/
+r
+v kanov.cpp
+r
+v kanov.cpp 
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/6_topolosko_artikulacione
+r
+cd Music/Virvel/\(2006\)\ Sa\ Dna/
+easytag .
+displayalbumart 
+sxiv $(displayalbumart)
+sxiv "$(displayalbumart)"
+r
+exiftool 01.\ Virvel\ -\ Brzi\ svemir.mp3 
+wget https://github.com/alexkay/spek/releases/download/v0.8.4/spek-0.8.4.tar.xz
+tar xvf spek-0.8.4.tar.xz 
+r
+ls
+v MANUAL.md 
+v INSTALL.md 
+./configure
+make
+ls
+cd src/
+ls
+./spek 
+htop
+wal --theme
+wal --theme sexy-sexcolors
+cfi
+r
+wal --theme
+wal --theme zenburn
+wal --theme zenburn -b 000000
+r
+wal --theme
+wal --theme sexy-zenburn
+wal --theme sexy-zenburn
+r
+wal --theme sexy-monokai
+wal --theme sexy-monokai -b 000000
+r
+cfi
+wal --theme
+wal --theme 3024
+r
+cfi
+wal --theme sexy-orangish
+r
+wal --theme 3024
+wal --theme sexy-orangish
+wal --theme 3024
+wal --theme sexy-orangish
+wal --theme 3024
+wal --theme sexy-orangish
+wal --theme 3024
+wal --theme sexy-orangish
+ls
+wal --theme
+pgrep firefox
+f
+r
+ /home/vojislav/.mozilla/firefox/yi0hsu7w.default-release-1660963458538 
+ls
+ls
+cd /opt/firefox/
+ls
+r
+cd ~/.mozilla/
+ls
+r
+ssh vojislav@lazic.xyz
+cd img/
+ls
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+scp -r vojislav@lazic.xyz:/usr/share/jellyfin/web/assets/img .
+r
+cd
+ssh vojislav@lazic.xyz
+scp banner_light.png vojislav@lazic.xyz:/usr/share/jellyfin/web/assets/img/banner-light.png
+sudo scp banner_light.png vojislav@lazic.xyz:/usr/share/jellyfin/web/assets/img/banner-light.png
+scp banner_light.png vojislav@lazic.xyz:~
+scp banner_light.png vojislav@lazic.xyz:~
+cd img/
+ls
+r
+r
+scp banner-dark.png vojislav@lazic.xyz:~
+r
+ssh vojislav@lazic.xyz
+htop
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+w
+r
+ssh vojislav@lazic.xyz
+REMAPS
+remaps
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sxiv "$(displayalbumart)"
+sl
+sf
+sc
+mv openlastfm lastfm
+cat -v
+man cat
+copy
+dircolors 
+man dircolors
+man putchar
+man join
+man nice
+man od
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/6_topolosko_artikulacione
+cd c
+cd sa_casa/
+v artikulacione.cpp 
+v topolosko_
+v topolosko_kan.cpp 
+v usmeravanje.cpp 
+..
+g++ usmeravanje.cpp 
+g++ usmeravanje.cpp 
+v sa_casa/usmeravanje.cpp 
+g++ usmeravanje.cpp 
+./a.out 
+rm core
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+v sa_casa/usmeravanje.cpp 
+g++ usmeravanje.cpp 
+./a.out 
+rm core
+g++ usmeravanje.cpp 
+rm core
+./a.out 
+rm core
+rm core
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+./a.out 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+v sa_casa/usmeravanje.cpp 
+g++ usmeravanje.cpp 
+./a.out 
+g++ usmeravanje.cpp 
+./a.out 
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/7_najkraci_put
+ls
+ls
+r
+wget https://ftp.gnu.org/gnu/coreutils/coreutils-9.1.tar.xz
+man tar
+tar xvf coreutils-9.1.tar.xz 
+r
+remaps 
+cal
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+sf
+sf
+sf
+sf
+homeplaylistedit 
+homeplaylistedit 
+homeplaylistedit 
+xinput float 9; sleep 50; xinput reattach 9 3
+ssh vojislav@lazic.xyz
+remaps
+cfi
+sf
+cd .config/mpd/p
+cd .config/mpd/
+ls
+ls
+mkfifo socket
+ls
+rm socket 
+bashrc
+v .config/mpd/mpd.conf 
+pkill mpd
+mpd
+mpd
+v .config/mpd/mpd.conf 
+mpd
+sv /etc/mpd.conf 
+bashrc
+echo $MPD_HOST 
+doas mpd
+sv /etc/mpd.conf 
+v .config/mpd/mpd.conf 
+mpd
+pgrep mpd
+v .config/mpd/mpd.conf 
+pkill mpd
+pgrep mpd
+mpd
+v .config/ncmpcpp/config 
+rerun 
+v .config/ncmpcpp/config 
+v .config/mpd/mpd.conf 
+pkill mpd
+mpd
+yams -a
+ss
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/7_najkraci_put
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/7_najkraci_put
+g++ dajkstra.cpp 
+g++ dajkstra.cpp 
+g++ dajkstra.cpp 
+g++ dajkstra.cpp 
+r
+g++ dajkstra.cpp 
+./a.out 
+g++ dajkstra.cpp 
+g++ dajkstra.cpp 
+g++ dajkstra.cpp 
+./a.out 
+r
+g++ dajkstra.cpp 
+./a.out 
+r
+mkd 8_min_povezujuce_ojlerov_ciklus
+cd 8_min_povezujuce_ojlerov_ciklus/
+ls
+r
+..
+g++ prim.cpp 
+g++ prim.cpp 
+g++ prim.cpp 
+g++ prim.cpp 
+g++ prim.cpp 
+g++ prim.cpp 
+./a.out 
+r
+g++ prim.cpp 
+./a.out 
+r
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+./a.out 
+rm core
+g++ ojler_usmereni.cpp 
+rm core
+./a.out 
+rm core
+./a.out 
+rm core
+r
+g++ ojler_usmereni.cpp 
+./a.out 
+g++ ojler_usmereni.cpp 
+./a.out 
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+g++ ojler_usmereni.cpp 
+./a.out 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+g++ ojler_neusmereni.cpp 
+./a.out 
+./a.out 
+r
+g++ euler_undirected.cpp 
+./a.out 
+g++ euler_undirected.cpp 
+v euler_undirected.cpp 
+..
+g++ ojler_neusmereni.cpp 
+./a.out 
+g++ ojler_neusmereni.cpp 
+./a.out 
+lyrics
+lyrics -s
+..
+D
+unzip 09_jaka_povezanost.zip 
+r
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+f
+r
+cd zadaci/3-4/
+rgdir .
+r
+..
+rgdir .
+r
+node server
+node
+node zadaci/3-4/
+cd zadaci/3-4/
+node server.js 
+cd zadaci/3-4/
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+D
+unzip sep1radjeno.zip 
+r
+f
+cd kiaa/sept/
+ls
+cd 11_algoritmi_teksta/
+ls
+v z.cpp
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+st
+cd Music/Car\ Seat\ Headrest/
+ls
+r
+zip -r disjectamembra.zip \(2013\)\ Disjecta\ Membra/
+ls
+scp disjectamembra.zip vojislav@lazic.xyz:/var/www/lazic/
+man awk
+man mysql
+v zad1.sh
+cat zad1.sh 
+man head
+cat /dev/random 
+cat /dev/random | head -c 6
+echo $RANDOM 
+echo $RANDOM 
+echo $RANDOM 
+cat /dev/urandom 
+cat /dev/urandom | head -c 6
+cat /dev/urandom | head -c 6
+cat /dev/urandom | head -c 6
+cat /dev/urandom | head -c 6
+cat /dev/urandom | head -c 6
+echo $RANDOM | md5sum
+echo $RANDOM | md5sum
+echo $RANDOM | md5sum
+echo $RANDOM | md5sum | head -c 6
+echo $RANDOM | md5sum | head -c 6
+echo $RANDOM | md5sum | head -c 6
+echo $RANDOM | md5sum | head -c 6
+username=$(echo $RANDOM | md5sum | head -c 6)
+echo $username 
+echo $RANDOM | md5sum | head -c 6
+man echo
+v zad1.sh 
+chmod +x zad1.sh 
+./zad1.sh 
+man echov z
+v zad1.sh 
+./zad1.sh 
+cat nalog.txt 
+v zad1.sh 
+./zad1.sh; cat nalog.txt 
+v zad1.sh 
+./zad1.sh; cat nalog.txt 
+v zad1.sh 
+./zad1.sh; cat nalog.txt 
+v zad1.sh 
+./zad1.sh; cat nalog.txt 
+./zad1.sh; cat nalog.txt 
+v zad1.sh 
+cat zad1.sh 
+ssh vojislav@lazic.xyz
+r
+ssh vojislav@lazic.xyz
+f
+r
+cat zad1.sh 
+v zad1.sh 
+./zad1.sh 
+cat nalog.txt 
+./zad1.sh 
+cat nalog.txt 
+man grep
+man uniq
+man uniq
+man sort
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+rxvt
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+\ls | shuf | sxiv -
+r
+pgrep redshift
+redshift -x
+redshift
+pgrep red
+redshift -x
+redshift 
+lyrics
+cd Music/Car\ Seat\ Headrest/
+r
+cd /mnt
+ls
+du -hs .
+lsblk
+umount -R /mnt
+lsblk
+sudo umount /mnt
+lsblk
+pgrep red
+redshift -x
+cfi
+cd /etc/NetworkManager/
+ls
+cd system-connections/
+;s
+ls
+v otica.nmconnection 
+sv otica.nmconnection 
+sv EVKASTON.nmconnection 
+nm
+nm-applet 
+f
+cd kiaa/sept/
+ls
+cd 5
+..
+ls
+cd 6_topolosko_artikulacione/
+ls
+v artikulacione.cpp
+r
+v usmeravanje.cpp
+r
+v mostovi.cpp
+v usmeravanje.cpp 
+v mostovi.cpp 
+r
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/7_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/07_najkraci_putevi.zip
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/7.pdf
+unzip 07_najkraci_putevi.zip -d sa_casa
+rm 07_najkraci_putevi.zip 
+ls
+pwd|xcp
+man pwd
+v dajkstra.cpp
+cd ../8_min_povezujuce_ojlerov_ciklus/
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/8_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/08_mst_euler.zip
+unzip 08_mst_euler.zip -d sa_casa
+r
+r
+v prim.cpp
+v prim.cpp
+ls
+v ojler_usmereni.cpp
+v ojler_usmereni.cpp
+v ojler_usmereni.cpp
+cp ojler_usmereni.cpp ojler_neusmereni.cpp
+v ojler_neusmereni.cpp 
+v ojler_neusmereni.cpp 
+r
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/10_11_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/10_11_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/10_11_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/10_11_cas.pdf
+ping lazic.xyz
+ping google.com
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/11_algoritmi_teksta.zip
+unzip 11_algoritmi_teksta.zip -d sa_casa
+r
+rm 11_algoritmi_teksta.zip
+ls
+r
+ls
+mpv dump.mp4 
+scp dump.mp4 vojislav@lazic.xyz:/var/www/lazic/
+ssh vojislav@lazic.xyz
+sf
+alias rsyncweb
+rsyncweb --delete -n
+rsyncweb --delete
+rsyncweb 
+ssh vojislav@lazic.xyz
+lyrics
+lyrics -s
+f
+kiaa
+ls
+cd sept/
+ls
+cd 11_algoritmi_teksta/
+ls
+rm z.cpp 
+v z.cp
+v z.cpp
+v z.cpp
+v manacher.cpp
+v z.cpp 
+v manacher.cpp 
+..
+mkd 12_geometrijski
+cd 12_geometrijski/
+wget http://poincare.matf.bg.ac.rs/~strahinja_stanojevic/kiaa_i/12_13_cas.pdf
+wget http://poincare.matf.bg.ac.rs/~ivan_drecun/kiaa/12_geometrijski_algoritmi.zip 
+unzip 12_geometrijski_algoritmi.zip -d sa_casa
+rm 12_geometrijski_algoritmi.zip 
+ls
+r
+v geometrija.cp
+v geometrija.cpp
+v geometrija.cpp 
+r
+lyrics
+lyrics -s
+r
+musort .
+ls
+r
+sync_music 
+cd Music/Galija/\(1991\)\ Istorija\ ti\ i\ ja/
+ls
+ssh vojislav@lazic.xyz
+mpvxcp 
+r
+\ls | shuf | sxiv -
+\ls | shuf | sxiv - & disown
+ssh root@64.227.115.40
+zathura Documents/cv/VojislavLazic_CV.pdf 
+pass reddit
+/home/vojislav/Documents/fax/III_godina/6_Semestar/kiaa/sept/11_algoritmi_teksta
+g++ z.cpp 
+g++ z.cpp 
+./a.out 
+g++ z.cpp 
+./a.out 
+g++ manacher.cpp 
+g++ manacher.cpp 
+./a.out 
+g++ manacher.cpp 
+./a.out 
+g++ manacher.cpp 
+./a.out 
+v
+cd
+kiaa
+kia
+kaa
+kiaa
+f
+kiaa
+spet
+sept
+sl
+ls
+mkd vezbanje
+cd vezbanje/
+v dfs.cpp
+mv dfs.cpp dfs_bfs.cpp
+v artikul_mostovi.cpp
+v topolosko.cpp
+r
+v dajkstra.cpp
+r
+v ojler_usmereni.cpp
+v ojler_neusmereni.cpp
+v prim.cpp
+v z.cpp
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+ssh root@64.227.115.40
+ssh vojislav@lazic.xyz
+ping google.com
+ping movies.lazic.xyz
+ping lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+wget -A .jpg https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+r
+wget -A jpg https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+r
+wget -A jpg,jpeg -nd -r -P racunari https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+r
+lynx --dump https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+lynx -dump https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+curl https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/ | jq 'img'
+curl https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/
+curl https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/ -O racunari.html
+curl https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/ -o racunari.html
+r
+cat racunari.html | jq '.'
+cat racunari.html | jq '.[]'
+man jq
+cat racunari.html | pup '.'
+cat racunari.html | pup 'img'
+cat racunari.html | pup 'img['src']'
+cat racunari.html | pup 'img attr{src}'
+cat racunari.html | pup 'img attr{datasrc-set}'
+cat racunari.html | pup 'img attr{data-src}'
+cat racunari.html | pup 'img attr{data-src}' | wget -P racunari -
+cat racunari.html | pup 'img attr{data-src}' | wget -
+cat racunari.html | pup 'img attr{data-src}' | wget -i -
+r
+cat racunari.html | pup 'img attr{data-src}' | wget -i -
+curl https://designyoutrust.com/2017/01/vintage-yugoslavian-computer-magazine-cover-girls-of-the-1980s-90s/ -o racunari.html
+cat racunari.html | pup 'img attr{data-src}' | wget -i - -P racunari
+cd racunari/
+ls
+sxiv .
+r
+file 0-4-990x1419.jpg\?iv\=435 
+r
+v array.c
+gcc array.c 
+./a.out 
+which [
+redshift 
+pgrep red
+ssh vojislav@lazic.xyz
+redshift -x
+ssh vojislav@lazic.xyz
+entr
+wget https://github.com/eradman/entr/archive/refs/tags/5.2.zip
+unzip 5.2.zip 
+cd entr-5.2/
+./configure && make && sudo make install
+man entr
+man entr
+lyrics
+lyrics -s
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+jmtpfs -l
+jmtpfs -l
+lzrics
+lyrics
+lyrics -s
+sou
+soul
+cd complete/Coconuts\ -\ 2010\ -\ Coconuts/
+ls
+tomp3 .
+ls
+rm *.flac
+r
+musort .
+r
+ssh vojislav@lazic.xyz
+homeplaylist
+D
+r
+soul
+cd complete/
+cd 1998-08-18\ The\ Garage\,\ London\,\ England/
+ls
+musort .
+pkill easytag
+pgrep east
+pgrep easy
+kill 28446
+sudo kill -9 28446
+wget https://lastfm.freetls.fastly.net/i/u/770x0/78b83c2f752d47fa93b5af8181019d99.jpg#78b83c2f752d47fa93b5af8181019d99
+r
+cover 01\ Oh\ Comely.mp3 
+getcover 01\ Oh\ Comely.mp3 
+r
+wget https://lastfm.freetls.fastly.net/i/u/770x0/78b83c2f752d47fa93b5af8181019d99.jpg#78b83c2f752d47fa93b5af8181019d99 -O cover.jpg
+t
+soul
+cd complete/1998-08-18\ The\ Garage\,\ London\,\ England/
+r
+musort .
+ls
+r
+remaps 
+curl https://ipinfo.io/ip
+man iptables
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@192.168.0.30
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Documents/repos/kinoteka_kalendar/
+ls
+export FLASK_ENV=development; flask run
+export FLASK_ENV=development; flask run
+rsynckino 
+cd Documents/repos/kinoteka_kalendar/
+ls
+v main.py 
+ssh vojislav@lazic.xyz
+w
+cd ../website
+ls
+r
+node main.js 
+curl -s "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1" | jq -r '.recenttracks.track[0].name + "\t" + .recenttracks.track[0].artist."#text" + "\t" + .recenttracks.track[0]."@attr".nowplaying'
+curl -s "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1" -O test.json
+ls
+r
+cd
+curl -s "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=vojoh&api_key=${LASTFM_API_KEY}&format=json&limit=1" -o test.json
+ls
+cat test.json | jq -r '.recenttracks'
+cat test.json | jq -r '.recenttracks[0]'
+cat test.json | jq -r '.recenttracks'
+cat test.json | jq -r '.recenttracks.track[0]'
+cfi
+f
+r
+wget https://psv155-1.crazycloud.ru/videos/-206547207/456239098/720?extra=SJERvx4HLc-dD1bU2P6nHQ&extra_info=1ugF3OpH1z40yf-03Uf1Je
+wget "https://psv155-1.crazycloud.ru/videos/-206547207/456239098/720?extra=SJERvx4HLc-dD1bU2P6nHQ&extra_info=1ugF3OpH1z40yf-03Uf1Je"
+la
+ls
+r
+rm -r os_ovagodina
+rm -rf os_ovagodina
+r
+r
+man mpv
+curl "https://www.last.fm/player/station/user/vojoh/mix" -o mix.json
+cat mix.json 
+jq -r '.' -f mix.json 
+jq -f mix.json -r '.'
+jq -r -f mix.json 
+jq '.' mix.json 
+jq '.playlinks' mix.json 
+jq '.[].playlinks' mix.json 
+jq '.[]' mix.json 
+jq '.[].playlinks' mix.json 
+jq '.[].[].playlinks' mix.json 
+jq '.[].playlinks' mix.json 
+jq '.[]' mix.json 
+jq '.[].' mix.json 
+jq '.[0]' mix.json 
+jq '.[][0]' mix.json 
+jq '.[][].playlinks' mix.json 
+jq '.[][].playlinks.url' mix.json 
+jq '.[][].playlinks' mix.json 
+jq '.[][].playlinks.[]' mix.json 
+jq '.[][].playlinks' mix.json 
+jq '.[][].playlinks[]' mix.json 
+jq '.[][].playlinks[].url' mix.json 
+jq '.[][].playlinks[].url' mix.json | mpv -
+jq '.[][].playlinks[].url' mix.json | mpv --playlist=-
+jq '.[][].playlinks[].url' mix.json | mpv --playlist -
+jq '.[][].playlinks[].url' mix.json | mpv --playlist=-
+mpv "https://www.last.fm/player/station/user/vojoh/mix"
+mpv "https://www.youtube.com/watch?v=N2GvX8oWB-o"
+jq '.[][].playlinks[].url' mix.json
+jq -r '.[][].playlinks[].url' mix.json
+jq -r '.[][].playlinks[].url' mix.json | mpv --playlist=-
+sf
+sf
+sf
+pass unlock
+r
+zip -r os_proslagodina.zip webgrader/
+r
+cd Documents/letterboxd-rankings/
+ls
+./lbrankings 
+./lbrankings -f
+r
+./lbrankings
+r
+v lbrankings 
+w
+r
+w
+r
+hugo server
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb 
+r
+hugos serve
+hugo serve
+hugo serve
+sudo rfkill block bluetooth
+echo $LASTFM_API_KEY 
+v
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+pgrep redshift
+redshift 
+pgre redshift
+pgrep redshift
+redshift -x
+git clone https://git.pwmt.org/pwmt/zathura-cb
+cd zathura-cb/
+zathura --version
+apt install zathura
+D
+unzip zathura-0.4.9.zip 
+cd zathura-0.4.9/
+ls
+meson build
+cd build/
+ninja
+inja install
+cd Downloads/zathura-0.4.9/build/
+ls
+sudo ninja install
+cd
+zathura --version
+zathura
+cd /usr/local/lib/x86_64-linux-gnu/zathura
+D
+unzip zathura-cb-0.1.10.zip 
+cd zathura-cb-0.1.10/
+ls
+mason build
+meson build
+apt install libarchive-dev
+meson build
+cd build/
+ninja
+sudo ninja install
+v .config/ranger/rifle.conf 
+r
+v .config/ranger/rifle.conf 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Downloads/better-call-saul-s03/
+ls
+ls *WEB*
+ls *WEB* | wc -l
+ls *WEB-DL* | wc -l
+ls *WEB-DL*
+r
+r
+ls *SVA*
+r
+ls *SVA*
+mv *SVA* ..
+r
+ls *.srt
+scp *.srt vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+pgrep mpv
+pgrep web
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+f
+r
+ssh vojislav@lazic.xyz
+lyrics
+ssh vojislav@lazic.xyz
+soul
+cd complete/
+ls
+cd 
+soul
+cd complete/
+ls
+cd Car\ Seat\ Headrest\ -\ Little\ Pieces\ Of\ Paper\ With\ \'\'No\'\'\ Written\ On\ Them/
+ls
+musort .
+ls
+r
+getcover 19.\ Car\ Seat\ Headrest\ -\ I\ CAN\ TALK\ WITH\ MY\ EYES\ SHUT.mp3 
+r
+easytag .
+cd
+sync_music 
+sync_mnus
+sync_music 
+sync_music 
+ssh vojislav@lazic.xyz
+homeplaylist
+pass unlock
+pass steam
+ssh vojislav@lazic.xyz
+ack
+gack
+ssh vojislav@lazic.xyz
+pass steam
+cd /etc/NetworkManager/
+ls
+cd dispatcher.d/
+ls
+..
+cd system-connections/
+ls
+v Batarilo.nmconnection 
+sv Batarilo.nmconnection 
+man reboot
+sf
+sf
+sf
+xinput float 9; sleep 50; xinput reattach 9 3
+lyrics
+lyrics -s
+D
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+r
+cd
+D
+unzip zathura-0.5.1.zip 
+cd zathura-0.5.1/
+meson build
+cd build
+ninja
+sudo ninja install
+zathura --version
+f
+cd a1/
+zathura keckic_pitanja.pdf 
+zathura a1_beleske.pdf 
+cd
+apt instll gtk+3.0
+apt install gtk+3.0
+apt install glib
+apt install glib-dev
+apt install glib2.0
+apt install girara
+apt install libgirara-dev
+apt install libmagic-dev
+cd Downloads/zathura-0.5.1/
+meson build
+meson --reconfigure build
+ninja
+cd build/
+ninja
+..
+rm -r build/
+rm -rf build/
+meson build
+apt install texlive-binaries
+apt install libsynctex-dev
+apt install 
+apt install appstream-util
+apt install check
+man check
+man check
+check --help
+check -h
+check
+cd Downloads/zathura-0.5.1/
+meson --reconfig
+checkmk --version
+checkmk -b
+checkmk -v
+man checkmk
+apt install check
+D
+r
+./install-sh 
+r
+./config
+./configure
+make
+sudo make install
+cd Downloads/zathura-0.5.1/
+meson --reconfigure build
+apt install libseccomp-dev
+meson --reconfigure build
+cd build/
+ninja
+sudo ninja install
+ninja
+..
+rm -rf build
+meson build
+cd build/
+ninja
+ls
+v build.ninja 
+apt install libseccomp
+apt install libseccomp2
+apt install libseccomp-dev
+..
+rm -rf build/
+meson -Dseccomp=disabled build
+cd build/
+ninja
+sudo ninja install
+zathura --version
+D
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+zathura -l debug feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+git clone https://git.pwmt.org/pwmt/zathura-pdf-mupdf
+cd zathura-pdf-mupdf/
+ls
+meson build
+apt install mupdf-dev
+apt install mupdf
+apt install mupdf-dev
+apt install libmupdf-dev
+meson buidl
+meson build
+apt install jbig2dec
+meson build
+apt install libjbig2dec-dev
+meson build
+cd
+git clone --recursive git://git.ghostscript.com/mupdf.git
+ls
+rm a.out 
+cd mupdf/
+git submodule update --init
+make prefix=/usr/local install
+sudo make prefix=/usr/local install
+r
+r
+meson build
+apt install libopenjp2-dev
+apt install libopenjp2-7-dev
+meson build
+apt install libgumbo-dev
+ls
+meson build
+cd build/
+ninja
+sudo ninja install
+r
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+zathura feismo.com-grosz-elizabeth-volatile-bodies-toward-a-corporeal-feminismpdf-pr_874e0bdeb1db745de26a6f138922a5f5.pdf 
+file /usr/local/lib/x86_64-linux-gnu/zathura/libpdf-mupdf.so
+cd zathura
+cd zathura-0.5.1/
+rm -rf build
+meson build
+build
+ninja
+..
+rm -rf build
+meson -Dseccomp=disabled build
+cd build
+ninja
+sudo ninja install
+zathura
+rm -r mupdf/
+rm -rf mupdf/
+sudo rm -rf mupdf/
+D
+git clone https://github.com/pwmt/girara
+cd girara/
+meson build
+apt install doxygen
+meson build
+meson --reconfigure build
+apt install json-glib-1.0
+apt install json-glib-1.0-dev
+apt install json-glib-dev
+apt install json-glib
+apt install json-glib-1.0-9
+apt install json-glib-1.0-0
+apt install libjson-glib-dev
+meson --reconfigure build
+cd build/
+ninja
+sudo ninja
+sudo ninja install
+zathura
+D
+cd zathura-0.5.1/
+rm -rf build
+meson build
+build
+ninja
+meson -Dseccomp=disabled build
+cd ..
+meson -Dseccomp=disabled build
+meson -Dseccomp=disabled --reconfigure build
+cd build
+ninja
+sudo ninja install
+r
+meson build
+build
+ninja
+sudo ninja install
+zathura
+apt install girara
+apt install libgirara-dev
+zathura
+zathura
+cd /usr/lib
+ls
+sudo ln -s libgirara-gtk3.so.2.0 libgirara-gtk3.so.1.0
+sudo ln -s libgirara-gtk3.so.1.0 libgirara-gtk3.so.1
+zathura
+apt install --reinstall zathura
+zathura
+apt purge zathura
+zathura
+zathura
+which zathura
+sudo rm /usr/local/bin/zathura
+zathura
+zathura
+apt install zathura
+zathura
+apt install zathura-cv
+apt install zathura-cb
+zathura-cb
+r
+r
+cd Downloads/torrents/Uzumaki_Junji-Ito_Manga/
+ls
+cd Uzumaki.01/
+ls
+\ls
+r
+\ls
+\ls | sort -n
+r
+\ls | sort -n
+\ls
+\ls
+convert $(\ls) uzumaki.pdf
+convert "$(\ls)" uzumaki.pdf
+file Uzumaki\ v01\ 000CoverFront.jpg 
+gm convert
+convert "$(\ls)" uzumaki.pdf
+convert "$(\ls | sort -n)" uzumaki.pdf
+\ls | sort -n)
+\ls | sort -n
+\ls | sort -n | tr '\n' ' '
+convert "$(\ls | sort -n | tr '\n' ' ')" uzumaki.pdf
+r
+r
+convert "$(\ls | sort -n | tr '\n' ' ')" dof.pdf
+\ls | sort -n | tr '\n' ' ' | sed 's/$/\ mydoc.pdf/' | xargs convert
+\ls | sort -n | tr '\n' ' ' | sed 's/$/\ mydoc.pdf/' | xargs convert
+\ls | sort -n | tr '\n' ' ' | xargs convert
+\ls | sort -n | tr '\n' ' '
+convert Uzumaki\ v01\ *.jpg doc.pdf
+r
+ssh vojislav@lazic.xyz
+ping 24.135.99.52
+M
+rm .*.parts
+ls
+ls -a
+zip -r hotfuzz.zip Hot\ Fuzz\ \(2007\)/
+du -hs hotfuzz.zip 
+ssh vojislav@lazic.xyz
+ssh root@24.135.99.52
+ssh root@24.135.99.52
+ssh root@24.135.99.52
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh root@24.135.99.52
+alias sxiv
+alias nsxiv
+r
+r
+v .config/nsxiv/exec/key-handler 
+echo "Doppelgänger" | base64
+echo "Curve - Doppelgänger" | base64
+echo "CurveDoppelgänger" | base64
+echo "Curve" | base64
+echo "C" | base64
+echo -n "C" | base64
+echo -n "D" | base64
+wget ftp://files.dlink.com.au/products/DWA-131/REV_E/Drivers/DWA-131_Linux_driver_v4.3.1.1.zip
+wget ftp://files.dlink.com.au/products/DWA-131/REV_E/Drivers/DWA-131_Linux_driver_v4.3.1.1.zip
+wget files.dlink.com.au/products/DWA-131/REV_E/Drivers/DWA-131_Linux_driver_v4.3.1.1.zip
+lsusb
+lsusb
+watch -n 1 lsusb
+watch -n 1 lsusb
+lsusb
+wget http://files.dlink.com.au/products/DWA-131/REV_E/Drivers/DWA-131_E1_Linux_v4.3.1.1/DWA-131_Linux_v4.3.1.1.zip
+pt-get install git linux-headers-generic build-essential dkms
+apt-get install git linux-headers-generic build-essential dkms
+apt install git linux-headers-generic build-essenti
+apt install git linux-headers-amd64 build-essential dkms
+git clone https://github.com/Mange/rtl8192eu-linux-driver
+cd rtl8192eu-linux-driver/
+sudo dkms add .
+sudo dkms install rtl8192eu/1.0
+df -h
+sudo dpkg --configure -a
+sudo update-initramfs
+sudo update-initramfs -u
+sudo su
+sudo us
+sudo su
+r
+sync_music 
+lsblk
+sudo mount -t auto /dev/sdc /mnt
+cd /mnt
+ls
+..
+cd
+sudo dd if=Documents/zips/gparted-live-1.1.0-8-amd64.iso of=/dev/sdc status="progress"
+sudo shutdown now
+sudo su
+cd rtl8192eu-linux-driver/
+sudo dkms add .
+sudo dkms install rtl8192eu/1.0
+echo "blacklist rtl8xxxu" | sudo tee /etc/modprobe.d/rtl8xxxu.conf
+echo -e "8192eu\n\nloop" | sudo tee /etc/modules
+sv /etc/modules
+echo "options 8192eu rtw_power_mgnt=0 rtw_enusbss=0" | sudo tee /etc/modprobe.d/8192eu.conf
+sudo update-grub; sudo update-initramfs -u;
+sudo lshw -c network
+sudo reboot
+sudo lshw -c network
+ping google.com
+sudo rfkill block bluetooth
+lsusb
+ls
+xset r rate 300 50
+man xset
+xset r off
+sudo xset r rate 300 50
+vsf
+sf
+xinput --set-prop 12 'libinput Accel Speed' -0.5
+xinput --set-prop 12 'libinput Accel Speed' 1
+xinput --set-prop 12 'libinput Accel Speed' -0.5
+xinput --set-prop 12 'libinput Accel Speed' -0.25
+xinput --set-prop 12 'libinput Accel Speed' -0.2
+xinput --set-prop 12 'libinput Accel Speed' -0.1
+xinput --set-prop 12 'libinput Accel Speed' -0.09
+xinput --set-prop 12 'libinput Accel Speed' -0.05
+xinput --set-prop 12 'libinput Accel Speed' -0.001
+xinput --set-prop 12 'libinput Accel Speed' -0.00001
+xinput --set-prop 12 'libinput Accel Speed' -0.1
+xinput --set-prop 12 'libinput Accel Speed' -0.6
+xinput --set-prop 12 'libinput Accel Speed' -0.1
+xinput --set-prop 12 'libinput Accel Speed' 0
+v .xinitrc 
+cf
+cfi
+xinput --list
+xset q
+xset mouse 3 0
+xinput --list-props 12
+xinput --set-prop "TPPS/2 IBM TrackPoint" "Coordinate Transformation Matrix" 0.5 0 0 0 0.5 0 0 0 1
+xinput --set-prop "TPPS/2 IBM TrackPoint" "Coordinate Transformation Matrix" 0.25 0 0 0 0.25 0 0 0 1
+remaps
+sf
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+v .Xmodmap 
+xmodmap 
+xmodmap 
+v .Xmodmap 
+xmodmap 
+xmodmap -e 'keycode 108 = Pointer_Button3 NoSymbol Pointer_Button3'
+xmodmap -e 'keycode 108 = Pointer_Button3'
+v .Xmodmap 
+v .Xmodmap 
+man xmodmap
+xmodmap .Xmodmap 
+xev
+xev
+xmodmap -e 'keycode 105 = Pointer_Button3 NoSymbol Pointer_Button3'
+xmodmap 
+v .Xmodmap 
+xmodmap .Xmodmap 
+xkblayout-state
+sudo xkblayout-state
+wget https://cdn.discordapp.com/attachments/534816652987072512/1017869492128317572/20220909_204915.jpg
+xev
+xmodmap 
+setxkbmap -option
+xmodmap -e 'keycode 105 = Pointer_Button3 NoSymbol Pointer_Button3'
+xmodmap 
+xmodmap 
+xinput list
+cfi
+xinput --set-prop 12 'libinput Accel Speed' 0
+xinput --set-prop 11 'libinput Accel Speed' 0
+xinput --set-prop 11 'libinput Accel Speed' -1
+xinput --set-prop 11 'libinput Accel Speed' 0
+xinput --set-prop 11 'libinput Accel Speed' 0.5
+xinput --set-prop 11 'libinput Accel Speed' -0.5
+xinput --set-prop 11 'libinput Accel Speed' -0.3
+cfi
+xkbset
+sudo xkbset
+apt install xkbset
+xmodmap -pke
+xmodmap -pke > ~/.Xmodmap 
+apt install xmodmap
+v .Xmodmap 
+xbindkeys
+man xbindkeyss
+man xbindkeys
+v .xbindkeysrc 
+xinput list
+xinput set-prop "TPPS/2 IBM TrackPoint" 'libinput Accel Speed' -0.25
+xinput set-prop "TPPS/2 IBM TrackPoint" 'libinput Accel Speed' 1
+xinput set-prop "TPPS/2 IBM TrackPoint" 'libinput Accel Speed' -1
+xinput set-prop "TPPS/2 IBM TrackPoint" 'libinput Accel Speed' -0.25
+v cfi
+cfi
+cfi
+cfi
+ssh vojislav@lazic.xyz
+ssh root@24.135.99.52
+ssh vojislav@lazic.xyz
+D
+cd better-call-saul-s03/
+grep -i "i need fring" Better\ Call\ Saul\ -\ 03x04\ -\ Sabrosito.*
+alias grpe
+alias grep
+man grep
+grep -i "i need fring" Better\ Call\ Saul\ -\ 03x04\ -\ Sabrosito.1080p.HDTV.CRAVERS.srt 
+man grep
+grep -3 -i "i need fring" Better\ Call\ Saul\ -\ 03x04\ -\ Sabrosito.*
+grep -2 -i "i need fring" Better\ Call\ Saul\ -\ 03x04\ -\ Sabrosito.*
+grep -2 -i "i need fring" Better\ Call\ Saul\ -\ 03x04\ -\ Sabrosito.*
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh root@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+apt install smartmontools
+lsblk
+ls
+lsblk
+lsblk
+lsblk
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+lsblk
+sudo smartctl -a /dev/sdc
+sudo badblocks
+sudo badblocks -
+sudo badblocks -
+sudo badblocks -v /dev/sdc
+wget 00:12:07,326 --> 00:12:09,107
+there on the left, sir.
+wget https://cdn.discordapp.com/attachments/534816652987072512/1017869492128317572/20220909_204915.jpg
+ls
+r
+lsblk
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+cd /mnt
+ls
+cd vojislav/
+ls
+cd shows/
+ls
+du -hs .
+du -hs anime/
+lsblk
+sudo umount -R /mnt
+cd
+sudo umount -R /mnt
+lsvlk
+lsblk
+lsblk
+lsblk
+lsblk
+lsblk
+sudo mount -t auto /dev/sdc1 /mnt
+cd /mnt
+ls
+ls
+du -hs movies/
+sudo umount -R /mnr
+sudo umount -R /mnt
+r
+lsblk
+sudo mount -t auto /dev/sdd1 /mnt
+ls
+cd /mnt
+ls
+cd vojislav/
+ls
+mkd misc
+sudo mv * misc/
+ls
+r
+mv misc/movies/ .
+ls
+mv misc/shows/ .
+ls
+mv misc/Music/ .
+ls
+mv shows/anime/ .
+ls
+sudo chown -R www-data: anime/
+sudo chown -R www-data: shows/
+sudo chown -R www-data: movies/
+sudo chown -R vojislav: Music/
+ls
+sudo chmod -R 775 anime/
+sudo chmod -R 775 movies/
+sudo chmod -R 775 shows/
+sudo chmod -R 775 Music/
+ls
+r
+sudo rm -r lfs/
+ls
+sudo rm -r lost+found/
+ls
+mv vojislav/* .
+sudo mv vojislav/* .
+ls
+rm -r vojislav/
+r
+rm -r vojislav/
+rmdir vojislav/
+sudo rmdir vojislav/
+r
+ls -al
+sudo mv .* ../misc/
+ls -al
+cd ../misc/
+ls
+ls -al
+ls
+..
+ls
+r
+sudo rmdir vojislav/
+ls
+cd
+sudo umount /mnr
+sudo umount /mnt
+lsblk
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+du -hs Music/
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sync_music 
+ssh vojislav@lazic.xyz
+sf
+rsyncmusic 
+sf
+rsyncmusic 
+rsyncmusic 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+homeplaylist
+homeplaylistedit 
+update-li
+update_liked_songs 
+sf
+sync_music 
+sf
+sf
+sf
+sf
+sync_music 
+<
+sf
+homeplaylist
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+echo $homeplaylist
+echo $homeplaylistfile
+update_liked_songs 
+mpc search "((artist == \"The Microphones\") AND (title == \"Universe\"))"
+r
+update_liked_songs 
+sync_music 
+update_subsonic 
+cd
+ssh vojislav@lazic.xyz
+r
+pgrep red
+pkill red
+red
+redshift 
+pgrep red
+redshift -x
+ping google.com
+bluetoothctl 
+sudo rfkill block bluetooth
+ytdl-xcp 
+ytdl-xcp 
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd /tmp/
+r
+ytmusic "https://music.youtube.com/watch?v=SLjXz9ghUtk&feature=share"
+ytmusic "https://music.youtube.com/watch?v=SLjXz9ghUtk&feature=share"
+cd /tmp/
+r
+cd
+ytmusic "https://music.youtube.com/watch?v=SLjXz9ghUtk&feature=share"
+ip a
+ls
+soul
+D
+r
+sudo chmod -R 755 soulseek/
+r
+ls
+musort .
+ls
+.
+r
+sf
+sf
+pgrep mpd
+pkill mpd
+mpd
+r
+ls -l
+ls
+alias ls
+\ls -ll
+\ls -llll
+ls
+r
+sync_music 
+sync_music 
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+lyrics -s
+lyrics
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+t
+r
+ssh vojislav@lazic.xyz
+soul
+cd complete/Disc\ 1/
+ls
+r
+musort .
+r
+musort .
+pkill easyt
+pkill easyt*
+pkill easytah
+pkill easytag
+sudo kill easytag
+sudo pkill easytag
+pgrep easytag
+sudo kill 31576
+htop
+pgrep easytag
+sudo kill -9 31576
+man kill
+ls
+getcover 01.\ Elliott\ Smith\ -\ Roman\ Candle.mp3 
+r
+easytag .
+easytag .
+du -hs shows/Mad\ Men/
+ssh vojislav@lazic.xyz
+du -hs shows/
+du -hs --exclude "anime" shows/
+ls
+cd shows/
+ls
+..
+ssh vojislav@lazic.xyz
+scp -r shows/Mad\ Men/Season\ 7 vojislav@lazic.xyz:~/media/shows/Mad\ Men/
+scp -r shows/Mad\ Men/Season\ 7 vojislav@lazic.xyz:~
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cr
+r
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+r
+shuf
+man shuf
+\ls
+\ls | shuf | nsxiv -
+pgrep mpv
+pkill  mpv
+ls -alct
+ls -alct \
+ls -alct /
+ls -alct / | tail -1
+ssh vojislav@lazic.xyz
+ls -alct / 
+homeplaylistedit 
+sync_music 
+ssh vojislav@lazic.xyz
+man rsync
+lsblk
+sudo mount -t auto /dev/sdd1
+sudo mount -t auto /mnt /dev/sdd1
+sudo mount -t auto /dev/sdd1 /mnt
+cd /mnt
+ls
+sudo rm -rf .
+;s
+ls
+sudo rm -rf *
+ls
+ls -al
+cd ~/shows/Twin\ Peaks/
+ls
+r
+du -hs .
+r
+rsync -auv --info=progress2 Twin\ Peaks/ /mnt/shows/
+rsync -au --info=progress2 Twin\ Peaks/ /mnt/shows/
+rsync -auh --info=progress2 Twin\ Peaks/ /mnt/shows/
+cd shows/
+cd Breaking\ Bad/
+ls
+du -hs 
+du -hs .
+cd /mnt/
+r
+r
+du -hs shows/Breaking\ Bad/
+du -hs shows/Twin\ Peaks/
+rsync -auh --info=progress2 shows/Breaking\ Bad/ /mnt/shows/
+rsync -auh --info=progress2 shows/Breaking\ Bad /mnt/shows/
+du -hs /mnt/
+cd /mnt
+ls
+cd shows/
+ls
+du -hs /mnt
+du -hs /mnt
+du -hs /mnt
+du -hs /mnt
+r
+du -hs /mnt
+cd /mnt
+e
+r
+lsblk
+umount /mnt
+umount -R /mnt
+umount /mnt
+umount -R /mnt
+pgrep /mnt
+sudo umount -R /mnt
+lsblk
+alias umount
+htop
+crontab -e
+sync_music 
+sync_music 
+soul
+cd complete/
+ls
+r
+musort .
+r
+cd Music/Sibylle\ Baier/
+cd \(2006\)\ Colour\ Green/
+ls
+r
+sync_music 
+man fd
+fd Music/ .
+fd ".*" Music/
+fd "." Music/
+fd "\.*" Music/
+fd "^\.*" Music/
+man fd
+fd -H "^\.*" Music/
+fd -H "^\.*$" Music/
+fd -H "^\.*" Music/
+man fd
+fd -H "ween*" Music/
+fd -H "ween" Music/
+fd -H "save" Music/
+fd -H "^\." Music/
+fd -H ".*" Music/
+fd -H "\.*" Music/
+fd -H ".*" Music/ | wc -l
+fd -H "\.*" Music/ | wc -l
+fd -H "$\.*" Music/ | wc -l
+fd -H "^\.*" Music/ | wc -l
+fd '.*' mus
+fd '.*' Music/
+fd -H '.*' Music/
+fd -H '^R*' Music/
+cd Music/
+fd '^[A-Z]'
+fd '^\.'
+fd -H '^\.'
+cd Bo\ Burnham/\(2013\)\ what/
+ls
+ls -a
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+lyrics -s
+r
+which lbrss
+grep -v "^#" ~/.config/lbrss/urls 
+v ~/.config/lbrss/urls 
+grep -v "^#" ~/.config/lbrss/urls 
+man xmlstarlet
+man comm
+man diff
+man comm
+which notify-send
+echo -e '\a'
+echo -e '\a'
+echo -ne '\007'
+beep
+echo $BEEp
+echo $BEEP
+man modprobe
+cd .config/lbrss/feeds/
+..
+ls
+ls
+cat urls 
+grep '\t' urls 
+grep -E '\t' urls 
+r
+ls
+cd ~/Documents/rpeo
+cd ~/Documents/repos/
+ls
+mkd lbrss
+cd lb
+r
+ln -sv ~/.scripts/lbrss .
+ls
+git init
+git status
+v lbrss 
+v lbrss 
+ls
+touch urls
+v urls 
+grep -v "^#" urls 
+v urls 
+grep -v "^#" urls 
+grep -v "#" urls 
+v urls 
+grep -v "#" urls 
+grep -v "^#" urls 
+r
+v lbrss 
+git status
+cat urls 
+cat ~/.config/lbrss/urls 
+v urls 
+mkd feeds
+ls
+cp ~/.config/lbrss/lb.png .
+ls
+sxiv lb.png 
+r
+ls
+git init
+git status
+git status
+git add .
+git status
+ls
+git add feeds/
+git statsu
+git status
+rmdir feeds/
+ls
+git status
+man git-branch
+git branch -M main
+git branch -a
+git branch
+git branch -r
+git remote add origin git@github.com:vojislav/lbrss.git
+git branch -r
+git branch -a
+git branch -M main
+git status
+git commit -m 'initial commit'
+git branch -a
+git branch -M main
+git branch -a
+git remote
+git remote -v
+git push
+git push --set-upstream origin main
+git ls-files -s lbrss 
+git cat-file lbrss 
+git cat-file -p 5b98b7bd9596914f0a21c7aa9a923d77d3cb37ac
+r
+sc
+rm lbrss 
+ls
+ln -sv ~/Documents/repos/lbrss/lbrss .
+sync_music 
+pgrep lbrss
+pgrep lbrss
+pgrep lbrss
+pgrep lbrss
+which lbrss
+file /home/vojislav/.scripts/lbrss
+cd Documents/repos/lbrss
+ls
+git status
+git add .
+git status
+git branch -a
+git branch
+git commit -m 'accidentally added symlink instead actual script'
+git status
+git push
+v lbrss 
+ls
+v lbrss
+v lbrss 
+v lbrss 
+git status
+git pull
+ls
+cat README.md 
+git status
+git update
+v lbrss 
+v README.md 
+git statua
+git statua
+git status
+git add .
+git commit -m 'make feedsDir if it doesn't exist'
+git commit -m "make feedsDir if it doesn't exist"
+git status
+git log
+git diff lbrss 
+git diff
+git diff 4d21cfe619824807f059826aa8f219ebdf88fde8
+git diff bd5b690a361773ad5e83ca74cc40fa3c56210ef4
+git diff HEAD
+git diff HEAD~1
+git diff HEAD~2
+git diff HEAD~1
+git status
+git push
+cd ~/Documents/repos/kinoteka_kalendar/
+ls
+git status
+v .gitignore
+git status
+ls
+la
+ll
+ls -al
+git status
+git diff a/main.py b/main.py
+git diff HEAD~1
+git rm --cached *
+git rm --cached -r*
+git rm --cached -r *
+git status
+v kinoteka.ini
+git rm --cached -r __pycache__/
+git status
+r
+v .gitignore 
+git rm --cached -r kinotekafiles/
+git status
+git rm --cached kinotekafiles/
+git rm --cached kinotekafiles
+git status
+git rm --cached kinotekafiles/
+git rm --cached -r kinotekafiles/
+git rm --cached -r kinotekafiles
+git rm --cached -r db/
+git status
+v .gitignore 
+git status
+v .functions.py.swp 
+rm .functions.py.swp 
+git status
+git add .gitignore 
+git add static/waves4_smallest.gif
+git status
+git add .
+git status
+git commit -m 'added gitignore'
+git status
+git push
+v .gitignore 
+git status
+v .gitignore 
+rm app.pyc 
+git status
+v .gitignore 
+git status
+git rm --cached app.pyc
+git status
+git add .
+ls
+git status
+git commit --amend
+git status
+git push --force
+git push --force
+git status
+git pull
+git remote -v
+git remote remove origin *
+git remote remove origin https://github.com/vojislav/kinoteka_kalendar.git
+git remote remove https://github.com/vojislav/kinoteka_kalendar.git
+git remote remove origin
+git remote -v
+git remote add origin github.com:vojislav/kinoteka_kalendar.git
+git remote -v
+git status
+git pull
+git remote remove origin
+git remote add origin git@github.com:vojislav/kinoteka_kalendar.git
+git pull
+git branch
+git branch --set-upstream-to=origin/main main
+git branch -a
+git status
+git pull
+git push
+ls
+cd db/
+ls
+cd ../kite
+cd ../kinotekafiles/
+ls
+..
+ls
+v .gitignore 
+git status
+git rm --cache functions_pdf.py 
+git status
+git add .
+git status
+git commit --amend
+git status
+git push --force
+cd .config/lbrss/
+ls
+v lbrss
+crontab -e
+man beep
+beep
+man comm
+man git-diff
+man diff
+man git-rm
+pass unlock
+git remote -v
+cd ~/Documents/repos/lbrss/
+git remote -v
+cd Documents/repos/kinoteka_kalendar/
+ls
+v main.py 
+rsynckino 
+firefox report.xml 
+sudo tcpflow -p -c port 80
+ls
+cat report.xml 
+firefox report.xml 
+sudo tcpflow -p -c port 80
+sudo tcpflow -p -c port 8080
+sudo tcpdump dst port 80
+sync_music 
+sync_music 
+sudo rfkill unblock bluetooth
+bluetoothctl 
+lsblk
+sudo mount -t auto /dev/sdd2 /mnt
+cd /mnt
+ls
+sv /etc/fstab 
+blkid
+cd home/
+ls
+cd pi
+ls
+sv /mnt/etc/fstab 
+sudo umount -R /mnt
+ls
+lsblk
+rm core report.xml 
+rm -f core report.xml 
+ls
+lsblk
+ssh pi@192.168.0.16
+ssh vojislav@lazic.xyz
+ssh vojislav@192.168.0.30
+pa
+pavu
+pulseaudio 
+pulseaudio --help
+ssh pi@192.168.0.16
+ssh pi@192.168.0.16
+sf
+mu
+sf
+rsyncplaylist 
+ssh pi@192.168.0.16
+pgrep mpv
+sf
+ytdl-xcp 
+r
+soul
+cd complete/
+ls
+r
+musort .
+r
+cd Music/Alvvays/
+r
+cd
+sync_music 
+crontab -e
+crontab -e
+v .scripts/sync_music 
+sync_music 
+sf
+crontab -e
+sync_music 
+sf
+sync_music 
+sync_music 
+homeplaylist
+r
+homeplaylist
+homeplaylistedit 
+sf
+crontab -e
+crontab -l
+ssh vojislav@lazic.xyz
+sf
+sf
+sf
+sf
+sf
+crontab -e
+homeplaylist
+crontab -e
+cd Documents/liked_tracks/
+ls
+r
+man mpc
+crontab -e
+crontab -e
+v Documents/liked_tracks/likedtracks.csv 
+v Documents/liked_tracks/likedtracks.csv 
+homeplaylistFiL
+homeplaylistFile
+echo $homeplaylistfile
+v $homeplaylistfile 
+homeplaylist
+crontab -e
+homeplaylist
+update_liked_songs 
+homeplaylistedit 
+update_liked_songs 
+homeplaylistedit 
+crontab -e
+crontab -l
+homeplaylist
+sf
+sf
+sf
+mpvxcp 
+cal
+cal 11
+bluetoothctl 
+bluetoothctl 
+bluetoothctl 
+bluetoothctl 
+bluetoothctl 
+ssh vojislav@lazic.xyz
+a
+cd shows/
+ls
+cd
+du -hs movies/
+du -s movies/
+ls /mnt
+sudo rsync -ahv --info=progress2 ~/shows/ /mnt/
+sudo rsync -auv --info=progress2 ~/shows/ /mnt/
+sudo rsync -auv --info=progress2 ~/shows /mnt/
+sudo rsync -auh --info=progress2 ~/shows /mnt/
+cd /mnt
+ls
+r
+R
+sudo ranger .
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+lsblk
+sudo mount /dev/sdd /mnt
+sudo gparted
+sudo mount /dev/sdd1 /mnt
+cd /mnt
+ls
+rsync -auh --info=progress2 ~/Music .
+ls
+sudo rsync -auh --info=progress2 ~/Music .
+ls
+sudo rsync -auh --info=progress2 ~/movies .
+sync_music 
+cd Documents/liked_tracks/
+r
+sf
+sync_music 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+man mpc
+mpc search artist "kendrick lamar"
+mpc search song "kendrick lamar"
+mpc search title "kendrick lamar"
+mpc search artist "kendrick lamar" title "good kid"
+mpc search artist "kendrick lamar" title "m.A.A.d city"
+mpc search (artist == "kendrick lamar")
+mpc search ((artist == "kendrick lamar"))
+mpc search "((artist == \"kendrick lamar\"))
+mpc search "((artist == \"kendrick lamar\"))"
+mpc search "((artist == \"kendrick lamar\") AND (title == \"m.A.A.d city\"))"
+mpc search "((artist == \"kendrick lamar\") AND (title == \"maad city\"))"
+mpc search "((artist == \"kendrick lamar\") AND (title == \"m.a.ad city\"))"
+mpc search "((artist == \"kendrick lamar\") AND (title == \"m.a.a.d city\"))"
+cd Documents/liked_tracks/
+cat likedtracks.csv 
+cat likedtracks.less
+less likedtracks.csv 
+head likedtracks.csv 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+sf
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ip a
+SS status sshd
+SS restart sshd
+SS status sshd
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+asd
+ssh vojislav@lazic.xyz
+t
+r
+apt install mkvtoolsnix
+apt install mkvtoolnix
+v subs.sh
+chmod +x subs.sh 
+./subs.sh 
+v subs.sh 
+./subs.sh 
+mediainfo Better\ Call\ Saul\ S05E01 
+mediainfo Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="General;" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%;%Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% %Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%\n%Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%\y%Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%\t%Format%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID%\t%Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% \t %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% \t %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% \\t %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% \s %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% \s %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% %Language%" Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv 
+mediainfo --Inform="Text;%ID% %Language%" *.mkv 
+mediainfo --Inform="Text;%ID% %Language%\n" *.mkv 
+v subs.sh 
+./subs.sh 
+./subs.sh 
+r
+v subs.sh 
+man mkvinfo
+mkvinfo --track
+man mkvinfo
+man mediainfo
+man mediainfo
+t
+r
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+ffmpeg -i Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv -map 0:1 out.srt
+ffmpeg -i Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv -map 0:0 out.srt
+ffmpeg -i Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv -map 0:3 out.srt
+ffmpeg -i Better\ Call\ Saul\ S05E01\ Magic\ Man.mkv -map 0:2 out.srt
+r
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+./subs.sh 
+cd Documents/repos/kinoteka_kalendar/
+python
+/home/vojislav/Documents/repos/kinoteka_kalendar
+rm db/novembar2022.json 
+rm db/novembar2022.json 
+rm db/novembar2022.json 
+rm db/novembar2022.json 
+rm db/novembar2022.json 
+rm db/novembar2022.json 
+:q
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+./subs.sh 
+./subs.sh 
+./subs.sh 
+cd Documents/repos/kinoteka_kalendar/
+v functions
+v function.
+v functions.py 
+v functions.py 
+v functions.py 
+r
+r
+rgdir .
+grep "dokumentarni film" .
+grep "dokumentarni film" *
+r
+r
+grep -o "dokumentarni film" *
+grep -o "dokumentarni film" db/
+grep -o "dokumentarni film" db/*
+man grep
+grep -ro "dokumentarni film" db/
+rm 
+rm 
+rm db/mart2021.json
+rm db/septembar2021
+rm db/septembar2021.json 
+grep -ro "kratkometr film" db/
+grep -ro "kratkomet" db/
+grep -ro "dugometr" db/
+grep -ro "dokumenarni" db/
+grep -ro "dokumenar" db/
+v functions
+v functions.py 
+v functions.py 
+v functions
+v functions.py 
+rm db/novembar2021.json 
+grep -ro "dokumentar" db/
+grep -ro "dokumentar" -C 3db/
+grep -ro "dokumentar" -C 3 db/
+grep -r "dokumentar" db/
+grep -r "dokumentar" db/novembar2021.json 
+rm db/novembar2021.json 
+grep -r "dokumentar" db/
+grep -ro "dokumentar" db/
+rm db/novembar2021.json 
+grep -ro "dokumentar" db/
+grep -roi "dokumentar" db/
+rm db/avgust2022.json 
+rm db/februar2021.json 
+man grep
+grep -roi "igrani" db/
+grep -roi "igran" db/
+grep -ro  "igran" db/
+cd Documents/repos/kinoteka_kalendar/
+r
+export FLASK_ENV=development; flask run
+rsynckino 
+export FLASK_ENV=development; flask run
+export FLASK_ENV=development; flask run
+rsynckino 
+v db/novembar2022.json 
+rsynckino 
+D
+r
+D
+r
+sudo dpkg -i discord-0.0.21.deb 
+cd Documents/repos/kinoteka_kalendar/
+r
+sf
+sync_music 
+sf
+sf
+sync_music 
+ssh vojislav@lazic.xyz
+w
+r
+r
+scp profile.jpg vojislav@lazic.xyz:/usr/share/jellyfin/web/favicon.png
+sudo scp profile.jpg vojislav@lazic.xyz:/usr/share/jellyfin/web/favicon.png
+scp profile.jpg root@lazic.xyz:/usr/share/jellyfin/web/favicon.png
+scp favicon.ico root@lazic.xyz:/usr/share/jellyfin/web/
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+/home/vojislav/Documents/fax/IV_godina/asp/domaci
+g++ bitka.cpp 
+g++ bitka.cpp 
+./a.out 
+./a.out 
+g++ bitka.cpp 
+./a.out 
+./a.out 
+g++ bitka.cpp 
+4 8 3
+7 -4 -9 2
+./a.out 
+7 -4 -9 2
+g++ bitka.cpp 
+g++ bitka.cpp 
+./a.out 
+g++ bitka.cpp 
+./a.out 
+./a.out 
+g++ bitka.cpp 
+g++ bitka.cpp 
+./a.out 
+./a.out 
+g++ bitka.cpp 
+./a.out 
+g++ okolina.cpp 
+g++ okolina.cpp 
+g++ okolina.cpp 
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+./a.out 
+g++ okolina.cpp 
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+ - v.begin()
+7 4
+4 -6 3 12 1 -4 9
+./a.out 
+4 -6 3 12 1 -4 9
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+g++ okolina.cpp 
+./a.out 
+v in
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+cat in\
+cat in
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+./a.out < in
+g++ okolina.cpp 
+./a.out < in
+g++ okolina.cpp 
+g++ okolina.cpp 
+g++ okolina.cpp 
+./a.out < in
+v okolina_test.cpp
+wget https://cdn.discordapp.com/attachments/812489626102005761/1040650414904856658/test.cpp -O okolina_test.cpp
+r
+ssh vojislav@lazic.xyz
+cd Documents/bandcamp/Featureless\ Ghost\ -\ MindBody/
+wget https://i.scdn.co/image/ab67616d00001e029b10a1c8d4deae471865bff6
+r
+musort .
+r
+sync_music 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+soul
+cd complete/Bubonic\ Plague_\ Instant\ Coma/
+ls
+getcover 01\ Polyhedron.mp3 
+r
+cd  Bubonic\ Plague_\ Instant\ Coma/
+musort .
+r
+wget https://i.discogs.com/bfEF0z-3QHdSEHGDTm7URF_X2UlJSuBLDvoHKo4w0Mw/rs:fit/g:sm/q:90/h:379/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NDQ1/MzctMTIzNDIwMTQy/Mi5qcGVn.jpeg -O cover.jpg
+r
+easytag .
+sync_music 
+soul
+cd complete/2020\ -\ Microphones\ in\ 2020/
+ls
+musort .
+r
+musort .
+r
+/home/vojislav/Documents/fax/IV_godina/asp/domaci
+g++ dalekovod.cpp 
+./a.out 
+v in 
+./a.out < in
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+r
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+v in 
+./a.out < in
+r
+./a.out < in
+g++ dalekovod.cpp 
+./a.out < in
+ssh vojislav@lazic.xyz
+r
+mkd asp
+cd asp/
+mkd domaci
+cd domaci/
+ls
+v bitka.cpp
+r
+rgdir .
+r
+rgdir .
+r
+v okolina.cpp
+v okolina.cpp
+v okolina.cpp
+r
+v dalekovod.cpp
+v dalekovod.cpp
+sync_music 
+mpc search "i dont believe in the sun"
+mpc search title "i dont believe in the sun"
+mpc search track "i dont believe in the sun"
+mpc search track "i dont believe in the sun"
+mpc search
+mpc search title "i don't believe'
+mpc search title "i don't believe"
+mpc search track "i don't believe"
+mpc search artist "magentic"
+mpc search artist "magnetic"
+man mpc
+mpc search title "magnetic"
+mpc search title "in the sun"
+mpc search title "believe in the sun"
+mpc search title "get over you"
+mpc search title "book of love"
+mpc search title "epitaph"
+homeplaylistedit 
+sf
+soul
+cd complete/69\ Love\ Songs/
+tomp3 .
+r
+rm *.flac
+r
+musort .
+r
+r
+sync_music 
+homeplaylistedit 
+verify_playlist_files 
+verify_playlist_files 
+mpc search title "all my little words"
+verify_playlist_files 
+mpc search title "pharmacist"
+mpc search title "cloud 9"
+mpc search title "east hasting"
+mpc search title "archie"
+verify_playlist_files 
+sync_music 
+ssh vojislav@lazic.xyz
+uptime -p
+uptime
+pgrep red
+pkill red
+bandcamp-dl https://mgmt.bandcamp.com/album/11-11-11?from=embed
+bandcamp-dl https://mgmt.bandcamp.com/album/11-11-11
+bandcamp-dl 
+bandcamp-dl --help
+bandcamp-dl -v
+D
+unzip bandcamp-dl-0.0.13.zip 
+cd bandcamp-dl-0.0.13/
+ls
+python setup.
+python setup.py 
+cd bandcamp_dl/
+ls
+..
+cd
+pip3 install bandcamp-dl
+pip3 install bandcamp-downloader
+pip install --upgrade pip
+bandcamp-dl -v
+bandcamp-dl -h
+bandcamp-dl 
+bandcamp-dl https://mgmt.bandcamp.com/album/11-11-11
+r
+musort .
+r
+sync_music 
+S
+r
+ssh vojislav@lazic.xyz
+mkd .config/gallery-dl/
+cd .config/gallery-dl/config.json
+v .config/gallery-dl/config.json
+v .config/gallery-dl/config.json
+ssh vojislav@lazic.xyz
+ls
+unzip pics.zip 
+r
+r
+r
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+pass twitter
+pass twitter | xcp
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -v
+pip3 install --update gallery-dl
+pip3 install --upgrade gallery-dl
+gallery-dl -D . -u "matematicmar" -p "$(pass twitter)" --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+file _archive 
+gallery-dl "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -u "matematicmar" -p "$(pass twitter)" "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -u "matematicmar "https://twitter.com/cutesexyrobutts/media"
+man gallery-dl
+pass twitter | xcp
+gallery-dl -D . --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+gallery-dl -D . --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+r
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+w
+hugo serve
+hugo serve
+hugo serve .
+hugo help serve
+man malloc
+r
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb 
+w
+r
+hugo serve -c Documents/website_hugo/
+hugo serve -d Documents/website_hugo/
+hugo serve -d Documents/website/
+hugo serve -c Documents/website/
+w
+r
+hugo server
+ss
+r
+sf
+cd Downloads/2/
+ls
+cd ../
+r
+chmod +x komanda.sh 
+./komanda.sh 
+r
+./komanda.sh 
+r
+r
+./komanda.sh 
+r
+cd Downloads/
+r
+r
+./komanda.sh 
+./komanda.sh 
+v 1.html 
+./komanda.sh 
+v 1.
+v 1.txt 
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html \
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' \
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' :<td>([A-Za-z ]+)</td>\s*<td>([0-9/]+)</td>:\1, \2:'grep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' \
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' | sed -r 's:<td>([A-Za-z ]+)</td>\s*<td>([0-9/]+)</td>:\1, \2:'
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' | sed -r 's:<td>([A-Za-z ]+)</td>\s*<td>([0-9/]+)</td>:\1, \2:' | sed -r 's/(\w+)\s+(\w+)/\2 \1/' \
+egrep '<td>[A-Z][a-z]+(\s+[A-Z][a-z]+)+</td>\s*<td>([1-9]|[1-9][0-9]|[1-5][0-9][0-9]|600)/(20([01][0-9]|2[0-2]))</td>' 1.html | sed -r 's/\s*(.*)/\1/' | sed -r 's:<td>([A-Za-z ]+)</td>\s*<td>([0-9/]+)</td>:\1, \2:' | sed -r 's/(\w+)\s+(\w+)/\2 \1/' \
+./komanda.sh m
+./komanda.sh
+./komanda.sh
+./komanda.sh
+man sed
+r
+v spisak.txt
+v spisak.txt 
+chmod +x spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+./spisak.sh 
+v spisak.sh
+r
+du -hs huawei/
+r
+sou;
+soul
+cd complete/
+ls
+cd American\ Water/
+musort .
+ping google.com
+sync_music 
+sync_music 
+sl
+soul
+cd complete/
+r
+musort .
+cd ~/Music/Car\ Seat\ Headrest/\(2011\)\ Spiritual\ Advice\ in\ the\ Vacuum/
+ls
+getcover 01.\ Car\ Seat\ Headrest\ -\ Rebelradio.mp3 
+r
+easytag .
+cd
+sync_music 
+ls
+unzip vid.zip 
+unzip vid.zip 
+ls
+unzip vid.zip 
+r
+scp vid.zip vojislav@lazic.xyz:/var/www/lazic
+cal
+man git-pull
+ssh vojislav@lazic.xyz
+D
+r
+ssh vojislav@lazic.xyz
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+soul
+cd complete/
+ls
+r
+musort .
+r
+musort .
+r
+sync_music 
+r
+ffmpeg -i Another\ famous\ comeback\ win\ _\ Japan\ v\ Spain\ _\ FIFA\ World\ Cup\ Qatar\ 2022\ \[91eoGiLSCgY\].mkv -ss 00:00:57 -to 00:01:00 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+r
+ffmpeg -i Another\ famous\ comeback\ win\ _\ Japan\ v\ Spain\ _\ FIFA\ World\ Cup\ Qatar\ 2022\ \[91eoGiLSCgY\].mkv -ss 00:00:57 -to 00:01:01 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+r
+r
+w
+r
+hugo server
+r
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb 
+r
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+beep
+beep
+beep
+beep
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+mpvxcp 
+mpvxcp 
+mpvxcp 
+mpvxcp 
+mpvxcp 
+xmodmap -e 'keycode 105 = Pointer_Button3 NoSymbol Pointer_Button3'
+xmodmap -pke
+xkbset
+xmodmap -e 'keycode 135 = Super_R'
+cfi
+remaps 
+xmodmap -e 'keycode 135 = Super_R'
+sf
+pkill qbit
+pkill qbit*
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Music/Silver\ Jews/\(1998\)\ American\ Water/
+r
+readlink -f 02.\ Silver\ Jews\ -\ Smith\ \&\ Jones\ Forever.mp3 
+cd Music/Candy\ Claws/\(2013\)\ Ceres\ \&\ Calypso\ in\ the\ Deep\ Time/
+ls
+readlink -f 02.\ Candy\ Claws\ -\ White\ Seal\ \(Shell\ \&\ Spine\).mp3 
+sync_music 
+homeplaylistedit 
+cd Documents/letterboxd-stats/
+ls
+v notes.txt 
+v outline.txt
+v
+v outline.txt 
+grep (1) outline.txt 
+grep "(1)" outline.txt 
+/home/vojislav/Documents/letterboxd-stats/python
+./main.py 
+./main.py 
+./main.py 
+
+./main.py -f
+./main.py
+
+./main.py | wc -l
+python
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py | wc -l
+v outli
+r
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+python
+/home/vojislav/Documents/letterboxd-stats/python
+./main.py 
+./main.py 
+./main.py 
+./main.py | wc-l
+./main.py | wc -l
+./main.py
+./main.py | wc -l
+./main.py | sort
+./main.py | sort | uniq
+./main.py | sort | uniq | wc -l
+man uniq
+./main.py | sort | uniq -d
+man uniq
+./main.py | cut -f1
+./main.py | cut -f1 -d' '
+./main.py | sort | uniq -d
+./main.py | grep Nope
+./main.py | grep Nope
+/home/vojislav/Documents/letterboxd-stats/python
+/home/vojislav/Documents/letterboxd-stats/python
+./main.py
+./main.py
+./main.py
+v ../outline.txt 
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+v ../outline.txt 
+v ../outline.txt 
+./main.py
+./main.py | grep -i like
+./main.py | grep -i love
+./main.py | grep -i linked
+./main.py | grep -i liked
+./main.py | grep -i moshari
+./main.py | grep -i moshari | vim -
+./main.py | grep -i moshari | pup
+./main.py | grep -i moshari | pup | vim -
+r
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py |wc -l
+./main.py -f |wc -l
+./main.py -f 
+./main.py -f 
+./main.py 
+./main.py -f
+./main.py -f
+./main.py
+./main.py
+r
+v test
+r
+cd Documents/letterboxd-stats/
+r
+./main.py 
+r
+r
+v main.py 
+man fd
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+flex
+apt update
+apt install flex
+flex --version
+bison
+apt install bison
+man bison
+/home/vojislav/Documents/fax/III_godina/6_Semestar/ppj/7_cas/wordCountr
+flex wc.l 
+ll
+ls
+v lex.yy.c 
+gcc lex.yy.c -o lexer
+./lexer < wc -l
+./lexer < wc.l 
+make
+rm lexer
+make
+make clean
+ls
+make clean
+ll
+make
+make
+lexec < wc.l 
+lexer < wc.l 
+./lexer < wc.l
+lexer < wc.l 
+make
+./lexer < wc.l
+wc -w wc.l
+wc -c wc.l
+wc -l wc.l
+cd ../zagrade/
+make
+make
+make
+flex zagrade.l 
+ll
+ls
+make
+gcc lex.yy.c -o lex.yy.c 
+gcc lex.yy.c -o lexer
+make
+make
+lexer
+ll
+ls
+./lexer 
+./lexer 
+make
+./lexer 
+D
+r
+r
+gallery-dl -D . --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+r
+/home/vojislav/Documents/fax/III_godina/6_Semestar/ppj/7_cas/wordCountr
+v Wo
+v Makefile 
+v Makefile 
+cd ../zagrade/
+v Makefile
+../komentari/
+v Makefile 
+..
+cd c_komentari/
+v Makefile
+cp ../paskal_komentari/Makefile .
+v Makefile 
+../brojevi/
+cp ../c_komentari/Makefile .
+v Makefile 
+../rimski/
+v Makefile 
+cd Downloads/6
+ls
+cd onDemand/
+ls
+./lexer  <test.c 
+v onDemand.l 
+r
+./lexer 
+/home/vojislav/Documents/fax/III_godina/6_Semestar/ppj/7_cas/zagrade
+./lexer 
+cd ../komentari/
+make
+./lexer < test.pas 
+make
+./lexer < test.pas 
+./lexer < test.pas 
+make
+./lexer < test.pas 
+make
+./lexer < test.pas 
+make
+./lexer < test.pas 
+..
+cd c_komentari/
+v test.c
+cat test.c 
+make
+make
+make
+./lexer test.c
+../brojevi/
+v test.c
+make
+make
+./lexer < test.c 
+v lex.yy.c 
+make
+./lexer < test.c 
+ls
+make clean
+make
+./lexer  < test.c 
+make
+./lexer  < test.c 
+make
+./lexer  < test.c 
+make
+./lexer  < test.c 
+make
+./lexer  < test.c 
+../rimski/
+make
+make
+v test
+./lexer < test 
+../paskal
+ls
+cp ../c_komentari/Makefile .
+v Makefile 
+make
+v Makefile 
+make
+make
+make
+make
+./lexer < test.pas 
+./lexer test.pas 
+cd ../html
+v Makefile 
+make
+v test.c
+./lexer test.c test.html
+v test.html 
+./lexer test.c test.html
+v test.html 
+make
+./lexer test.c test.html
+v test.html 
+firefox test.html 
+f
+cd ppj/
+mkd 7_cas
+cd 7_cas/
+mkd wordCountr
+cd wordCountr/
+touch wc.l Makefile
+ls
+v wc.l 
+..
+mkd zagrade
+cd zagrade/
+v zagrade.l
+mkd ../komentari
+cd ../komentari/
+cp ../zagrade/Makefile .
+v test.pas
+v komentari.l
+r
+mkd cKomentari
+mv cKomentari/ c_komentari
+cd c_komentari/
+v komentari.l
+r
+mkd brojevi
+cd brojevi/
+v brojevi.l
+mkd ../rimski
+../rimski/
+cp ../c_komentari/Makefile .
+v rimski.l
+mkd ../paskal
+cd ../paskal
+v test.pas
+v paskal.l
+v paskal.l
+r
+v html.l
+pgrep red
+pkill red*
+/home/vojislav/Documents/letterboxd-stats/python
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py
+cd Documents/letterboxd-stats/
+cd [
+cd python/
+ls
+r
+./main.py 
+r
+./main.py 
+r
+rsync -avh --exclude=".git/*" ~/Documents/repos/kinoteka_kalendar/ vojislav@lazic.xyz:/var/www/kinoteka/
+ssh vojislav@lazic.xyz
+cd Documents/repos/kinoteka_kalendar/
+v main.py 
+sf
+r
+v main.py 
+v main.py 
+v main.py 
+export FLASK_ENV=development; flask run
+ls
+v db/decembar2022.json 
+export FLASK_ENV=development; flask run
+rsynckino 
+export FLASK_ENV=development; flask run
+cd Documents/repos/kinoteka_kalendar/
+ls
+v main.py 
+v db/decembar2022.json 
+r
+v db/decembar2022.json 
+rsynckino 
+sudo dpkg -i Downloads/discord-0.0.22.deb 
+arandr 
+xrandr 
+/home/vojislav/Documents/fax/III_godina/6_Semestar/ppj/8_cas
+v parser
+v parser
+v parser.c
+v lexer.c
+v lexer.l
+v tokeni.h 
+v parser.c
+wq
+:q
+f
+cd ppj/
+mv 7_cas/ 6_cas
+mkd 7_cas
+cd 7_cas/
+ls
+r
+v tokeni.h
+v lexer.l
+v parser.c
+v Makefile
+make
+v parser.c
+v tokeni.h 
+v lex
+make clean
+ls
+v lexer.l 
+v parser.c 
+make
+v parser.c 
+v tokeni.h 
+make
+v Makefile 
+make
+make clean
+make
+v tokeni.h 
+make clean
+make
+./parser 
+v lexer.l
+v parser
+v parser.c
+./parser 
+v parser.c
+v parser.c
+make clena
+make clean
+make
+./parser 
+pwd|xcp
+./parser 
+./parser 
+make clean
+make
+./parser 
+make clean; make
+./parser 
+make clean; make
+./parser 
+make clean; make
+./parser 
+make clean; make
+./parser 
+./parser 
+./parser 
+:q
+/home/vojislav/Documents/letterboxd-stats/python
+cd p
+cd py
+./main.py -f
+./main.py
+./main.py
+./main.py
+./main.py -f
+./main.py -f
+./main.py -f
+./main.py -f
+./main.py -f
+./main.py -f
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+python
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py
+./main.py > hashes
+cat hashes | sort | uniq -d
+cat hashes | sort | uniq -D
+./main.py
+./main.py > films
+cat films | sort
+cat films | sort | uniq -D
+./main.py
+cat films | sort | uniq -D
+cat films | sort | uniq -d
+cat films | sort | uniq -d
+./main.py
+./main.py
+./main.py
+./main.py
+cd Documents/letterboxd-stats/
+ls
+v outline.txt 
+pwd|xcp
+man pwd
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+/home/vojislav/Documents/letterboxd-stats
+v outline.txt 
+D
+r
+cd e00164/
+ls
+f
+cd ppj/ve
+cd ppj/
+mkd 9_cas
+cd 9_cas/
+v tokeni.h
+v lexer.l
+v parser.c
+v Makefile
+make
+v parser.c 
+make
+make clean
+make
+v Makefile 
+make clean
+make
+v Makefile 
+make
+make clean
+make
+./par
+v Makefile 
+make clean
+make
+./parser 
+v parser
+v parser.c
+make
+./parser 
+v parser.c
+v tokeni.h 
+make
+./parser 
+r
+r
+make
+./parser 
+v parser.c
+make
+./parser 
+./parser 
+./parser 
+r
+mkd potisni_automat
+r
+v tokeni.h
+v parser.c
+v lexer.l
+v parser.c 
+v Makefile
+v Makefile
+make
+v tokeni.h 
+v parser
+v parser,.c
+v parser.c
+v tokeni.h 
+make clean
+make
+v parser.c
+make clean
+make
+r
+./parser 
+v parser.c
+make
+./parser 
+v parser.c
+v Makefile 
+make
+./parser 
+v parser.c
+make
+r
+v Makefile 
+v parser.c
+make
+./parser 
+./parser 
+r
+bison
+apt install bison
+man bison
+mkd izrazi
+cd izrazi/
+ls
+v parser.y
+v parser.y
+v parser.y
+man bison
+bison -dv parser.y 
+ls
+v parser.tab.c
+v lexer.l
+flex lexer.l 
+ls
+gcc -c lex.yy.c -o lexer.o
+gcc -c parser.tab.c -o parser.
+mv parser. parser
+mv parser parser.o
+ls
+gcc lexer.o parser.o -o parser
+./parser 
+v Makefile
+make clean
+ls
+make
+r
+v Makefile 
+make clean
+ls
+v Makefile 
+:q
+vimrc
+v .config/nsxiv/exec/
+/home/vojislav/Documents/fax/III_godina/6_Semestar/ppj/10_cas/izrazi
+make
+./parser 
+make
+./parser 
+cd ../izrazi2/
+bison parser.y 
+bison parser.y 
+bison parser.y 
+bison -dv parser.y
+ls
+make
+make
+make
+make
+ls
+make clean
+ls
+make
+./parser < test 
+bison -dv parser
+cd ../kalkulator/
+bison -dv parser.y 
+bison -dv parser.y 
+bison -dv parser.y 
+bison -dv parser.y 
+bison -dv parser.y 
+make
+make clean
+make
+make clean
+make clean
+make
+make clean
+make
+./parser < primer.txt 
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+:q
+f
+cd ppj/10_cas/
+ls
+cd izrazi/
+v Makefile 
+make clean
+l
+ls
+make
+make clean
+v lexer.l
+v parser.y 
+v lexer.l 
+v lexer.l 
+v lexer.l 
+vimrc
+v lexer.l 
+..
+mkd izrazi2
+cd izrazi2
+v parser.y
+r
+touch parser.y lexer.l Makefile primer.txt upustvo.txt
+rm primer.txt 
+v parser.y 
+ls
+rm core
+/home/vojislav/Documents/letterboxd-stats
+cat out
+r
+r
+v out
+v out
+v out
+v out
+v out
+displayselect 
+/home/vojislav/Documents/letterboxd-stats
+pip3 install tmdbsimple
+python
+ls
+./main.py 
+python
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+./main.py 
+python
+./main.py 
+./main.py > out
+./main.py > out
+./main.py > out
+time ./main.py > out 
+v out
+python
+./main.py 
+v out
+time ./main.py > out
+v out
+v out
+v out
+grep "[0-9]+$" out
+grep "[0-9]+^" out
+grep "[0-9]+" out
+grep -E "[0-9]+" out
+grep -E "[0-9]+$" out
+grep -Ev "[0-9]+$" out
+./main.py 
+./main.py 
+./main.py 
+v out
+git status
+r
+r
+git status
+git diff outline.txt 
+git commit -m 'hours watched draft'
+git add .
+git commit -m 'hours watched draft'
+git push
+rm core
+cd Documents/letterboxd-stats/
+r
+git init
+git status
+git add .
+git status
+git commit -m 'initial commit'
+git branch -M main
+git remote add origin git@github.com:vojislav/letterboxd-stats.git
+git push -u origin main
+git push
+git push
+v main.py 
+cd Documents/letterboxd-stats/
+v outline.txt 
+grep "[X].*(1)" outline.txt 
+grep -i "[X].*(1)" outline.txt 
+grep -v "[X].*(1)" outline.txt 
+grep "[ ].*(1)" outline.txt 
+grep "\[ \].*(1)" outline.txt 
+v outline.txt 
+git status
+pgrep red
+pgrep redshift
+redshift 
+redshift 
+pgrep reds
+redshift 
+D
+r
+scp -r mi19179@alas.matf.bg.ac.rs:~/ppj .
+ls
+cd ppj/
+r
+ls
+make
+make
+make
+bison -dv parser.
+make clean
+bison -dv parser.ypp 
+bison -dv parser.ypp 
+make
+make
+make
+make clean
+make
+./parser < primer.txt 
+make
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make && ./parser < primer.txt 
+make && ./parser < primer.txt 
+make && ./parser < primer.txt 
+make && ./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make clean
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+makem
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+w
+r
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+make
+make
+make
+bison -dv parser.ypp
+bison -dv parser.ypp
+bison -dv parser.ypp
+make
+./parser < primer.txt 
+./parser < primer.txt 
+mkae
+make
+./parser < primer.txt 
+./parser < primer.txt 
+bison -dv parser.ypp
+./parser < primer.txt 
+bison -dv parser.ypp
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+bison -dv parser.ypp
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+printenv > /tmp/tmp-24341hdeQ5B269T6gtxt
+ssh vojislav@lazic.xyz
+/home/vojislav/ppj/rokovi/skupovi
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ -std=c++11 test.cpp -o test
+g++ -std=c++11 test.cpp skup.hpp -o test
+g++ -std=c++11 test.cpp skup.hpp -o test
+g++ -std=c++11 test.cpp skup.hpp -o test
+g++ -std=c++11 test.cpp skup.hpp -o test
+g++ -std=c++11 test.cpp skup.hpp -o test
+g++ -std=c++11 test.cpp 
+ls
+g++ test.cpp 
+g++ test.cpp 
+r
+make
+v primer.txt 
+./parser  < primer.txt 
+v parser.ypp 
+v lexer.l
+r
+v parser.ypp 
+r
+v primer2.txt
+./parser < primer2.txt 
+./parser 
+make
+./parser < primer2.txt 
+r
+car primer2.txt 
+cat primer2.txt 
+./parser < primer2.txt 
+v primer2.txt 
+./parser < primer2.txt 
+v primer2.txt 
+./parser < primer2.txt 
+v parser.ypp 
+v primer.txt 
+v primer2.txt 
+./parser < primer2.txt 
+./parser < primer.txt 
+cat primer2.txt 
+cat primer.txt 
+v primer2.txt 
+./parser < primer.txt 
+./parser < primer2.txt 
+v primer2.txt 
+./parser < primer2.txt 
+v primer2.txt 
+./parser < primer2.txt 
+v parser.ypp 
+v parser.ypp 
+r
+r
+make
+./parser < primer.txt 
+g++ test.cpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp -o test
+g++ test.cpp
+g++ test.cpp
+g++ test.cpp
+g++ test.cpp
+g++ test.cpp
+ls
+g++ test.cpp ugao.hpp -o test
+g++ test.cpp ugao.cpp -o test
+g++ test.cpp ugao.hpp ugao.cpp -o test
+g++ test.cpp ugao.hpp ugao.cpp -o test
+g++ test.cpp ugao.cpp -o test
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+./test 
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+g++ test.cpp ugao.cpp -o test
+./test 
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+g++ test.cpp ugao.cpp -o test
+./test 
+D
+r
+make
+v primer.txt 
+v primer2.txt
+./parser < primer2.txt 
+cat primer.txt 
+v primer2.txt 
+./parser < primer2.txt 
+v parser.ypp
+v lexer.l
+v parser.ypp
+ls
+v ugao.hpp
+v ugao.hpp
+v ugao.hpp
+v ugao.cpp
+r
+v ugao.hpp
+v ugao.cpp
+v ugao.hpp
+v ugao.cpp
+v ugao.hpp
+v ugao.hpp
+r
+r
+v test.cpp
+v parser.ypp
+v test.cpp
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd Documents/letterboxd-stats/
+git pull
+r
+cd ppj/r
+cd ppj/
+r
+remaps
+pgrep redshift
+redshift 
+make
+make
+ls
+flex lexer.l 
+make
+make clean
+make
+make
+cat Makefile 
+g++
+make
+make claean
+make clean
+make claean
+make
+make
+make
+make clean
+make
+make clean
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+mka
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+make
+./parser < primer.txt 
+/home/vojislav/Documents/letterboxd-stats
+r
+/home/vojislav/Documents/letterboxd-stats
+./main.py 
+./main.py 
+pgrep python
+fg
+./main.py 
+fg
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+sqlite db.db
+sqlite3 db.db
+redshift
+cd Documents/letterboxd-stats/
+ls
+r
+sqlite3 
+sqlite3 db.db
+r
+cd .vim/syntax/
+la
+ls
+v i3config.vim 
+wget https://raw.githubusercontent.com/vim/vim/master/runtime/syntax/yacc.vim
+v yacc.vim 
+r
+r
+cd ~/.vim/syntax/
+mv yacc.vim ypp.vim
+r
+vimrc
+vimrc
+r
+zip -r uglovi.zip uglovi/
+r
+ssh vojislav@lazic.xyz
+make
+g++ test.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+make
+make
+make
+make
+make
+make
+make
+make
+./parser < primer.txt 
+open test
+open test.cpp 
+code test.cpp 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+g++ test.cpp polinom.cpp -o test
+./test 
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+g++ test.cpp polinom.cpp -o test
+./test 
+make
+make
+make
+make
+make
+make
+make
+make
+./parser < primer.txt 
+rm core
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make && ./parser < primer.txt 
+make
+make && ./parser < primer.txt 
+make && ./parser < primer.txt 
+./parser < primer.txt 
+make && ./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+make
+make
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+pgrep redshift
+redshift -x
+D
+r
+grep -i "fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt 
+grep -io "fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt 
+grep -io "fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt -c
+grep -io "fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+grep -i "fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+grep -iE "fuck you" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+grep -i "fuck you" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+grep -i "fuckin fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+grep -i "fuckin.*fuck" Blue.Velvet.1986.720p.BluRay.x264-\[YTS.AM\]-English.srt
+vimrc
+cd /etc/NetworkManager/
+lds
+ls
+cd system-connections/
+ls
+cat B497ED.nmconnection 
+sudo cat B497ED.nmconnection 
+make
+make
+bison -dv parser.ypp 
+bison -dv parser.ypp 
+bison -dv parser.ypp 
+bison -dv parser.ypp 
+bison -dv parser.ypp 
+make
+make
+make
+mkae
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+make
+make
+make
+bison -d -v parser.ypp
+make
+./parser < primer.txt 
+./parser 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser 
+./parser 
+make
+./parser 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+g++ test.cpp matrica.cpp -o test
+rm core
+./test 
+rm core
+rm core
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+make
+make
+make
+make
+make
+g++ test.cpp matrica.cpp -o test
+./test 
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+g++ test.cpp matrica.cpp -o test
+./test 
+rm core
+./test 
+g++ test.cpp matrica.cpp -o test
+./test 
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make
+make clean
+make
+./parser < primer.txt 
+rm core
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+bison -dv parser.ypp 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+mkae
+make
+make
+make
+make
+make
+make
+remaps 
+make clean
+ls
+rm test*
+ls
+man cal
+ssh vojislav@lazic.xyz
+xrandr 
+xrandr --output VGA-1 --primary
+echo "$allposs" | grep " connected" | awk '{print $1}'
+xrandr -q | grep "connected" 
+xrandr -q | grep "connected" | grep " connected"
+ssh vojislav@lazic.xyz
+pgrep setxkb
+sf
+xrandr 
+xrandr 
+xrandr 
+v .i3blocks.conf 
+cfi
+xrandr 
+displayselect 
+sf
+setxkbmap -option
+setxkbmap caps:escape
+setxkbmap -option caps:escape
+setxkbmap -option caps:escape
+setxkbmap -option caps:none
+setxkbmap -option caps:escape
+setxkbmap -option caps:none
+setxkbmap -option caps:escape
+remaps 
+setxkbmap -option
+setxkbmap
+setxkbmap -option caps:escape
+setxkbmap
+setxkbmap -option caps:none
+setxkbmap
+setxkbmap -option caps:escape
+setxkbmap -option caps:escape
+setxkbmap
+setxkbmap
+setxkbmap -option caps:escape
+setxkbmap
+setxkbmap -option caps:none
+setxkbmap
+setxkbmap -option caps:escape
+setxkbmap -option caps:escape
+setxkbmap -option caps:escape
+setxkbmap
+man setxkbmap
+setxkbmap -option caps:escape
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapecape
+setxkbmap -option caps:swapecape
+setxkbmap -option caps:none
+setxkbmap -option 
+setxkbma
+setxkbmap -option esc
+setxkbmap -option caps:swapecape
+setxkbmap -option caps:escape
+man setkbmap
+man setxkbmap
+setxkbmap -option caps:NONE
+setxkbmap -option caps:none
+setxkbmap -option caps:swapecape
+setxkbmap us
+setxkbmap -print -verbose 10
+man setxkbmap
+man setxkbmap
+setxkbmap -option
+setxkbmap -print
+setxkbmap -print -verbose
+setxkbmap -print -verbose 10
+setxkbmap -option caps:swapescape
+setxkbmap -print -verbose 10
+man setxkbmap
+setxkbmap -query options
+man setxkbmap
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:escape
+setxkbmap -option caps:none
+setxkbmap -option caps:escape
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:escape
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:escape
+setxkbmap -option caps:escape
+setxkbmap -option caps:none
+setxkbmap -option caps:swapescape
+setxkbmap -option caps:swapescape
+remaps 
+cfi
+v .xinitrc 
+v .profile 
+setxkbmap -option
+setxkbmap -option caps:escape
+sf
+remaps 
+setxkbmap -print -verbose 10
+remaps 
+setxkbmap -print -verbose 10
+setxkbmap -option
+setxkbmap -print -verbose 10
+setxkbmap -option caps:escape
+setxkbmap -print -verbose 10
+setxkbmap -option caps:super
+setxkbmap -print -verbose 10
+setxkbmap -option
+setxkbmap -option caps:escape
+setxkbmap -print -verbose 10
+remaps 
+v cfi
+cfi
+sf
+xev
+r
+make
+./parser
+cd ll1/
+make
+make
+make
+make
+make
+make
+./parser < test.txt 
+make
+./parser < test.txt 
+./parser < test.txt 
+./parser < test.txt 
+./parser < test.txt 
+make
+make
+make
+make
+./parser < test.txt 
+rm core
+./parser < test.txt 
+make
+./parser < test.txt 
+ssh vojislav@lazic.xyz
+make clean
+mkd bison
+mkd ll1
+cd ll1/
+sync_music 
+sf
+sf
+update_liked_songs 
+sf
+ytmusic 
+ytmusic "$(xclip -o)"
+ytmusic https://music.youtube.com/watch?v=KEjHJXd8bpU&feature=share
+fg
+ytmusic https://music.youtube.com/watch?v=KEjHJXd8bpU
+xclip -o
+xclip -sel primary -o
+xclip -sel clipboard -o
+ytmusic "$(xclip -sel clipboard -o)"
+sf
+yt-dlp --version
+which yt-dlp 
+yt-dlp -U
+sudo yt-dlp -U
+yt-dlp --version
+ytmusic "$(xclip -sel clipboard -o)"
+ytmusic "$(xclip -sel clipboard -o)"
+ytmusic "$(xclip -sel clipboard -o)"
+cd Music/Oingo\ Boingo/\(1982\)\ Nothing\ To\ Fear/
+ls
+r
+easytag .
+cd Music/The\ Flaming\ Lips/\(1999\)\ The\ Soft\ Bulletin/
+getcover 13.\ The\ Flaming\ Lips\ -\ Race\ for\ the\ Prize.mp3 
+sxiv cover.jpg 
+easytag .
+exiftool 13.\ The\ Flaming\ Lips\ -\ Race\ for\ the\ Prize.mp3 
+cd Music/
+Various/\(2016\)\ Classic\ 80s\ Party/19.\ Various\ -\ They\ Might\ Be\ Giants\ -\ Birdhouse\ In\ Your\ Soul.mp3 
+Various/\(2016\)\ Classic\ 80s\ Party/
+r
+cd Music/Frank\ Black/\(1994\)\ Teenager\ of\ the\ Year/
+getcover 07.\ Frank\ Black\ -\ Headache.mp3 
+easytag .
+r
+pwd
+r
+sf
+cr
+r
+getcover 01.\ They\ Might\ Be\ Giants\ -\ Ana\ Ng.mp3 
+easytag .
+cr
+r
+getcover 08.\ Ween\ -\ Help\ Me\ Scrape\ the\ Mucus\ Off\ My\ Brain.mp3 
+easytag .
+exiftool 08.\ Ween\ -\ Help\ Me\ Scrape\ the\ Mucus\ Off\ My\ Brain.mp3 
+homeplaylist
+update_liked_songs 
+sf
+mpc
+mpc info
+mpc status
+mpc --help
+mpc help
+mpc stats
+cd Music/
+ls
+pwd
+update_liked_songs 
+D
+soul
+r
+musort .
+r
+musort .
+pgrep easytag
+pkill easytag
+kill -9 5339
+getcover 01\ Blister\ in\ the\ Sun.mp3 
+ls
+r
+musort .
+r
+musort .
+ls
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+ls
+mv 07\ Ruby.mp3 ~/Music/The\ Apples\ In\ Stereo/\(1999\)\ Her\ Wallpaper\ Reverie/
+r
+ls
+musort .
+musort .
+ls
+file './07 Ruby.mp3'
+musort .
+ls
+musort .
+r
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+easytag .
+cd ../../Ween/\(1994\)\ Chocolate\ 
+ls
+lr
+cd
+r
+easytag .
+r
+sf
+rg
+r
+easytag .
+easytag .
+musort .
+r
+musort 
+musort .
+ls
+r
+sync_music 
+update_liked_songs 
+mpc search artist "They Might Be Giants" title "Birdhouse in Your Soul"
+mpc search artist "They Might Be Giants"
+mpc search artist "The Flaming Lips"
+mpc search artist "The Flaming Lips"
+mpc up
+mpc update
+mpc status
+mpc search artist "The Flaming Lips"
+mpc search artist "The Flaming Lips"
+mpc update
+mpc search artist "The Flaming Lips"
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+mpc update
+update_liked_songs 
+update_liked_songs 
+homeplaylistedit 
+mpc search title "love songs"
+soul
+cd complete/
+r
+musort .
+r
+musort .
+r
+easytag .
+r
+easytag .
+update_liked_songs 
+sf
+sync_music 
+make clean
+rm test
+mkd bison
+mkd ll1
+ssh vojislav@lazic.xyz
+bison -dv parser.ypp 
+make
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+make
+make
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+make
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+make
+./parser < primer.txt 
+./parser < primer.txt 
+./parser < primer.txt 
+make
+./parser < primer.txt 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+homeplaylistedit 
+currentsong 
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+g++ test.cpp graf.cpp -o test
+./test 
+g++ test.cpp graf.cpp -o test
+./test 
+sudo rfkill unblock bluetooth
+bluetoothctl 
+xinput list-props
+xinput list
+xinput set-prop /home/vojislav/Music/They Might Be Giants/(1989) Flood/04. They Might Be Giants - Istanbul (Not Constantinople).mp3
+xinput set-prop --id 13
+xinput set-prop 13
+xinput set-prop 13 'libinput Accel Speed' -0.5
+xinput set-prop 13 'libinput Accel Speed' -1
+xinput set-prop 13 'libinput Accel Speed' 0
+xinput set-prop 13 'libinput Accel Speed' -0.5
+cfi
+remaps 
+remaps 
+cd Music/Kate\ Bush/\(1985\)\ Hounds\ of\ Love/
+ls
+getcover 01.\ Kate\ Bush\ -\ Running\ Up\ That\ Hill\ \(A\ Deal\ With\ God\).mp3 
+easytag .
+cd Music/The\ Garden/
+cd \(2015\)\ Haha/
+ls
+getcover 13.\ The\ Garden\ -\ Egg.mp3 
+ls
+easytag .
+sf
+update_liked_songs 
+soul
+cd complete/
+ls
+r
+musort .
+r
+musort .
+r
+musort .
+ls
+r
+cd Big\ Blood\ \&\ The\ Bleedin\'\ Hearts/
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+musort .
+r
+htop
+mpcxc
+mpvxcp 
+remaps
+cd Music/Halo\ Benders/
+cd \(1998\)\ The\ Rebels\ Not\ In/
+ls
+easytag .
+getcover Halo\ Benders\ -\ Your\ Asterisk.mp3 
+ls
+sxiv cover.jpg 
+easytag .
+currentsong 
+easytag .
+soul
+cd complete/
+r
+musort .
+sync_music 
+cfi
+t
+ls .*
+ls .*.
+ls .*.parts
+rm .*.parts
+ls
+r
+t
+r
+tomp3 .
+rm *.lfac
+r
+mv *.mp3 ..
+ls
+r
+musort .
+r
+sync_music 
+soul
+cd complete/
+r
+musort .
+r
+musort .
+ls
+r
+sync_music 
+ssh pi@192.168.0.16
+verify_playlist_files 
+cd .config/mpd/playlists/
+ls
+mv liked_songsada.m3u liked_songs.m3u
+ls
+mpv dump.mp4 
+ffmpeg -i dump.mp4  -ss 00:7:29 -to 00:10:00 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+r
+ffmpeg -i dump.mp4  -ss 00:7:29 -to 00:00:10 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+ffmpeg -i dump.mp4  -ss 00:7:29 -t 00:00:10 -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+
+ffmpeg -i out.mp4 -vf reverse reverse.mp4
+r
+ffmpeg -i out.mp4 -vf reverse -af areverse reverse.mp4
+r
+verify_playlist_files 
+homeplaylistedit 
+homeplaylistedit 
+mpc currnt
+mpc current
+mpc current -f %file%
+verify_playlist_files 
+cd Music/Michael\ Cera/
+r
+verify_playlist_files 
+mpc current
+mpc current -f %file%
+verify_playlist_files 
+sync_music 
+xev
+remaps
+setxkbmap -option apple:badmap
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cfi
+ssh vojislav@lazic.xyz
+r
+pdflatex --help
+pdflatex VojislavLazic_CV.tex -o test.pdf
+man xelatex
+xelatex VojislavLazic_CV.tex 
+r
+xelatex VojislavLazic_CV.tex -o test.pdf
+xelatex --help
+zathura VojislavLazic_CV.pdf 
+xelatex VojislavLazic_CV.tex -job-name casual.pdf
+xelatex VojislavLazic_CV.tex -job-name casual
+xelatex --help
+xelatex --help | less
+r
+v VojislavLazic_CV.
+v VojislavLazic_CV.tex 
+xelatex VojislavLazic_CV.tex 
+xelatex VojislavLazic_CV.tex 
+r
+xelatex VojislavLazic_CV.tex 
+v VojislavLazic_CV.tex 
+xelatex VojislavLazic_CV.tex 
+f
+cd kiaa/
+ls
+r
+mkd 1_prefiksna_stabla
+cd 1_prefiksna_stabla/
+ls
+cd
+cd Downloads/
+sudo dpkg -i code_1.74.3-1673284829_amd64.deb 
+g++ prefiksna_stabla.cpp test.cpp 
+g++ prefiksna_stabla.cpp test.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp test.cpp 
+g++ prefiksna_stabla.cpp test.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp test.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp test.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp test.cpp 
+./a.out 
+mv test.cpp dodaj_nadji.cpp
+touch najduzi_prefiks.cpp
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+./a.out 
+./a.out 
+g++ prefiksna_stabla.cpp najduzi_prefiks.cpp 
+./a.out 
+g++ prefiksna_stabla.cpp ispis_rastuce.cpp 
+g++ prefiksna_stabla.cpp ispis_rastuce.cpp 
+./a.out 
+cp ispis_rastuce.cpp ispis_opadajuce.cpp
+g++ prefiksna_stabla.cpp ispis_opadajuce.cpp 
+./a.out 
+cp ispis_rastuce.cpp max_pojav.cpp
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput list
+xinput float 1-; sleep 50; xinput reattach 9 3
+xinput float 10; sleep 50; xinput reattach 9 3
+xinput reattach 10 33
+xinput reattach 10 3
+\n
+"\n"
+echo \n
+echo -e \n
+echo -e \n
+man ech
+echo -e "\n"
+sl
+cp dfs.cpp bfs.cpp
+g++ bfs.cpp 
+./a.out 
+./a.out 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+g++ bfs.cpp 
+g++ bfs.cpp 
+./a.out 
+./a.out 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+g++ bfs.cpp 
+./a.out 
+rm core
+xclipclear 
+xclip-pastefile
+man xclip-pastefile
+man xclip-pastefile
+setxkbmap -option apple:badmap
+setxkbmap -option
+remaps 
+cd .config/lbrss/
+ls
+r
+g++ topsort_kan.cpp 
+g++ topsort_kan.cpp 
+g++ topsort_kan.cpp 
+g++ topsort_kan.cpp 
+cp topsort_kan.cpp artikulacione.cpp 
+cp artikulacione.cpp mostovi.cpp
+cp ojler_usmeren.cpp ojler_neusmeren.cpp 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cp z.cpp manacher.cpp
+r
+g++ bfs.cpp
+ls
+g++ 00_bfs.cpp 
+./a.out 
+./a.out 
+./a.out 
+v 00_bfs.cpp 
+r
+rm core
+r
+soul
+cd complete/
+r
+musort .
+r
+cd Music/Unwound/\(1994\)\ New\ Plastic\ Ideas/
+ls
+getcover 01.\ Unwound\ -\ Entirely\ Different\ Matters.mp3 
+ls
+sxiv cover.jpg 
+sxiv cover.jpg 
+easytag .
+r
+musort .
+r
+verify_playlist_files 
+homeplaylistedit 
+cd .thunderbird/
+r
+ssh mi19179@alas.matf.bg.ac.rs
+r
+scp -r Algoritmi_i_Strukture_Podataka mi19179@alas.matf.bg.ac.rs:~
+du -hs Algoritmi_i_Strukture_Podataka/
+r
+..
+scp -r Algoritmi_i_Strukture_Podataka/snimci mi19179@alas.matf.bg.ac.rs:~
+scp -r Algoritmi_i_Strukture_Podataka/scpp_zadaci mi19179@alas.matf.bg.ac.rs:~
+scp -r Algoritmi_i_Strukture_Podataka/cpp_zadaci mi19179@alas.matf.bg.ac.rs:~
+scp -r Algoritmi_i_Strukture_Podataka/cpp_zadaci mi19179@alas.matf.bg.ac.rs:~
+du -hs Algoritmi_i_Strukture_Podataka/cpp_zadaci/
+r
+..
+du -hs .
+du -hs asp
+du -hs asp
+r
+scp -r asp mi19179@alas.matf.bg.ac.rs:~
+ytdl-xcp 
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+pass namecheap
+pass edit namecheap
+soul
+r
+musort .
+r
+curl https://ipinfo.io/ip
+r
+cd we
+w
+r
+hugo serve
+r
+hugo -s ~/Documents/website_hugo/ -d ~/Documents/website
+rsyncweb 
+r
+..
+r
+hugo serve
+r
+hugo serve
+r
+hugo serve
+python
+cd Documents/
+mkd lastfm-player
+cd lastfm
+cd lastfm-player/
+mpv "https://www.last.fm/player/station/user/vojoh/mix"
+curl https://www.last.fm/player/station/user/vojoh/mix | jq '.playlist'
+curl -s https://www.last.fm/player/station/user/vojoh/mix | jq '.playlist'
+curl -s https://www.last.fm/player/station/user/vojoh/mix | jq '.playlist[].url'
+curl -s https://www.last.fm/player/station/user/vojoh/mix -O mix.json
+jq mix 
+v mix
+mix
+ls
+r
+curl -s https://www.last.fm/player/station/user/vojoh/mix -o mix.json
+r
+jq mix.json
+jq '.' mix.json
+jq '.playlist.[].url' mix.json
+jq '.playlist.[]url' mix.json
+jq '.playlist.[]' mix.json
+jq '.playlist[]' mix.json
+jq '.playlist[].url' mix.json
+jq '.playlist[]._playlinks' mix.json
+jq '.playlist[]._playlinks[].url' mix.json
+jq '.playlist[]._playlinks[].url' mix.json | mpv -
+jq -r '.playlist[]._playlinks[].url' mix.json | mpv -
+jq -r '.playlist[]._playlinks[].url' mix.json
+jq -r '.playlist[]._playlinks[].url' mix.json | mpv
+jq -r '.playlist[]._playlinks[].url' mix.json | mpv -
+jq -r '.playlist[]._playlinks[].url' mix.json | mpv --playlist=-
+r
+fd movies/ .
+fd "*.mp4" movies/
+fd "mp4" movies/
+fd "mp4$" movies/
+fd "mp4$" movies/ | head -10
+fd "mp4$" movies/ | head -10 | mpv --playlist=-
+r
+ffmpeg -i 3b598481f6ee963beace75ac9819a31f858b046f62f36e16751286b63ab91088.webm -c:v libx264 -strict -2 -preset slow -pix_fmt yuv420p -f mp4 out.mp4
+r
+ssh mi19179@alas.matf.bg.ac.rs
+ssh vojislav@lazic.xyz
+v .config/mpv/scripts/
+ssh vojislav@lazic.xyz
+cfi
+sf
+r
+ls
+node init
+node
+node --help
+npm init
+node main.js 
+npm i express
+node main.js 
+node main.js 
+ls
+wget https://i.imgur.com/IDzX9gL.png -O pause.png
+wget https://i.imgur.com/quyUPXN.png -O play.png
+cd Documents/lastfm-player/
+git init
+git add .
+git status
+git commit -m 'initial commit'
+git remote add origin git@github.com:vojislav/lastfm-player.git
+git branch -M main
+git push -u origin main
+webtorrent --mpv download "$(xcp -selection -clipboard -o)" --playlist
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+gallery-dl -D . --download-archive _archive "https://twitter.com/cutesexyrobutts/media"
+r
+sudo dpkg -i Downloads/discord-0.0.24.deb 
+ssh vojislav@lazic.xyz
+r
+xinput float 10; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput list
+i3 --version
+i2
+i3
+ssh vojislav@lazic.xyz
+git clone https://git.sr.ht/%7Esteef/snixembed
+cd snixembed/
+make
+make
+apt install libdbusmenu-gtk4 libdbusmenu-glib4
+make
+apt install val
+apt install vala
+apt install libvala-0.42-dev
+make
+apt install libdbusmenu-gtk3-0.4
+apt install libdbusmenu-gtk3
+apt install libdbusmenu-gtk3-4
+sudo make
+apt install libdbusmenu-gtk3 libdbusmenu-glib4
+apt install  libdbusmenu-gtk3-4
+sudo lm-sensors
+lm-sensors
+sensors
+man sensors
+apt install lm-sensors
+apt install fancontrol
+sudo pwmconfig
+sudo pwmconfig
+sudo pwmconfig
+apt install thinkfan
+sv /etc/modprobe.d/thinkfan.conf
+sv /etc/default/thinkfan
+sudo sensors-detect
+SS start kmod
+sensors
+find /sys/devices -type f -name "temp*_input"
+sv /etc/thinkfan.conf
+find /sys/devices -type f -name "temp*_input"
+find /sys/devices -type f -name "temp*_input"
+sv /etc/thinkfan.conf
+find /sys/devices -type f -name "temp*_input"
+sv /etc/thinkfan.conf
+sensors
+sensors
+sv /etc/thinkfan.conf
+find /sys/devices -type f -name "temp*_input"
+cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp3_input
+sudo thinkfan -n
+sv /etc/thinkfan.conf
+sudo thinkfan -n
+sv /etc/thinkfan.conf
+cat /proc/acpi/ibm/fan
+find /sys/devices -type f -name "temp*_input"
+cat /proc/acpi/ibm/fan
+sv /etc/thinkfan.conf
+sv /etc/thinkfan.conf
+sv /etc/modprobe.d/thinkfan.conf 
+sudo modprobe -rv thinkpad_acpi
+sudo modprobe -v thinkpad_acpi
+sudo reboot
+sudo modprobe -v thinkpad_acpi
+sudo modprobe -rv thinkpad_acpi
+sudo thinkfan
+sudo thinkfan -q
+sudo thinkfan -n
+pkill thinkfan
+sudo pkill thinkfan
+sudo thinkfan -n
+sudo thinkfan -q
+r
+musort .
+r
+displayalbumart 
+sxiv "$(displayalbumart)"
+feh "$(displayalbumart)"
+feh -scale "$(displayalbumart)"
+feh --scale=auto "$(displayalbumart)"
+sync_music 
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@192.168.0.30
+ping 192.168.0.30
+ping 192.168.0.31
+ping 192.168.0.30
+ssh root@192.168.0.30
+curl https://ipinfo.io/ip
+ssh root@192.168.0.30
+ssh vojislav@192.168.0.30
+ping google.com
+ytdl-xcp 
+yt-dlp -U
+sudo yt-dlp -U
+ytdl-xcp 
+r
+ytdl-xcp 
+mpvxcp 
+mpvxcp 
+man write
+man 2 write
+man 2 write
+v test.cpp
+g++ test.cpp 
+./a.out 
+man stat
+stat test.cpp 
+stat --format="%s" test.cpp 
+help stat
+info stat
+man stat
+ssh vojislav@192.168.0.30
+ssh vojislav@lazic.xyz
+r
+zip -r 2019_jan2_zad5.zip zad5/ 
+ls
+r
+r
+zip -r 2018_jan2_zad5.zip zad5/*
+r
+rgdir .
+rgdir .
+man pthread_join
+man qpost
+man qsort
+r
+ytdl-xcp 
+ytdl-xcp 
+ytdl-xcp 
+mpvxcp 
+ytdl-xcp 
+mpvxcp 
+r
+sudo dpkg -i Downloads/discord-0.0.25.deb 
+ssh vojislav@lazic.xyz
+pgrep dunst
+ytmusic "https://music.youtube.com/watch?v=IrVD0bP_ybg"
+notify-send 
+notify-send "nesto"
+love_track 
+love_track $(mpc current -f '%file%')
+sf
+mpc current -f %file%
+love_cure
+love_current_track 
+homeplaylist
+homeplaylistfile
+homeplaylistedit 
+love_current_track 
+currentFile=$(mpc current -f "%file%")
+homeFile="$HOME/Music/$currentFile"
+echo $homeFile 
+addtoplaylists "$homeFile"
+homeplaylistedit 
+homeplaylistedit 
+love_current_track 
+homeplaylistedit 
+homeplaylistedit 
+love_cure
+love_current_track 
+love_current_track 
+homeplaylistedit 
+mpc current -f %file%
+mpc current -f %file%
+mpc current -f %file% | xcp
+sf
+sf
+love_cure
+love_current_track 
+sf
+sf
+love_current_track 
+sf
+sf
+sf
+sync_music 
+sf
+soul
+cd complete/A\ I\ A\ _\ Alien\ Observer/
+ls
+musort .
+ls
+r
+sf
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+sf
+homeplaylistedit 
+currentFile=$(mpc current -f "%file%")
+"$currentFile" 
+echo "$currentFile$(cat nesto)" 
+echo -e "$currentFile$(cat $homeplaylistfile)" 
+echo -e "$currentFile$(cat $homeplaylistfile)" | head
+echo -e "$currentFile\n$(cat $homeplaylistfile)" | head
+echo "$currentFile"
+homeplaylistedit 
+echo -e "$currentFile\n$(cat $homeplaylistfile)" | head
+echo -e "$currentFile\n$(cat $homeplaylistfile)" | head
+echo -e "$currentFile\n$(cat $homeplaylistfile)" | sponge $homeplaylistfile 
+homeplaylistedit 
+homeplaylistedit 
+sf
+update_liked_songs 
+homeplaylistedit 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+homeplaylistedit 
+urxvt
+wget https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/xrdb/Popping%20and%20Locking.xrdb
+r
+wal --theme
+wal --theme | grep -i pop
+
+wal - github
+wal --theme sexy-monokai
+wal --theme sexy-monokai -b 000
+wal --theme
+wal --theme popping_and_locking
+wal --theme popping_and_locking
+cd .config/wal/
+r
+v Popping\ and\ Locking.xrdb 
+v .Xresources 
+r
+homeplaylistedit 
+sf
+sf
+sf
+love_cure
+love_current_track
+love_current_track
+love_current_track
+addtoplaylists "/home/vojislav/Music/Big Blood/(2008) Big Blood & The Bleedin' Hearts/07. Big Blood - Oh Country (Skin & Bones).mp3
+"
+mediainfo 
+love_current_track
+love_current_track
+cd Music/Joan\ Baez/
+cd \(1975\)\ Diamonds\ \&\ Rust/
+ls
+easytag  .
+getcover 01
+getcover Joan\ Baez\ -\ Diamonds\ And\ Rust.mp3 
+r
+easytag .
+wget https://lastfm.freetls.fastly.net/i/u/770x0/efd4f051183d57bf83806ed242fe8023.jpg#efd4f051183d57bf83806ed242fe8023 -O cover.jpg
+r
+easytag .
+sf
+sync_music 
+homeplaylistedit 
+mpc search artist "Grouper"
+mpc search artist "Grouper" title "Alien Observer"
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+update_liked_songs 
+sf
+sf
+sl
+sf
+update_liked_songs 
+cd Documents/liked_tracks/
+t
+d
+cd liked_tracks/
+r
+ssh pi@192.168.0.16
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+lbrss 
+cd .config/lbrss/
+ls
+cd feeds/
+ls
+r
+sudo rebooot
+sudo reboot
+ssh vojislav@lazic.xyz
+wal --theme base16-gruvbox-hard
+wal --theme base16-gruvbox-hard -b 000000
+cfi
+man wal
+wal --help
+wal --theme base16-gruvbox-hard -b 000000 -a 0
+wal --theme base16-gruvbox-hard -b 000000 -a 0.5
+wal --theme base16-gruvbox-hard -b 000000 -a 5
+wal --theme base16-gruvbox-hard -b 000000 -a 50
+wal --theme base16-gruvbox-hard -b 000000 -a 95
+wal --theme base16-gruvbox-hard -b 000000 -a 90
+wal --theme base16-gruvbox-medium
+wal --theme base16-gruvbox-medium -b 000000
+wal --theme base16-gruvbox-hard -b 000000
+wal --theme base16-gruvbox-soft -b 000000
+wal --theme base16-gruvbox-soft
+wal --theme base16-gruvbox-medium
+wal --theme base16-gruvbox-hard
+wal --theme gruvbox
+wal --theme base16-gruvbox-hard
+man xrdb
+wget https://raw.githubusercontent.com/morhetz/gruvbox-contrib/master/xresources/gruvbox-dark.xresources
+xrdb gruvbox-dark.xresources 
+xrdb gruvbox-dark.xresources 
+xrdb ~/.Xresources 
+xrdb gruvbox-dark.xresources 
+r
+wal --theme
+wal --theme | grep -i gruvbox
+wal --theme gruvbox
+wal --theme gruvbox -b 000000
+r
+cfi
+wal --theme
+wal --theme | grep -i gruvbox
+r
+cgfi
+cfi
+cfi
+wal --theme gruvbox -b 000000
+xrdb ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb ~/.Xresources 
+xrdb ~/.Xresources 
+v .Xresources 
+wal --theme base16-gruvbox -b 000000
+wal --theme base16-gruvbox-hard -b 000000
+cfi
+nf
+cfi
+r
+cfi
+nf
+v .Xresources 
+xrdb ~/.Xresources 
+r
+r
+nf
+r
+r
+htop
+remaps
+mpvxcp 
+mpvxcp 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+sf
+cd Music/Molly\ Nilsson/
+cd \(2011\)\ History/
+ls
+easytag .
+currentsong 
+sf
+displayalbumart 
+sxiv "$(displayalbumart)
+sxiv "$(displayalbumart)"
+ls
+displayalbumart 
+sf
+sf
+ls
+displayalbumart 
+displayalbumart 
+displayalbumart 
+ffmpeg -i 03.\ Molly\ Nilsson\ -\ I\ Hope\ You\ Die.mp3 cover.jpg
+easytag .
+getcover 03.\ Molly\ Nilsson\ -\ I\ Hope\ You\ Die.mp3 
+r
+currentsong 
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+remaps
+cd .config/lbrss/
+ls
+cd feeds/
+v voja.xml 
+pgrep lbrss
+pgrep lbrss
+pgrep lbrss
+pkill lbrss
+pgrep lbrss
+pgrep lbrss
+pkill lbrss
+pgrep lbrss
+pkill lbrss
+pkill lbrss
+pkill lbrss
+pgrep lbrss
+pkill wget
+pgrep lbrss
+pgrep wget
+lbrss
+cd .config/lbrss/feeds/
+rm djuma.xml 
+..
+v urls 
+:q
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+g++ test.cpp 
+g++ test.cpp 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+g++ test.cpp 
+./a.out 
+v urls 
+v urls 
+v test.cpp
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+cd /boot
+ls
+r
+uname -a
+dpkg -l linux-image-\* | grep ^ii
+uname -r | sed -r 's/-[a-z]+//'
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/ii/{print $2}' | grep -ve $kernelver
+dpkg -l linux-{image,headers}-"[0-9]*" | awk '/ii/{print $2}' | grep -ve 4.19.0-2164
+apt autoremove
+apt autoremove
+apt upgrade
+cd /boot
+ls
+r
+ls *.old-dkms
+sudo rm *.old-dkms
+df -h
+df -h
+apt update && apt upgrade
+cd /etc/grub.d/
+;s
+ls
+4
+r
+sudo reboot
+pgrep redshift
+pkill redshift
+pgrep dunst
+dunst
+dunst & disown
+pgrep dunst
+notify-send nesto
+cd .config/mpv
+r
+xinput float 9; sleep 50; xinput reattach 9 3
+xinput float 9; sleep 50; xinput reattach 9 3
+    ↳ AT Translated Set 2 keyboard            id=9[slave  keyboard (3)]
+    ↳ AT Translated Set 2 keyboard            id=9[slave  keyboard (3)]
+xinput list
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+r
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+ssh vojislav@lazic.xyz
+apt update && apt upgrade
+reboot
+sudo reboot
+yt-dlp -U
+sudo yt-dlp -U

@@ -1,9 +1,7 @@
 #!/bin/bash
-sudo ping -q -w 1 -c 1 192.168.0.16 > /dev/null
-ret=$?
 
-if [ $ret -eq 0 ] ; then
-	rsync -auvP $1 --delete ~/Documents/liked_tracks/liked_songs_pi.m3u pi@192.168.0.16:~/subsonic/playlists/liked_songs.m3u
-else
-	rsync -auvP $1 --delete -e "ssh -p 11510" ~/Documents/liked_tracks/liked_songs_pi.m3u pi@2.tcp.ngrok.io:~/subsonic/playlists/liked_songs.m3u
-fi
+sed 's:/home/vojislav:/home/vojislav/media:g' ~/.config/mpd/playlists/liked_songs.m3u > /tmp/tmp_playlist.m3u
+rsync -auvP $1 --delete /tmp/tmp_playlist.m3u vojislav@lazic.xyz:/var/www/subsonic/playlists/liked_songs.m3u
+
+sed 's:/home/vojislav:/home/pi:g' ~/.config/mpd/playlists/liked_songs.m3u > /tmp/tmp_playlist.m3u
+rsync -auvP $1 --delete /tmp/tmp_playlist.m3u pi@192.168.0.16:/home/pi/.config/mpd/playlists/liked_songs.m3u

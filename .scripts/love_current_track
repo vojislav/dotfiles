@@ -2,12 +2,10 @@
 
 currentFile=$(mpc current -f "%file%")
 homePlaylistFile="$HOME/.config/mpd/playlists/liked_songs.m3u"
-piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
 
 [ "$(grep -F "$currentFile" "$homePlaylistFile")" ] && notify-send "Song already in loved." && exit
 
-[ -z "$(grep -F "$currentFile" "$homePlaylistFile")" ] && \
-homeFile="$HOME/Music/$currentFile" && sed -i "2s|^|$homeFile\n|" "$homePlaylistFile" && \
-piFile="/home/pi/Music/$currentFile" && sed -i "2s|^|$piFile\n|" "$piPlaylistFile" && \
-love_track "$homeFile" && \
-notify-send "Added \"$(mpc current)\" to loved."
+[ -z "$(grep -F "$currentFile" "$homePlaylistFile")" ] &&
+homeFile="$HOME/Music/$currentFile" && addtoplaylists "$homeFile" &&
+love_track "$homeFile" &&
+notify-send --icon="$(displayalbumart)" "Added \"$(mpc current)\" to loved."

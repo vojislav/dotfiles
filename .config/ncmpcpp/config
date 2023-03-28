@@ -271,7 +271,7 @@ current_item_inactive_column_suffix = $/r$(end)
 ## Note: Custom command that will be executed each time song changes. Useful for
 ## notifications etc.
 ##
-execute_on_song_change = "currentsong > /dev/null"
+execute_on_song_change = "currentsong"
 #
 ##
 ## Note: Custom command that will be executed each time player state
@@ -352,7 +352,7 @@ default_find_mode = wrapped
 #
 #cyclic_scrolling = no
 #
-#lines_scrolled = 2
+lines_scrolled = 5
 #
 #lyrics_fetchers = genius, azlyrics, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
 #

@@ -9,13 +9,14 @@ piPlaylistFile="$HOME/Documents/liked_tracks/liked_songs_pi.m3u"
 
 homeFile="$(readlink -f "$1")"
 piFile="$(echo "$homeFile" | sed 's/vojislav/pi/g')"
+echo "addtoplaylists: $homeFile"
 
 TRACK=$(mediainfo --Inform="General;%Title%" "$homeFile")
 ARTIST=$(mediainfo --Inform="General;%Performer%" "$homeFile")
 
-[ "$(grep -F "$homeFile" "$homePlaylistFile")" ] && notify-send "Song already in loved." && exit
+grep -qF "$homeFile" "$homePlaylistFile" && notify-send "Song already in loved." && exit
 
-[ -z "$(grep -F "$homeFile" "$homePlaylistFile")" ] && love_track "$homeFile" && \
-sed -i "2s|^|$homeFile\n|" "$homePlaylistFile" && \
-sed -i "2s|^|$piFile\n|" "$piPlaylistFile" && \
-notify-send "Added \"$TRACK - $ARTIST\" to loved."
+[ -z "$(grep -F "$homeFile" "$homePlaylistFile")" ] && love_track "$homeFile" &&
+#sed -i "2s|^|$homeFile\n|" "$homePlaylistFile"
+echo -e "$homeFile\n$(cat $homeplaylistfile)" | sponge $homeplaylistfile &&
+echo "Added $ARTIST - $TRACK to playlist"

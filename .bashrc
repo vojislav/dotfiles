@@ -102,3 +102,5 @@ fi
 alias dots='/usr/bin/git --git-dir=$HOME/.git/ --work-tree=$HOME'
 alias xr='xrdb ~/.Xresources'
 alias rsyncall='~/.scripts/update_liked_songs; ~/.scripts/rsyncmusic; ~/.scripts/rsyncplaylist; ~/.scripts/rsynclyrics; ~/.scripts/update_subsonic'
+alias xclipclear='echo -n "" | xclip -selection primary; echo -n "" | xclip -selection clipboard'
+alias cal='ncal -M -b'

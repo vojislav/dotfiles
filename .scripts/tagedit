@@ -3,12 +3,14 @@
 tmpFile=$(mktemp)
 
 file="$1"
-artist="$2"
-albumArtist="$3"
-album="$4"
-year="$5"
+track="$2"
+artist="$3"
+albumArtist="$4"
+album="$5"
+year="$6"
 
 echo -e "
+Track\t$track
 Artist\t$artist
 Album Artist\t$albumArtist
 Album\t$album
@@ -16,9 +18,14 @@ Year\t$year\n" > "$tmpFile"
 
 vim "$tmpFile"
 
+track=$(grep -P "^Track\t" "$tmpFile" | cut -f 2)
 artist=$(grep -P "^Artist\t" "$tmpFile" | cut -f 2)
 albumArtist=$(grep -P "^Album Artist\t" "$tmpFile" | cut -f 2)
 album=$(grep -P "^Album\t" "$tmpFile" | cut -f 2)
 year=$(grep -P "^Year\t" "$tmpFile" | cut -f 2)
 
-echo "Adding tags..." && eyeD3 -Q -a "$artist" -b "$albumArtist" --release-date="$year" --recording-date="$year" "$file"
+echo "Adding tags..." && eyeD3 -Q -a "$artist" \
+	                              -b "$albumArtist" \
+								  -t "$track" \
+								  --release-date="$year" \
+								  --recording-date="$year" "$file"

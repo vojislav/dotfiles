@@ -4,11 +4,11 @@ musicDir="$HOME/Music"
 
 song="$musicDir/$(mpc current -f "%file%")"
 songDir="$(dirname "$song")"
-cover=$(find "$songDir" -type f -name "*.jpg" -o -name "*.jpeg" -o -name "*.png")
+cover=$(find "$songDir" -type f -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" | grep -i "cover")
 
 if [ -z "$cover" ]; then
 	cover="$songDir/cover.jpg"
-	ffmpeg -i "$song" "$cover"
+	ffmpeg -loglevel quiet -i "$song" "$cover"
  fi
 
 echo "$cover" | head -1

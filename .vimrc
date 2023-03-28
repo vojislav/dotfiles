@@ -16,6 +16,7 @@ call plug#begin('~/.vim/bundle')
 	Plug '907th/vim-auto-save'
 	Plug 'chrisbra/csv.vim'
 	Plug 'ianding1/leetcode.vim'
+	Plug 'preservim/nerdtree'
 call plug#end()
 
 au BufWinEnter ~/.config/i3/config set filetype=i3config
@@ -145,7 +146,14 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 " C-T for new tab
 	nnoremap <C-t> :tabnew<cr>
-	nnoremap <C-Tab> :tabNext<cr>
+	" CTRL-Tab is next tab
+	noremap <C-Tab> :<C-U>tabnext<CR>
+	inoremap <C-Tab> <C-\><C-N>:tabnext<CR>
+	cnoremap <C-Tab> <C-C>:tabnext<CR>
+	" CTRL-SHIFT-Tab is previous tab
+	noremap <C-S-Tab> :<C-U>tabprevious<CR>
+	inoremap <C-S-Tab> <C-\><C-N>:tabprevious<CR>
+	cnoremap <C-S-Tab> <C-C>:tabprevious<CR>
 
 " Navigating with guides
 	inoremap `` <Esc>/<++><Enter>"_c4l
@@ -267,6 +275,9 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 	autocmd FileType c inoremap ,% <cr>/**/<esc>hi<cr><cr><esc>ki<tab>
 
 	autocmd FileType cpp inoremap ,% <cr>/**/<esc>hi<cr><cr><esc>ki<tab>
+
+""" yacc
+	au BufReadPost,BufNewFile *.ypp set syntax=yacc
 
 let g:fzf_buffers_jump = 1
 "let $FZF_DEFAULT_OPTS='--exact --reverse --border --preview "bat --style=numbers --color=always {} | head -500" --bind "ctrl-d:page-down,ctrl-u:page-up,ctrl-n:preview-down,ctrl-p:preview-up,ctrl-alt-n:preview-page-down,ctrl-alt-p:preview-page-up"'

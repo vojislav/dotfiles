@@ -2,12 +2,10 @@
 
 currentFile=$(mpc current -f "%file%")
 lineNumberHome=$(grep -nF "$currentFile" "$HOME/.config/mpd/playlists/liked_songs.m3u" | cut -d: -f1)
-lineNumberPi=$(grep -nF "$currentFile" "$HOME/Documents/liked_tracks/liked_songs_pi.m3u" | cut -d: -f1)
 
 [ -z "$lineNumberHome" ] && notify-send "Song not in loved tracks." && exit
 
-[ "$lineNumberHome" ] && \
-sed -i "$lineNumberHome d" "$HOME/.config/mpd/playlists/liked_songs.m3u" && \
-sed -i "$lineNumberPi d" "$HOME/Documents/liked_tracks/liked_songs_pi.m3u" && \
-unlove_track "$HOME/Music/$currentFile" && \
+[ "$lineNumberHome" ] &&
+sed -i "$lineNumberHome d" "$HOME/.config/mpd/playlists/liked_songs.m3u" &&
+unlove_track "$HOME/Music/$currentFile" &&
 notify-send "Removed \"$(mpc current)\" from loved."
