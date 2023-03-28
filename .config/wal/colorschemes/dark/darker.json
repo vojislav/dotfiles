@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/vojislav/.config/wall.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#000000",
+        "foreground": "#e7f4fd",
+        "cursor": "#e7f4fd"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#B66024",
+        "color2": "#4C4953",
+        "color3": "#CF9974",
+        "color4": "#5E5D6A",
+        "color5": "#B38974",
+        "color6": "#9B736A",
+        "color7": "#aeb8bf",
+        "color8": "#3b2c0b",
+        "color9": "#fa7a20",
+        "color10": "#5e5475",
+        "color11": "#ffc281",
+        "color12": "#6f6c96",
+        "color13": "#fbab83",
+		"color14": "#da8a78",
+        "color15": "#e7f4fd"
+    }
+}
