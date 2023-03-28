@@ -1,0 +1,117 @@
+!! The default colors are "Gruvbox":
+
+!!*.color0: #002b36
+!!*.color1: #cc241d
+!!*.color2: #63a822
+!!*.color3: #d79921
+!!*.color4: #458588
+!!*.color5: #6c71c4
+!!*.color6: #689d6a
+!!*.color7: #867a69
+!!
+!!*.color8: #000000
+!!*.color9: #fb4934
+!!*.color10: #6ebb26
+!!*.color11: #fabd2f
+!!*.color12: #83a598
+!!*.color13: #6c71c4
+!!*.color14: #8ec07c
+!!*.color15: #ebdbb2
+
+Nsxiv.window.background: #A35D5D
+Nsxiv.bar.background: #FEBF69
+Nsxiv.bar.foreground: #000
+
+!! URxvt.background:  #000000
+!! URxvt.foreground:  #ffffff
+!! *.color0:      #1f1f1f
+!! *.color8:      #d6dbe5
+!! *.color1:      #f81118
+!! *.color9:      #de352e
+!! *.color2:      #2dc55e
+!! *.color10:     #1dd361
+!! *.color3:      #ecba0f
+!! *.color11:     #f3bd09
+!! *.color4:      #2a84d2
+!! *.color12:     #1081d6
+!! *.color5:      #4e5ab7
+!! *.color13:     #5350b9
+!! *.color6:      #1081d6
+!! *.color14:     #0f7ddb
+!! *.color7:      #d6dbe5
+!! *.color15:     #ffffff
+!! *.colorBD:     #d6dbe5
+
+*background: #000000
+!! *background: #282828
+! soft contrast: *background: #32302f
+!!*foreground: #ebdbb2
+*foreground: #ffffff
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
+
+
+
+URxvt.letterSpace:-2
+!!xterm.letterSpace:-2
+!!URxvt.font: 7x13
+URxvt.font: xft:Input Mono:style=Regular:size=9
+!!URxvt.font: xft:Inconsolata NF:style=Regular:size=11
+!!URxvt.font: xft:Iosevka:style=Regular:size=9
+!!!!URxvt.font: xft:Inconsolata:style=Regular:size=11
+!!xterm*font: xft:Input Mono:style=Regular:size=9
+!!URxvt.font: xft:Monospace:style=Regular:size=9
+!!URxvt.font: xft:Terminus:style=Regular:pixelsize=14
+urxvt.perl-ext-common: font-size
+*.scrollBar :false
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.keysym.C-=: font-size:increase
+URxvt.keysym.C--: font-size:decrease
+URxvt.keysym.C-0: font-size:reset
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+
+!!URxvt.transparent:   true
+!!URxvt.shading: 5
+
+!! 0 dark black
+!! 1 dark red
+!! 2 dark green
+!! 3 dark yellow
+!! 4 dark blue
+!! 5 dark magenta
+!! 6 dark cyan
+!! 7 dark white
+
+!! 8  black
+!! 9  red
+!! 10 green
+!! 11 yellow
+!! 12 blue
+!! 13 magenta
+!! 14 cyan!! 15 white

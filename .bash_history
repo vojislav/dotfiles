@@ -34502,3 +34502,33 @@ lsblk
 sudo dd if=debian-11.6.0-amd64-netinst.iso of=/dev/sdc status=progress
 history | less
 rxvt-unicode --version
+pass
+pass unlock
+pass github
+echo $TERM
+vim ~/.bash_profile 
+v .gitconfig 
+r
+git status
+git add .shortcuts 
+git status
+git add .vim
+git status
+git reset HEAD 
+git status
+git add .shortcuts 
+echo $TERMINAL
+bashrc
+v .xinitrc 
+v .bash_profile 
+git add .bash_profile 
+git status
+git add -u
+git status
+git commit 'shortcuts and bash_profile added'
+git commit -m 'shortcuts and bash_profile added'
+git push
+git status
+git add .profile 
+git commit -m 'add profile'
+git push
